@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useState } from 'react';
+//import { useState } from 'react';
 
 function Checkbox( { role, selections, setSelections }) {
     return (
@@ -20,8 +20,8 @@ function Checkbox( { role, selections, setSelections }) {
     )
 }
 
-function Selectors() {
-    const roles = [
+function Selectors({ selections, setSelections }) {
+    /*const roles = [
         'T1',
         'T2',
         'SCH',
@@ -35,10 +35,9 @@ function Selectors() {
     ];
     const defaults = {};
     for(const role of roles){
-        defaults[role] = false;
-    }
-    //console.log(defaults);
-    const [selections, setSelections] = useState(defaults)
+        defaults[role] = true;
+    }*/
+    //const [selections, setSelections] = useState(defaults);
 
     return (
     <>
@@ -56,53 +55,53 @@ function Selectors() {
             />
         </fieldset>
 
-<fieldset>
-    <legend>Choose your healer roles</legend>
-    <Checkbox 
-        role="SCH" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-    <Checkbox 
-        role="SGE" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-    <Checkbox 
-        role="WHM" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-    <Checkbox 
-        role="AST" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-</fieldset>
+    <fieldset>
+        <legend>Choose your healer roles</legend>
+        <Checkbox 
+            role="SCH" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+        <Checkbox 
+            role="SGE" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+        <Checkbox 
+            role="WHM" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+        <Checkbox 
+            role="AST" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+    </fieldset>
 
-<fieldset>
-    <legend>Choose your DPS roles</legend>
-    <Checkbox 
-        role="M1" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-    <Checkbox 
-        role="M2" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-    <Checkbox 
-        role="PRange" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-    <Checkbox 
-        role="Caster" 
-        selections={selections}
-        setSelections={setSelections}
-    />
-</fieldset>
+    <fieldset>
+        <legend>Choose your DPS roles</legend>
+        <Checkbox 
+            role="M1" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+        <Checkbox 
+            role="M2" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+        <Checkbox 
+            role="PRange" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+        <Checkbox 
+            role="Caster" 
+            selections={selections}
+            setSelections={setSelections}
+        />
+    </fieldset>
     
     </>
         /* <ul>

@@ -1,26 +1,41 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Table from './components/Table'
 import Selectors from './components/Selectors'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  const roles = [
+    'T1',
+    'T2',
+    'SCH',
+    'SGE',
+    'WHM',
+    'AST',
+    'M1',
+    'M2',
+    'PRange',
+    'Caster'
+  ];
+
+  const defaults = {};
+  for(const role of roles){
+      defaults[role] = true;
+  }
+
+  const [selections, setSelections] = useState(defaults);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React + Timeline</h1>
-      <Selectors></Selectors>
-      <Table></Table>
+      <h1>Timeline</h1>
+      <Selectors
+        selections={selections}
+        setSelections={setSelections}
+      />
+      <Table
+        selections={selections}
+      />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
