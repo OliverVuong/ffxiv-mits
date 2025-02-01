@@ -7,10 +7,14 @@ function Row({ data, visibleRoles }) {
 
     let name = data['name'];
     let mitigations = data['mitigations'];
+    let minutes = Math.floor(data['time'] / 60);
+    let seconds = data['time'] % 60;
+    let time = minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
 
     return (
         <tr>
             <th>{name}</th>
+            <td>{time}</td>
             {
                 visibleRoles.map((role) => {
                     return (
@@ -37,6 +41,7 @@ function Table({ roles, selections }) {
                 <tbody>
                     <tr>
                         <th></th>
+                        <th>Time</th>
                         {visible.map((val) => {
                             return <th key={val}>{val}</th>;
                         })}
