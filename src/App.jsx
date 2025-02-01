@@ -6,6 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0);
 
+  // set order in which roles will be displayed
   const roles = [
     'T1',
     'T2',
@@ -34,6 +35,7 @@ function App() {
         setSelections={setSelections}
       />
       <Table
+        roles={roles}
         selections={selections}
       />
       <div className="card">
