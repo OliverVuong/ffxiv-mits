@@ -40,6 +40,32 @@
               }
             },
             {
+              "type":"Tankbuster",
+              "stakeholder":"tanks",
+              "name":"Powder Mark Trail 1",
+              "time":24,
+              "mitigations":{
+                "WARGNB_WAR":[
+                  "Holmgang"
+                ],
+                "WARPLD_WAR":[
+                  "Holmgang"
+                ],
+                "WARDRK_WAR":[
+                  "Holmgang"
+                ],
+                "GNBDRK_GNB":[
+                  "Superbolide"
+                ],
+                "GNBPLD_PLD":[
+                  "Superbolide"
+                ],
+                "PLDDRK_PLD":[
+                  "Hallowed Ground"
+                ]
+              }
+            },
+            {
               "type":"Raidwide",
               "stakeholder":"all",
               "name":"Utopian Sky",
@@ -51,6 +77,71 @@
                 "SGE":[
                   "EukProg",
                   "Kerachole"
+                ]
+              }
+            },
+            {
+              "type":"Tankbuster",
+              "stakeholder":"tanks",
+              "name":"Burn Mark 1",
+              "time":41,
+              "mitigations":{
+                "WARGNB_WAR":[
+                  "Rampart",
+                  "Thrill",
+                  "Bloodwhetting"
+                ],
+                "WARGNB_GNB":[
+                  "Rampart",
+                  "Camo"
+                ],
+                "WARPLD_WAR":[
+                  "Rampart",
+                  "Thrill",
+                  "Bloodwhetting"
+                ],
+                "WARPLD_PLD":[
+                  "Rampart",
+                  "Bulwark"
+                ],
+                "WARDRK_WAR":[
+                  "Rampart",
+                  "Thrill",
+                  "Bloodwhetting"
+                ],
+                "WARDRK_DRK":[
+                  "Rampart",
+                  "Dark Mind",
+                  "The Blackest Night"
+                ],
+                "GNBDRK_GNB":[
+                  "Rampart",
+                  "Camo",
+                  "HoC"
+                ],
+                "GNBDRK_DRK":[
+                  "Rampart",
+                  "Dark Mind",
+                  "The Blackest Night"
+                ],
+                "GNBPLD_GNB":[
+                  "Rampart",
+                  "Camo",
+                  "HoC"
+                ],
+                "GNBPLD_PLD":[
+                  "Rampart",
+                  "Bulwark"
+                ],
+                "PLDDRK_PLD":[
+                  "Rampart",
+                  "Bulwark",
+                  "Sheltron"
+                ],
+                "PLDDRK_DRK":[
+                  "Rampart",
+                  "Dark Mind",
+                  "The Blackest Night"
                 ]
               }
             },
@@ -222,6 +313,133 @@
                 "extranotes":{
                   
                 }
+              }
+            },
+            {
+              "type":"Tankbuster",
+              "stakeholder":"tanks",
+              "name":"Powder Mark Trail 2",
+              "time":130,
+              "mitigations":{
+                "WARGNB_WAR":[
+                  "Damnation",
+                  "Rampart",
+                  "Thrill",
+                  "Bloodwhetting"
+                ],
+                "WARPLD_WAR":[
+                  "Damnation",
+                  "Rampart",
+                  "Thrill",
+                  "Bloodwhetting"
+                ],
+                "WARPLD_PLD":[
+                  "Intervention Buddy"
+                ],
+                "WARDRK_WAR":[
+                  "Damnation",
+                  "Rampart",
+                  "Thrill",
+                  "Bloodwhetting"
+                ],
+                "WARDRK_DRK":[
+                  "The Blackest Night Buddy"
+                ],
+                "GNBDRK_GNB":[
+                  "Great Nebula",
+                  "Rampart",
+                  "Camo",
+                  "HoC"
+                ],
+                "GNBDRK_DRK":[
+                  "The Blackest Night Buddy"
+                ],
+                "GNBPLD_GNB":[
+                  "Great Nebula",
+                  "Rampart",
+                  "Camo",
+                  "HoC"
+                ],
+                "GNBPLD_PLD":[
+                  "Intervention Buddy"
+                ],
+                "PLDDRK_PLD":[
+                  "Guardian",
+                  "Rampart",
+                  "Bulwark",
+                  "Sheltron"
+                ],
+                "PLDDRK_DRK":[
+                  "The Blackest Night Buddy"
+                ]
+              }
+            },
+            {
+              "type":"Tankbuster",
+              "stakeholder":"tanks",
+              "name":"Burn Mark 2",
+              "time":146,
+              "mitigations":{
+                "WARGNB_WAR":[
+                  "Rampart"
+                ],
+                "WARGNB_GNB":[
+                  "Great Nebula",
+                  "Rampart",
+                  "Camo",
+                  "HoC Buddy"
+                ],
+                "WARPLD_WAR":[
+                  "Rampart"
+                ],
+                "WARPLD_PLD":[
+                  "Guardian",
+                  "Rampart",
+                  "Bulwark",
+                  "Intervention Buddy"
+                ],
+                "WARDRK_WAR":[
+                  "Rampart"
+                ],
+                "WARDRK_DRK":[
+                  "Shadowed Vigil",
+                  "Rampart",
+                  "Dark Mind",
+                  "The Blackest Night Buddy",
+                  "Oblation Buddy"
+                ],
+                "GNBDRK_GNB":[
+                  "Rampart",
+                  "Camo"
+                ],
+                "GNBDRK_DRK":[
+                  "Shadowed Vigil",
+                  "Rampart",
+                  "Dark Mind",
+                  "The Blackest Night Buddy",
+                  "Oblation Buddy"
+                ],
+                "GNBPLD_GNB":[
+                  "Rampart",
+                  "Camo"
+                ],
+                "GNBPLD_PLD":[
+                  "Guardian",
+                  "Rampart",
+                  "Bulwark",
+                  "Intervention Buddy"
+                ],
+                "PLDDRK_PLD":[
+                  "Rampart",
+                  "Sheltron"
+                ],
+                "PLDDRK_DRK":[
+                  "Shadowed Vigil",
+                  "Rampart",
+                  "Dark Mind",
+                  "The Blackest Night Buddy",
+                  "Oblation Buddy"
+                ]
               }
             }
           ]
