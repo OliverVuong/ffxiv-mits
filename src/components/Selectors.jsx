@@ -1,17 +1,17 @@
 /* eslint-disable react/prop-types */
 //import { useState } from 'react';
 
-function Checkbox( { role, selections, setSelections }) {
+function Checkbox( { role, view, setView }) {
     return (
         <>
             <label>{role}</label>
             <input 
                 type="checkbox"
-                checked={selections[role]}
+                checked={view[role]}
                 onChange={() => {
-                    let newSelections = {...selections};
-                    newSelections[role] = !selections[role];
-                    setSelections(newSelections)
+                    let newSelections = {...view};
+                    newSelections[role] = !view[role];
+                    setView(newSelections)
                 }}
             />
             {//<button onClick={()=>console.log(selections)}>Print</button>
@@ -20,7 +20,7 @@ function Checkbox( { role, selections, setSelections }) {
     )
 }
 
-function Selectors({ selections, setSelections }) {
+function Selectors({ roleView, setRoleView, tankView, setTankView }) {
     /*const roles = [
         'T1',
         'T2',
@@ -37,7 +37,7 @@ function Selectors({ selections, setSelections }) {
     for(const role of roles){
         defaults[role] = true;
     }*/
-    //const [selections, setSelections] = useState(defaults);
+    //const [selections, setView] = useState(defaults);
 
     return (
     <>
@@ -45,63 +45,91 @@ function Selectors({ selections, setSelections }) {
             <legend>Choose your tank roles</legend>
             <Checkbox 
                 role="T1" 
-                selections={selections}
-                setSelections={setSelections}
+                view={roleView}
+                setView={setRoleView}
             />
             <Checkbox 
                 role="T2" 
-                selections={selections}
-                setSelections={setSelections}
+                view={roleView}
+                setView={setRoleView}
             />
         </fieldset>
 
-    <fieldset>
-        <legend>Choose your healer roles</legend>
-        <Checkbox 
-            role="SCH" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-        <Checkbox 
-            role="SGE" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-        <Checkbox 
-            role="WHM" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-        <Checkbox 
-            role="AST" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-    </fieldset>
+        <fieldset>
+            <legend>Choose your healer roles</legend>
+            <Checkbox 
+                role="SCH" 
+                view={roleView}
+                setView={setRoleView}
+            />
+            <Checkbox 
+                role="SGE" 
+                view={roleView}
+                setView={setRoleView}
+            />
+            <Checkbox 
+                role="WHM" 
+                view={roleView}
+                setView={setRoleView}
+            />
+            <Checkbox 
+                role="AST" 
+                view={roleView}
+                setView={setRoleView}
+            />
+        </fieldset>
 
-    <fieldset>
-        <legend>Choose your DPS roles</legend>
-        <Checkbox 
-            role="M1" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-        <Checkbox 
-            role="M2" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-        <Checkbox 
-            role="PRange" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-        <Checkbox 
-            role="Caster" 
-            selections={selections}
-            setSelections={setSelections}
-        />
-    </fieldset>
+        <fieldset>
+            <legend>Choose your DPS roles</legend>
+            <Checkbox 
+                role="M1" 
+                view={roleView}
+                setView={setRoleView}
+            />
+            <Checkbox 
+                role="M2" 
+                view={roleView}
+                setView={setRoleView}
+            />
+            <Checkbox 
+                role="PRange" 
+                view={roleView}
+                setView={setRoleView}
+            />
+            <Checkbox 
+                role="Caster" 
+                view={roleView}
+                setView={setRoleView}
+            />
+        </fieldset>
+        <div>
+            <fieldset>
+                <legend>WAR+GNB</legend>
+                <Checkbox 
+                    role="WARGNB_WAR" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+                <Checkbox 
+                    role="WARGNB_GNB" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+            </fieldset>
+            <fieldset>
+                <legend>WAR+PLD</legend>
+                <Checkbox 
+                    role="WARPLD_WAR" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+                <Checkbox 
+                    role="WARPLD_PLD" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+            </fieldset>
+        </div>
     
     </>
         /* <ul>
@@ -111,7 +139,7 @@ function Selectors({ selections, setSelections }) {
                         <Checkbox 
                             role={role} 
                             selections={selections}
-                            setSelections={setSelections}
+                            setView={setView}
                         />
                     </li>
                 );

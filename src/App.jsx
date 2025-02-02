@@ -22,21 +22,46 @@ function App() {
 
   const defaults = {};
   for(const role of roles){
-      defaults[role] = true;
+    defaults[role] = true;
   }
 
-  const [selections, setSelections] = useState(defaults);
+  const tankCombos = [
+    'WARGNB_WAR',
+    'WARGNB_GNB',
+    'WARPLD_WAR',
+    'WARPLD_PLD',
+    'WARDRK_WAR',
+    'WARDRK_DRK',
+    'GNBDRK_GNB',
+    'GNBDRK_DRK',
+    'GNBPLD_GNB',
+    'GNBPLD_PLD',
+    'PLDDRK_PLD',
+    'PLDDRK_DRK'
+  ];
+
+  const tankDefaults = {};
+  for(const combo of tankCombos){
+    tankDefaults[combo] = false;
+  }
+
+  const [roleView, setRoleView] = useState(defaults);
+  const [tankView, setTankView] = useState(tankDefaults);
 
   return (
     <>
       <h1>Timeline</h1>
       <Selectors
-        selections={selections}
-        setSelections={setSelections}
+        roleView={roleView}
+        setRoleView={setRoleView}
+        tankView={tankView}
+        setTankView={setTankView}
       />
       <Table
         roles={roles}
-        selections={selections}
+        roleView={roleView}
+        tankCombos={tankCombos}
+        tankView={tankView}
       />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

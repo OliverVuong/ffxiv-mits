@@ -28,15 +28,17 @@ function Row({ data, visibleRoles }) {
     )
 }
 
-function Table({ roles, selections }) {
+function Table({ roles, roleView, tankCombos, tankView }) {
 
-    const visible = roles.filter((role) => selections[role]);
+    const visible = roles.filter((role) => roleView[role]);
     const table = p1[0]['sections'][0]['table'];
+
+    const visTanks = tankCombos.filter((combo) => tankView[combo]);
 
     return (
         <>
-            <div>Hello, component {JSON.stringify(p1)}</div>
             <div>Visible: {visible}</div>
+            <div>Visible Tanks: {visTanks}</div>
             <table>
                 <tbody>
                     <tr>
@@ -61,6 +63,7 @@ function Table({ roles, selections }) {
                     })}
                 </tbody>
             </table>
+            <div>Hello, component {JSON.stringify(p1)}</div>
         </>
     );
 }
