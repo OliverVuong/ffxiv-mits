@@ -28,5 +28,5 @@ export const tankCombos = [
 ];
 
 export const isTank = (input) => {
-  return input in tankCombos;
+  return tankCombos.includes(input);
 };

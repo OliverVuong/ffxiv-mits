@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 //import { useState } from 'react';
+import { isTank } from "../utils/utils";
 
 function Checkbox( { role, view, setView }) {
     return (
@@ -11,6 +12,15 @@ function Checkbox( { role, view, setView }) {
                 onChange={() => {
                     let newSelections = {...view};
                     newSelections[role] = !view[role];
+                    if(isTank(role)){
+                        //cannot view mits from two different tank combos at once
+                        //any selection outside new selection is flipped off
+                        for(const combo in newSelections){
+                            if(combo.slice(0, 6) !== role.slice(0, 6)){
+                                newSelections[combo] = false;
+                            }
+                        }
+                    }
                     setView(newSelections)
                 }}
             />
@@ -125,6 +135,58 @@ function Selectors({ roleView, setRoleView, tankView, setTankView }) {
                 />
                 <Checkbox 
                     role="WARPLD_PLD" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+            </fieldset>
+            <fieldset>
+                <legend>WAR+DRK</legend>
+                <Checkbox 
+                    role="WARDRK_WAR" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+                <Checkbox 
+                    role="WARDRK_DRK" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+            </fieldset>
+            <fieldset>
+                <legend>GNB+DRK</legend>
+                <Checkbox 
+                    role="GNBDRK_GNB" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+                <Checkbox 
+                    role="GNBDRK_DRK" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+            </fieldset>
+            <fieldset>
+                <legend>GNB+PLD</legend>
+                <Checkbox 
+                    role="GNBPLD_GNB" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+                <Checkbox 
+                    role="GNBPLD_PLD" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+            </fieldset>
+            <fieldset>
+                <legend>PLD+DRK</legend>
+                <Checkbox 
+                    role="PLDDRK_PLD" 
+                    view={tankView}
+                    setView={setTankView}
+                />
+                <Checkbox 
+                    role="PLDDRK_DRK" 
                     view={tankView}
                     setView={setTankView}
                 />
