@@ -2,6 +2,7 @@
     {
       "phase":1,
       "length":155,
+      "name":"P1 Fatebreaker",
       "sections":[
         {
           "table":[
@@ -57,7 +58,7 @@
                 "GNBDRK_GNB":[
                   "Superbolide"
                 ],
-                "GNBPLD_PLD":[
+                "GNBPLD_GNB":[
                   "Superbolide"
                 ],
                 "PLDDRK_PLD":[
