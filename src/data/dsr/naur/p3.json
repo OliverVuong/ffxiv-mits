@@ -1,0 +1,127 @@
+{
+    "phase": 3,
+    "length": 120,
+    "name": "P3 Nidhogg",
+    "sections": [
+      {
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "First Stack",
+            "time": 145,
+            "mitigations": {
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Expedient",
+                "Succor"
+              ],
+              "SGE": [
+                "EukProg",
+                "Holos"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                "Neutral"
+              ],
+              "extranotes": {
+                "Double PRange": "Party Mit",
+                "WHM": "Temperance right before the stack hits to catch both stacks with it"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Second Stack",
+            "time": 155,
+            "mitigations": {
+              "T1": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Succor",
+                "Seraph",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Panhaima",
+                "Holos"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "extranotes": {
+                "Double Caster": "Addle",
+                "MCH": "Dismantle"
+              }
+            }
+          },
+          {
+            "type": "Tankbuster",
+            "stakeholder": "all",
+            "name": "Soul Tether",
+            "time": 180,
+            "mitigations": {
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ],
+              "WARGNB_WAR": [
+                "Holmgang",
+                "Nascent Buddy"
+              ],
+              "WARGNB_GNB": [
+                "Kitchen Sink"
+              ],
+              "WARPLD_WAR": [
+                "Holmgang",
+                "Nascent Buddy"
+              ],
+              "WARPLD_PLD": [
+                "Kitchen Sink"
+              ],
+              "WARDRK_WAR": [
+                "Holmgang",
+                "Nascent Buddy"
+              ],
+              "WARDRK_DRK": [
+                "Kitchen Sink"
+              ],
+              "GNBDRK_GNB": [
+                "Kitchen Sink"
+              ],
+              "GNBDRK_DRK": [
+                "Living Dead",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "GNBPLD_GNB": [
+                "Kitchen Sink"
+              ],
+              "GNBPLD_PLD": [
+                "Kitchen Sink",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_PLD": [
+                "Kitchen Sink"
+              ],
+              "PLDDRK_DRK": [
+                "Living Dead",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

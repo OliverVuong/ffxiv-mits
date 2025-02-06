@@ -1,0 +1,281 @@
+{
+    "phase": 2,
+    "length": 185,
+    "name": "P2 Thordan",
+    "sections": [
+      {
+        "table": [
+          {
+            "type": "Tankbuster",
+            "stakeholder": "tanks",
+            "name": "Ascalon's Might 1",
+            "time": 10,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Holmgang"
+              ],
+              "WARPLD_WAR": [
+                "Holmgang"
+              ],
+              "WARDRK_WAR": [
+                "Holmgang"
+              ],
+              "GNBDRK_GNB": [
+                "Nebula",
+                "HOC",
+                "Reprisal"
+              ],
+              "GNBDRK_DRK": [
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "GNBPLD_GNB": [
+                "Superbodile"
+              ],
+              "PLDDRK_PLD": [
+                "Rampart",
+                "Bulwark",
+                "Sheltron"
+              ],
+              "PLDDRK_DRK": [
+                "TBN Buddy",
+                "Oblation Buddy"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Strength of the Ward",
+            "time": 45,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Succor",
+                "Expedience",
+                "Seraph",
+                "Fey"
+              ],
+              "SGE": [
+                "EukProg",
+                "Holos"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                "Neutral",
+                "Horoscope"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "extranotes": {
+                "SGE": "*Delay all Party Mit on Strength of the Ward a few seconds after the blue markers show to catch the Ancient Quaga",
+                "WHM": "*Delay all Party Mit on Strength of the Ward a few seconds after the blue markers show to catch the Ancient Quaga",
+                "RDM": "Barrier"
+              }
+            }
+          },
+          {
+            "type": "Tankbuster",
+            "stakeholder": "tanks",
+            "name": "Strength of the Ward Tether",
+            "time": 50,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB": [
+                "Kitchen Sink"
+              ],
+              "WARPLD_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD": [
+                "Kitchen Sink"
+              ],
+              "WARDRK_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK": [
+                "Kitchen Sink"
+              ],
+              "GNBDRK_GNB": [
+                "Rampart",
+                "Camoflauge",
+                "HoC"
+              ],
+              "GNBDRK_DRK": [
+                "Kitchen Sink"
+              ],
+              "GNBPLD_GNB": [
+                "Kitchen Sink"
+              ],
+              "GNBPLD_PLD": [
+                "Kitchen Sink",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_PLD": [
+                "Sentinel",
+                "Sheltron"
+              ],
+              "PLDDRK_DRK": [
+                "Kitchen Sink"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Ancient Quaga",
+            "time": 60,
+            "mitigations": {
+              "T1": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Succor",
+                "Fey"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ],
+              "extranotes": {
+                "MCH": "Dismantle"
+              }
+            }
+          },
+          {
+            "type": "Tankbuster",
+            "stakeholder": "tanks",
+            "name": "Ascalon's Might 2",
+            "time": 70,
+            "mitigations": {
+              "WARGNB_GNB": [
+                "Superbolide"
+              ],
+              "WARPLD_PLD": [
+                "Hallowed Ground"
+              ],
+              "WARDRK_DRK": [
+                "Living Dead"
+              ],
+              "GNBDRK_GNB": [
+                "Superbolide"
+              ],
+              "GNBPLD_PLD": [
+                "Hallowed Ground"
+              ],
+              "PLDDRK_PLD": [
+                "Hallowed Ground"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Sanctity of the Ward",
+            "time": 80,
+            "mitigations": {
+              "SCH": [
+                "Spreadlo"
+              ],
+              "SGE": [
+                "EukProg",
+                "Panhaima",
+                "Kerachole"
+              ],
+              "WHM": [
+                "Bell"
+              ],
+              "AST": [
+                "Macro"
+              ],
+              "extranotes": {
+                "Double PRange": "Party Mit",
+                "SCH": "Spreadlo needs to be applied as the tank buster ends before Sanctity of the Ward due to fast KT",
+                "WHM": "Use Bell for DRK plunges, not meteors",
+                "AST": "Use Macro for DRK plunges, not meteors"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Ultimate End",
+            "time": 100,
+            "mitigations": {
+              "T1": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Succor",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Final Chorus",
+            "time": 120,
+            "mitigations": {
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Spreadlo"
+              ],
+              "SGE": [
+                "ZoeEukProg",
+                "Kerachole",
+                "Physis"
+              ],
+              "AST": [
+                "Neutral"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "extranotes": {
+                "RDM": "Barrier"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
