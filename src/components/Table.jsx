@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import p1 from '../data/fru/p1.json'
+//import p1 from '../data/fru/p1.json'
+import p1 from '../data/fru/fmbg/p1.json'
 
 //const data = JSON.parse(p1);
 
@@ -31,7 +32,7 @@ function Row({ data, visibleRoles }) {
 function Table({ roles, roleView, tankCombos, tankView }) {
 
     const visible = roles.filter((role) => roleView[role]);
-    const table = p1[0]['sections'][0]['table'];
+    const table = p1['sections'][0]['table'];
 
     const visTanks = tankCombos.filter((combo) => tankView[combo]);
 
@@ -49,7 +50,7 @@ function Table({ roles, roleView, tankCombos, tankView }) {
                         })}
                     </tr>
                     <Row 
-                        data={p1[0]['sections'][0]['table'][0]}
+                        data={p1['sections'][0]['table'][0]}
                         visibleRoles={visible}
                     />
                     {table.map((row) => {
@@ -67,5 +68,19 @@ function Table({ roles, roleView, tankCombos, tankView }) {
         </>
     );
 }
+//rename Table to sectiondisplay and include a section title
+
+/* function PhaseDisplay(){
+    //loop through all sections
+
+} 
+
+function EncounterDisplay(){
+    // loop through all phases
+}
+
+*/
+
+
 
 export default Table;

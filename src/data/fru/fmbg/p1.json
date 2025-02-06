@@ -1,0 +1,448 @@
+{
+  "phase":1,
+  "length":155,
+  "name":"P1 Fatebreaker",
+  "sections":[
+    {
+      "table":[
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Cyclonic Break 1",
+          "time":14,
+          "mitigations":{
+            "T1":[
+              "Reprisal",
+              "Party Mit"
+            ],
+            "PLD2":[
+              "Veil"
+            ],
+            "SCH":[
+              "Spread-Lo"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ],
+            "AST":[
+              "CU"
+            ],
+            "M1":[
+              "Feint"
+            ],
+            "Phys Range":[
+              "Party Mit"
+            ],
+            "extranotes":{
+              "PLD2":"Veil can be used prepull to cover break 1"
+            }
+          }
+        },
+        {
+          "type":"Tankbuster",
+          "stakeholder":"tanks",
+          "name":"Powder Mark Trail 1",
+          "time":24,
+          "mitigations":{
+            "WARGNB_WAR":[
+              "Holmgang"
+            ],
+            "WARPLD_WAR":[
+              "Holmgang"
+            ],
+            "WARDRK_WAR":[
+              "Holmgang"
+            ],
+            "GNBDRK_GNB":[
+              "Superbolide"
+            ],
+            "GNBPLD_GNB":[
+              "Superbolide"
+            ],
+            "PLDDRK_PLD":[
+              "Hallowed Ground"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Utopian Sky",
+          "time":30,
+          "mitigations":{
+            "SCH":[
+              "Concit"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type":"Tankbuster",
+          "stakeholder":"tanks",
+          "name":"Burn Mark 1",
+          "time":41,
+          "mitigations":{
+            "WARGNB_WAR":[
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB":[
+              "Rampart",
+              "Camo"
+            ],
+            "WARPLD_WAR":[
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD":[
+              "Rampart",
+              "Bulwark"
+            ],
+            "WARDRK_WAR":[
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK":[
+              "Rampart",
+              "Dark Mind",
+              "The Blackest Night"
+            ],
+            "GNBDRK_GNB":[
+              "Rampart",
+              "Camo",
+              "HoC"
+            ],
+            "GNBDRK_DRK":[
+              "Rampart",
+              "Dark Mind",
+              "The Blackest Night"
+            ],
+            "GNBPLD_GNB":[
+              "Rampart",
+              "Camo",
+              "HoC"
+            ],
+            "GNBPLD_PLD":[
+              "Rampart",
+              "Bulwark"
+            ],
+            "PLDDRK_PLD":[
+              "Rampart",
+              "Bulwark",
+              "Sheltron"
+            ],
+            "PLDDRK_DRK":[
+              "Rampart",
+              "Dark Mind",
+              "The Blackest Night"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Cyclonic Break 2",
+          "time":50,
+          "mitigations":{
+            "SCH":[
+              "Concit",
+              "Soil",
+              "Exp"
+            ],
+            "SGE":[
+              "Zoe",
+              "Kerachole"
+            ],
+            "M2":[
+              "Feint"
+            ],
+            "extranotes":{
+              "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
+              "MCH":"Dismantle"
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Flame stack",
+          "time":78,
+          "mitigations":{
+            "SCH":[
+              "Soil"
+            ],
+            "SGE":[
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Burnished Glory 1",
+          "time":86,
+          "mitigations":{
+            "T1":[
+              "Rep"
+            ],
+            "T2":[
+              "Party Mit"
+            ],
+            "SCH":[
+              "Soil cont",
+              "Spread-Lo"
+            ],
+            "SGE":[
+              "Kerachole",
+              "Holos"
+            ],
+            "WHM":[
+              "Bell"
+            ],
+            "AST":[
+              "Macro",
+              "CU"
+            ],
+            "M2":[
+              "Feint"
+            ],
+            "Caster":[
+              "Addle"
+            ],
+            "extranotes":{
+              "Caster":[
+                "Barrier"
+              ],
+              "Phys Range":[
+                "Dismantle"
+              ]
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Fall of Faith (1/2)",
+          "time":105,
+          "mitigations":{
+            "SCH":[
+              "Fey Ilum",
+              "Seraph",
+              "Seraphism"
+            ],
+            "SGE":[
+              "Panhaima",
+              "Sophia"
+            ],
+            "WHM":[
+              "Temperance"
+            ],
+            "AST":[
+              "Neutral"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Fall of Faith (3/4)",
+          "time":111,
+          "mitigations":{
+            "SCH":[
+              "Fey Ilum cont",
+              "Consolation",
+              "Soil"
+            ],
+            "SGE":[
+              "Kera",
+              "Sophia"
+            ],
+            "WHM":[
+              "Temperance"
+            ],
+            "AST":[
+              "Neutral",
+              "Sun"
+            ],
+            "Phys Ranged":[
+              "Party Mit"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Burnished Glory 2",
+          "time":121,
+          "mitigations":{
+            "T1":[
+              "Party Mit"
+            ],
+            "T2":[
+              "Rep"
+            ],
+            "SCH":[
+              "Fey Ilum cont",
+              "Concit",
+              "Soil cont"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kera"
+            ],
+            "WHM":[
+              "Temperance cont",
+              "Caress"
+            ],
+            "AST":[
+              "Sun"
+            ],
+            "M1":[
+              "Feint"
+            ],
+            "Phys Ranged":[
+              "Party Mit"
+            ],
+            "extranotes":{
+              
+            }
+          }
+        },
+        {
+          "type":"Tankbuster",
+          "stakeholder":"tanks",
+          "name":"Powder Mark Trail 2",
+          "time":130,
+          "mitigations":{
+            "WARGNB_WAR":[
+              "Damnation",
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARPLD_WAR":[
+              "Damnation",
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD":[
+              "Intervention Buddy"
+            ],
+            "WARDRK_WAR":[
+              "Damnation",
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK":[
+              "The Blackest Night Buddy"
+            ],
+            "GNBDRK_GNB":[
+              "Great Nebula",
+              "Rampart",
+              "Camo",
+              "HoC"
+            ],
+            "GNBDRK_DRK":[
+              "The Blackest Night Buddy"
+            ],
+            "GNBPLD_GNB":[
+              "Great Nebula",
+              "Rampart",
+              "Camo",
+              "HoC"
+            ],
+            "GNBPLD_PLD":[
+              "Intervention Buddy"
+            ],
+            "PLDDRK_PLD":[
+              "Guardian",
+              "Rampart",
+              "Bulwark",
+              "Sheltron"
+            ],
+            "PLDDRK_DRK":[
+              "The Blackest Night Buddy"
+            ]
+          }
+        },
+        {
+          "type":"Tankbuster",
+          "stakeholder":"tanks",
+          "name":"Burn Mark 2",
+          "time":146,
+          "mitigations":{
+            "WARGNB_WAR":[
+              "Rampart"
+            ],
+            "WARGNB_GNB":[
+              "Great Nebula",
+              "Rampart",
+              "Camo",
+              "HoC Buddy"
+            ],
+            "WARPLD_WAR":[
+              "Rampart"
+            ],
+            "WARPLD_PLD":[
+              "Guardian",
+              "Rampart",
+              "Bulwark",
+              "Intervention Buddy"
+            ],
+            "WARDRK_WAR":[
+              "Rampart"
+            ],
+            "WARDRK_DRK":[
+              "Shadowed Vigil",
+              "Rampart",
+              "Dark Mind",
+              "The Blackest Night Buddy",
+              "Oblation Buddy"
+            ],
+            "GNBDRK_GNB":[
+              "Rampart",
+              "Camo"
+            ],
+            "GNBDRK_DRK":[
+              "Shadowed Vigil",
+              "Rampart",
+              "Dark Mind",
+              "The Blackest Night Buddy",
+              "Oblation Buddy"
+            ],
+            "GNBPLD_GNB":[
+              "Rampart",
+              "Camo"
+            ],
+            "GNBPLD_PLD":[
+              "Guardian",
+              "Rampart",
+              "Bulwark",
+              "Intervention Buddy"
+            ],
+            "PLDDRK_PLD":[
+              "Rampart",
+              "Sheltron"
+            ],
+            "PLDDRK_DRK":[
+              "Shadowed Vigil",
+              "Rampart",
+              "Dark Mind",
+              "The Blackest Night Buddy",
+              "Oblation Buddy"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

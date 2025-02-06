@@ -1,0 +1,346 @@
+{
+  "phase":2,
+  "length":185,
+  "name":"P2 Shiva",
+  "sections":[
+    {
+      "table":[
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Diamond Dust",
+          "time":190,
+          "mitigations":{
+            "T1":[
+              "Reprisal"
+            ],
+            "T2":[
+              "Party Mit"
+            ],
+            "SCH":[
+              "Conit",
+              "Soil"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ],
+            "AST":[
+              "CU"
+            ],
+            "M2":[
+              "Feint"
+            ],
+            "Caster":[
+              "Addle"
+            ],
+            "extranotes":{
+              "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
+              "Caster":"Addle at start of Mirror Image castbar to have back up for Banish III"
+            }
+          }
+        },
+        {
+          "type":"Tankbuster",
+          "stakeholder":"tanks",
+          "name":"Quadruple Slap",
+          "time":172,
+          "mitigations":{
+            "WARGNB_GNB":[
+              "Superbolide"
+            ],
+            "WARPLD_PLD":[
+              "Hallowed Ground"
+            ],
+            "WARDRK_DRK":[
+              "Living Dead"
+            ],
+            "GNBDRK_DRK":[
+              "Living Dead"
+            ],
+            "GNBPLD_PLD":[
+              "Hallowed Ground"
+            ],
+            "PLDDRK_DRK":[
+              "Living Dead"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Sinbound Holy",
+          "time":210,
+          "mitigations":{
+            "SCH":[
+              "Spread-Lo",
+              "Expedience"
+            ],
+            "SGE":[
+              "Zoe EukProg",
+              "Holos"
+            ],
+            "Phys Range":[
+              "Party Mit"
+            ],
+            "extranotes":{
+              "SCH":"Expedience should be used as soon as Frigid Stone prey markers appear",
+              "Phys Range":"Samba/Tact/Troub should be used walking in before KB"
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Hallowed Ray",
+          "time":238,
+          "mitigations":{
+            "T1":[
+              "Party Mit"
+            ],
+            "T2":[
+              "Reprisal"
+            ],
+            "SCH":[
+              "Conit",
+              "Soil"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ],
+            "M1":[
+              "Feint"
+            ],
+            "Caster":[
+              "Addle"
+            ],
+            "extranotes":{
+              "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
+              "RDM": "Barrier",
+              "Caster":"Addle at start of Mirror Image castbar to have back up for Banish III"
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Mirror Mirror",
+          "time":263,
+          "mitigations":{
+            "SCH":[
+              "Fey",
+              "Seraph"
+            ],
+            "SGE":[
+              "Panhaima"
+            ],
+            "WHM":[
+              "Temp"
+            ],
+            "AST":[
+              "Neutral",
+              "Sun Sign"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Banish III",
+          "time":278,
+          "mitigations":{
+            "T1":[
+              "Reprisal",
+              "Buddy Mit M1"
+            ],
+            "T2":[
+              "Buddy Mit M2"
+            ],
+            "SCH":[
+              "Consolation",
+              "Soil"
+            ],
+            "SGE":[
+              "Kerachole"
+            ],
+            "WHM":[
+              "Caress"
+            ],
+            "AST":[
+              "Sun Sign"
+            ],
+            "M2":[
+              "Feint"
+            ],
+            "Caster":[
+              "Addle"
+            ],
+            "extranotes":{
+              "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
+              "RDM": "Barrier",
+              "Caster":"Addle at start of Mirror Image castbar to have back up for Banish III"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sectionName": "Light Rampant",
+      "table":[
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Light Rampant",
+          "time":287,
+          "mitigations":{
+            "T1":[
+              "Reprisal"
+            ],
+            "SCH":[
+              "Conit",
+              "Soil"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ],
+            "AST":[
+              "CU"
+            ],
+            "M2":[
+              "Feint"
+            ],
+            "Caster":[
+              "Addle"
+            ],
+            "extranotes":{
+              "MCH":"Dismantle"
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Powerful Light",
+          "time":305,
+          "mitigations":{
+            "T2":[
+              "Party Mit"
+            ],
+            "SCH":[
+              "Spread-Lo",
+              "Seraphism"
+            ],
+            "SGE":[
+              "Zoe EukProg",
+              "Sophia"
+            ],
+            "WHM":[
+              "Bell"
+            ],
+            "AST":[
+              "Macro"
+            ],
+            "Phys Range":[
+              "Party Mit"
+            ],
+            "extranotes":{
+              "MCH":"Dismantle"
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Banish III",
+          "time":317,
+          "mitigations":{
+            "SCH":[
+              "Conit",
+              "Expedience",
+              "Soil"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ],
+            "extranotes":{
+              "SCH":"Soil should be used immediately after walking towards the middle tower soak",
+              "SGE":"Kera should be used immediately after walking towards the middle tower soak"
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"House of Light",
+          "time":322,
+          "mitigations":{
+            "T2":[
+              "Reprisal"
+            ],
+            "SCH":[
+              "Conit",
+              "Expedience"
+            ],
+            "SGE":[
+              "Holos"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Absolute Zero",
+          "time":344,
+          "mitigations":{
+            "T1":[
+              "Reprisal",
+              "Party Mit"
+            ],
+            "SCH":[
+              "Conit",
+              "Soil"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ],
+            "AST":[
+              "CU"
+            ],
+            "M1":[
+              "Feint"
+            ],
+            "extranotes":{
+              "RDM": "Barrier"
+            }
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Junction",
+          "time":422,
+          "mitigations":{
+            "T2":[
+              "Party Mit"
+            ],
+            "SCH":[
+              "Conit",
+              "Soil"
+            ],
+            "SGE":[
+              "EukProg",
+              "Kerachole"
+            ],
+            "AST":[
+              "CU"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
