@@ -47,6 +47,8 @@ function App() {
 
   const [roleView, setRoleView] = useState(defaults);
   const [tankView, setTankView] = useState(tankDefaults);
+  const [encounter, setEncounter] = useState('FRU');
+  const [mitplan, setMitplan] = useState('fmbg');
 
   return (
     <>
@@ -56,7 +58,12 @@ function App() {
         setRoleView={setRoleView}
         tankView={tankView}
         setTankView={setTankView}
+        encounter={encounter}
+        setEncounter={setEncounter}
+        mitplan={mitplan}
+        setMitplan={setMitplan}
       />
+      <h2>{encounter}</h2>
       <Table
         roles={roles}
         roleView={roleView}

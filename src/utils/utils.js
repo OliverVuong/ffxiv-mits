@@ -31,4 +31,11 @@ export const isTank = (input) => {
   return tankCombos.includes(input);
 };
 
+const mitsFRU = ['fmbg', 'naur'];
+const mitsDSR = ['naur', 'dsrmitty'];
+export const mits = {
+  FRU: mitsFRU,
+  DSR: mitsDSR,
+};
+
 export const encounters = ['FRU', 'DSR'];

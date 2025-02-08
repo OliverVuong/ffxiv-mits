@@ -1,6 +1,55 @@
 /* eslint-disable react/prop-types */
 //import { useState } from 'react';
 import { isTank } from "../utils/utils";
+import { encounters } from "../utils/utils";
+import { mits } from "../utils/utils";
+
+function EncounterSelector( { setEncounter }){
+    return (
+        <>
+        {encounters.map((encounter) => {
+            return <button 
+                        onClick={() => setEncounter(encounter)}
+                        key={encounter}>
+                            {encounter}
+                    </button>
+        })
+        }
+        </>
+    );
+}
+
+function MitplanSelector( {encounter, mitplan, setMitplan} ){
+    const mitPlans = mits[encounter];
+    return (
+        <>
+            <fieldset>
+                <legend>Select Mitigation Plan</legend>
+                {mitPlans.map((plan) => {
+                    return (
+                        <div 
+                            className="radiobox"
+                            key={plan}
+                        >
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="mitplan"
+                                    value={plan}
+                                    checked={mitplan===plan}
+                                    onChange={()=>setMitplan(plan)}
+                                    className="radiobox-input"
+                                />
+                                {plan}
+                            </label>
+                        </div>
+                    );
+                })}
+            </fieldset>
+            <div>mitplan state: {mitplan}</div>
+        </>
+    );
+}
 
 function Checkbox( { role, view, setView }) {
     return (
@@ -30,27 +79,27 @@ function Checkbox( { role, view, setView }) {
     )
 }
 
-function Selectors({ roleView, setRoleView, tankView, setTankView }) {
-    /*const roles = [
-        'T1',
-        'T2',
-        'SCH',
-        'SGE',
-        'WHM',
-        'AST',
-        'M1',
-        'M2',
-        'PRange',
-        'Caster'
-    ];
-    const defaults = {};
-    for(const role of roles){
-        defaults[role] = true;
-    }*/
-    //const [selections, setView] = useState(defaults);
+function Selectors({ 
+    roleView, 
+    setRoleView, 
+    tankView, 
+    setTankView,
+    encounter,
+    setEncounter,
+    mitplan,
+    setMitplan
+ }) {
 
     return (
     <>
+        <EncounterSelector 
+            setEncounter={setEncounter}
+        />
+        <MitplanSelector 
+            encounter={encounter}
+            mitplan={mitplan}
+            setMitplan={setMitplan}
+            />
         <fieldset>
             <legend>Choose your tank roles</legend>
             <Checkbox 
