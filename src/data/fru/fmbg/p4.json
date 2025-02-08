@@ -1,0 +1,454 @@
+{
+    "phase": 4,
+    "length": 180,
+    "name": "P4 Light and Dark",
+    "sections": [
+      {
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Darklit Dragonsong",
+            "time": 202,
+            "mitigations": {
+              "T2": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Recit Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "Zoe EukProg",
+                "Kerachole"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                "Neutral"
+              ],
+              "extranotes": {
+                "MCH": "Dismantle",
+                "RDM": "Barrier"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "The Path of Light",
+            "time": 213,
+            "mitigations": {
+              "T2": [
+                "Reprisal grey"
+              ],
+              "SCH": [
+                "Soil"
+              ],
+              "SGE": [
+                "Kerachole"
+              ],
+              "WHM": [
+                "Temperance",
+                "Caress"
+              ],
+              "AST": [
+                "Neutral",
+                "Sun"
+              ]
+            }
+          },
+          {
+            "type": "Tankbuster",
+            "stakeholder": "tanks",
+            "name": "Somber Dance",
+            "time": 225,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Holmgang"
+              ],
+              "WARPLD_WAR": [
+                "Holmgang"
+              ],
+              "WARDRK_WAR": [
+                "Holmgang"
+              ],
+              "GNBDRK_DRK": [
+                "Living Dead"
+              ],
+              "GNBPLD_GNB": [
+                "Superbolide"
+              ],
+              "PLDDRK_DRK": [
+                "Living Dead"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Akh Morn Afah",
+            "time": 238,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Nascent Buddy",
+                "or",
+                "Rampart",
+                "Bloodwhetting"
+              ],
+              "WARGNB_GNB": [
+                "Rampart",
+                "Camo",
+                "HoC",
+                "or",
+                "HoC Buddy"
+              ],
+              "WARPLD_WAR": [
+                "Nascent Buddy",
+                "or",
+                "Rampart",
+                "Bloodwhetting"
+              ],
+              "WARPLD_PLD": [
+                "Rampart",
+                "Bulwark",
+                "Sheltron",
+                "or",
+                "Intervention Buddy"
+              ],
+              "WARDRK_WAR": [
+                "Nascent Buddy",
+                "or",
+                "Rampart",
+                "Bloodwhetting"
+              ],
+              "WARDRK_DRK": [
+                "Rampart",
+                "Dark Mind",
+                "TBN",
+                "Oblation",
+                "or",
+                "TBN Buddy",
+                "Obltion Buddy"
+              ],
+              "GNBDRK_GNB": [
+                "Rampart",
+                "Camo",
+                "HoC",
+                "or",
+                "HoC Buddy"
+              ],
+              "GNBDRK_DRK": [
+                "TBN Buddy",
+                "Obltion Buddy",
+                "or",
+                "Rampart",
+                "Dark Mind",
+                "TBN",
+                "Oblation"
+              ],
+              "GNBPLD_GNB": [
+                "HoC Buddy",
+                "or",
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "GNBPLD_PLD": [
+                "Rampart",
+                "Bulwark",
+                "Sheltron",
+                "or",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_PLD": [
+                "Rampart",
+                "Sheltron",
+                "or",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_DRK": [
+                "TBN Buddy",
+                "Oblation Buddy",
+                "or",
+                "Rampart",
+                "Dark Mind",
+                "TBN",
+                "Oblation"
+              ],
+              "T1": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Conitation",
+                "Seraph",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Panhaima",
+                "Kerachole"
+              ],
+              "M1": [
+                "Feint (Shiva)"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "extranotes": {
+                "SGE": "Kera/Soil should be used after 2nd somber",
+                "SCH": "Kera/Soil should be used after 2nd somber"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Crystallize Time",
+            "time": 264,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M2": [
+                "Feint (Gaia)"
+              ],
+              "Caster": [
+                "Addle (Gaia)"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Crystallize Mech",
+            "time": 18,
+            "mitigations": {
+              "SCH": [
+                "Spread-Lo",
+                "Expedient",
+                "Seraphism"
+              ],
+              "SGE": [
+                "EukProg",
+                "Holos",
+                "Sophia"
+              ],
+              "WHM": [
+                "Bell"
+              ],
+              "AST": [
+                "Macro"
+              ],
+              "extranotes": {
+                "WHM": "Bell and Macro should be used immediately for the for the Crystallize Time castbar finishes to heal for dark party stack",
+                "AST": "Bell and Macro should be used immediately for the for the Crystallize Time castbar finishes to heal for dark party stack"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Hallowed Wing",
+            "time": 306,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Damnation",
+                "Thrill"
+              ],
+              "WARGNB_GNB": [
+                "Great Nebula"
+              ],
+              "WARPLD_WAR": [
+                "Damnation",
+                "Thrill"
+              ],
+              "WARPLD_PLD": [
+                "Guardian"
+              ],
+              "WARDRK_WAR": [
+                "Damnation",
+                "Thrill"
+              ],
+              "WARDRK_DRK": [
+                "Shadowed Vigil",
+                "Dark Mind"
+              ],
+              "GNBDRK_GNB": [
+                "Great Nebula"
+              ],
+              "GNBDRK_DRK": [
+                "Shadowed Vigil",
+                "Dark Mind"
+              ],
+              "GNBPLD_GNB": [
+                "Great Nebula"
+              ],
+              "GNBPLD_PLD": [
+                "Guardian"
+              ],
+              "PLDDRK_PLD": [
+                "Guardian"
+              ],
+              "PLDDRK_DRK": [
+                "Shadowed Vigil",
+                "Dark Mind"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "extranotes": {
+                "SCH": "Kera/Soil immediately after rewinds are placed to have up for Morn Afah",
+                "SGE": "Kera/Soil immediately after rewinds are placed to have up for Morn Afah"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Akh Morn Afah",
+            "time": 320,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Rampart",
+                "Bloodwhetting",
+                "or",
+                "Nascent Buddy"
+              ],
+              "WARGNB_GNB": [
+                "HoC Buddy",
+                "or",
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "WARPLD_WAR": [
+                "Rampart",
+                "Bloodwhetting",
+                "or",
+                "Nascent Buddy"
+              ],
+              "WARPLD_PLD": [
+                "Intervention Buddy",
+                "or",
+                "Rampart",
+                "Bulwark",
+                "Sheltron"
+              ],
+              "WARDRK_WAR": [
+                "Rampart",
+                "Bloodwhetting",
+                "or",
+                "Nascent Buddy"
+              ],
+              "WARDRK_DRK": [
+                "TBN Buddy",
+                "Obltion Buddy",
+                "or",
+                "Rampart",
+                "TBN",
+                "Oblation"
+              ],
+              "GNBDRK_GNB": [
+                "HoC Buddy",
+                "or",
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "GNBDRK_DRK": [
+                "Rampart",
+                "TBN",
+                "Oblation",
+                "or",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "GNBPLD_GNB": [
+                "Rampart",
+                "Camo",
+                "HoC",
+                "or",
+                "HoC Buddy"
+              ],
+              "GNBPLD_PLD": [
+                "Intervention Buddy",
+                "or",
+                "Rampart",
+                "Bulwark",
+                "Sheltron"
+              ],
+              "PLDDRK_PLD": [
+                "Intervention Buddy",
+                "or",
+                "Rampart",
+                "Bulwark",
+                "Sheltron"
+              ],
+              "PLDDRK_DRK": [
+                "Rampart",
+                "TBN",
+                "Oblation",
+                "or",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "T1": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "WHM": [
+                "Temperance",
+                "Caress"
+              ],
+              "AST": [
+                "Neutral",
+                "Sun",
+                "CU"
+              ],
+              "M1": [
+                "Feint (Shiva)"
+              ],
+              "PRange": [
+                "Party Mit"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

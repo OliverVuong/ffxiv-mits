@@ -30,3 +30,5 @@ export const tankCombos = [
 export const isTank = (input) => {
   return tankCombos.includes(input);
 };
+
+export const encounters = ['FRU', 'DSR'];

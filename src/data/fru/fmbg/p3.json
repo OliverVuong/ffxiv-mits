@@ -1,0 +1,294 @@
+{
+    "phase": 3,
+    "length": 120,
+    "name": "P3 Gaia",
+    "sections": [
+      {
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Ultimate Relativity",
+            "time": 18,
+            "mitigations": {
+              "T1": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ],
+              "extranotes": {
+                "SCH": "15s mits slightly after Hell's Judgment to have up for Shell Crusher or additional use of CD for soil/kera"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Fire/Dark Set 1/2",
+            "time": 32,
+            "mitigations": {
+              "SCH": [
+                "Spread-Lo",
+                "Seraph",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Holos",
+                "Panhaima",
+                "Kerachole"
+              ],
+              "WHM": [
+                "Temperance",
+                "Caress"
+              ],
+              "AST": [
+                "Neutral"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "Caster": [
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Set 3 and Rewind",
+            "time": 52,
+            "mitigations": {
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Conitation",
+                "Seraphism"
+              ],
+              "SGE": [
+                "EukProg",
+                "Philosophia"
+              ],
+              "WHM": [
+                "Bell"
+              ],
+              "AST": [
+                "Macro",
+                "Sun"
+              ],
+              "extranotes": {
+                "RDM": "Barrier"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Shell Crusher",
+            "time": 65,
+            "mitigations": {
+              "T1": [
+                "Reprisal grey"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Soil"
+              ],
+              "SGE": [
+                "Kera"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M2": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Shockwave Pulsar",
+            "time": 74,
+            "mitigations": {
+              "T1": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "extranotes": {
+                "MCH": "Dismantle"
+              }
+            }
+          },
+          {
+            "type": "Tankbuster",
+            "stakeholder": "tanks",
+            "name": "Black Halo",
+            "time": 94,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB": [
+                "HoC Buddy"
+              ],
+              "WARPLD_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD": [
+                "Intervention Buddy"
+              ],
+              "WARDRK_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK": [
+                "TBN Buddy",
+                "Obltion Buddy"
+              ],
+              "GNBDRK_GNB": [
+                "Superbolide"
+              ],
+              "GNBPLD_GNB": [
+                "Kitchen Sink"
+              ],
+              "PLDDRK_PLD": [
+                "Kitchen Sink"
+              ],
+              "PLDDRK_DRK": [
+                "TBN Buddy",
+                "Oblation Buddy"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Dark Water 1",
+            "time": 110,
+            "mitigations": {
+              "SCH": [
+                "Expedient",
+                "Soil"
+              ],
+              "SGE": [
+                "Kerachole"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Dark Eruption",
+            "time": 125,
+            "mitigations": {
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Expdient",
+                "Spread-Lo"
+              ],
+              "SGE": [
+                "EukProg"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Shockwave Pulsar",
+            "time": 146,
+            "mitigations": {
+              "T1": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg",
+                "Kerachole"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "Caster": [
+                "Addle"
+              ],
+              "extranotes": {
+                "T1": "The timing for 15s to catch Shockwave Pulsar and Memory's end is fairly precise, hit mits at the <b>P</b> in Pulsar",
+                "M1": "The timing for 15s to catch Shockwave Pulsar and Memory's end is fairly precise, hit mits at the <b>P</b> in Pulsar",
+                "PRange": "The timing for 15s to catch Shockwave Pulsar and Memory's end is fairly precise, hit mits at the <b>P</b> in Pulsar",
+                "Caster": "The timing for 15s to catch Shockwave Pulsar and Memory's end is fairly precise, hit mits at the <b>P</b> in Pulsar"
+              }
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Memory's End",
+            "time": 159,
+            "mitigations": {
+              "T1": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Conitation",
+                "Soil"
+              ],
+              "SGE": [
+                "Holos",
+                "Kera"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "Caster": [
+                "Addle"
+              ],
+              "extranotes": {
+                "SGE": "Early Holos"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
