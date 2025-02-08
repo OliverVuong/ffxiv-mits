@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Table from './components/Table'
+import {Table} from './components/Table'
 import Selectors from './components/Selectors'
+import { EncounterView } from './components/Table'
 import './App.css'
 
 function App() {
@@ -63,11 +64,16 @@ function App() {
         mitplan={mitplan}
         setMitplan={setMitplan}
       />
-      <h2>{encounter}</h2>
+      <EncounterView 
+        encounter={encounter}
+        mitplan={mitplan}
+        roleOptions={roleView}
+        tankOptions={tankView}
+      />
       <Table
-        roles={roles}
+        //roles={roles}
         roleView={roleView}
-        tankCombos={tankCombos}
+        //tankCombos={tankCombos}
         tankView={tankView}
       />
       <div className="card">

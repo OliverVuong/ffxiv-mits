@@ -1,15 +1,24 @@
-import data from '../data';
+import fru_fmbg_p1 from '../data/fru/fmbg/p1.json';
+import fru_fmbg_p2 from '../data/fru/fmbg/p2.json';
+import fru_fmbg_p3 from '../data/fru/fmbg/p3.json';
+import fru_fmbg_p4 from '../data/fru/fmbg/p4.json';
+import fru_fmbg_p5 from '../data/fru/fmbg/p5.json';
+
+import fru_naur_p1 from '../data/fru/naur/p1.json';
+
+import dsr_naur_p2 from '../data/dsr/naur/p2.json';
+import dsr_naur_p3 from '../data/dsr/naur/p3.json';
 
 // Futures Rewritten
 const FRU_fmbg = [
-  data.fru.fmbg.p1,
-  data.fru.fmbg.p2,
-  data.fru.fmbg.p3,
-  data.fru.fmbg.p4,
-  data.fru.fmbg.p5,
+  fru_fmbg_p1,
+  fru_fmbg_p2,
+  fru_fmbg_p3,
+  fru_fmbg_p4,
+  fru_fmbg_p5,
 ];
 
-const FRU_naur = [data.fru.naur.p1];
+const FRU_naur = [fru_naur_p1];
 
 const FRU = {
   fmbg: FRU_fmbg,
@@ -17,7 +26,7 @@ const FRU = {
 };
 
 // Dragon Song Reprise
-const DSR_naur = [data.dsr.naur.p2, data.dsr.naur.p3];
+const DSR_naur = [dsr_naur_p2, dsr_naur_p3];
 
 const DSR = {
   naur: DSR_naur,

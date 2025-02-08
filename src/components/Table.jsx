@@ -1,6 +1,9 @@
 /* eslint-disable react/prop-types */
 //import p1 from '../data/fru/p1.json'
 import p1 from '../data/fru/fmbg/p1.json'
+import encounters from '../utils/encounters';
+import { roles } from '../utils/utils';
+import { tankCombos } from '../utils/utils';
 
 //const data = JSON.parse(p1);
 
@@ -29,7 +32,7 @@ function Row({ data, visibleRoles }) {
     )
 }
 
-function Table({ roles, roleView, tankCombos, tankView }) {
+export function Table({ roleView, tankView }) {
 
     const visible = roles.filter((role) => roleView[role]);
     const table = p1['sections'][0]['table'];
@@ -64,23 +67,83 @@ function Table({ roles, roleView, tankCombos, tankView }) {
                     })}
                 </tbody>
             </table>
-            <div>Hello, component {JSON.stringify(p1)}</div>
+            <div>Hello, component {/*JSON.stringify(p1)*/}</div>
         </>
     );
 }
 //rename Table to sectiondisplay and include a section title
 
-/* function PhaseDisplay(){
-    //loop through all sections
-
-} 
-
-function EncounterDisplay(){
-    // loop through all phases
+function SectionView( {sections, roleOptions, tankOptions} ) {
+    const visible = roles.filter((role) => roleOptions[role]);
+    const visTanks = tankCombos.filter((combo) => tankOptions[combo]);
+    return (
+        <>
+            {sections.map((section) => {
+                return (
+                    <>
+                        {section['sectionName'] && <h3>{section['sectionName']}</h3>}
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th></th>
+                                    <th>Time</th>
+                                    {visible.map((val) => {
+                                        return <th key={val}>{val}</th>;
+                                    })}
+                                </tr>
+                                {section['table'].map((row) => {
+                                    return (
+                                        <Row 
+                                            key={row['name']}
+                                            data={row}
+                                            visibleRoles={visible}
+                                        />
+                                    )
+                                })}
+                            </tbody>
+                        </table>
+                    </>
+                );
+            })}
+        </>
+    );
 }
 
-*/
+function PhaseView( {phase, roleOptions, tankOptions} ){
+    return (
+        <>
+            <h3>{phase['name']}</h3>
+            <SectionView
+                sections={phase['sections']}
+                roleOptions={roleOptions}
+                tankOptions={tankOptions}
+            />
+        </>
+    );
+} 
+
+
+export function EncounterView( {encounter, mitplan, roleOptions, tankOptions}){
+    console.log(encounters[encounter][mitplan])
+    const phases = encounters[encounter][mitplan];
+    return (
+        <>
+            <h2>{mitplan} {encounter}</h2>
+            {phases.map((phase) => {
+                return (
+                    <PhaseView 
+                        phase={phase}
+                        roleOptions={roleOptions}
+                        tankOptions={tankOptions}
+                        key={phase['phase']}
+                    />
+                );
+            })}
+        </>
+    );
+}
 
 
 
-export default Table;
+
+//export default Table;
