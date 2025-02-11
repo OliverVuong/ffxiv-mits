@@ -4,6 +4,7 @@
     "name": "P4 Light and Dark",
     "sections": [
       {
+        "id": 0,
         "table": [
           {
             "type": "Raidwide",

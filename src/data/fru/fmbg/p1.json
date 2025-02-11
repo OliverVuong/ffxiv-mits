@@ -4,6 +4,7 @@
   "name":"P1 Fatebreaker",
   "sections":[
     {
+      "id": 0,
       "table":[
         {
           "type":"Raidwide",

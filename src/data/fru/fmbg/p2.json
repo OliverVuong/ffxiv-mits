@@ -4,6 +4,7 @@
   "name":"P2 Shiva",
   "sections":[
     {
+      "id": 0,
       "table":[
         {
           "type":"Raidwide",
@@ -186,6 +187,7 @@
       ]
     },
     {
+      "id": 1,
       "sectionName": "Light Rampant",
       "table":[
         {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Table} from './components/Table'
+import {RoleCheck} from './components/Table'
 import Selectors from './components/Selectors'
 import { EncounterView } from './components/Table'
 import './App.css'
@@ -64,17 +64,17 @@ function App() {
         mitplan={mitplan}
         setMitplan={setMitplan}
       />
+      <RoleCheck
+        //roles={roles}
+        roleView={roleView}
+        //tankCombos={tankCombos}
+        tankView={tankView}
+      />
       <EncounterView 
         encounter={encounter}
         mitplan={mitplan}
         roleOptions={roleView}
         tankOptions={tankView}
-      />
-      <Table
-        //roles={roles}
-        roleView={roleView}
-        //tankCombos={tankCombos}
-        tankView={tankView}
       />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
