@@ -18,15 +18,13 @@ function Row({ data, visibleRoles }) {
         <tr>
             <th>{name}</th>
             <td>{time}</td>
-            {
-                visibleRoles.map((role) => {
-                    return (
-                        <td key={role}>
-                            {role in mitigations ? mitigations[role] : ''}
-                        </td>
-                    );
-                })
-            }
+            {visibleRoles.map((role) => {
+                return (
+                    <td key={role}>
+                        {role in mitigations ? mitigations[role] : ''}
+                    </td>
+                );
+            })}
         </tr>
     )
 }
@@ -73,11 +71,12 @@ export function RoleCheck({ roleView, tankView }) {
 //rename Table to sectiondisplay and include a section title
 
 function TableView( {section, roleOptions, tankOptions} ) {
-    const visible = roles.filter((role) => roleOptions[role]);
-    const visTanks = tankCombos.filter((combo) => tankOptions[combo]);
+    const visibleRoles = roles.filter((role) => roleOptions[role]);
+    const visibleTanks = tankCombos.filter((combo) => tankOptions[combo]);
+    const visible = visibleTanks.concat(visibleRoles);
     //console.log(section);
     let table = section['table']
-    if(visTanks.length === 0){
+    if(visibleTanks.length === 0){
         table = section['table'].filter((row) => row['stakeholder'] === 'all');
     }
     return (
