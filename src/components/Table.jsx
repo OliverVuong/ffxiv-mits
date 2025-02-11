@@ -128,7 +128,7 @@ function SectionView( {sections, roleOptions, tankOptions} ) {
 function PhaseView( {phase, roleOptions, tankOptions} ){
     return (
         <>
-            <h3>{phase['name']}</h3>
+            <h3 id={phase.name.replaceAll(" ", "")}>{phase['name']}</h3>
             <SectionView
                 sections={phase['sections']}
                 roleOptions={roleOptions}
