@@ -3,6 +3,69 @@
 import { isTank } from "../utils/utils";
 import { encounters } from "../utils/utils";
 import { mits } from "../utils/utils";
+//import { tankStateDefault } from "../utils/utils";
+import { tankCombosByPlan } from "../utils/utils";
+
+function TankPairChip( {pair, tankView, setTankView} ) {
+    const mt = pair[0];
+    const ot = pair[1];
+    const updateTankView = (clickedTank, partnerTank) => {
+        let newSelections = {...tankView};
+        newSelections[clickedTank] = !tankView[clickedTank];
+        if(isTank(clickedTank)){
+            //cannot view mits from two different tank combos at once
+            //any selection outside new selection is flipped off
+            for(const it in newSelections){
+                if(it === clickedTank || it === partnerTank){
+                    continue;
+                }
+                newSelections[it] = false;
+            }
+        }
+        setTankView(newSelections)
+    }
+
+    return(
+        <div className="tankpair chip">
+            <button 
+                className="left"
+                onClick={()=> updateTankView(mt, ot)}
+            >
+                {tankView[mt] && '✅ '}{mt}
+            </button>
+            <button 
+                className="right"
+                onClick={()=> updateTankView(ot, mt)}
+            >
+                {ot}{tankView[ot] && '✅ '}
+            </button>
+        </div>
+    );
+}
+
+function TankMenu( {
+    encounter, 
+    mitplan, 
+    tankView, 
+    setTankView
+}){
+    return(
+        <fieldset>
+            <legend>Choose Tankbuster Mitigations</legend>
+            <div>{JSON.stringify(tankView)}</div>
+            {tankCombosByPlan[encounter][mitplan].map((pair) => {
+                return(
+                    <TankPairChip 
+                        key={pair[0]+pair[1]}
+                        pair={pair}
+                        tankView={tankView}
+                        setTankView={setTankView}
+                    />
+                );
+            })}
+        </fieldset>
+    );
+}
 
 function EncounterSelector( { setEncounter }){
     return (
@@ -81,7 +144,7 @@ function Checkbox( { role, view, setView }) {
 
 function Selectors({ 
     roleView, 
-    setRoleView, 
+    setRoleView,
     tankView, 
     setTankView,
     encounter,
@@ -161,6 +224,8 @@ function Selectors({
                 setView={setRoleView}
             />
         </fieldset>
+        {
+        /*
         <div>
             <fieldset>
                 <legend>WAR+GNB</legend>
@@ -241,6 +306,14 @@ function Selectors({
                 />
             </fieldset>
         </div>
+        */
+        }
+        <TankMenu 
+            encounter={encounter}
+            mitplan={mitplan}
+            tankView={tankView}
+            setTankView={setTankView}
+        />
     
     </>
         /* <ul>
