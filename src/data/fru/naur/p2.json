@@ -1,0 +1,357 @@
+{
+    "phase":2,
+    "length":185,
+    "name":"P2 Shiva",
+    "sections":[
+      {
+        "sectionName":"DD + Mirror, Mirror",
+        "id":0,
+        "table":[
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Quadruple Slap",
+            "time":8,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Holmgang"
+              ],
+              "WARPLD_WAR":[
+                "Holmgang"
+              ],
+              "WARDRK_WAR":[
+                "Holmgang"
+              ],
+              "GNBDRK_DRK":[
+                "Superbolide"
+              ],
+              "PLDGNB_PLD":[
+                "Hallowed Ground"
+              ],
+              "PLDDRK_PLD":[
+                "Hallowed Ground"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Diamond Dust",
+            "time":31,
+            "mitigations":{
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH":[
+                "Soil"
+              ],
+              "SGE":[
+                "Zoe EukProg",
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "RDM":[
+                "Magick Barrier"
+              ],
+              "extranotes":{
+                "M2":"Feint at start of Mirror Image castbar to have back up for Banish III"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Heavenly Strike (KB)",
+            "time":47,
+            "mitigations":{
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Recit Spread-Lo",
+                "Expedient"
+              ],
+              "SGE":[
+                "EukProg",
+                "Panhaima"
+              ],
+              "AST":[
+                "Sun Sign",
+                "Neutral"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Sinbound Holy",
+            "time":50,
+            "mitigations":{
+              "AST":[
+                "Sun Sign co",
+                "Neutral co"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Hallowed Ray",
+            "time":77,
+            "mitigations":{
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Conit",
+                "Soil"
+              ],
+              "SGE":[
+                "Kerachole"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "MCH":[
+                "Dismantle"
+              ],
+              "PLD":[
+                "Wings"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Mirror Mirror",
+            "time":102,
+            "mitigations":{
+              "T1":[
+                "Short Mit m1"
+              ],
+              "T2":[
+                "Short Mit m2"
+              ],
+              "SCH":[
+                "Seraph",
+                "Seraphism",
+                "Fey"
+              ],
+              "SGE":[
+                "Holos"
+              ],
+              "M1":[
+                "melee_personals"
+              ],
+              "M2":[
+                "melee_personals"
+              ],
+              "extranotes":{
+                "SCH":"Fey Illum on 2nd Mirror",
+                "SGE":"Holos on 2nd Mirror"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Banish III",
+            "time":117,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Fey Illum co"
+              ],
+              "SGE":[
+                "Holos co",
+                "Kerachole"
+              ],
+              "WHM":[
+                "Temperance co"
+              ],
+              "M2":[
+                "Feint"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sectionName":"Light Rampant",
+        "id":0,
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Light Rampant",
+            "time":127,
+            "mitigations":{
+              "T1":[
+                "Reprisal co"
+              ],
+              "SCH":[
+                "Soil"
+              ],
+              "SGE":[
+                "Kerachole co",
+                "EukProg"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M2":[
+                "Feint co"
+              ],
+              "extranotes":{
+                "T1":"Short Mit Puddle Dropper",
+                "T2":"Short Mit Puddle Dropper"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Powerful Light",
+            "time":144,
+            "mitigations":{
+              "SCH":[
+                "Recit Spread-Lo"
+              ],
+              "SGE":[
+                "Zoe EukProg",
+                "Kerachole"
+              ],
+              "WHM":[
+                "Bell"
+              ],
+              "AST":[
+                "Macro"
+              ],
+              "WAR":[
+                "Shake"
+              ],
+              "PLD":[
+                "Veil"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Banish III",
+            "time":158,
+            "mitigations":{
+              "SCH":[
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg"
+              ],
+              "PRange":[
+                "Range Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"House of Light",
+            "time":166,
+            "mitigations":{
+              "T2":[
+                "Reprisal"
+              ],
+              "AST":[
+                "Neutral"
+              ],
+              "PRange":[
+                "Range Mit co"
+              ],
+              "RDM":[
+                "Magick Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Absolute Zero",
+            "time":185,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Soil",
+                "Expedient"
+              ],
+              "SGE":[
+                "Panhaima",
+                "Kerachole"
+              ],
+              "AST":[
+                "Neutral co",
+                "Sun Sign"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "Caster":[
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Gaia Breaks Crystal",
+            "time":262,
+            "mitigations":{
+              "SCH":[
+                "Conit",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg",
+                "Kerachole"
+              ],
+              "PRange":[
+                "Range Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Junction",
+            "time":262,
+            "mitigations":{
+              "SCH":[
+                "Soil co"
+              ],
+              "SGE":[
+                "Kerachole co"
+              ],
+              "PRange":[
+                "Range Mit co"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

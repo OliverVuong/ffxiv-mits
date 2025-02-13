@@ -1,0 +1,407 @@
+{
+    "phase":4,
+    "length":180,
+    "name":"P4 Light and Dark",
+    "sections":[
+      {
+        "id":0,
+        "title":"Darklit Dragonsong",
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Darklit Dragonsong",
+            "time":34,
+            "mitigations":{
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH":[
+                "Recit Conitation",
+                "Soil",
+                "Seraph",
+                "Fey Illumination"
+              ],
+              "SGE":[
+                "Kerachole",
+                "Philosophia"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "RDM":[
+                "Magic Barrier"
+              ],
+              "MCH":[
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Somber Dance",
+            "time":225,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Holmgang"
+              ],
+              "WARPLD_WAR":[
+                "Holmgang"
+              ],
+              "WARDRK_WAR":[
+                "Holmgang"
+              ],
+              "GNBDRK_DRK":[
+                "Superbolide"
+              ],
+              "PLDGNB_GNB":[
+                "Superbolide"
+              ],
+              "PLDDRK_DRK":[
+                "Living Dead"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn x4",
+            "time":71,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Nascent Buddy"
+              ],
+              "WARGNB_GNB":[
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "WARPLD_WAR":[
+                "Rampart",
+                "Bloodwhetting",
+                "Equilibrium"
+              ],
+              "WARPLD_PLD":[
+                "Intervention Buddy"
+              ],
+              "WARDRK_WAR":[
+                "Rampart",
+                "Bloodwhetting",
+                "Equilibrium"
+              ],
+              "WARDRK_DRK":[
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "GNBDRK_GNB":[
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "GNBDRK_DRK":[
+                "TBN Buddy",
+                "Obltion Buddy"
+              ],
+              "PLDGNB_PLD":[
+                "Intervention Buddy"
+              ],
+              "PLDGNB_GNB":[
+                "Rampart",
+                "Camo",
+                "HoC",
+                "Aurora"
+              ],
+              "PLDDRK_PLD":[
+                "Intervention Buddy"
+              ],
+              "PLDDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "TBN",
+                "Oblation"
+              ],
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Soil",
+                "Seraphism"
+              ],
+              "SGE":[
+                "Panhaima",
+                "Kerachole"
+              ],
+              "M2":[
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Morn Afah",
+            "time":81,
+            "mitigations":{
+              "T2":[
+                "Reprisal co"
+              ],
+              "SCH":[
+                "Soil co",
+                "Seraphism co"
+              ],
+              "SGE":[
+                "Zoe EukProg",
+                "Panhaima co",
+                "Kerachole co"
+              ],
+              "M2":[
+                "Feint co"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id":1,
+        "title":"Crystallize Time",
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Crystallize Time",
+            "time":96,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Conitation",
+                "Expedient"
+              ],
+              "SGE":[
+                "EukProg",
+                "Holos"
+              ],
+              "WHM":[
+                "Temperance",
+                "Caress"
+              ],
+              "AST":[
+                "Neutral",
+                "Sun Sign",
+                "CU"
+              ],
+              "Caster":[
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Edge of Oblivion",
+            "time":102,
+            "mitigations":{
+              "SCH":[
+                "Recit Spread-Lo",
+                "Expedient co"
+              ],
+              "SGE":[
+                "Holos co",
+                "Kerachole"
+              ],
+              "WHM":[
+                "Temperance co"
+              ],
+              "AST":[
+                "Macro"
+              ],
+              "extranotes":{
+                "AST":"Macrcosmos can be used at either location, user preference"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Rewind Execute",
+            "time":136,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Damnation",
+                "Bloodwhetting (early)"
+              ],
+              "WARGNB_GNB":[
+                "Great Nebula"
+              ],
+              "WARPLD_WAR":[
+                "Damnation",
+                "Thrill"
+              ],
+              "WARPLD_PLD":[
+                "Guardian",
+                "Holy Sheltron"
+              ],
+              "WARDRK_WAR":[
+                "Damnation",
+                "Thrill"
+              ],
+              "WARDRK_DRK":[
+                "Shadowed Vigil",
+                "Oblation"
+              ],
+              "GNBDRK_GNB":[
+                "Great Nebula"
+              ],
+              "GNBDRK_DRK":[
+                "Shadowed Vigil",
+                "Oblation"
+              ],
+              "PLDGNB_PLD":[
+                "Guardian",
+                "Holy Sheltron"
+              ],
+              "PLDGNB_GNB":[
+                "Great Nebula"
+              ],
+              "PLDDRK_PLD":[
+                "Guardian",
+                "Holy Sheltron"
+              ],
+              "PLDDRK_DRK":[
+                "Shadowed Vigil",
+                "Oblation"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "PRange":[
+                "Party Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn x4",
+            "time":154,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Rampart",
+                "Bloodwhetting",
+                "Equilibrim"
+              ],
+              "WARGNB_GNB":[
+                "HoC Buddy",
+                "Aurora bud"
+              ],
+              "WARPLD_WAR":[
+                "Nascent Buddy"
+              ],
+              "WARPLD_PLD":[
+                "Rampart",
+                "Bulwark",
+                "Sheltron"
+              ],
+              "WARDRK_WAR":[
+                "Nascent bud"
+              ],
+              "WARDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "TBN",
+                "Oblation"
+              ],
+              "GNBDRK_GNB":[
+                "HoC Buddy",
+                "Aurora bud"
+              ],
+              "GNBDRK_DRK":[
+                "Rampart",
+                "TBN",
+                "Oblation"
+              ],
+              "PLDGNB_PLD":[
+                "Rampart",
+                "Bulwark",
+                "Holy Sheltron"
+              ],
+              "PLDGNB_GNB":[
+                "HoC Buddy",
+                "Aurora bud"
+              ],
+              "PLDDRK_PLD":[
+                "Rampart",
+                "Bulwark",
+                "Holy Sheltron"
+              ],
+              "PLDDRK_DRK":[
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH":[
+                "Seraph",
+                "Soil",
+                "Fey Illumination"
+              ],
+              "SGE":[
+                "Kerachole"
+              ],
+              "WHM":[
+                "Lilly Bell"
+              ],
+              "AST":[
+                "CU",
+                "Macro"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "extranotes":{
+                "AST":"Macrocosmos can be used at either location, user preference"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Morn Afah",
+            "time":164,
+            "mitigations":{
+              "T1":[
+                "Reprisal co",
+                "Party Mit co"
+              ],
+              "SCH":[
+                "Seraph co",
+                "Soil co",
+                "Fey Illumination co"
+              ],
+              "SGE":[
+                "Kerachole co",
+                "Zoe EukProg"
+              ],
+              "M1":[
+                "Feint co"
+              ],
+              "PLD":[
+                "Wings"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

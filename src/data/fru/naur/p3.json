@@ -1,0 +1,367 @@
+{
+    "phase":3,
+    "length":120,
+    "name":"P3 Gaia",
+    "sections":[
+      {
+        "id":0,
+        "name":"Ultimate Relativity",
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Hell's Judgement",
+            "time":5,
+            "mitigations":{
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Soil"
+              ],
+              "SGE":[
+                "Kerachole"
+              ],
+              "extranotes":{
+                "SCH/SGE":"15s mits slightly after Hell's Judgment to have up for Shell Crusher or additional use of CD for soil/kera"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Ultimate Relativity",
+            "time":18,
+            "mitigations":{
+              "T2":[
+                "Reprisal co"
+              ],
+              "SCH":[
+                "Soil co",
+                "Recit Spread-lo"
+              ],
+              "SGE":[
+                "Kerachole co",
+                "Zoe EukProg",
+                "Holos"
+              ],
+              "WHM":[
+                "Temperance"
+              ],
+              "AST":[
+                "CU",
+                "Neutral"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "extranotes":{
+                "SCH/SGE":"Shield after UR Cast"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Dark Fire III 1",
+            "time":31,
+            "mitigations":{
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Expedient co",
+                "Fey Illum"
+              ],
+              "SGE":[
+                "Holos co",
+                "Philosophia"
+              ],
+              "WHM":[
+                "Temperance co",
+                "Caress"
+              ],
+              "AST":[
+                "Neutral co",
+                "Sun Sign"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Dark Fire III 2",
+            "time":52,
+            "mitigations":{
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH":[
+                "Fey Illum co",
+                "Seraphism"
+              ],
+              "SGE":[
+                "Panhaima",
+                "Kerachole",
+                "_ on CD"
+              ],
+              "WHM":[
+                "Bell"
+              ],
+              "AST":[
+                "Macro"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Shell Crusher",
+            "time":68,
+            "mitigations":{
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Soil",
+                "Seraph"
+              ],
+              "SGE":[
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "Caster":[
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Shockwave Pulsar",
+            "time":75,
+            "mitigations":{
+              "T2":[
+                "Reprisal co"
+              ],
+              "SCH":[
+                "Soil co",
+                "Seraph co"
+              ],
+              "SGE":[
+                "Kerachole co"
+              ],
+              "M1":[
+                "Feint ci"
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "Caster":[
+                "Addle ci"
+              ],
+              "MCH":[
+                "Dismantle"
+              ],
+              "RDM":[
+                "Maick Barrier"
+              ],
+              "PLD":[
+                "Wings"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Black Halo",
+            "time":84,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB":[
+                "HoC Buddy"
+              ],
+              "WARPLD_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD":[
+                "Intervention Buddy"
+              ],
+              "WARDRK_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK":[
+                "TBN Buddy",
+                "Obltion Buddy"
+              ],
+              "GNBDRK_GNB":[
+                "HoC Buddy"
+              ],
+              "GNBDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "PLDGNB_PLD":[
+                "Intervention bud"
+              ],
+              "PLDGNB_GNB":[
+                "Kitchen Sink"
+              ],
+              "PLDDRK_PLD":[
+                "Intervention bud"
+              ],
+              "PLDDRK_DRK":[
+                "Kitchen Sink"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id":1,
+        "name":"Apocalypse",
+        "table":[
+          {
+            "type":"cast",
+            "stakeholder":"all",
+            "name":"Apocalypse",
+            "time":108,
+            "mitigations":{
+              "SCH":[
+                "Recit Spread-lo"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Dark Eruption",
+            "time":125,
+            "mitigations":{
+              "SCH":[
+                "Soil"
+              ],
+              "SGE":[
+                "Kerachole"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Darkest Dance",
+            "time":133,
+            "mitigations":{
+              "WARGNB_GNB":[
+                "Superbolide"
+              ],
+              "WARPLD_PLD":[
+                "Hallowed Ground"
+              ],
+              "WARDRK_DRK":[
+                "Living Dead"
+              ],
+              "GNBDRK_DRK":[
+                "Living Dead"
+              ],
+              "PLDGNB_PLD":[
+                "Kitchen Sink"
+              ],
+              "PLDGNB_GNB":[
+                "HoC bud"
+              ],
+              "PLDDRK_PLD":[
+                "Kitchen Sink"
+              ],
+              "PLDDRK_DRK":[
+                "TBN bud",
+                "Oblation bud"
+              ],
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Expedient"
+              ],
+              "SGE":[
+                "Kerachole co",
+                "Holos"
+              ],
+              "AST":[
+                "CU"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Shockwave Pulsar",
+            "time":146,
+            "mitigations":{
+              "T1":[
+                "Reprisal co"
+              ],
+              "SCH":[
+                "Expedient co"
+              ],
+              "SGE":[
+                "Holos co"
+              ],
+              "WHM":[
+                "Temperance"
+              ],
+              "AST":[
+                "Neutral",
+                "Sun Sign"
+              ],
+              "M2":[
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Memory's End",
+            "time":159,
+            "mitigations":{
+              "T2":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH":[
+                "Expedient co",
+                "Conitation",
+                "Soil"
+              ],
+              "SGE":[
+                "Zoe EukProg",
+                "Kerachole"
+              ],
+              "WHM":[
+                "Temperance co",
+                "Caress"
+              ],
+              "AST":[
+                "Neutral co",
+                "Sun Sign co"
+              ],
+              "M2":[
+                "Feint co"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

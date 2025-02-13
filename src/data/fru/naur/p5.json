@@ -1,0 +1,442 @@
+{
+    "phase":5,
+    "length":270,
+    "name":"P5 Pandora",
+    "sections":[
+      {
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Targetable",
+            "time":0,
+            "mitigations":{
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SGE":[
+                "Zoe EukProg"
+              ],
+              "PRange":[
+                "Range Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Fulgent Blade 1",
+            "time":12,
+            "mitigations":{
+              "T1":[
+                "Reprisal CO",
+                "Party MitCO "
+              ],
+              "SCH":[
+                "Soil"
+              ],
+              "SGE":[
+                "Zoe EukProg CO",
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "PRange":[
+                "Range Mit CO"
+              ],
+              "MCH":[
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn 1",
+            "time":38,
+            "mitigations":{
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Recit Spread-Lo",
+                "Soil",
+                "Expedient"
+              ],
+              "SGE":[
+                "Kerachole",
+                "Holos"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "RDM":[
+                "Magick BarrierBarrier"
+              ],
+              "extranotes":{
+                "SCH":"You can use Expedient on both Polars. The reason it is listed for AM/Polar is to save a wipe from a 3/4 stack for AM"
+              }
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Wings Dark and Light 1",
+            "time":56,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Holmgang",
+                "Nascent Buddy"
+              ],
+              "WARGNB_GNB":[
+                "Kitchen Sink",
+                "HoC",
+                "on 2nd Hit"
+              ],
+              "WARPLD_WAR":[
+                "Holmgang",
+                "Nascent Buddy"
+              ],
+              "WARPLD_PLD":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_WAR":[
+                "Holmgang",
+                "Nascent Buddy"
+              ],
+              "WARDRK_DRK":[
+                "Kitchen Sink",
+                "TBN",
+                "on 2nd Hit"
+              ],
+              "GNBDRK_GNB":[
+                "Kitchen Sink"
+              ],
+              "GNBDRK_DRK":[
+                "Living Dead",
+                "Oblation Buddy",
+                "TBN Buddy"
+              ],
+              "PLDGNB_PLD":[
+                "Hallowed",
+                "Intervention Buddy"
+              ],
+              "PLDGNB_GNB":[
+                "Kitchen Sink"
+              ],
+              "PLDDRK_PLD":[
+                "Hallowed",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "SCH":[
+                "Seraph",
+                "After last tower"
+              ],
+              "SGE":[
+                "Panhaima",
+                "After last tower"
+              ],
+              "WHM":[
+                "Temperance",
+                "After last tower"
+              ],
+              "AST":[
+                "Neutral",
+                "After last tower"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Polarizing Strikes 1",
+            "time":79,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Concitation",
+                "Soil",
+                "Fey Illumination",
+                "Expedient"
+              ],
+              "SGE":[
+                "Zoe EukProg",
+                "Kerachole"
+              ],
+              "WHM":[
+                "Temperance CO",
+                "CO"
+              ],
+              "AST":[
+                "Neutral CO",
+                "Sun Sign",
+                "CU",
+                "Macro"
+              ],
+              "PRange":[
+                "Party Mit",
+                "1nd hit of Cruel Path"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Pandora's Box",
+            "time":114,
+            "mitigations":{
+              "T1":[
+                "Tank LB"
+              ],
+              "T2":[
+                "Tank LB",
+                "Reprisal"
+              ],
+              "SCH":[
+                "Conitation",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg",
+                "Kerachole"
+              ],
+              "extranotes":{
+                "SCH":"15s mits on the <b>B</b> in Box, it's more important to catch Fulgent Blade",
+                "SGE":"15s mits on the <b>B</b> in Box, it's more important to catch Fulgent Blade"
+              }
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Fulgent Blade 2",
+            "time":125,
+            "mitigations":{
+              "T1":[
+                "Party Mit"
+              ],
+              "T2":[
+                "Reprisal grey"
+              ],
+              "SCH":[
+                "Conitation",
+                "Soil grey"
+              ],
+              "SGE":[
+                "EukProg",
+                "Kerachole grey"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "PLD":[
+                "Wings"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn 2",
+            "time":150,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Recit Spread-Lo",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg",
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "Caster":[
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Wings Dark and Light 2",
+            "time":176,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB":[
+                "Superbolide",
+                "HoC Buddy"
+              ],
+              "WARPLD_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD":[
+                "Hallowed",
+                "Intervention Buddy"
+              ],
+              "WARDRK_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK":[
+                "Living Dead",
+                "Oblation Buddy",
+                "TBN Buddy"
+              ],
+              "GNBDRK_GNB":[
+                "Superbolide",
+                "HoC buddy"
+              ],
+              "GNBDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "PLDGNB_PLD":[
+                "Kitchen Sink"
+              ],
+              "PLDGNB_GNB":[
+                "Superbolide",
+                "HoC Buddy"
+              ],
+              "PLDDRK_PLD":[
+                "Kitchen Sink"
+              ],
+              "PLDDRK_DRK":[
+                "Living Dead",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "SCH":[
+                "Soil",
+                "After last tower"
+              ],
+              "SGE":[
+                "Kerachole",
+                "After last tower"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Polarizing Strikes 2",
+            "time":191,
+            "mitigations":{
+              "T2":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH":[
+                "Seraph",
+                "Expedient",
+                "Soil",
+                "Seraphism",
+                "Fey Illumination"
+              ],
+              "SGE":[
+                "Zoe EukProg",
+                "Panhaima",
+                "Philosophia"
+              ],
+              "WHM":[
+                "Temperance"
+              ],
+              "AST":[
+                "Neutral",
+                "Sun Sign",
+                "Macro"
+              ],
+              "PRange":[
+                "Party Mit"
+              ],
+              "RDM":[
+                "Barrier",
+                "2nd hit of Cruel Path"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Fulgent Blade 3",
+            "time":215,
+            "mitigations":{
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH":[
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg",
+                "Kerachole"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "MCH":[
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn 3",
+            "time":242,
+            "mitigations":{
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Recit Spread-Lo",
+                "Soil"
+              ],
+              "SGE":[
+                "Holos",
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "PLD":[
+                "Wings"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

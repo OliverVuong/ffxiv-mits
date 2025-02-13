@@ -6,23 +6,39 @@
     {
       "table":[
         {
+          "type":"prepull",
+          "stakeholder":"all",
+          "name":"Pre-pull",
+          "time":"",
+          "mitigations":{
+            "SCH":[
+              "Recit Spread-Lo"
+            ],
+            "SGE":[
+              "EukProg"
+            ],
+            "WAR":[
+              "Shake"
+            ],
+            "PLD":[
+              "Veil"
+            ]
+          }
+        },
+        {
           "type":"Raidwide",
           "stakeholder":"all",
           "name":"Cyclonic Break 1",
           "time":14,
           "mitigations":{
-            "T1":[
+            "T2":[
               "Reprisal",
               "Party Mit"
             ],
-            "PLD2":[
-              "Veil"
-            ],
             "SCH":[
-              "Spread-Lo"
+              "Soil"
             ],
             "SGE":[
-              "EukProg",
               "Kerachole"
             ],
             "AST":[
@@ -32,11 +48,11 @@
               "Feint"
             ],
             "Phys Range":[
-              "Party Mit"
+              "Range Mit"
             ],
-            "extranotes":{
-              "PLD2":"Veil can be used prepull to cover break 1"
-            }
+            "Caster":[
+              "Addle"
+            ]
           }
         },
         {
@@ -46,22 +62,75 @@
           "time":24,
           "mitigations":{
             "WARGNB_WAR":[
-              "Holmgang"
+              "Damnation",
+              "Rampart",
+              "_(late)",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB":[
+              "Rampart",
+              "_(late)",
+              "Camo",
+              "_(late)"
             ],
             "WARPLD_WAR":[
-              "Holmgang"
+              "Damnation",
+              "Rampart",
+              "(late)",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD":[
+              "Rampart",
+              "_(late)"
             ],
             "WARDRK_WAR":[
-              "Holmgang"
+              "Damnation",
+              "Rampart",
+              "(late)",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK":[
+              "Rampart",
+              "(late)",
+              "TBN bud",
+              "Oblation bud"
             ],
             "GNBDRK_GNB":[
-              "Superbolide"
+              "Great Nebula",
+              "Rampart",
+              "_(late)",
+              "Camo",
+              "_(late)"
             ],
-            "GNBPLD_GNB":[
-              "Superbolide"
+            "GNBDRK_DRK":[
+              "Rampart",
+              "(late)",
+              "TBN bud",
+              "Oblation bud"
+            ],
+            "PLDGNB_PLD":[
+              "Guardian",
+              "Rampart",
+              "(late)",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB":[
+              "Rampart",
+              "_(late)",
+              "Camo",
+              "_(late)"
             ],
             "PLDDRK_PLD":[
-              "Hallowed Ground"
+              "Guardian",
+              "Rampart",
+              "(late)",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK":[
+              "Rampart",
+              "(late)",
+              "TBN bud",
+              "Oblation bud"
             ]
           }
         },
@@ -69,7 +138,7 @@
           "type":"Raidwide",
           "stakeholder":"all",
           "name":"Utopian Sky",
-          "time":30,
+          "time":34,
           "mitigations":{
             "SCH":[
               "Concit"
@@ -87,61 +156,65 @@
           "time":41,
           "mitigations":{
             "WARGNB_WAR":[
-              "Rampart",
-              "Thrill",
-              "Bloodwhetting"
+              "Rampart co",
+              "Thrill"
             ],
             "WARGNB_GNB":[
-              "Rampart",
-              "Camo"
+              "Rampart co",
+              "Camo co",
+              "HoC"
             ],
             "WARPLD_WAR":[
-              "Rampart",
-              "Thrill",
-              "Bloodwhetting"
+              "Rampart co",
+              "Thrill"
             ],
             "WARPLD_PLD":[
-              "Rampart",
-              "Bulwark"
+              "Rampart co",
+              "Bulwark",
+              "Holy Sheltron",
+              "Intervention bud"
             ],
             "WARDRK_WAR":[
-              "Rampart",
-              "Thrill",
-              "Bloodwhetting"
+              "Rampart co",
+              "Thrill"
             ],
             "WARDRK_DRK":[
-              "Rampart",
+              "Rampart co",
               "Dark Mind",
-              "The Blackest Night"
+              "The Blackest Night",
+              "Oblation"
             ],
             "GNBDRK_GNB":[
-              "Rampart",
-              "Camo",
+              "Rampart co",
+              "Camo co",
               "HoC"
             ],
             "GNBDRK_DRK":[
-              "Rampart",
+              "Rampart co",
               "Dark Mind",
-              "The Blackest Night"
+              "The Blackest Night",
+              "Oblation"
             ],
-            "GNBPLD_GNB":[
-              "Rampart",
-              "Camo",
+            "PLDGNB_PLD":[
+              "Rampart co",
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB":[
+              "Rampart co",
+              "Camo co",
               "HoC"
             ],
-            "GNBPLD_PLD":[
-              "Rampart",
-              "Bulwark"
-            ],
             "PLDDRK_PLD":[
-              "Rampart",
+              "Rampart co",
               "Bulwark",
-              "Sheltron"
+              "Holy Sheltron"
             ],
             "PLDDRK_DRK":[
-              "Rampart",
+              "Rampart co",
               "Dark Mind",
-              "The Blackest Night"
+              "The Blackest Night",
+              "Oblation"
             ]
           }
         },
@@ -149,37 +222,38 @@
           "type":"Raidwide",
           "stakeholder":"all",
           "name":"Cyclonic Break 2",
-          "time":50,
+          "time":55,
           "mitigations":{
             "SCH":[
-              "Concit",
-              "Soil",
-              "Exp"
+              "Seraphism"
             ],
             "SGE":[
-              "Zoe",
-              "Kerachole"
-            ],
-            "M2":[
-              "Feint"
-            ],
-            "extranotes":{
-              "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
-              "MCH":"Dismantle"
-            }
+              "Zoe EukProg",
+              "Kerachole co"
+            ]
           }
         },
         {
           "type":"Raidwide",
           "stakeholder":"all",
-          "name":"Flame stack",
+          "name":"Flame Stack",
           "time":78,
           "mitigations":{
             "SCH":[
-              "Soil"
+              "Soil",
+              "Expedient"
             ],
             "SGE":[
               "Kerachole"
+            ],
+            "WHM":[
+              "Temperance"
+            ],
+            "AST":[
+              "Neutral"
+            ],
+            "RDM":[
+              "Magick Barrier"
             ]
           }
         },
@@ -190,89 +264,88 @@
           "time":86,
           "mitigations":{
             "T1":[
-              "Rep"
-            ],
-            "T2":[
+              "Rep",
               "Party Mit"
             ],
             "SCH":[
-              "Soil cont",
-              "Spread-Lo"
+              "Soil co",
+              "Expedient co",
+              "Fey Illum"
             ],
             "SGE":[
-              "Kerachole",
-              "Holos"
+              "Kerachole co",
+              "Panhaima"
             ],
             "WHM":[
-              "Bell"
+              "Temperance co",
+              "Caress"
             ],
             "AST":[
-              "Macro",
+              "Neutral co",
               "CU"
             ],
             "M2":[
               "Feint"
             ],
-            "Caster":[
-              "Addle"
+            "RDM":[
+              "Magick Barrier co"
             ],
-            "extranotes":{
-              "Caster":[
-                "Barrier"
-              ],
-              "Phys Range":[
-                "Dismantle"
-              ]
-            }
-          }
-        },
-        {
-          "type":"Raidwide",
-          "stakeholder":"all",
-          "name":"Fall of Faith (1/2)",
-          "time":105,
-          "mitigations":{
-            "SCH":[
-              "Fey Ilum",
-              "Seraph",
-              "Seraphism"
+            "MCH":[
+              "Dismantle"
             ],
-            "SGE":[
-              "Panhaima",
-              "Sophia"
-            ],
-            "WHM":[
-              "Temperance"
-            ],
-            "AST":[
-              "Neutral"
+            "PLD":[
+              "Wings"
             ]
           }
         },
         {
           "type":"Raidwide",
           "stakeholder":"all",
-          "name":"Fall of Faith (3/4)",
-          "time":111,
+          "name":"Fall of Faith cast",
+          "time":101,
           "mitigations":{
             "SCH":[
-              "Fey Ilum cont",
-              "Consolation",
+              "Recit Spreadlo",
+              "Seraph"
+            ],
+            "SGE":[
+              "Holos",
+              "Sophia"
+            ],
+            "AST":[
+              "Sun SIgn"
+            ]
+          }
+        },
+        {
+          "type":"Raidwide",
+          "stakeholder":"all",
+          "name":"Fall of Faith 2/3",
+          "time":109,
+          "mitigations":{
+            "T2":[
+              "Rep",
+              "Party Mit"
+            ],
+            "SCH":[
+              "Seraph co",
               "Soil"
             ],
             "SGE":[
-              "Kera",
-              "Sophia"
-            ],
-            "WHM":[
-              "Temperance"
+              "Holos co",
+              "Kerachole"
             ],
             "AST":[
-              "Neutral",
-              "Sun"
+              "Sun Sign co"
             ],
-            "Phys Ranged":[
-              "Party Mit"
+            "M1":[
+              "Feint"
+            ],
+            "PRange":[
+              "Range Mit"
+            ],
+            "Caster":[
+              "Addle"
             ]
           }
         },
@@ -282,37 +355,33 @@
           "name":"Burnished Glory 2",
           "time":121,
           "mitigations":{
-            "T1":[
-              "Party Mit"
-            ],
             "T2":[
-              "Rep"
+              "Rep co",
+              "Party Mit co"
             ],
             "SCH":[
-              "Fey Ilum cont",
-              "Concit",
-              "Soil cont"
+              "Soil co"
             ],
             "SGE":[
-              "EukProg",
-              "Kera"
+              "Holos co",
+              "Kerachole co",
+              "Philosophia"
             ],
             "WHM":[
-              "Temperance cont",
-              "Caress"
+              "Lilly Bell"
             ],
             "AST":[
-              "Sun"
+              "Macro"
             ],
             "M1":[
-              "Feint"
+              "Feint co"
             ],
-            "Phys Ranged":[
-              "Party Mit"
+            "PRange":[
+              "Range Mit co"
             ],
-            "extranotes":{
-              
-            }
+            "Caster":[
+              "Addle co"
+            ]
           }
         },
         {
@@ -321,56 +390,23 @@
           "name":"Powder Mark Trail 2",
           "time":130,
           "mitigations":{
-            "WARGNB_WAR":[
-              "Damnation",
-              "Rampart",
-              "Thrill",
-              "Bloodwhetting"
-            ],
-            "WARPLD_WAR":[
-              "Damnation",
-              "Rampart",
-              "Thrill",
-              "Bloodwhetting"
+            "WARGNB_GNB":[
+              "Superbolide"
             ],
             "WARPLD_PLD":[
-              "Intervention Buddy"
-            ],
-            "WARDRK_WAR":[
-              "Damnation",
-              "Rampart",
-              "Thrill",
-              "Bloodwhetting"
+              "Hallowed Ground"
             ],
             "WARDRK_DRK":[
-              "The Blackest Night Buddy"
-            ],
-            "GNBDRK_GNB":[
-              "Great Nebula",
-              "Rampart",
-              "Camo",
-              "HoC"
+              "Living Dead"
             ],
             "GNBDRK_DRK":[
-              "The Blackest Night Buddy"
+              "Living Dead"
             ],
-            "GNBPLD_GNB":[
-              "Great Nebula",
-              "Rampart",
-              "Camo",
-              "HoC"
-            ],
-            "GNBPLD_PLD":[
-              "Intervention Buddy"
-            ],
-            "PLDDRK_PLD":[
-              "Guardian",
-              "Rampart",
-              "Bulwark",
-              "Sheltron"
+            "PLDGNB_GNB":[
+              "Superbolide"
             ],
             "PLDDRK_DRK":[
-              "The Blackest Night Buddy"
+              "Living Dead"
             ]
           }
         },
@@ -381,64 +417,43 @@
           "time":146,
           "mitigations":{
             "WARGNB_WAR":[
-              "Rampart"
+              "Kitchen Sink"
             ],
             "WARGNB_GNB":[
-              "Great Nebula",
-              "Rampart",
-              "Camo",
-              "HoC Buddy"
+              "Kitchen Sink"
             ],
             "WARPLD_WAR":[
-              "Rampart"
+              "Kitchen Sink"
             ],
             "WARPLD_PLD":[
-              "Guardian",
-              "Rampart",
-              "Bulwark",
-              "Intervention Buddy"
+              "Kitchen Sink",
+              "Intervention bud"
             ],
             "WARDRK_WAR":[
-              "Rampart"
+              "Kitchen Sink"
             ],
             "WARDRK_DRK":[
-              "Shadowed Vigil",
-              "Rampart",
-              "Dark Mind",
-              "The Blackest Night Buddy",
-              "Oblation Buddy"
+              "Kitchen Sink"
             ],
             "GNBDRK_GNB":[
-              "Rampart",
-              "Camo"
+              "Kitchen Sink"
             ],
             "GNBDRK_DRK":[
-              "Shadowed Vigil",
-              "Rampart",
-              "Dark Mind",
-              "The Blackest Night Buddy",
-              "Oblation Buddy"
+              "Kitchen Sink"
             ],
-            "GNBPLD_GNB":[
-              "Rampart",
-              "Camo"
+            "PLDGNB_PLD":[
+              "Kitchen Sink",
+              "Intervention bud"
             ],
-            "GNBPLD_PLD":[
-              "Guardian",
-              "Rampart",
-              "Bulwark",
-              "Intervention Buddy"
+            "PLDGNB_GNB":[
+              "Kitchen Sink"
             ],
             "PLDDRK_PLD":[
-              "Rampart",
-              "Sheltron"
+              "Kitchen Sink",
+              "Intervention bud"
             ],
             "PLDDRK_DRK":[
-              "Shadowed Vigil",
-              "Rampart",
-              "Dark Mind",
-              "The Blackest Night Buddy",
-              "Oblation Buddy"
+              "Kitchen Sink"
             ]
           }
         }
