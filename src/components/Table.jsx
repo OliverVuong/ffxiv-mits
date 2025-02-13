@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 //import p1 from '../data/fru/p1.json'
 import encounters from '../utils/encounters';
-import { roles } from '../utils/utils';
-import { tankCombos } from '../utils/utils';
+import { roles, tankCombos, extras } from '../utils/utils';
 
 //const data = JSON.parse(p1);
 
@@ -70,10 +69,16 @@ export function RoleCheck({ roleView, tankView }) {
 }
 //rename Table to sectiondisplay and include a section title
 
-function TableView( {section, roleOptions, tankOptions} ) {
+function TableView( {
+    section, 
+    roleOptions, 
+    tankOptions,
+    extraOptions
+} ) {
     const visibleRoles = roles.filter((role) => roleOptions[role]);
     const visibleTanks = tankCombos.filter((combo) => tankOptions[combo]);
-    const visible = visibleTanks.concat(visibleRoles);
+    const visibleExtras = extras.filter((extra) => extraOptions[extra])
+    const visible = visibleTanks.concat(visibleRoles).concat(visibleExtras);
     //console.log(section);
     let table = section['table']
     if(visibleTanks.length === 0){
@@ -103,7 +108,12 @@ function TableView( {section, roleOptions, tankOptions} ) {
     );
 }
 
-function SectionView( {sections, roleOptions, tankOptions} ) {
+function SectionView( {
+    sections, 
+    roleOptions, 
+    tankOptions,
+    extraOptions
+} ) {
     //const visible = roles.filter((role) => roleOptions[role]);
     //const visTanks = tankCombos.filter((combo) => tankOptions[combo]);
     return (
@@ -116,6 +126,7 @@ function SectionView( {sections, roleOptions, tankOptions} ) {
                             section={section}
                             roleOptions={roleOptions}
                             tankOptions={tankOptions}
+                            extraOptions={extraOptions}
                         />
                     </div>
                 );
@@ -124,7 +135,12 @@ function SectionView( {sections, roleOptions, tankOptions} ) {
     );
 }
 
-function PhaseView( {phase, roleOptions, tankOptions} ){
+function PhaseView( {
+    phase, 
+    roleOptions, 
+    tankOptions,
+    extraOptions
+} ){
     return (
         <>
             <h3 id={phase.name.replaceAll(" ", "")}>{phase['name']}</h3>
@@ -132,13 +148,20 @@ function PhaseView( {phase, roleOptions, tankOptions} ){
                 sections={phase['sections']}
                 roleOptions={roleOptions}
                 tankOptions={tankOptions}
+                extraOptions={extraOptions}
             />
         </>
     );
 } 
 
 
-export function EncounterView( {encounter, mitplan, roleOptions, tankOptions}){
+export function EncounterView( {
+    encounter, 
+    mitplan, 
+    roleOptions, 
+    tankOptions,
+    extraOptions
+}){
     console.log(encounters[encounter][mitplan])
     const phases = encounters[encounter][mitplan];
     return (
@@ -150,6 +173,7 @@ export function EncounterView( {encounter, mitplan, roleOptions, tankOptions}){
                         phase={phase}
                         roleOptions={roleOptions}
                         tankOptions={tankOptions}
+                        extraOptions={extraOptions}
                         key={phase['phase']}
                     />
                 );

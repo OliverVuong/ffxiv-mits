@@ -160,14 +160,7 @@
             "SGE":[
               "Zoe",
               "Kerachole"
-            ],
-            "M2":[
-              "Feint"
-            ],
-            "extranotes":{
-              "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
-              "MCH":"Dismantle"
-            }
+            ]
           }
         },
         {
@@ -217,14 +210,12 @@
             "Caster":[
               "Addle"
             ],
-            "extranotes":{
-              "Caster":[
-                "Barrier"
-              ],
-              "Phys Range":[
-                "Dismantle"
-              ]
-            }
+            "RDM":[
+              "Barrier"
+            ],
+            "MCH":[
+              "Dismantle"
+            ]
           }
         },
         {

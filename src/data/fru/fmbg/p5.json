@@ -61,9 +61,13 @@
               "Caster": [
                 "Addle"
               ],
+              "RDM":[
+                "Magick Barrier"
+              ],
+              "MCH":[
+                "Dismantle"
+              ],
               "extranotes": {
-                "MCH": "Dismantle",
-                "RDM": "Barrier",
                 "SGE": "Holos immediately after dodging first exaline"
               }
             }
@@ -333,9 +337,9 @@
               "PRange": [
                 "Party Mit"
               ],
-              "extranotes": {
-                "RDM": "Barrier"
-              }
+              "RDM":[
+                "Magick Barrier"
+              ]
             }
           },
           {
@@ -365,9 +369,9 @@
               "M1": [
                 "Feint"
               ],
-              "extranotes": {
-                "MCH": "Dismantle"
-              }
+              "MCH":[
+                "Dismantle"
+              ]
             }
           },
           {

@@ -4,6 +4,7 @@ import Selectors from './components/Selectors'
 import { EncounterView } from './components/Table'
 import Navigation from './components/Navigation'
 import './App.css'
+import { extrasDefault } from './utils/utils'
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
 
   const [roleView, setRoleView] = useState(defaults);
   const [tankView, setTankView] = useState(tankDefaults);
+  const [extraPicks, setExtraPicks] = useState(extrasDefault);
   const [encounter, setEncounter] = useState('FRU');
   const [mitplan, setMitplan] = useState('fmbg');
 
@@ -63,6 +65,8 @@ function App() {
         setEncounter={setEncounter}
         mitplan={mitplan}
         setMitplan={setMitplan}
+        extraPicks={extraPicks}
+        setExtraPicks={setExtraPicks}
       />
       <RoleCheck
         //roles={roles}
@@ -75,6 +79,7 @@ function App() {
         mitplan={mitplan}
         roleOptions={roleView}
         tankOptions={tankView}
+        extraOptions={extraPicks}
       />
       <Navigation
         encounter={encounter}

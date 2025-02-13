@@ -91,9 +91,9 @@
                 "Macro",
                 "Sun"
               ],
-              "extranotes": {
-                "RDM": "Barrier"
-              }
+              "RDM":[
+                "Magick Barrier"
+              ]
             }
           },
           {
@@ -119,6 +119,9 @@
               ],
               "M2": [
                 "Feint"
+              ],
+              "MCH":[
+                "Dismantle"
               ]
             }
           },

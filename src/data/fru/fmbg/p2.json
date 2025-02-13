@@ -84,6 +84,9 @@
             "Phys Range":[
               "Party Mit"
             ],
+            "RDM":[
+              "Magick Barrier"
+            ],
             "extranotes":{
               "SCH":"Expedience should be used as soon as Frigid Stone prey markers appear",
               "Phys Range":"Samba/Tact/Troub should be used walking in before KB"
@@ -216,9 +219,9 @@
             "Caster":[
               "Addle"
             ],
-            "extranotes":{
-              "MCH":"Dismantle"
-            }
+            "MCH":[
+              "Dismantle"
+            ]
           }
         },
         {
@@ -315,9 +318,9 @@
             "M1":[
               "Feint"
             ],
-            "extranotes":{
-              "RDM": "Barrier"
-            }
+            "RDM":[
+              "Magick Barrier"
+            ]
           }
         },
         {

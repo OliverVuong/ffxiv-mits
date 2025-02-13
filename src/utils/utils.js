@@ -58,6 +58,13 @@ export const tankCombosByPlan = {
   },
 };
 
+export const extras = ['BRD', 'RDM', 'MCH', 'PLD', 'MNK', 'CASTER2'];
+
+export const extrasDefault = {};
+for (const extra of extras) {
+  extrasDefault[extra] = false;
+}
+
 export const isTank = (input) => {
   return tankCombos.includes(input);
 };

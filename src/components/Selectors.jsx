@@ -5,6 +5,44 @@ import { encounters } from "../utils/utils";
 import { mits } from "../utils/utils";
 //import { tankStateDefault } from "../utils/utils";
 import { tankCombosByPlan } from "../utils/utils";
+import { extras } from "../utils/utils";
+
+function Chip({ input, picks, setPicks }) {
+    return (
+        <div className="chip">
+            <button
+                onClick={() => {
+                    let newState = {...picks};
+                    newState[input] = !newState[input];
+                    setPicks(newState)
+                }}
+            >
+                {picks[input] && '✅ '}{input}
+            </button>
+        </div>
+    );
+}
+
+function ExtraMenu({ extraPicks, setExtraPicks }) {
+    return (
+        <fieldset>
+            <legend>Pick Extras</legend>
+            <div>{JSON.stringify(extraPicks)}</div>
+            {
+            extras.map((extra) => {
+                return (
+                    <Chip
+                        key={extra}
+                        input={extra}
+                        picks={extraPicks}
+                        setPicks={setExtraPicks}
+                    />
+                );
+            })
+            }
+        </fieldset>
+    );
+}
 
 function TankPairChip( {pair, tankView, setTankView} ) {
     const mt = pair[0];
@@ -150,7 +188,9 @@ function Selectors({
     encounter,
     setEncounter,
     mitplan,
-    setMitplan
+    setMitplan,
+    extraPicks,
+    setExtraPicks
  }) {
 
     return (
@@ -313,6 +353,10 @@ function Selectors({
             mitplan={mitplan}
             tankView={tankView}
             setTankView={setTankView}
+        />
+        <ExtraMenu 
+            extraPicks={extraPicks}
+            setExtraPicks={setExtraPicks}
         />
     
     </>
