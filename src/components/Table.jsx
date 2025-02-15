@@ -2,6 +2,7 @@
 //import p1 from '../data/fru/p1.json'
 import encounters from '../utils/encounters';
 import { roles, tankCombos, extras } from '../utils/utils';
+import AbilityCard from './AbilityCard';
 
 //const data = JSON.parse(p1);
 
@@ -20,7 +21,17 @@ function Row({ data, visibleRoles }) {
             {visibleRoles.map((role) => {
                 return (
                     <td key={role}>
-                        {role in mitigations ? mitigations[role] : ''}
+                        {role in mitigations ? 
+                        mitigations[role].map((entry) => {
+                            return(
+                                <AbilityCard 
+                                    key={entry}
+                                    input={entry}
+                                />
+                            );
+                        })
+                        : 
+                        ''}
                     </td>
                 );
             })}

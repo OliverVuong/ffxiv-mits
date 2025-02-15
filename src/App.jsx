@@ -5,6 +5,7 @@ import { EncounterView } from './components/Table'
 import Navigation from './components/Navigation'
 import './App.css'
 import { extrasDefault } from './utils/utils'
+import AbilityCard from './components/AbilityCard'
 
 function App() {
 
@@ -52,7 +53,6 @@ function App() {
   const [extraPicks, setExtraPicks] = useState(extrasDefault);
   const [encounter, setEncounter] = useState('FRU');
   const [mitplan, setMitplan] = useState('fmbg');
-
   return (
     <>
       <h1>Timeline</h1>
@@ -73,6 +73,15 @@ function App() {
         roleView={roleView}
         //tankCombos={tankCombos}
         tankView={tankView}
+      />
+      <AbilityCard 
+        input={'reprisal'}
+      />
+      <AbilityCard 
+        input={'Shadowed Vigil'}
+      />
+      <AbilityCard 
+        input={'Shaded viil'}
       />
       <EncounterView 
         encounter={encounter}

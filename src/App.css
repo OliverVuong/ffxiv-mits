@@ -37,6 +37,10 @@
   padding: 2em;
 }
 
+.aCard {
+  display: inline-block;
+}
+
 .read-the-docs {
   color: #888;
 }
