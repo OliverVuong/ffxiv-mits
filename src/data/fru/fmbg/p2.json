@@ -19,7 +19,7 @@
               "Party Mit"
             ],
             "SCH":[
-              "Conit",
+              "Concitation",
               "Soil"
             ],
             "SGE":[
@@ -75,20 +75,20 @@
           "mitigations":{
             "SCH":[
               "Spread-Lo",
-              "Expedience"
+              "Expedient"
             ],
             "SGE":[
               "Zoe EukProg",
               "Holos"
             ],
-            "Phys Range":[
-              "Party Mit"
+            "PRange": [
+              "Range Mit"
             ],
             "RDM":[
               "Magick Barrier"
             ],
             "extranotes":{
-              "SCH":"Expedience should be used as soon as Frigid Stone prey markers appear",
+              "SCH":"Expedient should be used as soon as Frigid Stone prey markers appear",
               "Phys Range":"Samba/Tact/Troub should be used walking in before KB"
             }
           }
@@ -106,7 +106,7 @@
               "Reprisal"
             ],
             "SCH":[
-              "Conit",
+              "Concitation",
               "Soil"
             ],
             "SGE":[
@@ -140,7 +140,7 @@
               "Panhaima"
             ],
             "WHM":[
-              "Temp"
+              "Temperance"
             ],
             "AST":[
               "Neutral",
@@ -203,7 +203,7 @@
               "Reprisal"
             ],
             "SCH":[
-              "Conit",
+              "Concitation",
               "Soil"
             ],
             "SGE":[
@@ -247,8 +247,8 @@
             "AST":[
               "Macro"
             ],
-            "Phys Range":[
-              "Party Mit"
+            "PRange": [
+              "Range Mit"
             ],
             "extranotes":{
               "MCH":"Dismantle"
@@ -262,8 +262,8 @@
           "time":317,
           "mitigations":{
             "SCH":[
-              "Conit",
-              "Expedience",
+              "Concitation",
+              "Expedient",
               "Soil"
             ],
             "SGE":[
@@ -286,8 +286,8 @@
               "Reprisal"
             ],
             "SCH":[
-              "Conit",
-              "Expedience"
+              "Concitation",
+              "Expedient"
             ],
             "SGE":[
               "Holos"
@@ -305,7 +305,7 @@
               "Party Mit"
             ],
             "SCH":[
-              "Conit",
+              "Concitation",
               "Soil"
             ],
             "SGE":[
@@ -333,7 +333,7 @@
               "Party Mit"
             ],
             "SCH":[
-              "Conit",
+              "Concitation",
               "Soil"
             ],
             "SGE":[

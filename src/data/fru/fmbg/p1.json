@@ -32,8 +32,8 @@
             "M1":[
               "Feint"
             ],
-            "Phys Range":[
-              "Party Mit"
+            "PRange": [
+              "Range Mit"
             ],
             "extranotes":{
               "PLD2":"Veil can be used prepull to cover break 1"
@@ -73,7 +73,7 @@
           "time":30,
           "mitigations":{
             "SCH":[
-              "Concit"
+              "Concitation"
             ],
             "SGE":[
               "EukProg",
@@ -153,9 +153,9 @@
           "time":50,
           "mitigations":{
             "SCH":[
-              "Concit",
+              "Concitation",
               "Soil",
-              "Exp"
+              "Expedient"
             ],
             "SGE":[
               "Zoe",
@@ -190,7 +190,7 @@
               "Party Mit"
             ],
             "SCH":[
-              "Soil cont",
+              "Soil co",
               "Spread-Lo"
             ],
             "SGE":[
@@ -225,7 +225,7 @@
           "time":105,
           "mitigations":{
             "SCH":[
-              "Fey Ilum",
+              "Fey Illum",
               "Seraph",
               "Seraphism"
             ],
@@ -248,12 +248,12 @@
           "time":111,
           "mitigations":{
             "SCH":[
-              "Fey Ilum cont",
+              "Fey Illum co",
               "Consolation",
               "Soil"
             ],
             "SGE":[
-              "Kera",
+              "Kerachole",
               "Sophia"
             ],
             "WHM":[
@@ -263,8 +263,8 @@
               "Neutral",
               "Sun"
             ],
-            "Phys Ranged":[
-              "Party Mit"
+            "PRange": [
+              "Range Mit"
             ]
           }
         },
@@ -281,16 +281,16 @@
               "Rep"
             ],
             "SCH":[
-              "Fey Ilum cont",
-              "Concit",
-              "Soil cont"
+              "Fey Illum co",
+              "Concitation",
+              "Soil co"
             ],
             "SGE":[
               "EukProg",
-              "Kera"
+              "Kerachole"
             ],
             "WHM":[
-              "Temperance cont",
+              "Temperance co",
               "Caress"
             ],
             "AST":[
@@ -299,8 +299,8 @@
             "M1":[
               "Feint"
             ],
-            "Phys Ranged":[
-              "Party Mit"
+            "PRange": [
+              "Range Mit"
             ],
             "extranotes":{
               

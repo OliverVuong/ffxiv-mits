@@ -17,7 +17,7 @@
                 "Party Mit"
               ],
               "SCH": [
-                "Conitation",
+                "Concitation",
                 "Soil"
               ],
               "SGE": [
@@ -60,7 +60,7 @@
                 "Neutral"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
               ],
               "Caster": [
                 "Addle"
@@ -77,7 +77,7 @@
                 "Reprisal"
               ],
               "SCH": [
-                "Conitation",
+                "Concitation",
                 "Seraphism"
               ],
               "SGE": [
@@ -112,7 +112,7 @@
                 "Soil"
               ],
               "SGE": [
-                "Kera"
+                "Kerachole"
               ],
               "AST": [
                 "CU"
@@ -135,7 +135,7 @@
                 "Reprisal"
               ],
               "SCH": [
-                "Conitation",
+                "Concitation",
                 "Soil"
               ],
               "SGE": [
@@ -234,7 +234,7 @@
                 "Party Mit"
               ],
               "SCH": [
-                "Conitation",
+                "Concitation",
                 "Soil"
               ],
               "SGE": [
@@ -268,12 +268,12 @@
                 "Reprisal"
               ],
               "SCH": [
-                "Conitation",
+                "Concitation",
                 "Soil"
               ],
               "SGE": [
                 "Holos",
-                "Kera"
+                "Kerachole"
               ],
               "WHM": [
                 "Temperance"

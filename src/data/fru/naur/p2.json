@@ -109,7 +109,7 @@
                 "Reprisal"
               ],
               "SCH":[
-                "Conit",
+                "Concit",
                 "Soil"
               ],
               "SGE":[
@@ -144,7 +144,7 @@
               "SCH":[
                 "Seraph",
                 "Seraphism",
-                "Fey"
+                "Fey Illum"
               ],
               "SGE":[
                 "Holos"
@@ -322,7 +322,7 @@
             "time":262,
             "mitigations":{
               "SCH":[
-                "Conit",
+                "Concit",
                 "Soil"
               ],
               "SGE":[
