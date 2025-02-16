@@ -75,7 +75,7 @@ function App() {
         tankView={tankView}
       />
       <AbilityCard 
-        input={'reprisal'}
+        input={'Reprisal'}
       />
       <AbilityCard 
         input={'Shadowed Vigil'}

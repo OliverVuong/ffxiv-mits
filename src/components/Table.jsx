@@ -5,6 +5,21 @@ import { roles, tankCombos, extras } from '../utils/utils';
 import AbilityCard from './AbilityCard';
 
 //const data = JSON.parse(p1);
+function Cell({mitigations, role}) {
+    return(
+        <div className='cell'>
+            {mitigations[role].map((entry) => {
+                return(
+                    <AbilityCard 
+                        key={entry}
+                        input={entry}
+                    />
+                );
+            })}
+        </div>
+    );
+}
+
 
 function Row({ data, visibleRoles }) {
 
@@ -16,20 +31,24 @@ function Row({ data, visibleRoles }) {
 
     return (
         <tr>
-            <th>{name}</th>
-            <td>{time}</td>
+            <th className='row-header'>{name}</th>
+            <td className='time-td'>{time}</td>
             {visibleRoles.map((role) => {
                 return (
-                    <td key={role}>
+                    <td key={role} className='container'>
                         {role in mitigations ? 
-                        mitigations[role].map((entry) => {
+                        <Cell 
+                            mitigations={mitigations}
+                            role={role}
+                        />
+                        /*mitigations[role].map((entry) => {
                             return(
                                 <AbilityCard 
                                     key={entry}
                                     input={entry}
                                 />
                             );
-                        })
+                        })*/
                         : 
                         ''}
                     </td>
@@ -99,11 +118,12 @@ function TableView( {
         <table>
             <tbody>
                 <tr>
-                    <th></th>
-                    <th>Time</th>
+                    <th className='name-header'></th>
+                    <th className='time'>Time</th>
                     {visible.map((val) => {
-                        return <th key={val}>{val}</th>;
+                        return <th key={val} className={val}>{val}</th>;
                     })}
+                    <th></th>
                 </tr>
                 {table.map((row) => {
                     return (
