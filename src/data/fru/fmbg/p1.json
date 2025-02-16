@@ -35,6 +35,9 @@
             "PRange": [
               "Range Mit"
             ],
+            "CASTER2":[
+              "Addle"
+            ],
             "extranotes":{
               "PLD2":"Veil can be used prepull to cover break 1"
             }
@@ -213,8 +216,17 @@
             "RDM":[
               "Barrier"
             ],
+            "PLD":[
+              "Wings"
+            ],
+            "BRD":[
+              "Natures Minne"
+            ],
             "MCH":[
               "Dismantle"
+            ],
+            "MNK":[
+              "Mantra"
             ]
           }
         },
@@ -301,6 +313,9 @@
             ],
             "PRange": [
               "Range Mit"
+            ],
+            "CASTER2":[
+              "Addle"
             ],
             "extranotes":{
               

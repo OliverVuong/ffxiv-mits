@@ -64,6 +64,9 @@
               ],
               "Caster": [
                 "Addle"
+              ],
+              "MNK":[
+                "Mantra"
               ]
             }
           },
@@ -93,6 +96,9 @@
               ],
               "RDM":[
                 "Magick Barrier"
+              ],
+              "BRD":[
+                "Natures Minne"
               ]
             }
           },
@@ -120,8 +126,8 @@
               "M2": [
                 "Feint"
               ],
-              "MCH":[
-                "Dismantle"
+              "CASTER2":[
+                "Addle"
               ]
             }
           },
@@ -144,6 +150,9 @@
               ],
               "M2": [
                 "Feint"
+              ],
+              "MCH":[
+                "Dismantle"
               ],
               "extranotes": {
                 "MCH": "Dismantle"
@@ -220,6 +229,9 @@
               ],
               "SGE": [
                 "EukProg"
+              ],
+              "MNK":[
+                "Mantra"
               ]
             }
           },
@@ -286,6 +298,9 @@
               ],
               "Caster": [
                 "Addle"
+              ],
+              "PLD":[
+                "Wings"
               ],
               "extranotes": {
                 "SGE": "Early Holos"

@@ -13,6 +13,10 @@ const addleCO = {
   name: '↪Addle',
   img: images[1].default,
 };
+const addleG = {
+  name: 'Addle',
+  img: images[1].default,
+};
 const feint = {
   name: 'Feint',
   img: images[2].default,
@@ -64,6 +68,7 @@ const reprisalG = {
 
 const rolesMap = {
   Addle: addle,
+  'Addle grey': addleG,
   addleCO,
   Feint: feint,
   feintCO,

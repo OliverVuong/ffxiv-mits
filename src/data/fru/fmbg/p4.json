@@ -35,6 +35,9 @@
               ],
               "MCH":[
                 "Dismantle"
+              ],
+              "CASTER2":[
+                "Addle"
               ]
             }
           },
@@ -200,6 +203,9 @@
               "PRange": [
                 "Party Mit"
               ],
+              "MNK":[
+                "Mantra"
+              ],
               "extranotes": {
                 "SGE": "Kera/Soil should be used after 2nd somber",
                 "SCH": "Kera/Soil should be used after 2nd somber"
@@ -234,6 +240,9 @@
               ],
               "Caster": [
                 "Addle (Gaia)"
+              ],
+              "BRD":[
+                "Natures Minne"
               ]
             }
           },
@@ -452,8 +461,14 @@
               "RDM":[
                 "Magick Barrier"
               ],
+              "CASTER2":[
+                "Addle"
+              ],
               "MCH":[
                 "Dismantle"
+              ],
+              "MNK":[
+                "Mantra"
               ]
             }
           }

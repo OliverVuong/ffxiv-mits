@@ -28,6 +28,12 @@
               ],
               "M1": [
                 "Feint"
+              ],
+              "CASTER2":[
+                "Addle"
+              ],
+              "PLD":[
+                "Wings"
               ]
             }
           },
@@ -161,6 +167,12 @@
               ],
               "PRange": [
                 "Party Mit"
+              ],
+              "BRD":[
+                "Natures Minne"
+              ],
+              "MNK":[
+                "Mantra"
               ]
             }
           },
@@ -217,6 +229,9 @@
               ],
               "M1": [
                 "Feint"
+              ],
+              "CASTER2":[
+                "Addle"
               ]
             }
           },
@@ -340,6 +355,12 @@
               ],
               "RDM":[
                 "Magick Barrier"
+              ],
+              "BRD":[
+                "Natures Minne"
+              ],
+              "MNK":[
+                "Mantra"
               ]
             }
           },
@@ -370,8 +391,14 @@
               "M1": [
                 "Feint"
               ],
+              "CASTER2":[
+                "Addle"
+              ],
               "MCH":[
                 "Dismantle"
+              ],
+              "PLD":[
+                "Wings"
               ]
             }
           },

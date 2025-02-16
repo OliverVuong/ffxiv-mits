@@ -87,6 +87,12 @@
             "RDM":[
               "Magick Barrier"
             ],
+            "BRD":[
+              "Natures Minne"
+            ],
+            "MNK":[
+              "Mantra"
+            ],
             "extranotes":{
               "SCH":"Expedient should be used as soon as Frigid Stone prey markers appear",
               "Phys Range":"Samba/Tact/Troub should be used walking in before KB"
@@ -116,8 +122,11 @@
             "M1":[
               "Feint"
             ],
-            "Caster":[
+            "CASTER2":[
               "Addle"
+            ],
+            "PLD":[
+              "Wings"
             ],
             "extranotes":{
               "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
@@ -175,10 +184,10 @@
               "Sun Sign"
             ],
             "M2":[
-              "Feint"
+              "Feint grey"
             ],
             "Caster":[
-              "Addle"
+              "Addle grey"
             ],
             "extranotes":{
               "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
@@ -221,6 +230,9 @@
             ],
             "MCH":[
               "Dismantle"
+            ],
+            "MNK":[
+              "Mantra"
             ]
           }
         },
@@ -320,6 +332,9 @@
             ],
             "RDM":[
               "Magick Barrier"
+            ],
+            "CASTER2":[
+              "Addle"
             ]
           }
         },
@@ -342,6 +357,9 @@
             ],
             "AST":[
               "CU"
+            ],
+            "PLD":[
+              "Wings"
             ]
           }
         }

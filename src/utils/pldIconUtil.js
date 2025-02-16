@@ -27,7 +27,7 @@ const intervention = {
 };
 const passageofarms = {
   name: 'Wings',
-  img: images[4].default,
+  img: images[5].default,
 };
 
 const pldMap = {
