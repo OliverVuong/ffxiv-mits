@@ -6,6 +6,7 @@ import { mits } from "../utils/utils";
 //import { tankStateDefault } from "../utils/utils";
 import { tankCombosByPlan } from "../utils/utils";
 import { extras } from "../utils/utils";
+import { MtCard, OtCard } from "./TankCard";
 
 function Chip({ input, picks, setPicks }) {
     return (
@@ -69,13 +70,15 @@ function TankPairChip( {pair, tankView, setTankView} ) {
                 className="left"
                 onClick={()=> updateTankView(mt, ot)}
             >
-                {tankView[mt] && '✅ '}{mt}
+                {tankView[mt] && '✅ '}
+                <MtCard input={mt} />
             </button>
             <button 
                 className="right"
                 onClick={()=> updateTankView(ot, mt)}
             >
-                {ot}{tankView[ot] && '✅ '}
+                <OtCard input={ot} />
+                {tankView[ot] && '✅ '}
             </button>
         </div>
     );
