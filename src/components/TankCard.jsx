@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import jobMap from "../utils/jobIconUtil";
+//import jobMap from "../utils/jobIconUtil";
+import jobAltMap from "../utils/jobAltIconUtil";
 
 export function MtCard({input}) {
     let output = <div>ability card for: {input}</div>;
@@ -8,8 +9,9 @@ export function MtCard({input}) {
         output = <span className="jCard">
             <span>{job}</span>
             <img 
-                src={jobMap[job].img}
+                src={jobAltMap[job].img}
                 alt={`Icon for ${job}`}
+                className="alt"
             />
         </span>
     } catch {
@@ -25,8 +27,9 @@ export function OtCard({input}) {
     try {
         output = <span className="jCard">
             <img 
-                src={jobMap[job].img}
+                src={jobAltMap[job].img}
                 alt={`Icon for ${job}`}
+                className="alt"
             />
             <span>{job}</span>
         </span>

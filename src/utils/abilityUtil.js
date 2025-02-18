@@ -8,7 +8,7 @@ import sgeMap from './sgeIconUtil';
 import whmMap from './whmIconUtil';
 import astMap from './astIconUtil';
 
-import rolesMap from './roleIconUtil';
+import rolesAbilityMap from './roleAbilityIconUtil';
 import extrasMap from './extraIconUtil';
 
 const abilityMap = {
@@ -20,7 +20,7 @@ const abilityMap = {
   ...sgeMap,
   ...whmMap,
   ...astMap,
-  ...rolesMap,
+  ...rolesAbilityMap,
   ...extrasMap,
 };
 

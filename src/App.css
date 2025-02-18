@@ -76,6 +76,11 @@ table {
   text-align: center;
 }
 
+img.alt{
+  height: 28px;
+  width: 28;
+}
+
 .read-the-docs {
   color: #888;
 }

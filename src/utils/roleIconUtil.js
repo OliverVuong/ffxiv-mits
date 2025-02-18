@@ -1,118 +1,41 @@
 const images = Object.values(
   import.meta.glob(
-    '../assets/icons/abilities/roles/*.{png,jpg,jpeg,PNG,JPEG}',
+    '../assets/icons/roles/*.{webp,png,jpg,jpeg,PNG,JPEG}',
     { eager: true, query: 'url' }
   )
 );
 
-const addle = {
-  name: 'Addle',
+const caster = {
+  name: 'caster',
   img: images[0].default,
 };
-const addleCO = {
-  name: '↪Addle',
+const healer = {
+  name: 'Healer',
   img: images[1].default,
 };
-const addleG = {
-  name: 'Addle',
-  img: images[1].default,
-};
-const feint = {
-  name: 'Feint',
+const melee = {
+  name: 'Melee',
   img: images[2].default,
 };
-const feintCO = {
-  name: '↪Feint',
+const range = {
+  name: 'Range',
   img: images[3].default,
 };
-const feintG = {
-  name: 'Feint',
-  img: images[3].default,
-};
-const partymit = {
-  name: 'Party Mit',
+const tank = {
+  name: 'Tank',
   img: images[4].default,
-};
-const partymitCO = {
-  name: '↪Party Mit',
-  img: images[5].default,
-};
-const rampart = {
-  name: 'Rampart',
-  img: images[6].default,
-};
-const rampartCO = {
-  name: '↪Rampart',
-  img: images[7].default,
-};
-const rangemit = {
-  name: 'Range Mit',
-  img: images[8].default,
-};
-const rangemitCO = {
-  name: '↪Range Mit',
-  img: images[9].default,
-};
-const reprisal = {
-  name: 'Reprisal',
-  img: images[10].default,
-};
-const reprisalCO = {
-  name: '↪Reprisal',
-  img: images[11].default,
-};
-const reprisalG = {
-  name: 'Reprisal',
-  img: images[11].default,
 };
 
 const rolesMap = {
-  Addle: addle,
-  'Addle grey': addleG,
-  addleCO,
-  Feint: feint,
-  feintCO,
-  'Feint grey': feintG,
-  'Party Mit': partymit,
-  partymitCO,
-  Rampart: rampart,
-  rampartCO,
-  'Range Mit': rangemit,
-  rangemitCO,
-  Rep: reprisal,
-  Reprisal: reprisal,
-  'Reprisal grey': reprisalG,
-  reprisalCO,
+  caster,
+  CASTER2: caster,
+  H1: healer,
+  H2: healer,
+  M1: melee,
+  M2: melee,
+  T1: tank,
+  T2: tank,
+  PRange: range,
 };
 
 export default rolesMap;
-
-/*
-import reprisalImg from '../assets/icons/abilities/reprisal.png';
-import vigilImg from '../assets/icons/abilities/shadowedvigil.png';
-import partyImg from '../assets/icons/abilities/partymit.png';
-import rangemitImg from '../assets/icons/abilities/rangemit.png';
-
-
-const reprisal = {
-  name: 'Reprisal',
-  img: reprisalImg,
-};
-
-reprisal,
-Reprisal: reprisal,
-Rep: reprisal,
-'Shadowed Vigil': {
-  name: 'Shadowed Vigil',
-  img: vigilImg,
-},
-'Party Mit': {
-  name: 'Party Mit',
-  img: partyImg,
-},
-
-'Range Mit': {
-  name: 'Range Mit',
-  img: rangemitImg,
-},
-*/
