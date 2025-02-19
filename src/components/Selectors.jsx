@@ -7,6 +7,7 @@ import { mits } from "../utils/utils";
 import { tankCombosByPlan } from "../utils/utils";
 import { extras } from "../utils/utils";
 import { MtCard, OtCard } from "./TankCard";
+import extrasSelectorMap from "../utils/extraMenuUtil";
 
 function Chip({ input, picks, setPicks }) {
     return (
@@ -18,7 +19,100 @@ function Chip({ input, picks, setPicks }) {
                     setPicks(newState)
                 }}
             >
-                {picks[input] && '✅ '}{input}
+                <span className="check">{picks[input] && '🗸 '}</span>
+                <span className="descriptor">{input}</span>
+                
+                {/*'✅ ✓ ✔ '*/}
+            </button>
+        </div>
+    );
+}
+
+function RoleMenu({ roleView, setRoleView }) {
+    return(
+        <fieldset className="menu roles">
+            <legend>Roles</legend>
+            {/* <div > */}
+                <div className="container roles tanks">
+                    <Chip 
+                        input="T1" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                    <Chip 
+                        input="T2" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                </div>
+                <div className="container roles healers">
+                    <Chip 
+                        input="SCH" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                    <Chip 
+                        input="SGE" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                    <Chip 
+                        input="WHM" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                    <Chip 
+                        input="AST" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                </div>
+                <div className="container roles dps">
+                    <Chip 
+                        input="M1" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                    <Chip 
+                        input="M2" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                    <Chip 
+                        input="PRange" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                    <Chip 
+                        input="Caster" 
+                        picks={roleView}
+                        setPicks={setRoleView}
+                    />
+                </div>
+            {/* </div> */}
+        </fieldset>
+    );
+}
+
+function ExtraChip( { input, extraPicks, setExtraPicks } ){
+    const imgCode = extraPicks[input] ? input : input + 'G';
+    return (
+        <div className="extra-chip">
+            <button
+                onClick={() => {
+                    let newState = {...extraPicks};
+                    newState[input] = !newState[input];
+                    setExtraPicks(newState)
+                }}
+            >
+                <img 
+                    src={extrasSelectorMap[imgCode].img}
+                    alt={`Icon for ${input}`}
+                    className="extra-icon"
+                />
+                <div >{extrasSelectorMap[input].name}</div>
+                
+                {/*'✅ ✓ ✔ '*/}
             </button>
         </div>
     );
@@ -32,12 +126,19 @@ function ExtraMenu({ extraPicks, setExtraPicks }) {
             {
             extras.map((extra) => {
                 return (
-                    <Chip
+                    <ExtraChip
+                        key={extra}
+                        input={extra}
+                        extraPicks={extraPicks}
+                        setExtraPicks={setExtraPicks}
+                    />
+                    /* <Chip
                         key={extra}
                         input={extra}
                         picks={extraPicks}
                         setPicks={setExtraPicks}
-                    />
+                    /> */
+                    
                 );
             })
             }
@@ -70,15 +171,15 @@ function TankPairChip( {pair, tankView, setTankView} ) {
                 className="left"
                 onClick={()=> updateTankView(mt, ot)}
             >
-                {tankView[mt] && '✅ '}
-                <MtCard input={mt} />
+                {/* tankView[mt] && '✅ ' */}
+                <MtCard input={mt} isActive={tankView[mt]}/>
             </button>
             <button 
                 className="right"
                 onClick={()=> updateTankView(ot, mt)}
             >
-                <OtCard input={ot} />
-                {tankView[ot] && '✅ '}
+                <OtCard input={ot}  isActive={tankView[ot]}/>
+                {/* tankView[ot] && '✅ ' */}
             </button>
         </div>
     );
@@ -92,18 +193,20 @@ function TankMenu( {
 }){
     return(
         <fieldset>
-            <legend>Choose Tankbuster Mitigations</legend>
-            <div>{JSON.stringify(tankView)}</div>
-            {tankCombosByPlan[encounter][mitplan].map((pair) => {
-                return(
-                    <TankPairChip 
-                        key={pair[0]+pair[1]}
-                        pair={pair}
-                        tankView={tankView}
-                        setTankView={setTankView}
-                    />
-                );
-            })}
+            <legend>Tankbusters</legend>
+            {/* <div>{JSON.stringify(tankView)}</div> */}
+            <div className="menu tanks">
+                {tankCombosByPlan[encounter][mitplan].map((pair) => {
+                    return(
+                        <TankPairChip 
+                            key={pair[0]+pair[1]}
+                            pair={pair}
+                            tankView={tankView}
+                            setTankView={setTankView}
+                        />
+                    );
+                })}
+            </div>
         </fieldset>
     );
 }
@@ -197,7 +300,7 @@ function Selectors({
  }) {
 
     return (
-    <>
+    <div className="selectors">
         <EncounterSelector 
             setEncounter={setEncounter}
         />
@@ -205,8 +308,27 @@ function Selectors({
             encounter={encounter}
             mitplan={mitplan}
             setMitplan={setMitplan}
+        />
+        <div className="container mits">
+            <RoleMenu 
+                roleView={roleView}
+                setRoleView={setRoleView}
             />
-        <fieldset>
+            <TankMenu 
+                encounter={encounter}
+                mitplan={mitplan}
+                tankView={tankView}
+                setTankView={setTankView}
+            />
+        </div>
+        
+        <ExtraMenu 
+            extraPicks={extraPicks}
+            setExtraPicks={setExtraPicks}
+        />
+    </div>)
+
+        /*<fieldset>
             <legend>Choose your tank roles</legend>
             <Checkbox 
                 role="T1" 
@@ -266,8 +388,8 @@ function Selectors({
                 view={roleView}
                 setView={setRoleView}
             />
-        </fieldset>
-        {
+        </fieldset>*/
+        
         /*
         <div>
             <fieldset>
@@ -350,19 +472,8 @@ function Selectors({
             </fieldset>
         </div>
         */
-        }
-        <TankMenu 
-            encounter={encounter}
-            mitplan={mitplan}
-            tankView={tankView}
-            setTankView={setTankView}
-        />
-        <ExtraMenu 
-            extraPicks={extraPicks}
-            setExtraPicks={setExtraPicks}
-        />
     
-    </>
+    
         /* <ul>
             {roles.map((role) => {
                 return (
@@ -376,7 +487,7 @@ function Selectors({
                 );
             })}
         </ul> */
-    )
+    
 }
 
 export default Selectors

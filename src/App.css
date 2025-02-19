@@ -2,7 +2,8 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  /*text-align: center;*/
+  color: white;
+  background-color: #121212;
 }
 
 .logo {
@@ -76,9 +77,126 @@ table {
   text-align: center;
 }
 
-img.alt{
+.container.mits {
+  display: grid;
+  grid-template-columns: 650px 600px;
+}
+
+/* role menu */
+fieldset {
+  border-radius: 25px;
+}
+legend {
+  margin: auto;
+  padding: 0 8px;
+}
+.menu.roles{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+}
+.container.roles{
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+  justify-content: center;
+  align-items: center;
+}
+.roles > .chip > button {
+  width: 150px;
+  height: 50px;
+  padding: 5px 5px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.tanks > .chip > button {
+  border-color: #2D3A80;
+  border-width: 3px;
+  color: white;
+  /* background-color: #545E99; */
+  background-color: #121212;
+}
+.healers > .chip > button {
+  border-color: #346624;
+  border-width: 3px;
+  color: white;
+  /* background-color: #548046; */
+  background-color: #121212;
+}
+.dps > .chip > button {
+  border-color: #732828;
+  border-width: 3px;
+  color: white;
+  /* background-color: #8C4D4D; */
+  background-color: #121212;
+}
+.check, .descriptor, .icon {
+  text-align: center;
+  margin: auto;
+}
+
+.selectors {
+  position: relative;
+}
+.selectors::after {
+  position: absolute;
+  border-radius: 25px;
+  inset: 0;
+  background: #FFFFFF;
+  content: '';
+  opacity: 5%;
+  pointer-events: none;
+}
+
+/* Tankbusters menu */
+.menu.tanks {
+  /* padding-top: 10px; */
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-columns: 300px 300px;
+  grid-auto-columns: 300px;
+  grid-auto-flow: column;
+  /* justify-content: center; */
+  /* align-content: center; */
+  justify-items: center;
+  align-items: center;
+}
+
+.tankpair.chip {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* margin: auto; */
+  /* width: 300px; */
+}
+
+.tankpair > button {
+  width: 145px;
+  height: 50px;
+  display: inline-grid;
+  grid-template-columns: 35px 35px 35px;
+}
+
+.tankpair > button.left {
+  justify-content: end;
+}
+
+.tankpair > button.right {
+  /* justify-content: stretch; */
+}
+
+img.icon{
   height: 28px;
-  width: 28;
+  width: 28px;
+}
+
+button.left{
+  border-radius: 25px 0 0 25px;
+}
+
+button.right{
+  border-radius: 0 25px 25px 0;
 }
 
 .read-the-docs {

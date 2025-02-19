@@ -2,18 +2,19 @@
 //import jobMap from "../utils/jobIconUtil";
 import jobAltMap from "../utils/jobAltIconUtil";
 
-export function MtCard({input}) {
+export function MtCard({input, isActive}) {
     let output = <div>ability card for: {input}</div>;
     let job = input.slice(-3);
     try {
-        output = <span className="jCard">
-            <span>{job}</span>
+        output = <>
+            <span className="check">{isActive && '🗸 '}</span>
+            <span className="descriptor">{job + ' '} </span>
             <img 
                 src={jobAltMap[job].img}
                 alt={`Icon for ${job}`}
-                className="alt"
+                className="icon"
             />
-        </span>
+        </>
     } catch {
         output = <span className="aCard">{input}</span>;
     }
@@ -21,18 +22,19 @@ export function MtCard({input}) {
     return output;
 }
 
-export function OtCard({input}) {
+export function OtCard({input, isActive}) {
     let output = <div>ability card for: {input}</div>;
     let job = input.slice(-3);
     try {
-        output = <span className="jCard">
+        output = <>
             <img 
                 src={jobAltMap[job].img}
                 alt={`Icon for ${job}`}
-                className="alt"
+                className="icon"
             />
-            <span>{job}</span>
-        </span>
+            <span className="descriptor">{job}</span>
+            <span className="check">{isActive && '🗸 '}</span>
+        </>
     } catch {
         output = <span className="aCard">{input}</span>;
     }
