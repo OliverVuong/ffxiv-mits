@@ -120,9 +120,9 @@ function ExtraChip( { input, extraPicks, setExtraPicks } ){
 
 function ExtraMenu({ extraPicks, setExtraPicks }) {
     return (
-        <fieldset>
+        <fieldset className="extra-menu">
             <legend>Pick Extras</legend>
-            <div>{JSON.stringify(extraPicks)}</div>
+            {/* <div>{JSON.stringify(extraPicks)}</div> */}
             {
             extras.map((extra) => {
                 return (
