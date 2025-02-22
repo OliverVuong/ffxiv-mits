@@ -117,6 +117,9 @@ legend {
   /* background-color: #545E99; */
   background-color: #121212;
 }
+.tanks > .chip.active > button {
+  background-color: #545E99;
+}
 .healers > .chip > button {
   border-color: #346624;
   border-width: 3px;
@@ -124,6 +127,10 @@ legend {
   /* background-color: #548046; */
   background-color: #121212;
 }
+.healers > .chip.active > button {
+  background-color: #548046
+}
+
 .dps > .chip > button {
   border-color: #732828;
   border-width: 3px;
@@ -131,6 +138,10 @@ legend {
   /* background-color: #8C4D4D; */
   background-color: #121212;
 }
+.dps > .chip.active > button {
+  background-color: #8C4D4D;
+}
+
 .check, .descriptor, .icon {
   text-align: center;
   margin: auto;
@@ -179,11 +190,18 @@ legend {
 }
 
 .tankpair > button.left {
-  justify-content: end;
+  padding: 0;
+  justify-content: center;
 }
-
+.tankpair > button.left.active{
+  background-color: #545E99;
+}
 .tankpair > button.right {
-  /* justify-content: stretch; */
+  padding: 0;
+  justify-content: center;
+}
+.tankpair > button.right.active {
+  background-color: #545E99;
 }
 
 img.icon{
@@ -209,10 +227,24 @@ button.right{
 
 .extra-chip > button {
   width: 110px;
-  height: 130px;
+  height: 140px;
   background-color: #121212;
   color: white;
   display: grid;
+  grid-template-rows: 80px 50px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.extra-chip > button > .text {
+  align-self: start;
+}
+
+.extra-icon:hover {
+  border: #EBE6C1 3px solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 5px #ebe6c12c;
 }
 
 .read-the-docs {

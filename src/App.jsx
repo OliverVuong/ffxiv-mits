@@ -68,7 +68,7 @@ function App() {
         extraPicks={extraPicks}
         setExtraPicks={setExtraPicks}
       />
-      <RoleCheck
+      {/* <RoleCheck
         //roles={roles}
         roleView={roleView}
         //tankCombos={tankCombos}
@@ -82,7 +82,7 @@ function App() {
       />
       <AbilityCard 
         input={'Shaded viil'}
-      />
+      /> */}
       <EncounterView 
         encounter={encounter}
         mitplan={mitplan}

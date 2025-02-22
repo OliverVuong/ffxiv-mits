@@ -11,7 +11,7 @@ import extrasSelectorMap from "../utils/extraMenuUtil";
 
 function Chip({ input, picks, setPicks }) {
     return (
-        <div className="chip">
+        <div className={picks[input] ? 'chip active' : 'chip'}>
             <button
                 onClick={() => {
                     let newState = {...picks};
@@ -110,7 +110,7 @@ function ExtraChip( { input, extraPicks, setExtraPicks } ){
                     alt={`Icon for ${input}`}
                     className="extra-icon"
                 />
-                <div >{extrasSelectorMap[input].name}</div>
+                <div className="text">{extrasSelectorMap[input].name}</div>
                 
                 {/*'✅ ✓ ✔ '*/}
             </button>
@@ -168,14 +168,14 @@ function TankPairChip( {pair, tankView, setTankView} ) {
     return(
         <div className="tankpair chip">
             <button 
-                className="left"
+                className={tankView[mt] ? "left active" : "left"}
                 onClick={()=> updateTankView(mt, ot)}
             >
                 {/* tankView[mt] && '✅ ' */}
                 <MtCard input={mt} isActive={tankView[mt]}/>
             </button>
             <button 
-                className="right"
+                className={tankView[ot] ? "right active" : "right"}
                 onClick={()=> updateTankView(ot, mt)}
             >
                 <OtCard input={ot}  isActive={tankView[ot]}/>

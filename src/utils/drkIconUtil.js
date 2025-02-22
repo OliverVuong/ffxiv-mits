@@ -6,11 +6,11 @@ const images = Object.values(
 );
 
 const darkmind = {
-  name: 'Dark Mind',
+  name: 'DM',
   img: images[0].default,
 };
 const livingdead = {
-  name: 'Living Dead',
+  name: 'LD',
   img: images[1].default,
 };
 const oblation = {
@@ -18,7 +18,7 @@ const oblation = {
   img: images[2].default,
 };
 const shadowedvigil = {
-  name: 'Shadowed Vigil',
+  name: 'Vigil',
   img: images[3].default,
 };
 const theblackestnight = {
