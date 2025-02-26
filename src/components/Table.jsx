@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 //import p1 from '../data/fru/p1.json'
 import encounters from '../utils/encounters';
-import { roles, tankCombos, extras } from '../utils/utils';
+import { roles, tankCombos, extras, displayNameMap } from '../utils/utils';
 import AbilityCard from './AbilityCard';
 
 //const data = JSON.parse(p1);
@@ -121,7 +121,7 @@ function TableView( {
                     <th className='name-header'></th>
                     <th className='time'>Time</th>
                     {visible.map((val) => {
-                        return <th key={val} className={val}>{val}</th>;
+                        return <th key={val} className={val}>{displayNameMap[val]} </th>;
                     })}
                     <th></th>
                 </tr>
@@ -152,7 +152,7 @@ function SectionView( {
             {sections.map((section) => {
                 return (
                     <div key={section['id']}>
-                        {section['sectionName'] && <h3>{section['sectionName']}</h3>}
+                        {section['sectionName'] && <h3 className='section-header'>{section['sectionName']}</h3>}
                         <TableView 
                             section={section}
                             roleOptions={roleOptions}
@@ -174,7 +174,12 @@ function PhaseView( {
 } ){
     return (
         <>
-            <h3 id={phase.name.replaceAll(" ", "")}>{phase['name']}</h3>
+            <h3 
+                id={phase.name.replaceAll(" ", "")}
+                className='phase-header'
+            >
+                {phase['name']}
+            </h3>
             <SectionView
                 sections={phase['sections']}
                 roleOptions={roleOptions}
@@ -197,7 +202,7 @@ export function EncounterView( {
     const phases = encounters[encounter][mitplan];
     return (
         <>
-            <h2>{mitplan} {encounter}</h2>
+            {/* <h2 className='mitplan-encounter-header'>{mitplan} {encounter}</h2> */}
             {phases.map((phase) => {
                 return (
                     <PhaseView 

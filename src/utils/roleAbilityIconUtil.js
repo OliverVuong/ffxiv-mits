@@ -29,41 +29,49 @@ const feintG = {
   name: 'Feint',
   img: images[3].default,
 };
+const kitchensink = {
+  name: 'Everything',
+  img: images[4].default,
+};
+const limitbreak = {
+  name: 'LB',
+  img: images[5].default,
+};
 const partymit = {
   name: 'Party Mit',
-  img: images[4].default,
+  img: images[6].default,
 };
 const partymitCO = {
   name: '↪Party Mit',
-  img: images[5].default,
+  img: images[7].default,
 };
 const rampart = {
   name: 'Rampart',
-  img: images[6].default,
+  img: images[8].default,
 };
 const rampartCO = {
   name: '↪Rampart',
-  img: images[7].default,
+  img: images[9].default,
 };
 const rangemit = {
   name: 'Range Mit',
-  img: images[8].default,
+  img: images[10].default,
 };
 const rangemitCO = {
   name: '↪Range Mit',
-  img: images[9].default,
+  img: images[11].default,
 };
 const reprisal = {
   name: 'Reprisal',
-  img: images[10].default,
+  img: images[12].default,
 };
 const reprisalCO = {
   name: '↪Reprisal',
-  img: images[11].default,
+  img: images[13].default,
 };
 const reprisalG = {
   name: 'Reprisal',
-  img: images[11].default,
+  img: images[13].default,
 };
 
 const rolesAbilityMap = {
@@ -73,6 +81,8 @@ const rolesAbilityMap = {
   Feint: feint,
   feintCO,
   'Feint grey': feintG,
+  'Kitchen Sink': kitchensink,
+  'Tank LB': limitbreak,
   'Party Mit': partymit,
   partymitCO,
   Rampart: rampart,

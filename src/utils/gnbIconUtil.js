@@ -21,8 +21,12 @@ const heartofcorrundum = {
   name: 'HoC',
   img: images[3].default,
 };
+const heartofcorrundumB = {
+  name: 'BuddyHoC',
+  img: images[3].default,
+};
 const superbolide = {
-  name: 'Superbolide',
+  name: 'Bolide',
   img: images[4].default,
 };
 
@@ -31,6 +35,7 @@ const gnbMap = {
   Camo: camouflage,
   'Great Nebula': greatnebula,
   HoC: heartofcorrundum,
+  'HoC Buddy': heartofcorrundumB,
   Superbolide: superbolide,
 };
 

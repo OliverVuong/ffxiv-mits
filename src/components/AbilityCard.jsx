@@ -7,12 +7,15 @@ function AbilityCard({ input }) {
     try {
         //console.log(abilityMap[input].img);
         output = <div className="aCard">
-            <img 
+            <div className="iconWrapper">
+                <img 
+                className="jobAbilityIcon"
                 src={abilityMap[input].img}
                 alt="alt text goes here"
                 height='55'
                 width='55'
-            />
+                />
+            </div>
             <div>{abilityMap[input].name}</div>
         </div>
     } catch {

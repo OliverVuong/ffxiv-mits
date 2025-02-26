@@ -63,7 +63,7 @@
                 "Feint"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
               ],
               "Caster": [
                 "Addle"
@@ -166,7 +166,7 @@
                 "Sun"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
               ],
               "BRD":[
                 "Natures Minne"
@@ -351,7 +351,7 @@
                 "Macro"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
               ],
               "RDM":[
                 "Magick Barrier"

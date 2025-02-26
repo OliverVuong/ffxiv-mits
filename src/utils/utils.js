@@ -27,9 +27,44 @@ export const tankCombos = [
   'PLDDRK_DRK',
   'PLDGNB_PLD',
   'PLDGNB_GNB',
-  't1',
-  't2',
+  'Tank 1',
+  'Tank 2',
 ];
+
+export const displayNameMap = {
+  WARGNB_WAR: 'WAR',
+  WARGNB_GNB: 'GNB',
+  WARPLD_WAR: 'WAR',
+  WARPLD_PLD: 'PLD',
+  WARDRK_WAR: 'WAR',
+  WARDRK_DRK: 'DRK',
+  GNBDRK_GNB: 'GNB',
+  GNBDRK_DRK: 'DRK',
+  GNBPLD_GNB: 'GNB',
+  GNBPLD_PLD: 'PLD',
+  PLDDRK_PLD: 'PLD',
+  PLDDRK_DRK: 'DRK',
+  PLDGNB_PLD: 'PLD',
+  PLDGNB_GNB: 'GNB',
+  'Tank 1': 'Tank 1',
+  'Tank 2': 'Tank 2',
+  T1: 'T1',
+  T2: 'T2',
+  SCH: 'SCH',
+  SGE: 'SGE',
+  WHM: 'WHM',
+  AST: 'AST',
+  M1: 'M1',
+  M2: 'M2',
+  PRange: 'PRange',
+  Caster: 'Caster',
+  BRD: 'BRD',
+  RDM: 'RDM',
+  MCH: 'MCH',
+  PLD: 'PLD',
+  MNK: 'MNK',
+  CASTER2: 'Double Caster',
+};
 
 export const tankStateDefault = {};
 for (const combo of tankCombos) {
@@ -54,7 +89,7 @@ export const tankCombosByPlan = {
       ['PLDGNB_PLD', 'PLDGNB_GNB'],
       ['PLDDRK_PLD', 'PLDDRK_DRK'],
     ],
-    frumitty: [['t1', 't2']],
+    frumitty: [['T1', 'T2']],
   },
 };
 
