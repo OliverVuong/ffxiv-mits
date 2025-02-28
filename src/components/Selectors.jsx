@@ -8,6 +8,8 @@ import { tankCombosByPlan } from "../utils/utils";
 import { extras } from "../utils/utils";
 import { MtCard, OtCard } from "./TankCard";
 import extrasSelectorMap from "../utils/extraMenuUtil";
+import encounterImgMap from "../utils/encounterImgUtil";
+import { defaultMitPlan, encounterNameMap } from "../utils/utils";
 
 function Chip({ input, picks, setPicks }) {
     return (
@@ -211,18 +213,35 @@ function TankMenu( {
     );
 }
 
-function EncounterSelector( { setEncounter }){
+function EncounterSelector( { activeEncounter, setEncounter, setMitplan }){
     return (
-        <>
+        <div className="container encounter">
         {encounters.map((encounter) => {
             return <button 
-                        onClick={() => setEncounter(encounter)}
+                        className={encounter === activeEncounter ? 'active' : 'inactive'}
+                        onClick={() => {
+                            setEncounter(encounter);
+                            setMitplan(defaultMitPlan[encounter])
+                        }}
                         key={encounter}>
-                            {encounter}
+                            {/* encounter */}
+                        <div className="encounter-img-container">
+                            <img 
+                                className="encounter-img"
+                                src={
+                                    encounter === activeEncounter ? 
+                                    encounterImgMap[encounter].img :
+                                    encounterImgMap[encounter + 'opaque'].img 
+                                }
+                            />
+                            <div className="middle">
+                                <div className="text">{encounterNameMap[encounter]}</div>
+                            </div>
+                        </div>
                     </button>
         })
         }
-        </>
+        </div>
     );
 }
 
@@ -258,7 +277,7 @@ function MitplanSelector( {encounter, mitplan, setMitplan} ){
     );
 }
 
-function Checkbox( { role, view, setView }) {
+/* function Checkbox( { role, view, setView }) {
     return (
         <>
             <label>{role}</label>
@@ -284,7 +303,7 @@ function Checkbox( { role, view, setView }) {
             }
         </>
     )
-}
+} */
 
 function Selectors({ 
     roleView, 
@@ -302,7 +321,9 @@ function Selectors({
     return (
     <div className="selectors">
         <EncounterSelector 
+            activeEncounter={encounter}
             setEncounter={setEncounter}
+            setMitplan={setMitplan}
         />
         <MitplanSelector 
             encounter={encounter}

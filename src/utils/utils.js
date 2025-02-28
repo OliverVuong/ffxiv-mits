@@ -91,6 +91,22 @@ export const tankCombosByPlan = {
     ],
     frumitty: [['T1', 'T2']],
   },
+  TOP: {
+    topmitty: [
+      ['WARGNB_WAR', 'WARGNB_GNB'],
+      ['WARPLD_WAR', 'WARPLD_PLD'],
+    ],
+  },
+  DSR: {
+    naur: [
+      ['WARGNB_WAR', 'WARGNB_GNB'],
+      ['WARPLD_WAR', 'WARPLD_PLD'],
+      ['WARDRK_WAR', 'WARDRK_DRK'],
+      ['GNBDRK_GNB', 'GNBDRK_DRK'],
+      ['GNBPLD_GNB', 'GNBPLD_PLD'],
+      ['PLDDRK_PLD', 'PLDDRK_DRK'],
+    ],
+  },
 };
 
 export const extras = ['BRD', 'RDM', 'MCH', 'PLD', 'MNK', 'CASTER2'];
@@ -105,10 +121,24 @@ export const isTank = (input) => {
 };
 
 const mitsFRU = ['fmbg', 'naur'];
+const mitsTOP = ['topmitty'];
 const mitsDSR = ['naur', 'dsrmitty'];
 export const mits = {
   FRU: mitsFRU,
+  TOP: mitsTOP,
   DSR: mitsDSR,
 };
 
-export const encounters = ['FRU', 'DSR'];
+export const defaultMitPlan = {
+  FRU: 'fmbg',
+  TOP: 'topmitty',
+  DSR: 'naur',
+};
+
+export const encounterNameMap = {
+  FRU: 'Futures Rewritten',
+  TOP: 'The Omega Protocol',
+  DSR: "Dragonsong's Reprise",
+};
+
+export const encounters = ['FRU', 'TOP', 'DSR'];
