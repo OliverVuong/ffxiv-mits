@@ -1,0 +1,572 @@
+{
+    "phase": 6,
+    "length": 120,
+    "name": "P6 Alph Omega",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Cosmo Memory",
+            "time": 1,
+            "mitigations": {
+              "T1": [
+                "Tank LB"
+              ],
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Soil",
+                "Succor"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Kerachole",
+                "Holos"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M2": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Cosmo Dive 1",
+            "time": 2,
+            "mitigations": {
+              "WARDRK_WAR": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Thrill",
+                "Bloodwhetting"
+              ],
+              "WARDRK_DRK": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Dark Mind",
+                "TBN",
+                "Oblation"
+              ],
+              "WARGNB_WAR": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Thrill",
+                "Bloodwhetting"
+              ],
+              "WARGNB_GNB": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Camo",
+                "HoC"
+              ],
+              "WARPLD_WAR": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Thrill",
+                "Nascent"
+              ],
+              "WARPLD_PLD": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Bulwark",
+                "Sheltron",
+                "Intervention"
+              ],
+              "GNBDRK_GNB": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Camo",
+                "HoC"
+              ],
+              "GNBDRK_DRK": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Dark Mind",
+                "TBN",
+                "Oblation"
+              ],
+              "GNBPLD_GNB": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Camo",
+                "HoC"
+              ],
+              "GNBPLD_PLD": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Bulwark",
+                "Sheltron",
+                "Intervention"
+              ],
+              "PLDDRK_PLD": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Bulwark",
+                "Sheltron",
+                "Intervention"
+              ],
+              "PLDDRK_DRK": [
+                {
+                  "ability": "Rampart",
+                  "note": "Rampart after 1st Cosmo Arrow cast finishes"
+                },
+                "Dark Mind",
+                "TBN",
+                "Oblation"
+              ],
+              "T1": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Seraph",
+                "Expedience",
+                "Fey"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Holos",
+                "Kerachole"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                {
+                  "ability": "Neutral Sect",
+                  "note": "Press late"
+                }
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Protean 1",
+            "time": 3,
+            "mitigations": {
+              "SCH": [
+                "Soil",
+                "Succor"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST": [
+                "Neutral Sect"
+              ],
+              "PRange": [
+                "Party Mit"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Wave Cannon 1",
+            "time": 4,
+            "mitigations": {
+              "WARDRK_WAR": [
+                "Vengeance",
+                "Bloodwhetting"
+              ],
+              "WARDRK_DRK": [
+                "Living Dead",
+                "TBN Buddy"
+              ],
+              "WARGNB_WAR": [
+                "Vengeance",
+                "Bloodwhetting"
+              ],
+              "WARGNB_GNB": [
+                "Superbolide",
+                "HoC Buddy"
+              ],
+              "WARPLD_WAR": [
+                "Vengeance",
+                "Bloodwhetting"
+              ],
+              "WARPLD_PLD": [
+                "Hallowed Ground",
+                "Intervention Buddy"
+              ],
+              "GNBDRK_GNB": [
+                "Nebula",
+                "HoC"
+              ],
+              "GNBDRK_DRK": [
+                "Living Dead",
+                "TBN Buddy"
+              ],
+              "GNBPLD_GNB": [
+                "Nebula",
+                "HoC"
+              ],
+              "GNBPLD_PLD": [
+                "Hallowed Ground",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_PLD": [
+                "Sentinel",
+                "Sheltron"
+              ],
+              "PLDDRK_DRK": [
+                "Living Dead",
+                "TBN Buddy"
+              ],
+              "T2": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Soil",
+                "Succor"
+              ],
+              "SGE": [
+                "Zoe EukProg90",
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "PRange": [
+                "Party Mit"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Protean 2",
+            "time": 5,
+            "mitigations": {
+              "SCH": [
+                "Spread-Lo"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Holos"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Wave Cannon 2",
+            "time": 6,
+            "mitigations": {
+              "WARDRK_WAR": [
+                "Holmgang",
+                "Nascent"
+              ],
+              "WARDRK_DRK": [
+                "Shadow Wall",
+                "TBN",
+                "Oblation"
+              ],
+              "WARGNB_WAR": [
+                "Holmgang",
+                "Nascent"
+              ],
+              "WARGNB_GNB": [
+                "Nebula",
+                "HoC"
+              ],
+              "WARPLD_WAR": [
+                "Holmgang",
+                "Nascent"
+              ],
+              "WARPLD_PLD": [
+                "Sentinel",
+                "Sheltron",
+                "(hold Passage for block)"
+              ],
+              "GNBDRK_GNB": [
+                "Superbolide",
+                "HoC"
+              ],
+              "GNBDRK_DRK": [
+                "Shadow Wall",
+                "TBN",
+                "Oblation"
+              ],
+              "GNBPLD_GNB": [
+                "Superbolide",
+                "HoC"
+              ],
+              "GNBPLD_PLD": [
+                "Sentinel",
+                "Sheltron",
+                "(hold Passage for block)"
+              ],
+              "PLDDRK_PLD": [
+                "Hallowed Ground",
+                "Passage of Arms",
+                "Intervention"
+              ],
+              "PLDDRK_DRK": [
+                "Shadow Wall",
+                "TBN",
+                "Oblation"
+              ],
+              "T1": [
+                "Reprisal",
+                "Party Mit"
+              ],
+              "SCH": [
+                "Succor",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST": [
+                "Macrocosmos"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "MCH": [
+                "Dismantle"
+              ],
+              "RDM": [
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Cosmo Dive 2",
+            "time": 7,
+            "mitigations": {
+              "WARDRK_WAR": [
+                "Rampart",
+                "Thrill",
+                "Bloodwhetting"
+              ],
+              "WARDRK_DRK": [
+                "Rampart",
+                "Dark Mind",
+                {
+                  "ability": "TBN",
+                  "note": "Save MP afer Wave Cannon 2 to be able to TBN on Cosmo Dive 2"
+                },
+                "Oblation"
+              ],
+              "WARGNB_WAR": [
+                "Rampart",
+                "Thrill",
+                "Bloodwhetting"
+              ],
+              "WARGNB_GNB": [
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "WARPLD_WAR": [
+                "Rampart",
+                "Thrill",
+                "Nascent"
+              ],
+              "WARPLD_PLD": [
+                "Rampart",
+                "Bulwark",
+                "Sheltron",
+                "Intervention"
+              ],
+              "GNBDRK_GNB": [
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "GNBDRK_DRK": [
+                "Rampart",
+                "Dark Mind",
+                {
+                  "ability": "TBN",
+                  "note": "Save MP afer Wave Cannon 2 to be able to TBN on Cosmo Dive 2"
+                },
+                "Oblation"
+              ],
+              "GNBPLD_GNB": [
+                "Rampart",
+                "Camo",
+                "HoC"
+              ],
+              "GNBPLD_PLD": [
+                "Rampart",
+                "Bulwark",
+                "Sheltron",
+                "Intervention"
+              ],
+              "PLDDRK_PLD": [
+                "Rampart",
+                "Bulwark",
+                "Sheltron",
+                "Intervention"
+              ],
+              "PLDDRK_DRK": [
+                "Rampart",
+                "Dark Mind",
+                {
+                  "ability": "TBN",
+                  "note": "Save MP afer Wave Cannon 2 to be able to TBN on Cosmo Dive 2"
+                },
+                "Oblation"
+              ],
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Soil",
+                "Succor"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Cosmo Meteor",
+            "time": 8,
+            "mitigations": {
+              "T1": [
+                "Reprisal"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Seraph",
+                "Expedience",
+                "Fe"
+              ],
+              "SGE": [
+                "Zoe EukProg90",
+                "Panhaima"
+              ],
+              "WHM": [
+                "Temperance",
+                "Bell"
+              ],
+              "AST": [
+                "Neutral Sect"
+              ],
+              "PRange": [
+                "PartyMit"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Flares",
+            "time": 9,
+            "mitigations": {
+              "SCH": [
+                "Spread-Lo",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST": [
+                "Neutral Sect"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Magic Number",
+            "time": 10,
+            "mitigations": {
+              "T1": [
+                "Tank LB"
+              ],
+              "SCH": [
+                "Healer LB"
+              ],
+              "SGE": [
+                "Healer LB"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Magic Number",
+            "time": 11,
+            "mitigations": {
+              "T2": [
+                "Tank LB"
+              ],
+              "WHM": [
+                "Healer LB"
+              ],
+              "AST": [
+                "Healer LB"
+              ],
+              "M2": [
+                "Feint"
+              ]
+            }
+          }
+        ],
+        "note": {
+          "all": "Remember to talk about which healer goes mid fo meteors"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,133 @@
+{
+    "phase": 2,
+    "length": 120,
+    "name": "P2 Male / Female",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Tankbuster",
+            "stakeholder": "tanks",
+            "name": "Solar Ray",
+            "time": 50,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Holmngag"
+              ],
+              "WARGNB_GNB": [
+                "Provoke after Buster"
+              ],
+              "WARPLD_WAR": [
+                "Holmngag"
+              ],
+              "WARPLD_PLD": [
+                "Provoke after Buster"
+              ],
+              "WARDRK_WAR": [
+                "Holmngag"
+              ],
+              "WARDRK_DRK": [
+                "Provoke after Buster"
+              ],
+              "GNBDRK_GNB": [
+                "Provoke after Buster"
+              ],
+              "GNBDRK_DRK": [
+                "Living Dead"
+              ],
+              "GNBPLD_GNB": [
+                "Superbolide"
+              ],
+              "GNBPLD_PLD": [
+                "Provoke after Buster"
+              ],
+              "PLDDRK_PLD": [
+                "Provoke after Buster"
+              ],
+              "PLDDRK_DRK": [
+                "Living Dead"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "611",
+            "time": 60,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Everything"
+              ],
+              "SGE": [
+                "Everything"
+              ],
+              "WHM": [
+                "Everything"
+              ],
+              "AST": [
+                "Everything"
+              ],
+              "PRange": [
+                "Range Mit"
+              ],
+              "RDM": [
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type": "Tankbuster",
+            "stakeholder": "tanks",
+            "name": "Tank Tethers",
+            "time": 70,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB": [
+                "Kitchen Sink"
+              ],
+              "WARPLD_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD": [
+                "Kitchen Sink"
+              ],
+              "WARDRK_WAR": [
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK": [
+                "Kitchen Sink"
+              ],
+              "GNBDRK_GNB": [
+                "Kitchen Sink"
+              ],
+              "GNBDRK_DRK": [
+                "Kitchen Sink"
+              ],
+              "GNBPLD_GNB": [
+                "Kitchen Sink"
+              ],
+              "GNBPLD_PLD": [
+                "Kitchen Sink"
+              ],
+              "PLDDRK_PLD": [
+                "Kitchen Sink"
+              ],
+              "PLDDRK_DRK": [
+                "Kitchen Sink"
+              ]
+            }
+          }
+        ],
+        "note": "After Playstation: Feint / Addle are free to use to help with tank autos (it does not work on flares or cosmo memory)"
+      }
+    ]
+  }

@@ -1,0 +1,212 @@
+{
+    "phase":1,
+    "length":120,
+    "name":"P1 Beetle Omega",
+    "sections":[
+      {
+        "id":0,
+        "table":[
+          {
+            "type":"Autos",
+            "stakeholder":"tanks",
+            "name":"Prepull",
+            "time":0,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB":[
+                "Buddy Mit GNB 90"
+              ],
+              "WARPLD_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD":[
+                "Buddy Mit PLD 90"
+              ],
+              "WARDRK_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK":[
+                "Buddy Mit DRK 90"
+              ],
+              "GNBDRK_GNB":[
+                "Kitchen Sink"
+              ],
+              "GNBDRK_DRK":[
+                "Buddy Mit DRK 90"
+              ],
+              "GNBPLD_GNB":[
+                "Kitchen Sink"
+              ],
+              "GNBPLD_PLD":[
+                "Buddy Mit PLD 90"
+              ],
+              "PLDDRK_PLD":[
+                "Buddy Mit PLD 90"
+              ],
+              "PLDDRK_DRK":[
+                "Kitchen Sink"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Pantokrator",
+            "time":60,
+            "mitigations":{
+              "T1":[
+                "Party Mit"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Everything"
+              ],
+              "SGE":[
+                "Everything"
+              ],
+              "WHM":[
+                "Everything"
+              ],
+              "AST":[
+                "Everything"
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Stack 1",
+            "time":60,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "M1":[
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Stack 2",
+            "time":62,
+            "mitigations":{
+              "SCH":[
+                "Seraph"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Stack 3",
+            "time":63,
+            "mitigations":{
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Seraph"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "MCH":[
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Stack 4",
+            "time":64,
+            "mitigations":{
+              
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Diffuse Wave Cannon",
+            "time":90,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Rampart",
+                "Thrill",
+                "Bloddwhetting"
+              ],
+              "WARGNB_GNB":[
+                "Superbolide"
+              ],
+              "WARPLD_WAR":[
+                "Rampart",
+                "Thrill",
+                "Bloddwhetting"
+              ],
+              "WARPLD_PLD":[
+                "Rampart",
+                "Sheltron",
+                "Bulwark",
+                "Intervention"
+              ],
+              "WARDRK_WAR":[
+                "Rampart",
+                "Thrill",
+                "Bloddwhetting"
+              ],
+              "WARDRK_DRK":[
+                "Living Dead"
+              ],
+              "GNBDRK_GNB":[
+                "Superbolide"
+              ],
+              "GNBDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ],
+              "GNBPLD_GNB":[
+                "Rampart",
+                "Camo",
+                "HOC"
+              ],
+              "GNBPLD_PLD":[
+                "Rampart",
+                "Sheltron",
+                "Bulwark",
+                "Intervention"
+              ],
+              "PLDDRK_PLD":[
+                "Rampart",
+                "Sheltron",
+                "Bulwark",
+                "Intervention"
+              ],
+              "PLDDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

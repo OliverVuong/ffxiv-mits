@@ -1,0 +1,305 @@
+{
+    "phase": 3,
+    "length": 120,
+    "name": "P3 Final Omega",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Hello World",
+            "time": 1,
+            "mitigations": {
+              "T1": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg90"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "1st Patch Set",
+            "time": 2,
+            "mitigations": {
+              "WARGNB_GNB": [
+                "Rampart"
+              ],
+              "WARPLD_PLD": [
+                "Rampart"
+              ],
+              "WARDRK_DRK": [
+                "Rampart"
+              ],
+              "GNBDRK_DRK": [
+                "Rampart"
+              ],
+              "GNBPLD_PLD": [
+                "Rampart"
+              ],
+              "PLDDRK_DRK": [
+                "Rampart"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Spread-Lo"
+              ],
+              "SGE": [
+                "ZoeEukProg",
+                "Kerachole"
+              ],
+              "AST": [
+                {
+                  "ability": "Star",
+                  "note": "Place 2 GCDs after HW"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "2nd Patch Set",
+            "time": 3,
+            "mitigations": {
+              "WARGNB_GNB": [
+                "Nebula"
+              ],
+              "WARPLD_PLD": [
+                "Sentinel",
+                "Sheltron"
+              ],
+              "WARDRK_DRK": [
+                "Shadow Wall"
+              ],
+              "GNBDRK_DRK": [
+                "Shadow Wall"
+              ],
+              "GNBPLD_PLD": [
+                "Sentinel",
+                "Sheltron"
+              ],
+              "PLDDRK_DRK": [
+                "Shadow Wall"
+              ],
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Expedience",
+                "Seraph"
+              ],
+              "SGE": [
+                "Panhaima"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                "Neutral Sect"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "3rd Patch Set",
+            "time": 4,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Rampart",
+                "Thrill"
+              ],
+              "WARPLD_WAR": [
+                "Rampart",
+                "Thrill"
+              ],
+              "WARDRK_WAR": [
+                "Rampart",
+                "Thrill"
+              ],
+              "GNBDRK_GNB": [
+                "Rampart",
+                "Camo"
+              ],
+              "GNBPLD_GNB": [
+                "Rampart",
+                "Camo"
+              ],
+              "PLDDRK_PLD": [
+                "Rampart",
+                "Bulwark"
+              ],
+              "SCH": [
+                "Fey",
+                "Seraph"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Kerachole"
+              ],
+              "WHM": [
+                "Bell"
+              ],
+              "AST": [
+                "Macrocosmos"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "PRange": [
+                "Range Mit"
+              ],
+              "MCH": [
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "4th Patch Set",
+            "time": 5,
+            "mitigations": {
+              "WARGNB_WAR": [
+                "Vengeance",
+                "Bloodwhetting"
+              ],
+              "WARPLD_WAR": [
+                "Vengeance",
+                "Bloodwhetting"
+              ],
+              "WARDRK_WAR": [
+                "Vengeance",
+                "Bloodwhetting"
+              ],
+              "GNBDRK_GNB": [
+                "Nebula",
+                "HoC"
+              ],
+              "GNBPLD_GNB": [
+                "Nebula",
+                "HoC"
+              ],
+              "PLDDRK_PLD": [
+                "Sentinel",
+                "Sheltron"
+              ],
+              "T1": [
+                "Reprisal"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Succor"
+              ],
+              "SGE": [
+                "Holos"
+              ],
+              "AST": [
+                "Star"
+              ],
+              "RDM": [
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Critical Error",
+            "time": 6,
+            "mitigations": {
+              "WARGNB_GNB": [
+                "Camo"
+              ],
+              "WARPLD_PLD": [
+                "Shelron",
+                "Bulwark"
+              ],
+              "WARDRK_DRK": [
+                "Dark Mind"
+              ],
+              "GNBDRK_DRK": [
+                "Dark Mind"
+              ],
+              "GNBPLD_PLD": [
+                "Shelron",
+                "Bulwark"
+              ],
+              "PLDDRK_DRK": [
+                "Dark Mind"
+              ],
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Soil"
+              ],
+              "SGE": [
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "tanks",
+            "name": "Monitors",
+            "time": 7,
+            "mitigations": {
+              "WARGNB_GNB": [
+                "Rampart"
+              ],
+              "WARPLD_PLD": [
+                "Rampart"
+              ],
+              "WARDRK_DRK": [
+                "Rampart"
+              ],
+              "GNBDRK_DRK": [
+                "Rampart"
+              ],
+              "GNBPLD_PLD": [
+                "Rampart"
+              ],
+              "PLDDRK_DRK": [
+                "Rampart"
+              ]
+            }
+          }
+        ],
+        "note": {
+          "stakeholder": "tanks",
+          "text": "Personal mit is free for autos this phase"
+        }
+      }
+    ]
+  }

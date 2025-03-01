@@ -1,0 +1,438 @@
+{
+    "phase":5,
+    "length":120,
+    "name":"P5 Dynamis",
+    "sections":[
+      {
+        "id":0,
+        "table":[
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Delta Solar Ray",
+            "time":1,
+            "mitigations":{
+              "WARGNB_GNB":[
+                "Superbolide"
+              ],
+              "WARPLD_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "GNBDRK_GNB":[
+                "Superbolide"
+              ],
+              "GNBPLD_GNB":[
+                "Kitchen Sink"
+              ],
+              "GNBPLD_PLD":[
+                "Kitchen Sink"
+              ],
+              "PLDDRK_PLD":[
+                "Kitchen Sink"
+              ],
+              "PLDDRK_DRK":[
+                "Kitchen Sink"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Delta Cast",
+            "time":2,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Spread-Lo",
+                "Soil"
+              ],
+              "SGE":[
+                "Zoe EukProg90",
+                "Kerachole",
+                "Holos"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "PRange":[
+                "Party Mit Range"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "MCH":[
+                "Dismantle"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Delta Mech",
+            "time":3,
+            "mitigations":{
+              "SCH":[
+                "Fey",
+                "Whispering Dawn"
+              ],
+              "WHM":[
+                "Bell"
+              ],
+              "AST":[
+                "Macrocosmos",
+                "Star"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Sigma Solar Ray",
+            "time":4,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_WAR":[
+                "Holmgang"
+              ],
+              "WARDRK_DRK":[
+                "Living Dead"
+              ],
+              "GNBDRK_DRK":[
+                "Living Dead"
+              ],
+              "GNBPLD_GNB":[
+                "Superbolide"
+              ],
+              "PLDDRK_DRK":[
+                "Living Dead"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Sigma Cast",
+            "time":5,
+            "mitigations":{
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Seraph",
+                "Soil"
+              ],
+              "SGE":[
+                "Zoe EukProg90",
+                "Kerachole",
+                "Panhaima"
+              ],
+              "WHM":[
+                "Temperance"
+              ],
+              "AST":[
+                "Neutral Sect",
+                "CU"
+              ],
+              "M1":[
+                "Feint"
+              ],
+              "PRange":[
+                "Party Mit Range"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "MCH":[
+                "Dismantle"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Sigma Mech",
+            "time":6,
+            "mitigations":{
+              "SCH":[
+                "Expedience"
+              ],
+              "AST":[
+                "Neutral Sect"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Omega Solar Ray",
+            "time":7,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Holmgang"
+              ],
+              "WARPLD_WAR":[
+                {
+                  "ability":"Rampart",
+                  "note":"Prepop Rampart right before Omega-F is targettable (after Sigma)"
+                },
+                "Vengeance",
+                "Bloodwhetting"
+              ],
+              "WARPLD_PLD":[
+                {
+                  "ability":"Rampart",
+                  "note":"Prepop Rampart right before Omega-F is targettable (after Sigma)"
+                },
+                "Sheltron",
+                "Bulwark",
+                "Reprisal",
+                "Intervention"
+              ],
+              "WARDRK_WAR":[
+                "Holmgang"
+              ],
+              "GNBDRK_GNB":[
+                {
+                  "ability":"Rampart",
+                  "note":"Prepop Rampart+Camo right before Omega-F is targettable (after Sigma)"
+                },
+                {
+                  "ability":"Camo",
+                  "note":"Prepop Rampart+Camo right before Omega-F is targettable (after Sigma)"
+                },
+                "HoC"
+              ],
+              "GNBDRK_DRK":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Prepop Rampart right before Omega-F is targettable (after Sigma)"
+                },
+                "Reprisal",
+                "TBN Buddy"
+              ],
+              "GNBPLD_GNB":[
+                {
+                  "ability":"Rampart",
+                  "note":"Prepop Rampart+Camo right before Omega-F is targettable (after Sigma)"
+                },
+                {
+                  "ability":"Camo",
+                  "note":"Prepop Rampart+Camo right before Omega-F is targettable (after Sigma)"
+                },
+                "HoC"
+              ],
+              "GNBPLD_PLD":[
+                {
+                  "ability":"Rampart",
+                  "note":"Prepop Rampart right before Omega-F is targettable (after Sigma)"
+                },
+                "Sentinel",
+                {
+                  "ability":"Bulwark",
+                  "note":"1st gcd Bulwark"
+                },
+                "Reprisal",
+                "Intervention"
+              ],
+              "PLDDRK_PLD":[
+                {
+                  "ability":"Rampart",
+                  "note":"Prepop Rampart right before Omega-F is targettable (after Sigma)"
+                },
+                {
+                  "ability":"Bulwark",
+                  "note":"1st gcd Bulwark"
+                },
+                "Sheltron",
+                "Intervention"
+              ],
+              "PLDDRK_DRK":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Prepop Rampart right before Omega-F is targettable (after Sigma)"
+                },
+                "Reprisal",
+                "TBN Buddy"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Omega Cast",
+            "time":8,
+            "mitigations":{
+              "T1":[
+                "Reprisal",
+                "Party Mit"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Spread-Lo",
+                "Soil",
+                "Fey"
+              ],
+              "SGE":[
+                "Zoe EukProg90",
+                "Kerachole",
+                "Holos"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "PRange":[
+                "Party Mit Range"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "MCH":[
+                "Dismantle"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Omega Mech",
+            "time":9,
+            "mitigations":{
+              "SCH":[
+                "Seraph"
+              ],
+              "SGE":[
+                "Panhaima"
+              ],
+              "WHM":[
+                "Bell"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Final Buster",
+            "time":10,
+            "mitigations":{
+              "WARGNB_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_WAR":[
+                "Rampart",
+                "Bloodwhetting",
+                "Thrill"
+              ],
+              "WARPLD_PLD":[
+                "Kitchen Sink",
+                "Reprisal",
+                "Intervention Buddy"
+              ],
+              "WARDRK_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "GNBDRK_GNB":[
+                "Kitchen Sink"
+              ],
+              "GNBDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "TBN",
+                "Oblation",
+                "Reprisal"
+              ],
+              "GNBPLD_GNB":[
+                "Rampart",
+                "Camo",
+                "Nebula",
+                "HoC"
+              ],
+              "GNBPLD_PLD":[
+                "Rampart",
+                "Bulwark",
+                "Sheltron",
+                "Reprisal",
+                "Intervention"
+              ],
+              "PLDDRK_PLD":[
+                "Rampart",
+                "Sentinel",
+                "Bulwark",
+                "Intervention"
+              ],
+              "PLDDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "Oblation",
+                "Reprisal",
+                "TBN Buddy"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Blind Faith",
+            "time":11,
+            "mitigations":{
+              "SCH":[
+                "Soil",
+                "Succor"
+              ],
+              "SGE":[
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "PRange":[
+                "Party Mit"
+              ]
+            }
+          }
+        ],
+        "note":{
+          "all":"15s party mit should be pressed after the second hit of the tank buster, 10s party mit should be pressed at the start of the raidwide cast, Healers must put personal mit on tanks or they die to busters"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,124 @@
+{
+    "phase": 4,
+    "length": 120,
+    "name": "P4 Blue Screen",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Protean 1",
+            "time": 1,
+            "mitigations": {
+              "T1": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Spread-Lo"
+              ],
+              "SGE": [
+                "Zoe EukProg90"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Stack 1",
+            "time": 2,
+            "mitigations": {
+              "SCH": [
+                "Seraph",
+                "Soil"
+              ],
+              "SGE": [
+                "Keracohle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Protean 2",
+            "time": 3,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Expedience"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                "Neutral Sect"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Stack 2",
+            "time": 4,
+            "mitigations": {
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Seraph"
+              ],
+              "SGE": [
+                "Panhaima"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Protean 3",
+            "time": 5,
+            "mitigations": {
+              "T2": [
+                "Reprisal"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Stack 3",
+            "time": 6,
+            "mitigations": {}
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Blue Screen",
+            "time": 7,
+            "mitigations": {
+              "SCH": [
+                "Succor",
+                "Soil"
+              ],
+              "SGE": [
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M1": [
+                "Feint"
+              ]
+            }
+          }
+        ],
+        "note": {
+          "tanks": "Use buddy mits early on squishies"
+        }
+      }
+    ]
+  }
