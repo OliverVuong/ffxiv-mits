@@ -10,6 +10,13 @@ import fru_naur_p3 from '../data/fru/naur/p3.json';
 import fru_naur_p4 from '../data/fru/naur/p4.json';
 import fru_naur_p5 from '../data/fru/naur/p5.json';
 
+import top_mitty_p1 from '../data/top/topmitty/p1.json';
+import top_mitty_p2 from '../data/top/topmitty/p2.json';
+import top_mitty_p3 from '../data/top/topmitty/p3.json';
+import top_mitty_p4 from '../data/top/topmitty/p4.json';
+import top_mitty_p5 from '../data/top/topmitty/p5.json';
+import top_mitty_p6 from '../data/top/topmitty/p6.json';
+
 import dsr_naur_p2 from '../data/dsr/naur/p2.json';
 import dsr_naur_p3 from '../data/dsr/naur/p3.json';
 
@@ -35,6 +42,19 @@ const FRU = {
   naur: FRU_naur,
 };
 
+const TOP_mitty = [
+  top_mitty_p1,
+  top_mitty_p2,
+  top_mitty_p3,
+  top_mitty_p4,
+  top_mitty_p5,
+  top_mitty_p6,
+];
+
+const TOP = {
+  mitty: TOP_mitty,
+};
+
 // Dragon Song Reprise
 const DSR_naur = [dsr_naur_p2, dsr_naur_p3];
 
@@ -42,6 +62,6 @@ const DSR = {
   naur: DSR_naur,
 };
 
-const encounters = { FRU, DSR };
+const encounters = { FRU, TOP, DSR };
 
 export default encounters;

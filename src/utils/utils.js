@@ -92,9 +92,13 @@ export const tankCombosByPlan = {
     frumitty: [['T1', 'T2']],
   },
   TOP: {
-    topmitty: [
+    mitty: [
       ['WARGNB_WAR', 'WARGNB_GNB'],
       ['WARPLD_WAR', 'WARPLD_PLD'],
+      ['WARDRK_WAR', 'WARDRK_DRK'],
+      ['GNBDRK_GNB', 'GNBDRK_DRK'],
+      ['PLDGNB_PLD', 'PLDGNB_GNB'],
+      ['PLDDRK_PLD', 'PLDDRK_DRK'],
     ],
   },
   DSR: {
@@ -121,7 +125,7 @@ export const isTank = (input) => {
 };
 
 const mitsFRU = ['fmbg', 'naur'];
-const mitsTOP = ['topmitty'];
+const mitsTOP = ['mitty'];
 const mitsDSR = ['naur', 'dsrmitty'];
 export const mits = {
   FRU: mitsFRU,
@@ -131,7 +135,7 @@ export const mits = {
 
 export const defaultMitPlan = {
   FRU: 'fmbg',
-  TOP: 'topmitty',
+  TOP: 'mitty',
   DSR: 'naur',
 };
 

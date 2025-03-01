@@ -11,7 +11,7 @@ function Cell({mitigations, role}) {
             {mitigations[role].map((entry) => {
                 return(
                     <AbilityCard 
-                        key={entry}
+                        key={typeof entry === 'string' ? entry : entry['ability']}
                         input={entry}
                     />
                 );
