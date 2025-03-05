@@ -10,6 +10,7 @@ import { MtCard, OtCard } from "./TankCard";
 import extrasSelectorMap from "../utils/extraMenuUtil";
 import encounterImgMap from "../utils/encounterImgUtil";
 import { defaultMitPlan, encounterNameMap } from "../utils/utils";
+import DeselectAll from "./DeselectAll";
 
 function Chip({ input, picks, setPicks }) {
     return (
@@ -32,9 +33,13 @@ function Chip({ input, picks, setPicks }) {
 
 function RoleMenu({ roleView, setRoleView }) {
     return(
-        <fieldset className="menu roles">
+        <fieldset>
             <legend>Roles</legend>
-            {/* <div > */}
+            <DeselectAll 
+                selection={roleView}
+                setSelection={setRoleView}
+            />
+            <div className="menu roles">
                 <div className="container roles tanks">
                     <Chip 
                         input="T1" 
@@ -91,7 +96,7 @@ function RoleMenu({ roleView, setRoleView }) {
                         setPicks={setRoleView}
                     />
                 </div>
-            {/* </div> */}
+            </div>
         </fieldset>
     );
 }
@@ -122,28 +127,32 @@ function ExtraChip( { input, extraPicks, setExtraPicks } ){
 
 function ExtraMenu({ extraPicks, setExtraPicks }) {
     return (
-        <fieldset className="extra-menu">
-            <legend>Pick Extras</legend>
+        <fieldset>
+            <legend>Extras</legend>
             {/* <div>{JSON.stringify(extraPicks)}</div> */}
-            {
-            extras.map((extra) => {
-                return (
-                    <ExtraChip
-                        key={extra}
-                        input={extra}
-                        extraPicks={extraPicks}
-                        setExtraPicks={setExtraPicks}
-                    />
-                    /* <Chip
-                        key={extra}
-                        input={extra}
-                        picks={extraPicks}
-                        setPicks={setExtraPicks}
-                    /> */
-                    
-                );
-            })
-            }
+            <DeselectAll 
+                selection={extraPicks}
+                setSelection={setExtraPicks}
+            />
+            <div className="extra-menu">
+                {extras.map((extra) => {
+                    return (
+                        <ExtraChip
+                            key={extra}
+                            input={extra}
+                            extraPicks={extraPicks}
+                            setExtraPicks={setExtraPicks}
+                        />
+                        /* <Chip
+                            key={extra}
+                            input={extra}
+                            picks={extraPicks}
+                            setPicks={setExtraPicks}
+                        /> */
+                        
+                    );
+                })}
+            </div>
         </fieldset>
     );
 }
