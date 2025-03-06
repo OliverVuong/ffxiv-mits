@@ -170,13 +170,16 @@ function PhaseView( {
     phase, 
     roleOptions, 
     tankOptions,
-    extraOptions
+    extraOptions,
+    phasesRef,
+    index
 } ){
     return (
         <>
             <h3 
                 id={phase.name.replaceAll(" ", "")}
                 className='phase-header'
+                ref={(el) => (phasesRef.current[index] = el)}
             >
                 {phase['name']}
             </h3>
@@ -196,14 +199,15 @@ export function EncounterView( {
     mitplan, 
     roleOptions, 
     tankOptions,
-    extraOptions
+    extraOptions,
+    phasesRef
 }){
     console.log(encounters[encounter][mitplan])
     const phases = encounters[encounter][mitplan];
     return (
         <>
             {/* <h2 className='mitplan-encounter-header'>{mitplan} {encounter}</h2> */}
-            {phases.map((phase) => {
+            {phases.map((phase, index) => {
                 return (
                     <PhaseView 
                         phase={phase}
@@ -211,6 +215,8 @@ export function EncounterView( {
                         tankOptions={tankOptions}
                         extraOptions={extraOptions}
                         key={phase['phase']}
+                        phasesRef={phasesRef}
+                        index={index}
                     />
                 );
             })}

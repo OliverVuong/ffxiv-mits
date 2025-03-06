@@ -1,17 +1,24 @@
 /* eslint-disable react/prop-types */
 import encounters from '../utils/encounters';
 
-function Navigation( { encounter, mitplan } ) {
+const handleScroll = (ref) => {
+    ref.scrollIntoView({
+        behavior: 'smooth',
+        alignToTop: true
+    })
+}
+
+function Navigation( { encounter, mitplan, phasesRef } ) {
     return (
         <div className='nav'>
-            {encounters[encounter][mitplan].map((phase) => {
+            {encounters[encounter][mitplan].map((phase, index) => {
                 return (
-                    <a
+                    <button
                         key={phase.name}
-                        href={"#" + phase.name.replaceAll(" ", "")}
+                        onClick={() => handleScroll(phasesRef.current[index])}
                     >
-                        <button>{phase.name}</button>
-                    </a>
+                        {phase.name}
+                    </button>
                 );
             })}
         </div>
@@ -19,3 +26,10 @@ function Navigation( { encounter, mitplan } ) {
 }
 
 export default Navigation;
+
+/* <a
+        key={phase.name}
+        href={"#" + phase.name.replaceAll(" ", "")}
+    >
+        <button>{phase.name}</button>
+    </a> */

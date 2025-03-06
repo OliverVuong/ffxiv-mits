@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import {RoleCheck} from './components/Table'
+import { useState, useRef } from 'react'
 import Selectors from './components/Selectors'
 import { EncounterView } from './components/Table'
 import Navigation from './components/Navigation'
 import './App.css'
 import { extrasDefault } from './utils/utils'
-import AbilityCard from './components/AbilityCard'
+
+/* import {RoleCheck} from './components/Table'
+import AbilityCard from './components/AbilityCard' */
 
 function App() {
 
@@ -53,9 +54,12 @@ function App() {
   const [extraPicks, setExtraPicks] = useState(extrasDefault);
   const [encounter, setEncounter] = useState('FRU');
   const [mitplan, setMitplan] = useState('fmbg');
+  const phasesRef = useRef([]);
+
   return (
     <>
       <h1>Timeline</h1>
+      <div>{JSON.stringify(phasesRef.current)}</div>
       <Selectors
         roleView={roleView}
         setRoleView={setRoleView}
@@ -89,10 +93,12 @@ function App() {
         roleOptions={roleView}
         tankOptions={tankView}
         extraOptions={extraPicks}
+        phasesRef={phasesRef}
       />
       <Navigation
         encounter={encounter}
         mitplan={mitplan}
+        phasesRef={phasesRef}
       />
     </>
   )
