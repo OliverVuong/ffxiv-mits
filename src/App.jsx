@@ -59,7 +59,7 @@ function App() {
   return (
     <>
       <h1>Timeline</h1>
-      <div>{JSON.stringify(phasesRef.current)}</div>
+      <div>{/* JSON.stringify(phasesRef.current) */}</div>
       <Selectors
         roleView={roleView}
         setRoleView={setRoleView}

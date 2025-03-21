@@ -103,8 +103,10 @@
               ],
               "SGE":[
                 "Panhaima",
-                "Kerachole",
-                "_ on CD"
+                {
+                  "ability": "Kerachole",
+                  "note": "Use on CD"
+                }
               ],
               "WHM":[
                 "Bell"
@@ -161,13 +163,13 @@
                 "Kerachole co"
               ],
               "M1":[
-                "Feint ci"
+                "Feint co"
               ],
               "PRange":[
                 "Range Mit"
               ],
               "Caster":[
-                "Addle ci"
+                "Addle co"
               ],
               "MCH":[
                 "Dismantle"

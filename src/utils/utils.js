@@ -126,7 +126,7 @@ export const isTank = (input) => {
 
 const mitsFRU = ['fmbg', 'naur'];
 const mitsTOP = ['mitty'];
-const mitsDSR = ['naur', 'dsrmitty'];
+const mitsDSR = ['naur'];
 export const mits = {
   FRU: mitsFRU,
   TOP: mitsTOP,

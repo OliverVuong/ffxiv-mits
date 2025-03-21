@@ -33,6 +33,7 @@ const whmMap = {
   divinecaressCO,
   Temperance: temperance,
   'Temperance co': temperanceCO,
+  'Temperance CO': temperanceCO,
 };
 
 export default whmMap;

@@ -136,10 +136,16 @@
             "time":102,
             "mitigations":{
               "T1":[
-                "Short Mit m1"
+                {
+                  "ability": "buddyM1",
+                  "note": "Short Mit m1"
+                }
               ],
               "T2":[
-                "Short Mit m2"
+                {
+                  "ability": "buddyM2",
+                  "note": "Short Mit m2"
+                }
               ],
               "SCH":[
                 "Seraph",
@@ -150,10 +156,10 @@
                 "Holos"
               ],
               "M1":[
-                "melee_personals"
+                "Melee personals"
               ],
               "M2":[
-                "melee_personals"
+                "Melee personals"
               ],
               "extranotes":{
                 "SCH":"Fey Illum on 2nd Mirror",

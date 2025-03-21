@@ -40,9 +40,11 @@ const astMap = {
   macrocosmosCO,
   Neutral: neutralsect,
   neutralsectCO,
+  'Neutral co': neutralsectCO,
   Sun: sunsign,
   'Sun Sign': sunsign,
   sunsignCO,
+  'Sun Sign co': sunsignCO,
 };
 
 export default astMap;

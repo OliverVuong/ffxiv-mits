@@ -17,82 +17,113 @@ const addleG = {
   name: 'Addle',
   img: images[1].default,
 };
+const bloodbath = {
+  name: 'Bloodbath',
+  img: images[2].default,
+};
 const feint = {
   name: 'Feint',
-  img: images[2].default,
+  img: images[3].default,
 };
 const feintCO = {
   name: '↪Feint',
-  img: images[3].default,
+  img: images[4].default,
 };
 const feintG = {
   name: 'Feint',
-  img: images[3].default,
+  img: images[4].default,
 };
 const kitchensink = {
   name: 'Everything',
-  img: images[4].default,
+  img: images[5].default,
 };
 const limitbreak = {
   name: 'LB',
-  img: images[5].default,
+  img: images[6].default,
+};
+const buddyM1 = {
+  name: 'Mit M1',
+  img: images[7].default,
+};
+const buddyM2 = {
+  name: 'Mit M2',
+  img: images[8].default,
 };
 const partymit = {
   name: 'Party Mit',
-  img: images[6].default,
+  img: images[9].default,
 };
 const partymitCO = {
   name: '↪Party Mit',
-  img: images[7].default,
+  img: images[10].default,
 };
 const rampart = {
   name: 'Rampart',
-  img: images[8].default,
+  img: images[11].default,
 };
 const rampartCO = {
   name: '↪Rampart',
-  img: images[9].default,
+  img: images[12].default,
 };
 const rangemit = {
   name: 'Range Mit',
-  img: images[10].default,
+  img: images[13].default,
 };
 const rangemitCO = {
   name: '↪Range Mit',
-  img: images[11].default,
+  img: images[14].default,
 };
 const reprisal = {
   name: 'Reprisal',
-  img: images[12].default,
+  img: images[15].default,
 };
 const reprisalCO = {
   name: '↪Reprisal',
-  img: images[13].default,
+  img: images[16].default,
 };
 const reprisalG = {
   name: 'Reprisal',
-  img: images[13].default,
+  img: images[16].default,
+};
+const secondwind = {
+  name: 'Reprisal',
+  img: images[17].default,
+};
+const secondwindbloodbath = {
+  name: 'Personals',
+  img: images[18].default,
 };
 
 const rolesAbilityMap = {
   Addle: addle,
   'Addle grey': addleG,
   addleCO,
+  'Addle co': addleCO,
+  bloodbath,
   Feint: feint,
   feintCO,
+  'Feint co': feintCO,
   'Feint grey': feintG,
   'Kitchen Sink': kitchensink,
   'Tank LB': limitbreak,
+  buddyM1,
+  buddyM2,
   'Party Mit': partymit,
   partymitCO,
+  'Party Mit co': partymitCO,
   Rampart: rampart,
   rampartCO,
   'Range Mit': rangemit,
   rangemitCO,
+  'Range Mit co': rangemitCO,
   Rep: reprisal,
   Reprisal: reprisal,
   'Reprisal grey': reprisalG,
   reprisalCO,
+  'Reprisal co': reprisalCO,
+  secondwind,
+  secondwindbloodbath,
+  'Melee personals': secondwindbloodbath,
 };
 
 export default rolesAbilityMap;

@@ -30,14 +30,14 @@
             "time":12,
             "mitigations":{
               "T1":[
-                "Reprisal CO",
-                "Party MitCO "
+                "Reprisal co",
+                "Party Mit co"
               ],
               "SCH":[
                 "Soil"
               ],
               "SGE":[
-                "Zoe EukProg CO",
+                "Zoe EukProg co",
                 "Kerachole"
               ],
               "AST":[
@@ -47,7 +47,7 @@
                 "Feint"
               ],
               "PRange":[
-                "Range Mit CO"
+                "Range Mit co"
               ],
               "MCH":[
                 "Dismantle"
@@ -88,7 +88,7 @@
           },
           {
             "type":"Tankbuster",
-            "stakeholder":"tanks",
+            "stakeholder":"all",
             "name":"Wings Dark and Light 1",
             "time":56,
             "mitigations":{
@@ -140,20 +140,28 @@
                 "Kitchen Sink"
               ],
               "SCH":[
-                "Seraph",
-                "After last tower"
+                {
+                  "ability": "Seraph",
+                  "note": "After last tower"
+                }
               ],
               "SGE":[
-                "Panhaima",
-                "After last tower"
+                {
+                  "ability": "Panhaima",
+                  "note": "After last tower"
+                }
               ],
               "WHM":[
-                "Temperance",
-                "After last tower"
+                {
+                  "ability": "Temperance",
+                  "note": "After last tower"
+                }
               ],
               "AST":[
-                "Neutral",
-                "After last tower"
+                {
+                  "ability": "Neutral",
+                  "note": "After last tower"
+                }
               ]
             }
           },
@@ -181,17 +189,19 @@
               ],
               "WHM":[
                 "Temperance CO",
-                "CO"
+                "Bell"
               ],
               "AST":[
-                "Neutral CO",
+                "Neutral co",
                 "Sun Sign",
                 "CU",
                 "Macro"
               ],
               "PRange":[
-                "Party Mit",
-                "1nd hit of Cruel Path"
+                {
+                  "ability": "Party Mit",
+                  "note": "2nd hit of Cruel Path"
+                }
               ]
             }
           },

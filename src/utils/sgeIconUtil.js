@@ -45,6 +45,18 @@ const zoeeukprog = {
   name: 'Zoe',
   img: images[8].default,
 };
+const zoeeukprog90 = {
+  name: 'Zoe',
+  img: images[9].default,
+};
+const zoeeukprog90co = {
+  name: 'Zoe',
+  img: images[10].default,
+};
+const zoeeukprogCO = {
+  name: 'Zoe',
+  img: images[10].default,
+};
 
 const sgeMap = {
   EukProg: eukprog,
@@ -58,12 +70,16 @@ const sgeMap = {
   'Kerachole co': keracholeCO,
   Panhaima: panhaima,
   panhaimaCO,
+  'Panhaima co': panhaimaCO,
   philosophia,
   Sophia: philosophia,
   Philosophia: philosophia,
   zoeeukprog,
   Zoe: zoeeukprog,
   'Zoe EukProg': zoeeukprog,
+  zoeeukprog90,
+  zoeeukprog90co,
+  zoeeukprogCO,
 };
 
 export default sgeMap;

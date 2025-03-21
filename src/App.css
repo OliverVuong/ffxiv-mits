@@ -352,7 +352,18 @@ button.right{
 }
 .nav {
   position: fixed;
+  left: 0;
   bottom: 0;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.nav > button {
+  /* flex: 1 1 180px;
+  width: 100%; */
 }
 /* .iconWrapper {
   position: relative;

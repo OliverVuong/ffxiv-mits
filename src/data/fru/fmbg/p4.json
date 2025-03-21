@@ -198,7 +198,10 @@
                 "Kerachole"
               ],
               "M1": [
-                "Feint (Shiva)"
+                {
+                  "ability":"Feint",
+                  "note":"Feint on Shiva"
+                }
               ],
               "PRange": [
                 "Range Mit"
@@ -236,10 +239,16 @@
                 "CU"
               ],
               "M2": [
-                "Feint (Gaia)"
+                {
+                  "ability":"Feint",
+                  "note":"Feint on Gaia"
+                }
               ],
               "Caster": [
-                "Addle (Gaia)"
+                {
+                  "ability":"Addle",
+                  "note":"Addle on Shiva"
+                }
               ],
               "BRD":[
                 "Natures Minne"
@@ -453,7 +462,10 @@
                 "CU"
               ],
               "M1": [
-                "Feint (Shiva)"
+                {
+                  "ability":"Feint",
+                  "note":"Feint on Shiva"
+                }
               ],
               "PRange": [
                 "Range Mit"

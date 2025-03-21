@@ -165,10 +165,10 @@
           "mitigations":{
             "T1":[
               "Reprisal",
-              "Buddy Mit M1"
+              "buddyM1"
             ],
             "T2":[
-              "Buddy Mit M2"
+              "buddyM2"
             ],
             "SCH":[
               "Consolation",

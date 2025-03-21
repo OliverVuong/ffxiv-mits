@@ -54,8 +54,10 @@
                 "Soil"
               ],
               "SGE": [
-                "Holos",
-                " (Early)",
+                {
+                  "ability": "Holos",
+                  "note": "Holos immediately after dodging first exaline"
+                },
                 "EukProg",
                 "Kerachole"
               ],
@@ -186,7 +188,7 @@
                 "Tank LB"
               ],
               "T2": [
-                "Takn LB",
+                "Tank LB",
                 "Reprisal"
               ],
               "SCH": [

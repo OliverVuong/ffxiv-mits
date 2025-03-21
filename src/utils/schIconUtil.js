@@ -33,33 +33,49 @@ const feyillumCO = {
   name: '↪Illum',
   img: images[6].default,
 };
+const recitSuccor = {
+  name: 'Recit Succor',
+  img: images[7].default,
+};
+const recitSuccorCO = {
+  name: 'Recit Succor',
+  img: images[8].default,
+};
 const seraph = {
   name: 'Seraph',
-  img: images[7].default,
+  img: images[9].default,
 };
 const seraphCO = {
   name: '↪Seraph',
-  img: images[8].default,
+  img: images[10].default,
 };
 const seraphism = {
   name: 'Seraphism',
-  img: images[9].default,
+  img: images[11].default,
 };
 const seraphismCO = {
   name: '↪Seraphism',
-  img: images[10].default,
+  img: images[12].default,
 };
 const soil = {
   name: 'Soil',
-  img: images[11].default,
+  img: images[13].default,
+};
+const soilG = {
+  name: 'Soil',
+  img: images[14].default,
 };
 const soilCO = {
   name: '↪Soil',
-  img: images[12].default,
+  img: images[14].default,
 };
 const spreadlo = {
   name: 'Spreadlo',
-  img: images[13].default,
+  img: images[15].default,
+};
+const succor = {
+  name: 'Succor',
+  img: images[16].default,
 };
 
 const schMap = {
@@ -73,14 +89,19 @@ const schMap = {
   Fey: feyillum,
   'Fey Illumination': feyillum,
   'Fey Illum co': feyillumCO,
+  'Fey Illumination co': feyillumCO,
+  recitSuccor,
+  recitSuccorCO,
   Seraph: seraph,
   'Seraph co': seraphCO,
   Seraphism: seraphism,
   'Seraphism co': seraphismCO,
   Soil: soil,
+  'Soil grey': soilG,
   'Soil co': soilCO,
   'Spread-Lo': spreadlo,
   'Recit Spread-Lo': spreadlo,
+  succor,
 };
 
 export default schMap;
