@@ -236,6 +236,44 @@
             }
           },
           {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Darkest Dance",
+            "time":94,
+            "mitigations":{
+              "WARGNB_GNB":[
+                "Superbolide"
+              ],
+              "WARPLD_WAR":[
+                "Nascent Buddy"
+              ],
+              "WARPLD_PLD":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK":[
+                "Living Dead"
+              ],
+              "GNBDRK_GNB":[
+                "HoC Buddy"
+              ],
+              "GNBDRK_DRK":[
+                "Living Dead"
+              ],
+              "GNBPLD_GNB":[
+                "HoC Buddy"
+              ],
+              "GNBPLD_PLD":[
+                "Kitchen Sink"
+              ],
+              "PLDDRK_PLD":[
+                "Intervention Buddy"
+              ],
+              "PLDDRK_DRK":[
+                "Kitchen Sink"
+              ]
+            }
+          },
+          {
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Shockwave Pulsar",

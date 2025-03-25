@@ -4,6 +4,7 @@
     "name": "P3 Nidhogg",
     "sections": [
       {
+        "id": 0,
         "table": [
           {
             "type": "Raidwide",

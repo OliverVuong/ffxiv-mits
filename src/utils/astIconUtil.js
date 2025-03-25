@@ -9,33 +9,39 @@ const cu = {
   name: 'CU',
   img: images[0].default,
 };
-const macrocosmos = {
-  name: 'Macro',
+const horoscope = {
+  name: 'Horoscope',
   img: images[1].default,
 };
-const macrocosmosCO = {
+const macrocosmos = {
+  name: 'Macro',
   img: images[2].default,
+};
+const macrocosmosCO = {
+  img: images[3].default,
   name: '↪Macro',
 };
 const neutralsect = {
   name: 'Neutral',
-  img: images[3].default,
+  img: images[4].default,
 };
 const neutralsectCO = {
   name: '↪Neutral',
-  img: images[4].default,
+  img: images[5].default,
 };
 const sunsign = {
   name: 'Sun',
-  img: images[5].default,
+  img: images[6].default,
 };
 const sunsignCO = {
   name: '↪Sun',
-  img: images[6].default,
+  img: images[7].default,
 };
 
 const astMap = {
   CU: cu,
+  horoscope,
+  Horoscope: horoscope,
   Macro: macrocosmos,
   macrocosmosCO,
   Neutral: neutralsect,

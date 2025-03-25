@@ -4,6 +4,7 @@
     "name": "P2 Thordan",
     "sections": [
       {
+        "id": 0,
         "table": [
           {
             "type": "Tankbuster",
@@ -57,12 +58,12 @@
               ],
               "SCH": [
                 "Succor",
-                "Expedience",
+                "Expedient",
                 "Seraph",
                 "Fey"
               ],
               "SGE": [
-                "EukProg",
+                "EukProg90",
                 "Holos"
               ],
               "WHM": [
@@ -144,7 +145,7 @@
                 "Fey"
               ],
               "SGE": [
-                "EukProg",
+                "EukProg90",
                 "Kerachole"
               ],
               "AST": [
@@ -200,7 +201,7 @@
                 "Spreadlo"
               ],
               "SGE": [
-                "EukProg",
+                "EukProg90",
                 "Panhaima",
                 "Kerachole"
               ],
@@ -233,7 +234,7 @@
                 "Soil"
               ],
               "SGE": [
-                "EukProg",
+                "EukProg90",
                 "Kerachole"
               ],
               "AST": [
@@ -260,7 +261,7 @@
                 "Spreadlo"
               ],
               "SGE": [
-                "ZoeEukProg",
+                "ZoeEukProg90",
                 "Kerachole",
                 "Physis"
               ],

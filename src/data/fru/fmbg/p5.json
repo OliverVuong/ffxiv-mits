@@ -89,32 +89,40 @@
             "mitigations": {
               "WARGNB_WAR": [
                 "Holmgang",
-                "Nascent Buddy",
-                "on 2nd Hit"
+                {
+                  "ability": "Nascent Buddy",
+                  "note": "Nascent Buddy Mit on 2nd Hit"
+                }
               ],
               "WARGNB_GNB": [
                 "Kitchen Sink"
               ],
               "WARPLD_WAR": [
                 "Holmgang",
-                "Nascent Buddy",
-                "on 2nd Hit"
+                {
+                  "ability": "Nascent Buddy",
+                  "note": "Nascent Buddy Mit on 2nd Hit"
+                }
               ],
               "WARPLD_PLD": [
                 "Kitchen Sink"
               ],
               "WARDRK_WAR": [
                 "Holmgang",
-                "Nascent Buddy",
-                "on 2nd Hit"
+                {
+                  "ability": "Nascent Buddy",
+                  "note": "Nascent Buddy Mit on 2nd Hit"
+                }
               ],
               "WARDRK_DRK": [
                 "Kitchen Sink"
               ],
               "GNBDRK_GNB": [
                 "Superbolide",
-                "HoC",
-                "on 2nd Hit"
+                {
+                  "ability": "HoC",
+                  "note": "HoC Buddy Mit on 2nd Hit"
+                }
               ],
               "GNBDRK_DRK": [
                 "Kitchen Sink"
@@ -123,14 +131,18 @@
                 "Kitchen Sink"
               ],
               "GNBPLD_PLD": [
-                "Hallowed",
-                "Intervention",
-                "on 2nd Hit"
+                "Hallowed Ground",
+                {
+                  "ability": "Intervention",
+                  "note": "Intervention Buddy Mit on 2nd Hit"
+                }
               ],
               "PLDDRK_PLD": [
-                "Hallowed",
-                "Intervention",
-                "on 2nd Hit"
+                "Hallowed Ground",
+                {
+                  "ability": "Intervention",
+                  "note": "Intervention Buddy Mit on 2nd Hit"
+                }
               ],
               "PLDDRK_DRK": [
                 "Kitchen Sink"
@@ -275,39 +287,55 @@
               ],
               "WARGNB_GNB": [
                 "Superbolide",
-                "HoC",
-                "on 2nd Hit"
+                {
+                  "ability": "HoC",
+                  "note": "HoC Buddy Mit on 2nd Hit"
+                }
               ],
               "WARPLD_WAR": [
                 "Kitchen Sink"
               ],
               "WARPLD_PLD": [
                 "Hallowed",
-                "Intervention",
-                "on 2nd Hit"
+                {
+                  "ability": "Intervention",
+                  "note": "Intervention Buddy Mit on 2nd Hit"
+                }
               ],
               "WARDRK_WAR": [
                 "Kitchen Sink"
               ],
               "WARDRK_DRK": [
                 "Living Dead",
-                "TBN Buddy",
-                "Oblation Buddy",
-                "on 2nd Hit"
+                {
+                  "ability": "Oblation Buddy",
+                  "note": "Oblation Buddy Mit on 2nd Hit"
+                },
+                {
+                  "ability": "TBN",
+                  "note": "TBN Buddy Mit on 2nd Hit"
+                }
               ],
               "GNBDRK_GNB": [
                 "Kitchen Sink"
               ],
               "GNBDRK_DRK": [
                 "Living Dead",
-                "TBN Buddy",
-                "Oblation Buddy",
-                "on 2nd Hit"
+                {
+                  "ability": "Oblation Buddy",
+                  "note": "Oblation Buddy Mit on 2nd Hit"
+                },
+                {
+                  "ability": "TBN",
+                  "note": "TBN Buddy Mit on 2nd Hit"
+                }
               ],
               "GNBPLD_GNB": [
                 "Superbolide",
-                "HoC",
-                "on 2nd Hit"
+                {
+                  "ability": "HoC",
+                  "note": "HoC Buddy Mit on 2nd Hit"
+                }
               ],
               "GNBPLD_PLD": [
                 "Kitchen Sink"
@@ -317,9 +345,14 @@
               ],
               "PLDDRK_DRK": [
                 "Living Dead",
-                "TBN Buddy",
-                "Oblation Buddy",
-                "on 2nd Hit"
+                {
+                  "ability": "Oblation Buddy",
+                  "note": "Oblation Buddy Mit on 2nd Hit"
+                },
+                {
+                  "ability": "TBN",
+                  "note": "TBN Buddy Mit on 2nd Hit"
+                }
               ]
             }
           },

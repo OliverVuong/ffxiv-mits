@@ -5,7 +5,7 @@
     "sections":[
       {
         "id":0,
-        "name":"Ultimate Relativity",
+        "sectionName":"Ultimate Relativity",
         "table":[
           {
             "type":"Raidwide",
@@ -231,7 +231,7 @@
       },
       {
         "id":1,
-        "name":"Apocalypse",
+        "sectionName":"Apocalypse",
         "table":[
           {
             "type":"cast",

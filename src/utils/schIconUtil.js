@@ -100,8 +100,10 @@ const schMap = {
   'Soil grey': soilG,
   'Soil co': soilCO,
   'Spread-Lo': spreadlo,
+  Spreadlo: spreadlo,
   'Recit Spread-Lo': spreadlo,
   succor,
+  Succor: succor,
 };
 
 export default schMap;
