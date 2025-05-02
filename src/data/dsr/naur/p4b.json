@@ -1,0 +1,141 @@
+{
+    "phase":4.5,
+    "length":120,
+    "name":"Rewind (Save Boy)",
+    "sections":[
+      {
+        "id":0,
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Healers",
+            "time":1,
+            "mitigations":{
+              "SCH":[
+                "Spreadlo"
+              ],
+              "SGE":[
+                {
+                  "ability":"ZoeEukProg90",
+                  "note":"Use Late"
+                }
+              ],
+              "AST":[
+                {
+                  "ability":"Neutral",
+                  "note":"Use when you move to drop your puddle"
+                }
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Melee",
+            "time":2,
+            "mitigations":{
+              "T1":[
+                {
+                  "ability":"BuddyMitM1",
+                  "note":"Use Buddy Mit on M1"
+                }
+              ],
+              "T2":[
+                {
+                  "ability":"BuddyMitM2",
+                  "note":"Use Buddy Mit on M2"
+                }
+              ],
+              "SCH":[
+                {
+                  "ability":"Expedient",
+                  "note":"Use when you move to drop your puddle"
+                }
+              ],
+              "SGE":[
+                "Panhaima"
+              ],
+              "WHM":[
+                "Bell",
+                "Temperance"
+              ],
+              "PRange2":[
+                {
+                  "ability":"PRange Mit",
+                  "note":"Double Phys Ranged Mit can be used back in Eyes if preferred"
+                }
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Range",
+            "time":3,
+            "mitigations":{
+              "T1":[
+                "Party Mit"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Succor",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "PRange":[
+                "PRange Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Tank",
+            "time":4,
+            "mitigations":{
+              
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Pure of Heart",
+            "time":5,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Succor"
+              ],
+              "SGE":[
+                "EukProg90"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "RDM":[
+                "Barrier"
+              ],
+              "MCH":[
+                "Dismantle"
+              ]
+            }
+          }
+        ],
+        "note":"Tank LB Prio: WAR/DRK > PLD > GNB"
+      }
+    ]
+  }

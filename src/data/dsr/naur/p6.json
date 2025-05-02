@@ -1,0 +1,609 @@
+{
+    "phase":6,
+    "length":120,
+    "name":"P6 Double Dragons",
+    "sections":[
+      {
+        "id":0,
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Wyrmsbreath 1",
+            "time":1,
+            "mitigations":{
+              "WARDRK_WAR":[
+                "Vengeance",
+                "Bloodwhetting",
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent if solo buster on co-tank"
+                }
+              ],
+              "WARDRK_DRK":[
+                "Shadowwall",
+                "Oblation",
+                {
+                  "ability":"TBN",
+                  "note":"Buddy Mit: TBN if solo buster on co-tank"
+                }
+              ],
+              "WARGNB_WAR":[
+                "Bloodwhetting",
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent if solo buster on co-tank"
+                }
+              ],
+              "WARGNB_GNB":[
+                {
+                  "ability":"HoC",
+                  "note":"Buddy Mit: HoC if solo buster on co-tank"
+                }
+              ],
+              "WARPLD_WAR":[
+                "Bloodwhetting",
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent if solo buster on co-tank"
+                }
+              ],
+              "WARPLD_PLD":[
+                "Sheltron",
+                {
+                  "ability":"Intervention",
+                  "note":"Buddy Mit: Intervention if solo buster on co-tank"
+                }
+              ],
+              "GNBDRK_GNB":[
+                "Nebula",
+                {
+                  "ability":"HoC",
+                  "note":"Buddy Mit: HoC if solo buster on co-tank"
+                }
+              ],
+              "GNBDRK_DRK":[
+                "Shadowwall",
+                "Oblation",
+                {
+                  "ability":"TBN",
+                  "note":"Buddy Mit: TBN if solo buster on co-tank"
+                }
+              ],
+              "GNBPLD_GNB":[
+                "Nebula",
+                {
+                  "ability":"HoC",
+                  "note":"Buddy Mit: HoC if solo buster on co-tank"
+                }
+              ],
+              "GNBPLD_PLD":[
+                "Sentinel",
+                "Sheltron",
+                {
+                  "ability":"Intervention",
+                  "note":"Buddy Mit: Intervention if solo buster on co-tank"
+                }
+              ],
+              "PLDDRK_PLD":[
+                "Sentinel",
+                "Sheltron",
+                {
+                  "ability":"Intervention",
+                  "note":"Buddy Mit: Intervention if solo buster on co-tank"
+                }
+              ],
+              "PLDDRK_DRK":[
+                "Shadowwall",
+                "Oblation",
+                {
+                  "ability":"TBN",
+                  "note":"Buddy Mit: TBN if solo buster on co-tank"
+                }
+              ],
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Succor",
+                "Seraph",
+                "Fey Illum",
+                {
+                  "ability":"Soil",
+                  "note":"2nd GCD"
+                }
+              ],
+              "SGE":[
+                "ZoeEukProg90",
+                {
+                  "ability":"Kerachole",
+                  "note":"2nd GCD"
+                }
+              ],
+              "PRange2":[
+                "Range Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Afah",
+            "time":2,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Succor",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Hallowed Wing 1",
+            "time":3,
+            "mitigations":{
+              "WARDRK_WAR":[
+                "Rampart",
+                "Bloodwhetting",
+                "Equilibrium"
+              ],
+              "WARDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ],
+              "WARGNB_WAR":[
+                "Rampart",
+                "Bloodwhetting",
+                "Equilibrium"
+              ],
+              "WARGNB_GNB":[
+                "Rampart",
+                "HoC"
+              ],
+              "WARPLD_WAR":[
+                "Rampart",
+                "Bloodwhetting",
+                "Equilibrium"
+              ],
+              "WARPLD_PLD":[
+                "Rampart",
+                "Sheltron"
+              ],
+              "GNBDRK_GNB":[
+                "Rampart",
+                "HoC"
+              ],
+              "GNBDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ],
+              "GNBPLD_GNB":[
+                "Rampart",
+                "HoC"
+              ],
+              "GNBPLD_PLD":[
+                "Rampart",
+                "Sheltron"
+              ],
+              "PLDDRK_PLD":[
+                "Rampart",
+                "Sheltron"
+              ],
+              "PLDDRK_DRK":[
+                "Rampart",
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Wroth Flames",
+            "time":4,
+            "mitigations":{
+              "T1":[
+                "Party Mit"
+              ],
+              "T2":[
+                "Party Mit",
+                "Reprisal"
+              ],
+              "SCH":[
+                "Spreadlo",
+                "Expedient",
+                {
+                  "ability":"Soil",
+                  "note":"Soil Early"
+                }
+              ],
+              "SGE":[
+                "EukProg90",
+                "Panhaima",
+                "Holos",
+                {
+                  "ability":"Kerachole",
+                  "note":"Kera early"
+                }
+              ],
+              "WHM":[
+                "Temperance",
+                "Bell"
+              ],
+              "AST":[
+                "Neutral"
+              ],
+              "M1":[
+                {
+                  "ability":"Feint",
+                  "note":"Can Feint Hrae Hallowed Wing 2"
+                }
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "Caster":[
+                "Addle"
+              ],
+              "MCH":[
+                "Dismantle"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Afah",
+            "time":5,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Succor",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Hallowed Wing 2",
+            "time":6,
+            "mitigations":{
+              "WARDRK_WAR":[
+                "Thrill",
+                "Bloodwhetting"
+              ],
+              "WARDRK_DRK":[
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ],
+              "WARGNB_WAR":[
+                "Thrill",
+                "Bloodwhetting"
+              ],
+              "WARGNB_GNB":[
+                "Camouflage",
+                "HoC"
+              ],
+              "WARPLD_WAR":[
+                "Thrill",
+                "Bloodwhetting"
+              ],
+              "WARPLD_PLD":[
+                "Bulwark",
+                "Sheltron",
+                {
+                  "ability":"Intervention",
+                  "note":"Buddy Mit"
+                }
+              ],
+              "GNBDRK_GNB":[
+                "Camouflage",
+                "HoC"
+              ],
+              "GNBDRK_DRK":[
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ],
+              "GNBPLD_GNB":[
+                "Camouflage",
+                "HoC"
+              ],
+              "GNBPLD_PLD":[
+                "Bulwark",
+                "Sheltron"
+              ],
+              "PLDDRK_PLD":[
+                "Bulwark",
+                "Sheltron"
+              ],
+              "PLDDRK_DRK":[
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Wyrmsbreath 2",
+            "time":7,
+            "mitigations":{
+              "WARDRK_WAR":[
+                "Vengeance",
+                "Rampart",
+                "Equilibrium"
+              ],
+              "WARDRK_DRK":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Shadowwall",
+                  "note":"Shadowwall at 80% of cast (B in wyrmsbreath)"
+                }
+              ],
+              "WARGNB_WAR":[
+                "Vengeance",
+                "Rampart",
+                "Equilibrium"
+              ],
+              "WARGNB_GNB":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Nebula",
+                  "note":"Nebula at 80% of cast (B in wyrmsbreath)"
+                }
+              ],
+              "WARPLD_WAR":[
+                "Vengeance",
+                "Rampart",
+                "Equilibrium"
+              ],
+              "WARPLD_PLD":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Sentinel",
+                  "note":"Sentinel at 80% of cast (B in wyrmsbreath)"
+                }
+              ],
+              "GNBDRK_GNB":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Nebula",
+                  "note":"Nebula at 80% of cast (B in wyrmsbreath)"
+                }
+              ],
+              "GNBDRK_DRK":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Shadowwall",
+                  "note":"Shadowwall at 80% of cast (B in wyrmsbreath)"
+                },
+                {
+                  "ability":"TBN",
+                  "note":"TBN at the start of the cast"
+                }
+              ],
+              "GNBPLD_GNB":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Nebula",
+                  "note":"Nebula at 80% of cast (B in wyrmsbreath)"
+                }
+              ],
+              "GNBPLD_PLD":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Sentinel",
+                  "note":"Sentinel at 80% of cast (B in wyrmsbreath)"
+                }
+              ],
+              "PLDDRK_PLD":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Sentinel",
+                  "note":"Sentinel at 80% of cast (B in wyrmsbreath)"
+                }
+              ],
+              "PLDDRK_DRK":[
+                {
+                  "ability":"Rampart",
+                  "note":"Rampart at the start of the cast"
+                },
+                {
+                  "ability":"Shadowwall",
+                  "note":"Shadowwall at 80% of cast (B in wyrmsbreath)"
+                },
+                {
+                  "ability":"TBN",
+                  "note":"TBN at the start of the cast"
+                }
+              ],
+              "SCH":[
+                "Succor",
+                "Seraph",
+                "Fey Illum",
+                {
+                  "ability":"Adloquium",
+                  "note":"Single Target Shield Rot Melee"
+                }
+              ],
+              "SGE":[
+                "EukProg90",
+                {
+                  "ability":"Eukrasian Diagnosis",
+                  "note":"Single Target Shield Rot Melee"
+                }
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "Caster2":[
+                {
+                  "ability":"Addle",
+                  "note":"Double Caster Addle can be used for either Hallowed Wing 2 or WB2"
+                }
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Cauterize",
+            "time":8,
+            "mitigations":{
+              "WARDRK_WAR":[
+                "Holmgang",
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent"
+                }
+              ],
+              "WARDRK_DRK":[
+                "Rampart",
+                "Shadowwall",
+                "Oblation",
+                "TBN"
+              ],
+              "WARGNB_WAR":[
+                "Holmgang",
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent"
+                }
+              ],
+              "WARGNB_GNB":[
+                "Rampart",
+                "Nebula",
+                "HoC"
+              ],
+              "WARPLD_WAR":[
+                "Holmgang",
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent"
+                }
+              ],
+              "WARPLD_PLD":[
+                "Rampart",
+                "Sentinel",
+                "Sheltron"
+              ],
+              "GNBDRK_GNB":[
+                "Rampart",
+                "Nebula",
+                "HoC"
+              ],
+              "GNBDRK_DRK":[
+                "Rampart",
+                "Shadowwall",
+                "Oblation",
+                "TBN"
+              ],
+              "GNBPLD_GNB":[
+                "Rampart",
+                "Nebula",
+                "HoC"
+              ],
+              "GNBPLD_PLD":[
+                "Rampart",
+                "Sentinel",
+                "Sheltron",
+                {
+                  "ability":"Intervention",
+                  "note":"Buddy Mit: Intervention"
+                }
+              ],
+              "PLDDRK_PLD":[
+                "Rampart",
+                "Sentinel",
+                "Sheltron",
+                {
+                  "ability":"Intervention",
+                  "note":"Buddy Mit: Intervention"
+                }
+              ],
+              "PLDDRK_DRK":[
+                "Rampart",
+                "Shadowwall",
+                "Oblation",
+                "TBN"
+              ],
+              "T2":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Spreadlo",
+                "Soil",
+                "Seraph"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST":[
+                "Macrocosmos"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

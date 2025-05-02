@@ -1,0 +1,494 @@
+{
+    "phase":7,
+    "length":120,
+    "name":"P7 Dragon King Thordan",
+    "sections":[
+      {
+        "id":0,
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Transition",
+            "time":1,
+            "mitigations":{
+              "T1":[
+                {
+                  "ability":"Party Mit",
+                  "note":"Shake/Veil only AFTER second bleed completely falls off"
+                }
+              ],
+              "T2":[
+                {
+                  "ability":"Party Mit",
+                  "note":"Shake/Veil only AFTER second bleed completely falls off"
+                }
+              ],
+              "SCH":[
+                {
+                  "ability":"Spreadlo",
+                  "note":"Shield only AFTER second bleed completely falls off"
+                },
+                "Soil"
+              ],
+              "SGE":[
+                {
+                  "ability":"ZoeEukProg90",
+                  "note":"Shield only AFTER second bleed completely falls off"
+                },
+                {
+                  "ability":"Holos",
+                  "note":"Holos only AFTER second bleed completely falls off"
+                },
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn 1",
+            "time":2,
+            "mitigations":{
+              "WARDRK_WAR":[
+                {
+                  "ability":"Rampart",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                },
+                "Bloodwhetting"
+              ],
+              "WARDRK_DRK":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                }
+              ],
+              "WARGNB_WAR":[
+                {
+                  "ability":"Rampart",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                },
+                "Bloodwhetting"
+              ],
+              "WARGNB_GNB":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Press Rampart and Camouflage after 3rd explosion of the first exaflares"
+                }
+              ],
+              "WARPLD_WAR":[
+                {
+                  "ability":"Rampart",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                },
+                "Bloodwhetting"
+              ],
+              "WARPLD_PLD":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                }
+              ],
+              "GNBDRK_GNB":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Press Rampart and Camouflage after 3rd explosion of the first exaflares"
+                }
+              ],
+              "GNBDRK_DRK":[
+                {
+                  "ability":"Rampart",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                },
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ],
+              "GNBPLD_GNB":[
+                {
+                  "ability":"Rampart",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                },
+                {
+                  "ability":"Camouflage",
+                  "note":"Press Camouflage after 3rd explosion of the first exaflares"
+                },
+                "HoC"
+              ],
+              "GNBPLD_PLD":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                }
+              ],
+              "PLDDRK_PLD":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                }
+              ],
+              "PLDDRK_DRK":[
+                {
+                  "ability":"Rampart",
+                  "note":"Press Rampart after 3rd explosion of the first exaflares"
+                },
+                "Dark Mind",
+                "Oblation",
+                "TBN"
+              ],
+              "T1":[
+                {
+                  "ability":"Reprisal",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "SCH":[
+                "Succor",
+                "Fey Illum",
+                {
+                  "ability":"Soil",
+                  "note":"Early Soil (After 2nd Melee Auto)"
+                }
+              ],
+              "SGE":[
+                "EukProg90",
+                "Panhaima",
+                {
+                  "ability":"Kerachole",
+                  "note":"Early Kerachole (After 2nd Melee Auto)"
+                }
+              ],
+              "WHM":[
+                "Temperance"
+              ],
+              "AST":[
+                "Neutral"
+              ],
+              "M1":[
+                {
+                  "ability":"Feint",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "PRange2":[
+                {
+                  "ability":"Range Mit",
+                  "note":"Double Phys Ranged Mit should be used for AM1 if a scholar is in the party. Otherwise use for Giga 1"
+                }
+              ],
+              "Caster":[
+                {
+                  "ability":"Addle",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Gigaflare 1",
+            "time":3,
+            "mitigations":{
+              "T2":[
+                {
+                  "ability":"Reprisal",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "SCH":[
+                "Succor",
+                "Soil",
+                "Expedient",
+                "Seraph"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "WHM":[
+                "Bell"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M2":[
+                {
+                  "ability":"Feint",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "Caster2":[
+                {
+                  "ability":"Addle",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "MCH":[
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn 2",
+            "time":4,
+            "mitigations":{
+              "WARDRK_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARDRK_DRK":[
+                "Living Dead",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "WARGNB_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARGNB_GNB":[
+                "Superbolide",
+                "HoC Buddy"
+              ],
+              "WARPLD_WAR":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_PLD":[
+                "Hallowed Ground",
+                "Intervention Buddy"
+              ],
+              "GNBDRK_GNB":[
+                "Superbolide",
+                "HoC Buddy"
+              ],
+              "GNBDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "GNBPLD_GNB":[
+                "Kitchen Sink"
+              ],
+              "GNBPLD_PLD":[
+                "Hallowed Ground",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_PLD":[
+                "Hallowed Ground",
+                "Intervention Buddy"
+              ],
+              "PLDDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "T1":[
+                {
+                  "ability":"Reprisal",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "SCH":[
+                "Succor",
+                {
+                  "ability":"Soil",
+                  "note":"Early Soil (After 2nd Melee Auto)"
+                }
+              ],
+              "SGE":[
+                "EukProg90",
+                {
+                  "ability":"Kerachole",
+                  "note":"Early Kerachole (After 2nd Melee Auto)"
+                }
+              ],
+              "PRange":[
+                "Range Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Gigaflare 2",
+            "time":5,
+            "mitigations":{
+              "T1":[
+                {
+                  "ability":"Party Mit",
+                  "note":"Shake/Veil should be used after the first hit."
+                }
+              ],
+              "T2":[
+                {
+                  "ability":"Party Mit",
+                  "note":"Shake/Veil should be used after the first hit."
+                },
+                {
+                  "ability":"Reprisal",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "SCH":[
+                "Spreadlo",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Holos",
+                "Kerachole"
+              ],
+              "WHM":[
+                "Temperance"
+              ],
+              "AST":[
+                "CU",
+                "Macrocosmos"
+              ],
+              "M1":[
+                {
+                  "ability":"Feint",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "PRange2":[
+                "Range Mit"
+              ],
+              "Caster":[
+                {
+                  "ability":"Addle",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Akh Morn 3",
+            "time":6,
+            "mitigations":{
+              "WARDRK_WAR":[
+                {
+                  "ability":"Holmgang",
+                  "note":"End of Cast"
+                },
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent Flash"
+                }
+              ],
+              "WARDRK_DRK":[
+                "Kitchen Sink"
+              ],
+              "WARGNB_WAR":[
+                {
+                  "ability":"Holmgang",
+                  "note":"End of Cast"
+                },
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent Flash"
+                }
+              ],
+              "WARGNB_GNB":[
+                "Kitchen Sink"
+              ],
+              "WARPLD_WAR":[
+                {
+                  "ability":"Holmgang",
+                  "note":"End of Cast"
+                },
+                {
+                  "ability":"Nascent",
+                  "note":"Buddy Mit: Nascent Flash"
+                }
+              ],
+              "WARPLD_PLD":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Paladin will likely overcap on buffs here (might lose req)"
+                }
+              ],
+              "GNBDRK_GNB":[
+                "Kitchen Sink"
+              ],
+              "GNBDRK_DRK":[
+                "Living Dead",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "GNBPLD_GNB":[
+                "Superbolide",
+                {
+                  "ability":"HoC Buddy",
+                  "note":"Buddy Mit: Heart of Corundum"
+                }
+              ],
+              "GNBPLD_PLD":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Paladin will likely overcap on buffs here (might lose req)"
+                }
+              ],
+              "PLDDRK_PLD":[
+                {
+                  "ability":"Kitchen Sink",
+                  "note":"Paladin will likely overcap on buffs here (might lose req)"
+                }
+              ],
+              "PLDDRK_DRK":[
+                "Living Dead",
+                "TBN Buddy",
+                "Oblation Buddy"
+              ],
+              "T1":[
+                {
+                  "ability":"Reprisal",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "SCH":[
+                "Succor",
+                "Expedient",
+                "Seraph",
+                "Soil",
+                "Fey Illum"
+              ],
+              "SGE":[
+                "ZoeEukProg90",
+                "Kerachole",
+                "Panhaima"
+              ],
+              "AST":[
+                "Neutral"
+              ],
+              "M2":[
+                {
+                  "ability":"Feint",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "Caste2r":[
+                {
+                  "ability":"Addle",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
+              ],
+              "MCH":[
+                "Dismantle"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

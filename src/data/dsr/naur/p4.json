@@ -1,0 +1,118 @@
+{
+    "phase":4,
+    "length":120,
+    "name":"P4: Eyes",
+    "sections":[
+      {
+        "id":0,
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Resentment",
+            "time":1,
+            "mitigations":{
+              "SCH":[
+                "Spreadlo"
+              ],
+              "SGE":[
+                "ZoeEukProg90",
+                "Kerachole"
+              ],
+              "AST":[
+                "Neutral"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Orb Pops",
+            "time":2,
+            "mitigations":{
+              "T1":[
+                {
+                  "ability":"Party Mit",
+                  "note":"If Shake/Veil use AFTER the bleed fully falls off"
+                }
+              ],
+              "T2":[
+                {
+                  "ability":"Party Mit",
+                  "note":"If Shake/Veil use AFTER the bleed fully falls off"
+                }
+              ],
+              "SCH":[
+                "Succor",
+                "Fey Illum",
+                "Seraph"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST":[
+                "Macro"
+              ],
+              "PRange":[
+                "PRange Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Dives",
+            "time":3,
+            "mitigations":{
+              "SCH":[
+                "Succor",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Holos"
+              ],
+              "PRange2":[
+                {
+                  "ability":"PRange Mit",
+                  "note":"You can save Double Phys Ranged mit for Rewind if you prefer"
+                }
+              ],
+              "Caster":[
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Steep in Rage",
+            "time":4,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Succor",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "AST":[
+                "CU"
+              ],
+              "M1":[
+                "Feint"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }

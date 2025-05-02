@@ -1,0 +1,222 @@
+{
+    "phase":5,
+    "length":120,
+    "name":"P5 Dark Thordan",
+    "sections":[
+      {
+        "id":0,
+        "table":[
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Wrath of the Heavens",
+            "time":1,
+            "mitigations":{
+              "T1":[
+                {
+                  "ability":"Party Mit",
+                  "note":"Use Party Mit a few seconds after protean cleave"
+                }
+              ],
+              "T2":[
+                {
+                  "ability":"Party Mit",
+                  "note":"Use Party Mit a few seconds after protean cleave"
+                }
+              ],
+              "SCH":[
+                "Spreadlo",
+                "Seraph",
+                "Fey Illum"
+              ],
+              "SGE":[
+                "ZoeEukProg90",
+                "Holos"
+              ],
+              "PRange":[
+                {
+                  "ability":"Range Mit",
+                  "note":"Use it when you are walking to the safe spot to have it back up for Doth Quaga"
+                }
+              ],
+              "PRange2":[
+                "Range Mit"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Ancient Quaga",
+            "time":2,
+            "mitigations":{
+              "T1":[
+                "Reprisal"
+              ],
+              "SCH":[
+                "Succor",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "M1":[
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Ascalon's Might 1",
+            "time":3,
+            "mitigations":{
+              "WARDRK_WAR":[
+                "Homngang"
+              ],
+              "WARGNB_WAR":[
+                "Homngang"
+              ],
+              "WARPLD_WAR":[
+                "Homngang"
+              ],
+              "GNBDRK_GNB":[
+                "Superbolide"
+              ],
+              "GNBPLD_PLD":[
+                "Hallowed Ground"
+              ],
+              "PLDDRK_PLD":[
+                "Hallowed Ground"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Death of the Heavens",
+            "time":4,
+            "mitigations":{
+              "SCH":[
+                "Succor",
+                "Expedient"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Panhaima"
+              ],
+              "WHM":[
+                "Temperance"
+              ],
+              "AST":[
+                "Neutral"
+              ],
+              "RDM":[
+                "Barrier"
+              ]
+            }
+          },
+          {
+            "type":"Raidwide",
+            "stakeholder":"all",
+            "name":"Ancient Quaga",
+            "time":5,
+            "mitigations":{
+              "T1":[
+                "Party Mit",
+                "Reprisal"
+              ],
+              "T2":[
+                "Party Mit"
+              ],
+              "SCH":[
+                "Spreadlo",
+                "Soil"
+              ],
+              "SGE":[
+                "EukProg90",
+                "Kerachole"
+              ],
+              "M1":[
+                {
+                  "ability":"Feint",
+                  "note":"Feint buster late in castbar"
+                }
+              ],
+              "M2":[
+                "Feint"
+              ],
+              "PRange":[
+                "Range Mit"
+              ],
+              "Caster":[
+                "Addle"
+              ]
+            }
+          },
+          {
+            "type":"Tankbuster",
+            "stakeholder":"tanks",
+            "name":"Ascalon's Might 2",
+            "time":6,
+            "mitigations":{
+              "WARDRK_DRK":[
+                "Living Dead"
+              ],
+              "WARGNB_WAR":[
+                {
+                  "ability":"Vengeance",
+                  "note":"If boss gets to 2% before slashes hold vengance for wb1"
+                },
+                {
+                  "ability":"BW",
+                  "note":"Take Slashes"
+                }
+              ],
+              "WARGNB_GNB":[
+                {
+                  "ability":"Nebula",
+                  "note":"If boss gets to 2-3% before heel, hold Nebula for wb1"
+                },
+                {
+                  "ability":"HoC",
+                  "note":"Take Heel"
+                }
+              ],
+              "WARPLD_WAR":[
+                {
+                  "ability":"Vengeance",
+                  "note":"Can also use thrill + Equilibrium (after second slash) instead of Vengeance (since you have 20-30% from intervention)"
+                },
+                {
+                  "ability":"Bloodwhetting",
+                  "note":"Take Slashes"
+                }
+              ],
+              "WARPLD_PLD":[
+                {
+                  "ability":"Sentinel",
+                  "note":"If boss gets to 2-3% before heel, hold Sentinel for wb1"
+                },
+                {
+                  "ability":"Sheltron",
+                  "note":"Take Heel"
+                },
+                "Intervention"
+              ],
+              "GNBDRK_DRK":[
+                "Living Dead"
+              ],
+              "GNBPLD_GNB":[
+                "Superbolide"
+              ],
+              "PLDDRK_DRK":[
+                "Living Dead"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
