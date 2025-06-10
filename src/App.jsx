@@ -4,6 +4,7 @@ import { EncounterView } from './components/Table'
 import Navigation from './components/Navigation'
 import './App.css'
 import { extrasDefault } from './utils/utils'
+import Credits from './components/Credits'
 
 /* import {RoleCheck} from './components/Table'
 import AbilityCard from './components/AbilityCard' */
@@ -95,6 +96,7 @@ function App() {
         extraOptions={extraPicks}
         phasesRef={phasesRef}
       />
+      <Credits></Credits>
       <Navigation
         encounter={encounter}
         mitplan={mitplan}
