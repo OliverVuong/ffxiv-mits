@@ -42,6 +42,7 @@ const drkMap = {
   'Shadowed Vigil': shadowedvigil,
   TBN: theblackestnight,
   'The Blackest Night Buddy': theblackestnightB,
+  'TBN Buddy': theblackestnightB,
   'The Blackest Night': theblackestnight,
 };
 /*

@@ -90,7 +90,7 @@
                 "Equilibrium"
               ],
               "WARPLD_PLD":[
-                "Intervention Buddy"
+                "Intervention"
               ],
               "WARDRK_WAR":[
                 "Rampart",
@@ -111,7 +111,7 @@
                 "Obltion Buddy"
               ],
               "PLDGNB_PLD":[
-                "Intervention Buddy"
+                "Intervention"
               ],
               "PLDGNB_GNB":[
                 "Rampart",
@@ -120,7 +120,7 @@
                 "Aurora"
               ],
               "PLDDRK_PLD":[
-                "Intervention Buddy"
+                "Intervention"
               ],
               "PLDDRK_DRK":[
                 "Rampart",
@@ -236,8 +236,14 @@
             "time":136,
             "mitigations":{
               "WARGNB_WAR":[
-                "Damnation",
-                "Bloodwhetting (early)"
+                {
+                "ability": "Damnation",
+                "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit"
+                },
+                {
+                  "ability": "Bloodwhetting",
+                  "note": "Use Bloodwhetting early"
+                }
               ],
               "WARGNB_GNB":[
                 "Great Nebula"
@@ -284,7 +290,7 @@
                 "Party Mit"
               ],
               "PRange":[
-                "Party Mit"
+                "Range Mit"
               ]
             }
           },
@@ -297,7 +303,7 @@
               "WARGNB_WAR":[
                 "Rampart",
                 "Bloodwhetting",
-                "Equilibrim"
+                "Equilibrium"
               ],
               "WARGNB_GNB":[
                 "HoC Buddy",
@@ -309,7 +315,7 @@
               "WARPLD_PLD":[
                 "Rampart",
                 "Bulwark",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "WARDRK_WAR":[
                 "Nascent bud"

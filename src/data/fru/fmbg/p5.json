@@ -120,7 +120,7 @@
               "GNBDRK_GNB": [
                 "Superbolide",
                 {
-                  "ability": "HoC",
+                  "ability": "HoC Buddy",
                   "note": "HoC Buddy Mit on 2nd Hit"
                 }
               ],
@@ -288,7 +288,7 @@
               "WARGNB_GNB": [
                 "Superbolide",
                 {
-                  "ability": "HoC",
+                  "ability": "HoC Buddy",
                   "note": "HoC Buddy Mit on 2nd Hit"
                 }
               ],
@@ -296,7 +296,7 @@
                 "Kitchen Sink"
               ],
               "WARPLD_PLD": [
-                "Hallowed",
+                "Hallowed Ground",
                 {
                   "ability": "Intervention",
                   "note": "Intervention Buddy Mit on 2nd Hit"
@@ -312,7 +312,7 @@
                   "note": "Oblation Buddy Mit on 2nd Hit"
                 },
                 {
-                  "ability": "TBN",
+                  "ability": "TBN Buddy",
                   "note": "TBN Buddy Mit on 2nd Hit"
                 }
               ],
@@ -326,14 +326,14 @@
                   "note": "Oblation Buddy Mit on 2nd Hit"
                 },
                 {
-                  "ability": "TBN",
+                  "ability": "TBN Buddy",
                   "note": "TBN Buddy Mit on 2nd Hit"
                 }
               ],
               "GNBPLD_GNB": [
                 "Superbolide",
                 {
-                  "ability": "HoC",
+                  "ability": "HoC Buddy",
                   "note": "HoC Buddy Mit on 2nd Hit"
                 }
               ],
@@ -350,7 +350,7 @@
                   "note": "Oblation Buddy Mit on 2nd Hit"
                 },
                 {
-                  "ability": "TBN",
+                  "ability": "TBN Buddy",
                   "note": "TBN Buddy Mit on 2nd Hit"
                 }
               ]
@@ -441,7 +441,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Akh Morn 3",
-            "time": 320,
+            "time": 652,
             "mitigations": {
               "T1": [
                 "Reprisal",

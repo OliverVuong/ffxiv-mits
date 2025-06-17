@@ -63,7 +63,7 @@ const zoeeukprog90co = {
 };
 const zoeeukprogCO = {
   name: 'Zoe',
-  img: images[12].default,
+  img: images[13].default,
 };
 
 const sgeMap = {
@@ -92,6 +92,7 @@ const sgeMap = {
   ZoeEukProg90: zoeeukprog90,
   zoeeukprog90co,
   zoeeukprogCO,
+  'Zoe EukProg co': zoeeukprogCO,
 };
 
 export default sgeMap;

@@ -63,62 +63,88 @@
           "mitigations":{
             "WARGNB_WAR":[
               "Damnation",
-              "Rampart",
-              "_(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Bloodwhetting"
             ],
             "WARGNB_GNB":[
-              "Rampart",
-              "_(late)",
-              "Camo",
-              "_(late)"
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
+              {
+                "ability": "Camo",
+                "note": "Late Camo"
+              }
             ],
             "WARPLD_WAR":[
               "Damnation",
-              "Rampart",
-              "(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Bloodwhetting"
             ],
             "WARPLD_PLD":[
-              "Rampart",
-              "_(late)"
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              }
             ],
             "WARDRK_WAR":[
               "Damnation",
-              "Rampart",
-              "(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Bloodwhetting"
             ],
             "WARDRK_DRK":[
-              "Rampart",
-              "(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "TBN bud",
               "Oblation bud"
             ],
             "GNBDRK_GNB":[
               "Great Nebula",
-              "Rampart",
-              "_(late)",
-              "Camo",
-              "_(late)"
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
+              {
+                "ability": "Camo",
+                "note": "Late Camo"
+              }
             ],
             "GNBDRK_DRK":[
-              "Rampart",
-              "(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "TBN bud",
               "Oblation bud"
             ],
             "PLDGNB_PLD":[
               "Guardian",
-              "Rampart",
-              "(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Holy Sheltron"
             ],
             "PLDGNB_GNB":[
-              "Rampart",
-              "_(late)",
-              "Camo",
-              "_(late)"
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
+              {
+                "ability": "Camo",
+                "note": "Late Camo"
+              }
             ],
             "PLDDRK_PLD":[
               "Guardian",
@@ -127,8 +153,10 @@
               "Holy Sheltron"
             ],
             "PLDDRK_DRK":[
-              "Rampart",
-              "(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "TBN bud",
               "Oblation bud"
             ]
@@ -172,7 +200,7 @@
               "Rampart co",
               "Bulwark",
               "Holy Sheltron",
-              "Intervention bud"
+              "Intervention"
             ],
             "WARDRK_WAR":[
               "Rampart co",
@@ -427,7 +455,7 @@
             ],
             "WARPLD_PLD":[
               "Kitchen Sink",
-              "Intervention bud"
+              "Intervention"
             ],
             "WARDRK_WAR":[
               "Kitchen Sink"
@@ -443,14 +471,14 @@
             ],
             "PLDGNB_PLD":[
               "Kitchen Sink",
-              "Intervention bud"
+              "Intervention"
             ],
             "PLDGNB_GNB":[
               "Kitchen Sink"
             ],
             "PLDDRK_PLD":[
               "Kitchen Sink",
-              "Intervention bud"
+              "Intervention"
             ],
             "PLDDRK_DRK":[
               "Kitchen Sink"

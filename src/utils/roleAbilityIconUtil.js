@@ -66,11 +66,11 @@ const rampartCO = {
   img: images[12].default,
 };
 const rangemit = {
-  name: 'Range Mit',
+  name: 'RangeMit',
   img: images[13].default,
 };
 const rangemitCO = {
-  name: '↪Range Mit',
+  name: '↪RangeMit',
   img: images[14].default,
 };
 const reprisal = {
@@ -113,6 +113,7 @@ const rolesAbilityMap = {
   'Party Mit co': partymitCO,
   Rampart: rampart,
   rampartCO,
+  'Rampart co': rampartCO,
   'Range Mit': rangemit,
   rangemitCO,
   'Range Mit co': rangemitCO,

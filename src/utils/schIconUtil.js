@@ -33,49 +33,57 @@ const feyillumCO = {
   name: '↪Illum',
   img: images[6].default,
 };
+const recitConcitation = {
+  name: 'RecitCon',
+  img: images[7].default,
+};
+const recitConcitationCO = {
+  name: '↪RecitCon',
+  img: images[8].default,
+};
 const recitSuccor = {
   name: 'Recit Succor',
-  img: images[7].default,
+  img: images[9].default,
 };
 const recitSuccorCO = {
   name: 'Recit Succor',
-  img: images[8].default,
+  img: images[10].default,
 };
 const seraph = {
   name: 'Seraph',
-  img: images[9].default,
+  img: images[11].default,
 };
 const seraphCO = {
   name: '↪Seraph',
-  img: images[10].default,
+  img: images[12].default,
 };
 const seraphism = {
   name: 'Seraphism',
-  img: images[11].default,
+  img: images[13].default,
 };
 const seraphismCO = {
   name: '↪Seraphism',
-  img: images[12].default,
+  img: images[14].default,
 };
 const soil = {
   name: 'Soil',
-  img: images[13].default,
+  img: images[15].default,
 };
 const soilG = {
   name: 'Soil',
-  img: images[14].default,
+  img: images[16].default,
 };
 const soilCO = {
   name: '↪Soil',
-  img: images[14].default,
+  img: images[16].default,
 };
 const spreadlo = {
   name: 'Spreadlo',
-  img: images[15].default,
+  img: images[17].default,
 };
 const succor = {
   name: 'Succor',
-  img: images[16].default,
+  img: images[18].default,
 };
 
 const schMap = {
@@ -90,6 +98,9 @@ const schMap = {
   'Fey Illumination': feyillum,
   'Fey Illum co': feyillumCO,
   'Fey Illumination co': feyillumCO,
+  recitConcitation,
+  'Recit Concitation': recitConcitation,
+  recitConcitationCO,
   recitSuccor,
   recitSuccorCO,
   Seraph: seraph,

@@ -120,9 +120,9 @@
               "WARPLD_PLD": [
                 "Rampart",
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "or",
-                "Intervention Buddy"
+                "Intervention"
               ],
               "WARDRK_WAR": [
                 "Nascent Buddy",
@@ -137,7 +137,7 @@
                 "Oblation",
                 "or",
                 "TBN Buddy",
-                "Obltion Buddy"
+                "Oblation Buddy"
               ],
               "GNBDRK_GNB": [
                 "Rampart",
@@ -148,7 +148,7 @@
               ],
               "GNBDRK_DRK": [
                 "TBN Buddy",
-                "Obltion Buddy",
+                "Oblation Buddy",
                 "or",
                 "Rampart",
                 "Dark Mind",
@@ -165,15 +165,15 @@
               "GNBPLD_PLD": [
                 "Rampart",
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "or",
-                "Intervention Buddy"
+                "Intervention"
               ],
               "PLDDRK_PLD": [
                 "Rampart",
-                "Sheltron",
+                "Holy Sheltron",
                 "or",
-                "Intervention Buddy"
+                "Intervention"
               ],
               "PLDDRK_DRK": [
                 "TBN Buddy",
@@ -247,7 +247,7 @@
               "Caster": [
                 {
                   "ability":"Addle",
-                  "note":"Addle on Shiva"
+                  "note":"Addle on Gaia"
                 }
               ],
               "BRD":[
@@ -259,7 +259,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Crystallize Mech",
-            "time": 18,
+            "time": "",
             "mitigations": {
               "SCH": [
                 "Spread-Lo",
@@ -377,11 +377,11 @@
                 "Nascent Buddy"
               ],
               "WARPLD_PLD": [
-                "Intervention Buddy",
+                "Intervention",
                 "or",
                 "Rampart",
                 "Bulwark",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "WARDRK_WAR": [
                 "Rampart",
@@ -391,7 +391,7 @@
               ],
               "WARDRK_DRK": [
                 "TBN Buddy",
-                "Obltion Buddy",
+                "Oblation Buddy",
                 "or",
                 "Rampart",
                 "TBN",
@@ -420,18 +420,18 @@
                 "HoC Buddy"
               ],
               "GNBPLD_PLD": [
-                "Intervention Buddy",
+                "Intervention",
                 "or",
                 "Rampart",
                 "Bulwark",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_PLD": [
-                "Intervention Buddy",
+                "Intervention",
                 "or",
                 "Rampart",
                 "Bulwark",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_DRK": [
                 "Rampart",

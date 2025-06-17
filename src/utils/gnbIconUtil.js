@@ -9,34 +9,90 @@ const aurora = {
   name: 'Aurora',
   img: images[0].default,
 };
+const auroraG = {
+  name: 'Aurora',
+  img: images[1].default,
+};
 const camouflage = {
   name: 'Camo',
-  img: images[1].default,
+  img: images[2].default,
+};
+const camouflageCO = {
+  name: '↪Camo',
+  img: images[3].default,
 };
 const greatnebula = {
   name: 'Nebula',
-  img: images[2].default,
+  img: images[4].default,
 };
-const heartofcorrundum = {
+const greatnebulaCO = {
+  name: '↪Nebula',
+  img: images[5].default,
+};
+const heartofcorundum = {
   name: 'HoC',
-  img: images[3].default,
+  img: images[6].default,
 };
-const heartofcorrundumB = {
+const heartofcorundumCO = {
+  name: '↪HoC',
+  img: images[7].default,
+};
+const heartofcorundumB = {
   name: 'BuddyHoC',
-  img: images[3].default,
+  img: images[6].default,
+};
+const heartoflight = {
+  name: 'HoL',
+  img: images[8].default,
+};
+const heartoflightCO = {
+  name: '↪HoL',
+  img: images[9].default,
+};
+const heartofstone = {
+  name: 'HoS',
+  img: images[10].default,
+};
+const heartofstoneCO = {
+  name: '↪HoS',
+  img: images[11].default,
+};
+const nebula = {
+  name: 'Nebula',
+  img: images[12].default,
+};
+const nebulaCO = {
+  name: '↪Nebula',
+  img: images[13].default,
 };
 const superbolide = {
   name: 'Bolide',
-  img: images[4].default,
+  img: images[14].default,
+};
+const superbolideCO = {
+  name: '↪Bolide',
+  img: images[15].default,
 };
 
 const gnbMap = {
   aurora,
+  auroraG,
   Camo: camouflage,
+  camouflageCO,
+  'Camo co': camouflageCO,
   'Great Nebula': greatnebula,
-  HoC: heartofcorrundum,
-  'HoC Buddy': heartofcorrundumB,
+  'Great Nebula CO': greatnebulaCO,
+  HoC: heartofcorundum,
+  heartofcorundumCO,
+  'HoC Buddy': heartofcorundumB,
+  heartoflight,
+  heartoflightCO,
+  heartofstone,
+  heartofstoneCO,
+  nebula,
+  nebulaCO,
   Superbolide: superbolide,
+  superbolideCO,
 };
 
 export default gnbMap;

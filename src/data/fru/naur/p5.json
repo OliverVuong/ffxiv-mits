@@ -98,8 +98,10 @@
               ],
               "WARGNB_GNB":[
                 "Kitchen Sink",
-                "HoC",
-                "on 2nd Hit"
+                {
+                  "ability": "HoC",
+                  "note": "Use HoC on 2nd hit"
+                }
               ],
               "WARPLD_WAR":[
                 "Holmgang",
@@ -114,8 +116,10 @@
               ],
               "WARDRK_DRK":[
                 "Kitchen Sink",
-                "TBN",
-                "on 2nd Hit"
+                {
+                  "ability": "TBN",
+                  "note": "Use TBN on 2nd hit"
+                }
               ],
               "GNBDRK_GNB":[
                 "Kitchen Sink"
@@ -126,15 +130,15 @@
                 "TBN Buddy"
               ],
               "PLDGNB_PLD":[
-                "Hallowed",
-                "Intervention Buddy"
+                "Hallowed Ground",
+                "Intervention"
               ],
               "PLDGNB_GNB":[
                 "Kitchen Sink"
               ],
               "PLDDRK_PLD":[
-                "Hallowed",
-                "Intervention Buddy"
+                "Hallowed Ground",
+                "Intervention"
               ],
               "PLDDRK_DRK":[
                 "Kitchen Sink"
@@ -199,7 +203,7 @@
               ],
               "PRange":[
                 {
-                  "ability": "Party Mit",
+                  "ability": "Range Mit",
                   "note": "2nd hit of Cruel Path"
                 }
               ]
@@ -308,8 +312,8 @@
                 "Kitchen Sink"
               ],
               "WARPLD_PLD":[
-                "Hallowed",
-                "Intervention Buddy"
+                "Hallowed Ground",
+                "Intervention"
               ],
               "WARDRK_WAR":[
                 "Kitchen Sink"
@@ -342,12 +346,16 @@
                 "Oblation Buddy"
               ],
               "SCH":[
-                "Soil",
-                "After last tower"
+                {
+                  "ability": "Soil",
+                  "note": "After last tower"
+                }
               ],
               "SGE":[
-                "Kerachole",
-                "After last tower"
+                {
+                  "ability": "Kerachole",
+                  "note": "After last tower"
+                }
               ]
             }
           },
@@ -382,7 +390,7 @@
                 "Macro"
               ],
               "PRange":[
-                "Party Mit"
+                "Range Mit"
               ],
               "RDM":[
                 "Barrier",

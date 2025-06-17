@@ -198,7 +198,7 @@
                 "Kitchen Sink"
               ],
               "WARPLD_PLD":[
-                "Intervention Buddy"
+                "Intervention"
               ],
               "WARDRK_WAR":[
                 "Kitchen Sink"
@@ -260,7 +260,7 @@
           },
           {
             "type":"Tankbuster",
-            "stakeholder":"tanks",
+            "stakeholder":"all",
             "name":"Darkest Dance",
             "time":133,
             "mitigations":{
@@ -293,7 +293,10 @@
                 "Reprisal"
               ],
               "SCH":[
-                "Expedient"
+                {
+                  "ability": "Expedient",
+                  "note": "Expedient on CD"
+                }
               ],
               "SGE":[
                 "Kerachole co",
