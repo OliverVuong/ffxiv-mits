@@ -4,6 +4,7 @@
   "name":"P1 Fatebreaker",
   "sections":[
     {
+      "id": 0,
       "table":[
         {
           "type":"prepull",
@@ -62,7 +63,10 @@
           "time":24,
           "mitigations":{
             "WARGNB_WAR":[
-              "Damnation",
+              {
+                "ability": "Damnation",
+                "hasOverflow": true
+              },
               {
                 "ability": "Rampart",
                 "note": "Late Rampart"
@@ -80,7 +84,10 @@
               }
             ],
             "WARPLD_WAR":[
-              "Damnation",
+              {
+                "ability": "Damnation",
+                "hasOverflow": true
+              },
               {
                 "ability": "Rampart",
                 "note": "Late Rampart"
@@ -94,7 +101,10 @@
               }
             ],
             "WARDRK_WAR":[
-              "Damnation",
+              {
+                "ability": "Damnation",
+                "hasOverflow": true
+              },
               {
                 "ability": "Rampart",
                 "note": "Late Rampart"

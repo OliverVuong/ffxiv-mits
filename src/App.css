@@ -39,16 +39,6 @@ html {
   }
 } */
 
-.card {
-  padding: 2em;
-}
-
-.aCard {
-  display: inline-block;
-  text-align: center;
-  width: 64px;
-  font-size: 90%;
-}
 
 .phase-header {
   border: 2px solid white;

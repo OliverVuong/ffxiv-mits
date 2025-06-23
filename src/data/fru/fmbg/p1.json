@@ -329,13 +329,19 @@
           "time":130,
           "mitigations":{
             "WARGNB_WAR":[
-              "Damnation",
+              {
+                "ability": "Damnation",
+                "hasOverflow": true
+              },
               "Rampart",
               "Thrill",
               "Bloodwhetting"
             ],
             "WARPLD_WAR":[
-              "Damnation",
+              {
+                "ability": "Damnation",
+                "hasOverflow": true
+              },
               "Rampart",
               "Thrill",
               "Bloodwhetting"
@@ -344,7 +350,10 @@
               "Intervention"
             ],
             "WARDRK_WAR":[
-              "Damnation",
+              {
+                "ability": "Damnation",
+                "hasOverflow": true
+              },
               "Rampart",
               "Thrill",
               "Bloodwhetting"

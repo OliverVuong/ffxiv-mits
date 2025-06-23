@@ -1,0 +1,10 @@
+.aCard {
+    display: inline-block;
+    text-align: center;
+    width: 64px;
+    font-size: 90%;
+  }
+
+.hasOverflow {
+    font-size: 75%;
+}

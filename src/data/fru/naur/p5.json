@@ -4,6 +4,7 @@
     "name":"P5 Pandora",
     "sections":[
       {
+        "id": 0,
         "table":[
           {
             "type":"Raidwide",

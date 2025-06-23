@@ -290,21 +290,30 @@
             "time": 306,
             "mitigations": {
               "WARGNB_WAR": [
-                "Damnation",
+                {
+                  "ability": "Damnation",
+                  "hasOverflow": true
+                },
                 "Thrill"
               ],
               "WARGNB_GNB": [
                 "Great Nebula"
               ],
               "WARPLD_WAR": [
-                "Damnation",
+                {
+                  "ability": "Damnation",
+                  "hasOverflow": true
+                },
                 "Thrill"
               ],
               "WARPLD_PLD": [
                 "Guardian"
               ],
               "WARDRK_WAR": [
-                "Damnation",
+                {
+                  "ability": "Damnation",
+                  "hasOverflow": true
+                },
                 "Thrill"
               ],
               "WARDRK_DRK": [

@@ -237,8 +237,9 @@
             "mitigations":{
               "WARGNB_WAR":[
                 {
-                "ability": "Damnation",
-                "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit"
+                  "ability": "Damnation",
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
+                  "hasOverflow": true
                 },
                 {
                   "ability": "Bloodwhetting",
@@ -249,7 +250,10 @@
                 "Great Nebula"
               ],
               "WARPLD_WAR":[
-                "Damnation",
+                {
+                  "ability": "Damnation",
+                  "hasOverflow": true
+                },
                 "Thrill"
               ],
               "WARPLD_PLD":[
@@ -257,7 +261,10 @@
                 "Holy Sheltron"
               ],
               "WARDRK_WAR":[
-                "Damnation",
+                {
+                  "ability": "Damnation",
+                  "hasOverflow": true
+                },
                 "Thrill"
               ],
               "WARDRK_DRK":[
