@@ -3,6 +3,7 @@
 import encounters from '../utils/encounters';
 import { roles, tankCombos, extras, displayNameMap } from '../utils/utils';
 import AbilityCard from './AbilityCard';
+import './Table.css';
 
 //const data = JSON.parse(p1);
 function Cell({mitigations, role}) {

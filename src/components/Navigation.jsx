@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import encounters from '../utils/encounters';
+import './Navigation.css';
 
 const handleScroll = (ref) => {
     ref.scrollIntoView({

@@ -1,0 +1,48 @@
+.phase-header {
+    border: 2px solid white;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    /*width: 1255px;*/
+  }
+  .section-header {
+    font-size: 32px;
+    text-align: center;
+    /*width: 1255px;*/
+  }
+  
+  table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  .T1, .T2 {
+    width: 128px;
+  }
+  
+  .SCH, .SGE, 
+  .WARGNB_WAR, .WARGNB_GNB, .WARPLD_WAR, .WARPLD_PLD, .WARDRK_WAR, .WARDRK_DRK,
+  .GNBDRK_GNB, .GNBDRK_DRK, .GNBPLD_GNB, .GNBPLD_PLD, 
+  .PLDDRK_PLD, .PLDDRK_DRK, .PLDGNB_PLD, .PLDGNB_GNB,
+  .t1, .t2 {
+    width: 196px;
+  }
+  
+  .WHM, .AST {
+    width: 128px;
+  }
+  
+  .M1, .M2, .PRange, .Caster, .time, .BRD, .RDM, .MCH, .PLD, .MNK, .CASTER2 {
+    width: 64px;
+  }
+  
+  .name-header {
+    width: 160px;
+  }
+  .row-header{
+    text-align: left;
+  }
+  
+  .time-td{
+    text-align: center;
+  }

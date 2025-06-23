@@ -32,7 +32,10 @@
             "mitigations":{
               "T1":[
                 "Reprisal co",
-                "Party Mit co"
+                {
+                  "ability": "Party Mit co",
+                  "hasOverflow": true
+                }
               ],
               "SCH":[
                 "Soil"

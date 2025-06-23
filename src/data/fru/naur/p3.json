@@ -14,13 +14,19 @@
             "time":5,
             "mitigations":{
               "T2":[
-                "Reprisal"
+                {
+                  "ability": "Reprisal",
+                  "note": "Use as the cast completes to cover Relativity"
+                }
               ],
               "SCH":[
                 "Soil"
               ],
               "SGE":[
-                "Kerachole"
+                {
+                  "ability": "Kerachole",
+                  "note": "Use as the cast completes to cover Relativity"
+                }
               ],
               "extranotes":{
                 "SCH/SGE":"15s mits slightly after Hell's Judgment to have up for Shell Crusher or additional use of CD for soil/kera"
@@ -91,7 +97,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Dark Fire III 2",
-            "time":52,
+            "time": 41,
             "mitigations":{
               "T1":[
                 "Reprisal",
@@ -105,7 +111,7 @@
                 "Panhaima",
                 {
                   "ability": "Kerachole",
-                  "note": "Use on CD"
+                  "note": "Kerachole on CD"
                 }
               ],
               "WHM":[
