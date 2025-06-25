@@ -166,7 +166,7 @@ legend {
 .selectors {
   position: relative;
   width: 1282px;
-  margin: auto;
+  /*margin: auto;*/
 }
 .selectors::after {
   position: absolute;

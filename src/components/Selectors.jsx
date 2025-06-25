@@ -6,11 +6,13 @@ import { mits } from "../utils/utils";
 //import { tankStateDefault } from "../utils/utils";
 import { tankCombosByPlan } from "../utils/utils";
 import { extras } from "../utils/utils";
+import { extrasByPlan } from "../utils/utils";
 import { MtCard, OtCard } from "./TankCard";
 import extrasSelectorMap from "../utils/extraMenuUtil";
 import encounterImgMap from "../utils/encounterImgUtil";
 import { defaultMitPlan, encounterNameMap } from "../utils/utils";
 import DeselectAll from "./DeselectAll";
+import './Selectors.css';
 
 function Chip({ input, picks, setPicks }) {
     return (
@@ -101,7 +103,7 @@ function RoleMenu({ roleView, setRoleView }) {
     );
 }
 
-function ExtraChip( { input, extraPicks, setExtraPicks } ){
+function ExtraChip( { input, extraPicks, setExtraPicks, hasData } ){
     const imgCode = extraPicks[input] ? input : input + 'G';
     return (
         <div className="extra-chip">
@@ -118,14 +120,17 @@ function ExtraChip( { input, extraPicks, setExtraPicks } ){
                     className="extra-icon"
                 />
                 <div className="text">{extrasSelectorMap[input].name}</div>
-                
+                {!hasData && 
+                <div className="noDataOverlay">
+                    <strong className="text">No&nbsp;Data</strong>
+                </div>}
                 {/*'✅ ✓ ✔ '*/}
             </button>
         </div>
     );
 }
 
-function ExtraMenu({ extraPicks, setExtraPicks }) {
+function ExtraMenu({ encounter, mitplan, extraPicks, setExtraPicks }) {
     return (
         <fieldset>
             <legend>Extras</legend>
@@ -142,6 +147,7 @@ function ExtraMenu({ extraPicks, setExtraPicks }) {
                             input={extra}
                             extraPicks={extraPicks}
                             setExtraPicks={setExtraPicks}
+                            hasData={extrasByPlan[encounter][mitplan].includes(extra)}
                         />
                         /* <Chip
                             key={extra}
@@ -353,6 +359,8 @@ function Selectors({
         </div>
         
         <ExtraMenu 
+            encounter={encounter}
+            mitplan={mitplan}
             extraPicks={extraPicks}
             setExtraPicks={setExtraPicks}
         />

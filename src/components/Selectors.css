@@ -1,0 +1,22 @@
+.extra-chip {
+    position: relative;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.noDataOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.noDataOverlay > .text {
+    background-color: rgb(28, 61, 120, 0.9); /*hex code: #1c3d78 ;*/
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    opacity: 1;
+}

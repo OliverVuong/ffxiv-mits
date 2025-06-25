@@ -3,6 +3,7 @@
 import encounters from '../utils/encounters';
 import { roles, tankCombos, extras, displayNameMap } from '../utils/utils';
 import AbilityCard from './AbilityCard';
+import { extrasByPlan } from '../utils/utils';
 import './Table.css';
 
 //const data = JSON.parse(p1);
@@ -107,6 +108,8 @@ export function RoleCheck({ roleView, tankView }) {
 //rename Table to sectiondisplay and include a section title
 
 function TableView( {
+    encounter, 
+    mitplan, 
     section, 
     roleOptions, 
     tankOptions,
@@ -114,7 +117,7 @@ function TableView( {
 } ) {
     const visibleRoles = roles.filter((role) => roleOptions[role]);
     const visibleTanks = tankCombos.filter((combo) => tankOptions[combo]);
-    const visibleExtras = extras.filter((extra) => extraOptions[extra])
+    const visibleExtras = extras.filter((extra) => extraOptions[extra] && extrasByPlan[encounter][mitplan].includes(extra));
     const visible = visibleTanks.concat(visibleRoles).concat(visibleExtras);
     //console.log(section);
     let table = section['table']
@@ -147,6 +150,8 @@ function TableView( {
 }
 
 function SectionView( {
+    encounter, 
+    mitplan, 
     sections, 
     roleOptions, 
     tankOptions,
@@ -161,6 +166,8 @@ function SectionView( {
                     <div key={section['id']}>
                         {section['sectionName'] && <h3 className='section-header'>{section['sectionName']}</h3>}
                         <TableView 
+                            encounter={encounter}
+                            mitplan={mitplan}
                             section={section}
                             roleOptions={roleOptions}
                             tankOptions={tankOptions}
@@ -174,6 +181,8 @@ function SectionView( {
 }
 
 function PhaseView( {
+    encounter, 
+    mitplan, 
     phase, 
     roleOptions, 
     tankOptions,
@@ -191,6 +200,8 @@ function PhaseView( {
                 {phase['name']}
             </h3>
             <SectionView
+                encounter={encounter}
+                mitplan={mitplan}
                 sections={phase['sections']}
                 roleOptions={roleOptions}
                 tankOptions={tankOptions}
@@ -211,12 +222,17 @@ export function EncounterView( {
 }){
     console.log(encounters[encounter][mitplan])
     const phases = encounters[encounter][mitplan];
+    console.log('EXTRA OPTIONS');
+    console.log(extraOptions);
+    //onsole.log(extraOptions.filter((option) => extrasByPlan[encounter][mitplan].includes(option)));
     return (
         <>
             {/* <h2 className='mitplan-encounter-header'>{mitplan} {encounter}</h2> */}
             {phases.map((phase, index) => {
                 return (
                     <PhaseView 
+                        encounter={encounter}
+                        mitplan={mitplan}
                         phase={phase}
                         roleOptions={roleOptions}
                         tankOptions={tankOptions}

@@ -120,6 +120,20 @@ for (const extra of extras) {
   extrasDefault[extra] = false;
 }
 
+export const extrasByPlan = {
+  FRU: {
+    fmbg: ['BRD', 'RDM', 'MCH', 'PLD', 'MNK', 'CASTER2'],
+    naur: ['RDM', 'MCH', 'PLD'],
+    frumitty: ['Extras'],
+  },
+  TOP: {
+    mitty: ['RDM', 'MCH'],
+  },
+  DSR: {
+    naur: ['RDM', 'MCH'],
+  },
+};
+
 export const isTank = (input) => {
   return tankCombos.includes(input);
 };
