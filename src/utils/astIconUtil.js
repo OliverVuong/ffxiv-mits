@@ -29,13 +29,17 @@ const neutralsectCO = {
   name: '↪Neutral',
   img: images[5].default,
 };
+const star = {
+  name: 'Star',
+  img: images[6].default,
+};
 const sunsign = {
   name: 'Sun',
-  img: images[6].default,
+  img: images[7].default,
 };
 const sunsignCO = {
   name: '↪Sun',
-  img: images[7].default,
+  img: images[8].default,
 };
 
 const astMap = {
@@ -45,9 +49,11 @@ const astMap = {
   Macro: macrocosmos,
   Macrocosmos: macrocosmos,
   macrocosmosCO,
+  'Neutral Sect': neutralsect,
   Neutral: neutralsect,
   neutralsectCO,
   'Neutral co': neutralsectCO,
+  Star: star,
   Sun: sunsign,
   'Sun Sign': sunsign,
   sunsignCO,

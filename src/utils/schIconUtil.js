@@ -85,6 +85,10 @@ const succor = {
   name: 'Succor',
   img: images[18].default,
 };
+const whisperingdawn = {
+  name: 'WD',
+  img: images[19].default,
+};
 
 const schMap = {
   Concitation: concitation,
@@ -115,6 +119,7 @@ const schMap = {
   'Recit Spread-Lo': spreadlo,
   succor,
   Succor: succor,
+  'Whispering Dawn': whisperingdawn,
 };
 
 export default schMap;

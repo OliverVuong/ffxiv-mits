@@ -66,7 +66,7 @@
                 "Feint"
               ],
               "PRange":[
-                "Party Mit Range"
+                "Range Mit"
               ],
               "Caster":[
                 "Addle"
@@ -160,7 +160,7 @@
                 "Feint"
               ],
               "PRange":[
-                "Party Mit Range"
+                "Range Mit"
               ],
               "Caster":[
                 "Addle"
@@ -180,7 +180,7 @@
             "time":6,
             "mitigations":{
               "SCH":[
-                "Expedience"
+                "Expedient"
               ],
               "AST":[
                 "Neutral Sect"
@@ -312,7 +312,7 @@
                 "Feint"
               ],
               "PRange":[
-                "Party Mit Range"
+                "Range Mit"
               ],
               "Caster":[
                 "Addle"

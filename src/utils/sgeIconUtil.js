@@ -89,6 +89,7 @@ const sgeMap = {
   Zoe: zoeeukprog,
   'Zoe EukProg': zoeeukprog,
   zoeeukprog90,
+  'Zoe EukProg90': zoeeukprog90,
   ZoeEukProg90: zoeeukprog90,
   zoeeukprog90co,
   zoeeukprogCO,

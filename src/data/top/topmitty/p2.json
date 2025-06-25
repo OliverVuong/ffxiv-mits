@@ -13,19 +13,19 @@
             "time": 50,
             "mitigations": {
               "WARGNB_WAR": [
-                "Holmngag"
+                "Holmgang"
               ],
               "WARGNB_GNB": [
                 "Provoke after Buster"
               ],
               "WARPLD_WAR": [
-                "Holmngag"
+                "Holmgang"
               ],
               "WARPLD_PLD": [
                 "Provoke after Buster"
               ],
               "WARDRK_WAR": [
-                "Holmngag"
+                "Holmgang"
               ],
               "WARDRK_DRK": [
                 "Provoke after Buster"

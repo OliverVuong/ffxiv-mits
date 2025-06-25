@@ -149,7 +149,7 @@
               ],
               "SCH": [
                 "Seraph",
-                "Expedience",
+                "Expedient",
                 "Fey"
               ],
               "SGE": [
@@ -488,8 +488,8 @@
               ],
               "SCH": [
                 "Seraph",
-                "Expedience",
-                "Fe"
+                "Expedient",
+                "Fey"
               ],
               "SGE": [
                 "Zoe EukProg90",
@@ -503,7 +503,7 @@
                 "Neutral Sect"
               ],
               "PRange": [
-                "PartyMit"
+                "Range Mit"
               ]
             }
           },
