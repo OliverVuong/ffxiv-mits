@@ -36,16 +36,10 @@
             "time":2,
             "mitigations":{
               "T1":[
-                {
-                  "ability":"BuddyMitM1",
-                  "note":"Use Buddy Mit on M1"
-                }
+                "buddyM1"
               ],
               "T2":[
-                {
-                  "ability":"BuddyMitM2",
-                  "note":"Use Buddy Mit on M2"
-                }
+                "buddyM2"
               ],
               "SCH":[
                 {
@@ -62,7 +56,7 @@
               ],
               "PRange2":[
                 {
-                  "ability":"PRange Mit",
+                  "ability":"Range Mit",
                   "note":"Double Phys Ranged Mit can be used back in Eyes if preferred"
                 }
               ]
@@ -89,7 +83,7 @@
                 "Kerachole"
               ],
               "PRange":[
-                "PRange Mit"
+                "Range Mit"
               ]
             }
           },

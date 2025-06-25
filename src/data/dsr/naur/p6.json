@@ -102,7 +102,10 @@
                 }
               ],
               "T2":[
-                "Reprisal"
+                {
+                  "ability":"Reprisal",
+                  "note":"Timing for Rep on WB1 is ~4th GCD"
+                }
               ],
               "SCH":[
                 "Succor",

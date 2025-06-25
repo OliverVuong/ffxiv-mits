@@ -24,7 +24,10 @@
                 "Holos"
               ],
               "WHM": [
-                "Temperance"
+                {
+                  "ability": "Temperance",
+                  "note": "Temperance right before the stack hits to catch both stacks with it"
+                }
               ],
               "AST": [
                 "Neutral"
@@ -57,6 +60,9 @@
               ],
               "M2": [
                 "Feint"
+              ],
+              "MCH": [
+                "Dismantle"
               ],
               "extranotes": {
                 "Double Caster": "Addle",

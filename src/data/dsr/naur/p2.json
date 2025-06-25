@@ -64,17 +64,26 @@
               ],
               "SGE": [
                 "EukProg90",
-                "Holos"
+                {
+                  "ability": "Holos",
+                  "note": "Delay all Party Mit on Strength of the Ward a few seconds after the blue markers show to catch the Ancient Quaga"
+                }
               ],
               "WHM": [
-                "Temperance"
+                {
+                  "ability": "Temperance",
+                  "note": "Delay all Party Mit on Strength of the Ward a few seconds after the blue markers show to catch the Ancient Quaga"
+                }
               ],
               "AST": [
                 "Neutral",
                 "Horoscope"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
+              ],
+              "RDM": [
+                "Barrier"
               ],
               "extranotes": {
                 "SGE": "*Delay all Party Mit on Strength of the Ward a few seconds after the blue markers show to catch the Ancient Quaga",
@@ -160,6 +169,9 @@
               "Caster": [
                 "Addle"
               ],
+              "MCH": [
+                "Dismantle"
+              ],
               "extranotes": {
                 "MCH": "Dismantle"
               }
@@ -198,21 +210,33 @@
             "time": 80,
             "mitigations": {
               "SCH": [
-                "Spreadlo"
+                {
+                  "ability": "Spreadlo",
+                  "note": "Spreadlo needs to be applied as the tank buster ends before Sanctity of the Ward due to fast KT"
+                }
               ],
               "SGE": [
                 "EukProg90",
-                "Panhaima",
+                {
+                  "ability": "Panhaima",
+                  "hasOverflow": true
+                },
                 "Kerachole"
               ],
               "WHM": [
-                "Bell"
+                {
+                  "ability": "Bell",
+                  "note": "Use Bell for DRK plunges, not meteors"
+                }
               ],
               "AST": [
-                "Macro"
+                {
+                  "ability": "Macro",
+                  "note": "Use Macro for DRK plunges, not meteors"
+                }
               ],
               "extranotes": {
-                "Double PRange": "Party Mit",
+                "Double PRange": "Range Mit",
                 "SCH": "Spreadlo needs to be applied as the tank buster ends before Sanctity of the Ward due to fast KT",
                 "WHM": "Use Bell for DRK plunges, not meteors",
                 "AST": "Use Macro for DRK plunges, not meteors"
@@ -258,7 +282,10 @@
                 "Party Mit"
               ],
               "SCH": [
-                "Spreadlo"
+                {
+                  "ability": "Spreadlo",
+                  "note": "Spreadlo needs to be applied as the tank buster ends before Sanctity of the Ward due to fast KT"
+                }
               ],
               "SGE": [
                 "ZoeEukProg90",
@@ -269,7 +296,10 @@
                 "Neutral"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
+              ],
+              "RDM": [
+                "Barrier"
               ],
               "extranotes": {
                 "RDM": "Barrier"

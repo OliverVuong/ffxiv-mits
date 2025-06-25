@@ -15,13 +15,15 @@
               "T1":[
                 {
                   "ability":"Party Mit",
-                  "note":"Use Party Mit a few seconds after protean cleave"
+                  "note":"Use Party Mit a few seconds after protean cleave",
+                  "hasOverflow": true
                 }
               ],
               "T2":[
                 {
                   "ability":"Party Mit",
-                  "note":"Use Party Mit a few seconds after protean cleave"
+                  "note":"Use Party Mit a few seconds after protean cleave",
+                  "hasOverflow": true
                 }
               ],
               "SCH":[

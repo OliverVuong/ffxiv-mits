@@ -36,13 +36,15 @@
               "T1":[
                 {
                   "ability":"Party Mit",
-                  "note":"If Shake/Veil use AFTER the bleed fully falls off"
+                  "note":"If Shake/Veil use AFTER the bleed fully falls off",
+                  "hasOverflow": true
                 }
               ],
               "T2":[
                 {
                   "ability":"Party Mit",
-                  "note":"If Shake/Veil use AFTER the bleed fully falls off"
+                  "note":"If Shake/Veil use AFTER the bleed fully falls off",
+                  "hasOverflow": true
                 }
               ],
               "SCH":[
@@ -58,7 +60,7 @@
                 "Macro"
               ],
               "PRange":[
-                "PRange Mit"
+                "Range Mit"
               ]
             }
           },
@@ -78,7 +80,7 @@
               ],
               "PRange2":[
                 {
-                  "ability":"PRange Mit",
+                  "ability": "Range Mit",
                   "note":"You can save Double Phys Ranged mit for Rewind if you prefer"
                 }
               ],

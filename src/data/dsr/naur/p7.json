@@ -15,13 +15,15 @@
               "T1":[
                 {
                   "ability":"Party Mit",
-                  "note":"Shake/Veil only AFTER second bleed completely falls off"
+                  "note":"Shake/Veil only AFTER second bleed completely falls off",
+                  "hasOverflow": true
                 }
               ],
               "T2":[
                 {
                   "ability":"Party Mit",
-                  "note":"Shake/Veil only AFTER second bleed completely falls off"
+                  "note":"Shake/Veil only AFTER second bleed completely falls off",
+                  "hasOverflow": true
                 }
               ],
               "SCH":[
@@ -321,13 +323,15 @@
               "T1":[
                 {
                   "ability":"Party Mit",
-                  "note":"Shake/Veil should be used after the first hit."
+                  "note":"Shake/Veil should be used after the first hit.",
+                  "hasOverflow": true
                 }
               ],
               "T2":[
                 {
                   "ability":"Party Mit",
-                  "note":"Shake/Veil should be used after the first hit."
+                  "note":"Shake/Veil should be used after the first hit.",
+                  "hasOverflow": true
                 },
                 {
                   "ability":"Reprisal",
