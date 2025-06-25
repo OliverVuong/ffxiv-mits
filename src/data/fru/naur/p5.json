@@ -83,7 +83,7 @@
                 "Addle"
               ],
               "RDM":[
-                "Magick BarrierBarrier"
+                "Magick Barrier"
               ],
               "extranotes":{
                 "SCH":"You can use Expedient on both Polars. The reason it is listed for AM/Polar is to save a wipe from a 3/4 stack for AM"
@@ -397,8 +397,10 @@
                 "Range Mit"
               ],
               "RDM":[
-                "Barrier",
-                "2nd hit of Cruel Path"
+                {
+                  "ability": "Barrier",
+                  "note": "2nd hit of Cruel Path"
+                }
               ]
             }
           },

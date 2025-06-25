@@ -181,7 +181,7 @@
                 "Dismantle"
               ],
               "RDM":[
-                "Maick Barrier"
+                "Magick Barrier"
               ],
               "PLD":[
                 "Wings"
@@ -211,7 +211,7 @@
               ],
               "WARDRK_DRK":[
                 "TBN Buddy",
-                "Obltion Buddy"
+                "Oblation Buddy"
               ],
               "GNBDRK_GNB":[
                 "HoC Buddy"
@@ -220,13 +220,13 @@
                 "Kitchen Sink"
               ],
               "PLDGNB_PLD":[
-                "Intervention bud"
+                "Intervention Buddy"
               ],
               "PLDGNB_GNB":[
                 "Kitchen Sink"
               ],
               "PLDDRK_PLD":[
-                "Intervention bud"
+                "Intervention Buddy"
               ],
               "PLDDRK_DRK":[
                 "Kitchen Sink"
@@ -286,14 +286,14 @@
                 "Kitchen Sink"
               ],
               "PLDGNB_GNB":[
-                "HoC bud"
+                "HoC Buddy"
               ],
               "PLDDRK_PLD":[
                 "Kitchen Sink"
               ],
               "PLDDRK_DRK":[
-                "TBN bud",
-                "Oblation bud"
+                "TBN Buddy",
+                "Oblation Buddy"
               ],
               "T1":[
                 "Reprisal"

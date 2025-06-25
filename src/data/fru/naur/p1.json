@@ -116,8 +116,8 @@
                 "ability": "Rampart",
                 "note": "Late Rampart"
               },
-              "TBN bud",
-              "Oblation bud"
+              "TBN Buddy",
+              "Oblation Buddy"
             ],
             "GNBDRK_GNB":[
               "Great Nebula",
@@ -135,8 +135,8 @@
                 "ability": "Rampart",
                 "note": "Late Rampart"
               },
-              "TBN bud",
-              "Oblation bud"
+              "TBN Buddy",
+              "Oblation Buddy"
             ],
             "PLDGNB_PLD":[
               "Guardian",
@@ -158,8 +158,10 @@
             ],
             "PLDDRK_PLD":[
               "Guardian",
-              "Rampart",
-              "(late)",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Holy Sheltron"
             ],
             "PLDDRK_DRK":[
@@ -167,8 +169,8 @@
                 "ability": "Rampart",
                 "note": "Late Rampart"
               },
-              "TBN bud",
-              "Oblation bud"
+              "TBN Buddy",
+              "Oblation Buddy"
             ]
           }
         },
@@ -343,7 +345,7 @@
           "time":101,
           "mitigations":{
             "SCH":[
-              "Recit Spreadlo",
+              "Spreadlo",
               "Seraph"
             ],
             "SGE":[
