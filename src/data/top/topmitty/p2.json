@@ -16,22 +16,34 @@
                 "Holmgang"
               ],
               "WARGNB_GNB": [
-                "Provoke after Buster"
+                {
+                  "ability": "Provoke",
+                  "note": "Provoke after Buster"
+                }
               ],
               "WARPLD_WAR": [
                 "Holmgang"
               ],
               "WARPLD_PLD": [
-                "Provoke after Buster"
+                {
+                  "ability": "Provoke",
+                  "note": "Provoke after Buster"
+                }
               ],
               "WARDRK_WAR": [
                 "Holmgang"
               ],
               "WARDRK_DRK": [
-                "Provoke after Buster"
+                {
+                  "ability": "Provoke",
+                  "note": "Provoke after Buster"
+                }
               ],
               "GNBDRK_GNB": [
-                "Provoke after Buster"
+                {
+                  "ability": "Provoke",
+                  "note": "Provoke after Buster"
+                }
               ],
               "GNBDRK_DRK": [
                 "Living Dead"
@@ -40,10 +52,16 @@
                 "Superbolide"
               ],
               "GNBPLD_PLD": [
-                "Provoke after Buster"
+                {
+                  "ability": "Provoke",
+                  "note": "Provoke after Buster"
+                }
               ],
               "PLDDRK_PLD": [
-                "Provoke after Buster"
+                {
+                  "ability": "Provoke",
+                  "note": "Provoke after Buster"
+                }
               ],
               "PLDDRK_DRK": [
                 "Living Dead"

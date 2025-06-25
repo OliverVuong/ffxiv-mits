@@ -192,7 +192,7 @@
                 "Neutral Sect"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
               ]
             }
           },
@@ -266,7 +266,7 @@
                 "CU"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
               ]
             }
           },
@@ -315,7 +315,10 @@
               "WARPLD_PLD": [
                 "Sentinel",
                 "Sheltron",
-                "(hold Passage for block)"
+                {
+                  "ability": "Wings",
+                  "note": "Hold Passage for block"
+                }
               ],
               "GNBDRK_GNB": [
                 "Superbolide",
@@ -333,7 +336,10 @@
               "GNBPLD_PLD": [
                 "Sentinel",
                 "Sheltron",
-                "(hold Passage for block)"
+                {
+                  "ability": "Wings",
+                  "note": "Hold Passage for block"
+                }
               ],
               "PLDDRK_PLD": [
                 "Hallowed Ground",

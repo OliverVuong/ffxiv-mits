@@ -61,41 +61,45 @@ const partymitCO = {
   name: '↪Party Mit',
   img: images[11].default,
 };
+const provoke = {
+  name: 'Provoke',
+  img: images[12].default,
+};
 const rampart = {
   name: 'Rampart',
-  img: images[12].default,
+  img: images[13].default,
 };
 const rampartCO = {
   name: '↪Rampart',
-  img: images[13].default,
+  img: images[14].default,
 };
 const rangemit = {
   name: 'RangeMit',
-  img: images[14].default,
+  img: images[15].default,
 };
 const rangemitCO = {
   name: '↪RangeMit',
-  img: images[15].default,
+  img: images[16].default,
 };
 const reprisal = {
   name: 'Reprisal',
-  img: images[16].default,
+  img: images[17].default,
 };
 const reprisalCO = {
   name: '↪Reprisal',
-  img: images[17].default,
+  img: images[18].default,
 };
 const reprisalG = {
   name: 'Reprisal',
-  img: images[17].default,
+  img: images[18].default,
 };
 const secondwind = {
   name: 'Reprisal',
-  img: images[18].default,
+  img: images[19].default,
 };
 const secondwindbloodbath = {
   name: 'Personals',
-  img: images[19].default,
+  img: images[20].default,
 };
 
 const rolesAbilityMap = {
@@ -117,6 +121,7 @@ const rolesAbilityMap = {
   'Party Mit': partymit,
   partymitCO,
   'Party Mit co': partymitCO,
+  Provoke: provoke,
   Rampart: rampart,
   rampartCO,
   'Rampart co': rampartCO,

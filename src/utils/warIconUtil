@@ -27,7 +27,11 @@ const nascentflash = {
 };
 const thrillofbattle = {
   name: 'Thrill',
-  img: images[4].default,
+  img: images[5].default,
+};
+const vengeance = {
+  name: 'Vengeance',
+  img: images[6].default,
 };
 
 const warMap = {
@@ -36,7 +40,10 @@ const warMap = {
   Equilibrium: equilibrium,
   Holmgang: holmgang,
   'Nascent Buddy': nascentflash,
+  Nascent: nascentflash,
   Thrill: thrillofbattle,
+  vengeance,
+  Vengeance: vengeance,
 };
 /*
 const experiment = () => {

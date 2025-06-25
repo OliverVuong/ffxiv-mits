@@ -25,13 +25,17 @@ const shadowedvigil = {
   name: 'Vigil',
   img: images[3].default,
 };
+const shadowwall = {
+  name: 'SW',
+  img: images[4].default,
+};
 const theblackestnight = {
   name: 'TBN',
-  img: images[4].default,
+  img: images[5].default,
 };
 const theblackestnightB = {
   name: 'Buddy TBN',
-  img: images[4].default,
+  img: images[5].default,
 };
 
 const drkMap = {
@@ -40,6 +44,8 @@ const drkMap = {
   Oblation: oblation,
   'Oblation Buddy': oblationB,
   'Shadowed Vigil': shadowedvigil,
+  shadowwall,
+  'Shadow Wall': shadowwall,
   TBN: theblackestnight,
   'The Blackest Night Buddy': theblackestnightB,
   'TBN Buddy': theblackestnightB,

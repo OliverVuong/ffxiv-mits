@@ -9,6 +9,10 @@ const aurora = {
   name: 'Aurora',
   img: images[0].default,
 };
+const auroraB = {
+  name: 'Buddy Aurora',
+  img: images[0].default,
+};
 const auroraG = {
   name: 'Aurora',
   img: images[1].default,
@@ -53,6 +57,10 @@ const heartofstone = {
   name: 'HoS',
   img: images[10].default,
 };
+const heartofstoneB = {
+  name: 'Buddy HoS',
+  img: images[10].default,
+};
 const heartofstoneCO = {
   name: '↪HoS',
   img: images[11].default,
@@ -75,7 +83,8 @@ const superbolideCO = {
 };
 
 const gnbMap = {
-  aurora,
+  Aurora: aurora,
+  'Aurora bud': auroraB,
   auroraG,
   Camo: camouflage,
   camouflageCO,
@@ -88,7 +97,9 @@ const gnbMap = {
   heartoflight,
   heartoflightCO,
   heartofstone,
+  'HoS Buddy': heartofstoneB,
   heartofstoneCO,
+  Nebula: nebula,
   nebula,
   nebulaCO,
   Superbolide: superbolide,

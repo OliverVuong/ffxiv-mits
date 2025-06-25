@@ -103,6 +103,7 @@ const pldMap = {
   cover,
   coverCO,
   divineveil,
+  Veil: divineveil,
   divineveilG,
   guardian,
   Guardian: guardian,
@@ -117,12 +118,15 @@ const pldMap = {
   'Holy Sheltron': holysheltron,
   intervention,
   Intervention: intervention,
+  'Intervention Buddy': intervention,
   interventionCO,
   Wings: passageofarms,
   passageofarmsCO,
   sentinel,
+  Sentinel: sentinel,
   sentinelCO,
   sheltron,
+  Sheltron: sheltron,
   sheltronCO,
 };
 

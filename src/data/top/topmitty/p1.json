@@ -16,34 +16,37 @@
                 "Kitchen Sink"
               ],
               "WARGNB_GNB":[
-                "Buddy Mit GNB 90"
+                {
+                  "ability": "HoS Buddy",
+                  "hasOverflow": true
+                }
               ],
               "WARPLD_WAR":[
                 "Kitchen Sink"
               ],
               "WARPLD_PLD":[
-                "Buddy Mit PLD 90"
+                "Intervention"
               ],
               "WARDRK_WAR":[
                 "Kitchen Sink"
               ],
               "WARDRK_DRK":[
-                "Buddy Mit DRK 90"
+                "TBN Buddy"
               ],
               "GNBDRK_GNB":[
                 "Kitchen Sink"
               ],
               "GNBDRK_DRK":[
-                "Buddy Mit DRK 90"
+                "TBN Buddy"
               ],
               "GNBPLD_GNB":[
                 "Kitchen Sink"
               ],
               "GNBPLD_PLD":[
-                "Buddy Mit PLD 90"
+                "Intervention"
               ],
               "PLDDRK_PLD":[
-                "Buddy Mit PLD 90"
+                "Intervention"
               ],
               "PLDDRK_DRK":[
                 "Kitchen Sink"
