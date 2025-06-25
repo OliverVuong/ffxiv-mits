@@ -495,10 +495,10 @@
                   "note":"Single Target Shield Rot Melee"
                 }
               ],
-              "PRange":[
+              "PRange2":[
                 "Range Mit"
               ],
-              "Caster2":[
+              "CASTER2":[
                 {
                   "ability":"Addle",
                   "note":"Double Caster Addle can be used for either Hallowed Wing 2 or WB2"

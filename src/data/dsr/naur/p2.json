@@ -235,6 +235,9 @@
                   "note": "Use Macro for DRK plunges, not meteors"
                 }
               ],
+              "PRange2": [
+                "Range Mit"
+              ],
               "extranotes": {
                 "Double PRange": "Range Mit",
                 "SCH": "Spreadlo needs to be applied as the tank buster ends before Sanctity of the Ward due to fast KT",

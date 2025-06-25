@@ -54,6 +54,9 @@
                 "Bell",
                 "Temperance"
               ],
+              "CASTER2":[
+                "Addle"
+              ],
               "PRange2":[
                 {
                   "ability":"Range Mit",

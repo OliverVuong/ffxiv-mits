@@ -64,6 +64,7 @@ export const displayNameMap = {
   PLD: 'PLD',
   MNK: 'MNK',
   CASTER2: 'Double Caster',
+  PRange2: 'Double PRange',
 };
 
 export const tankStateDefault = {};
@@ -113,7 +114,15 @@ export const tankCombosByPlan = {
   },
 };
 
-export const extras = ['BRD', 'RDM', 'MCH', 'PLD', 'MNK', 'CASTER2'];
+export const extras = [
+  'BRD',
+  'RDM',
+  'MCH',
+  'PLD',
+  'MNK',
+  'CASTER2',
+  'PRange2',
+];
 
 export const extrasDefault = {};
 for (const extra of extras) {
@@ -130,7 +139,7 @@ export const extrasByPlan = {
     mitty: ['RDM', 'MCH'],
   },
   DSR: {
-    naur: ['RDM', 'MCH'],
+    naur: ['RDM', 'MCH', 'CASTER2', 'PRange2'],
   },
 };
 

@@ -53,6 +53,14 @@ const caster2G = {
   name: 'Double Caster',
   img: images[11].default,
 };
+const range2 = {
+  name: 'Double PRange',
+  img: images[12].default,
+};
+const range2G = {
+  name: 'Double PRange',
+  img: images[13].default,
+};
 
 const extrasSelectorMap = {
   MCH: dismantle,
@@ -67,6 +75,8 @@ const extrasSelectorMap = {
   PLDG: passageG,
   CASTER2: caster2,
   CASTER2G: caster2G,
+  PRange2: range2,
+  PRange2G: range2G,
 };
 
 export default extrasSelectorMap;

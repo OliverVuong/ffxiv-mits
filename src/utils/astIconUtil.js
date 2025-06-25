@@ -43,6 +43,7 @@ const astMap = {
   horoscope,
   Horoscope: horoscope,
   Macro: macrocosmos,
+  Macrocosmos: macrocosmos,
   macrocosmosCO,
   Neutral: neutralsect,
   neutralsectCO,

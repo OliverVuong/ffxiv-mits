@@ -32,6 +32,9 @@
               "AST": [
                 "Neutral"
               ],
+              "PRange2": [
+                "Range Mit"
+              ],
               "extranotes": {
                 "Double PRange": "Party Mit",
                 "WHM": "Temperance right before the stack hits to catch both stacks with it"
@@ -63,6 +66,9 @@
               ],
               "MCH": [
                 "Dismantle"
+              ],
+              "CASTER2": [
+                "Addle"
               ],
               "extranotes": {
                 "Double Caster": "Addle",
