@@ -99,90 +99,118 @@
             "time": 238,
             "mitigations": {
               "WARGNB_WAR": [
-                "Nascent Buddy",
-                "or",
-                "Rampart",
-                "Bloodwhetting"
+                {
+                  "ability": "Nascent Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), Bloodwhetting"
+                }
               ],
               "WARGNB_GNB": [
                 "Rampart",
                 "Camo",
-                "HoC",
-                "or",
-                "HoC Buddy"
+                {
+                  "ability": "HoC",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: HoC"
+                }
               ],
               "WARPLD_WAR": [
-                "Nascent Buddy",
-                "or",
-                "Rampart",
-                "Bloodwhetting"
+                {
+                  "ability": "Nascent Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), Bloodwhetting"
+                }
               ],
               "WARPLD_PLD": [
-                "Rampart",
+                {
+                  "ability": "Rampart",
+                  "note": "Right After 1st Somber"
+                },
                 "Bulwark",
-                "Holy Sheltron",
-                "or",
-                "Intervention"
+                {
+                  "ability": "Holy Sheltron",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Intervention"
+                }
               ],
               "WARDRK_WAR": [
-                "Nascent Buddy",
-                "or",
-                "Rampart",
-                "Bloodwhetting"
+                {
+                  "ability": "Nascent Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), Bloodwhetting"
+                }
               ],
               "WARDRK_DRK": [
-                "Rampart",
+                {
+                  "ability": "Rampart",
+                  "note": "Right After 1st Somber"
+                },
                 "Dark Mind",
-                "TBN",
-                "Oblation",
-                "or",
-                "TBN Buddy",
-                "Oblation Buddy"
+                {
+                  "ability": "TBN",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
+                },
+                {
+                  "ability": "Oblation",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
+                }
               ],
               "GNBDRK_GNB": [
-                "Rampart",
-                "Camo",
-                "HoC",
-                "or",
-                "HoC Buddy"
+                {
+                  "ability": "Rampart",
+                  "note": "Right After 1st Somber"
+                },
+                {
+                  "ability": "Camo",
+                  "note": "Right After 1st Somber"
+                },
+                {
+                  "ability": "HoC",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: HoC"
+                }
               ],
               "GNBDRK_DRK": [
-                "TBN Buddy",
-                "Oblation Buddy",
-                "or",
-                "Rampart",
-                "Dark Mind",
-                "TBN",
-                "Oblation"
+                {
+                  "ability": "TBN Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
+                },
+                {
+                  "ability": "Oblation Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
+                }
               ],
               "GNBPLD_GNB": [
-                "HoC Buddy",
-                "or",
-                "Rampart",
-                "Camo",
-                "HoC"
+                {
+                  "ability": "HoC Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart/Camo (Right After 1st Somber), HoC"
+                }
               ],
               "GNBPLD_PLD": [
-                "Rampart",
+                {
+                  "ability": "Rampart",
+                  "note": "Right After 1st Somber"
+                },
                 "Bulwark",
-                "Holy Sheltron",
-                "or",
-                "Intervention"
+                {
+                  "ability": "Holy Sheltron",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Intervention"
+                }
               ],
               "PLDDRK_PLD": [
-                "Rampart",
-                "Holy Sheltron",
-                "or",
-                "Intervention"
+                {
+                  "ability": "Rampart",
+                  "note": "Right After 1st Somber"
+                },
+                "Bulwark",
+                {
+                  "ability": "Holy Sheltron",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Intervention"
+                }
               ],
               "PLDDRK_DRK": [
-                "TBN Buddy",
-                "Oblation Buddy",
-                "or",
-                "Rampart",
-                "Dark Mind",
-                "TBN",
-                "Oblation"
+                {
+                  "ability": "TBN Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
+                },
+                {
+                  "ability": "Oblation Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
+                }
               ],
               "T1": [
                 "Reprisal"
@@ -368,87 +396,94 @@
             "mitigations": {
               "WARGNB_WAR": [
                 "Rampart",
-                "Bloodwhetting",
-                "or",
-                "Nascent Buddy"
+                {
+                  "ability": "Bloodwhetting",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Nascent"
+                }
               ],
               "WARGNB_GNB": [
-                "HoC Buddy",
-                "or",
-                "Rampart",
-                "Camo",
-                "HoC"
+                {
+                  "ability": "HoC Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Camo, HoC"
+                }
               ],
               "WARPLD_WAR": [
                 "Rampart",
-                "Bloodwhetting",
-                "or",
-                "Nascent Buddy"
+                {
+                  "ability": "Bloodwhetting",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Nascent"
+                }
               ],
               "WARPLD_PLD": [
-                "Intervention",
-                "or",
-                "Rampart",
-                "Bulwark",
-                "Holy Sheltron"
+                {
+                  "ability": "Intervention",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Bulwark, Holy Sheltron"
+                }
               ],
               "WARDRK_WAR": [
                 "Rampart",
-                "Bloodwhetting",
-                "or",
-                "Nascent Buddy"
+                {
+                  "ability": "Bloodwhetting",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Nascent"
+                }
               ],
               "WARDRK_DRK": [
-                "TBN Buddy",
-                "Oblation Buddy",
-                "or",
-                "Rampart",
-                "TBN",
-                "Oblation"
+                {
+                  "ability": "TBN Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, TBN, Oblation"
+                },
+                {
+                  "ability": "Oblation Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, TBN, Oblation"
+                }
               ],
               "GNBDRK_GNB": [
-                "HoC Buddy",
-                "or",
-                "Rampart",
-                "Camo",
-                "HoC"
+                {
+                  "ability": "HoC Buddy",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Camo, HoC"
+                }
               ],
               "GNBDRK_DRK": [
                 "Rampart",
-                "TBN",
-                "Oblation",
-                "or",
-                "TBN Buddy",
-                "Oblation Buddy"
+                {
+                  "ability": "TBN",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
+                },
+                {
+                  "ability": "Oblation",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
+                }
               ],
               "GNBPLD_GNB": [
                 "Rampart",
                 "Camo",
-                "HoC",
-                "or",
-                "HoC Buddy"
+                {
+                  "ability": "HoC",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: HoC"
+                }
               ],
               "GNBPLD_PLD": [
-                "Intervention",
-                "or",
-                "Rampart",
-                "Bulwark",
-                "Holy Sheltron"
+                {
+                  "ability": "Intervention",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Bulwark, Holy Sheltron"
+                }
               ],
               "PLDDRK_PLD": [
-                "Intervention",
-                "or",
-                "Rampart",
-                "Bulwark",
-                "Holy Sheltron"
+                {
+                  "ability": "Intervention",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Bulwark, Holy Sheltron"
+                }
               ],
               "PLDDRK_DRK": [
                 "Rampart",
-                "TBN",
-                "Oblation",
-                "or",
-                "TBN Buddy",
-                "Oblation Buddy"
+                {
+                  "ability": "TBN",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
+                },
+                {
+                  "ability": "Oblation",
+                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
+                }
               ],
               "T1": [
                 "Reprisal"
