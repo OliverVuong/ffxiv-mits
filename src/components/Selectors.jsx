@@ -265,7 +265,7 @@ function MitplanSelector( {encounter, mitplan, setMitplan} ){
     return (
         <>
             <fieldset>
-                <legend>Select Mitigation Plan</legend>
+                <legend>Mitigation Plan</legend>
                 {mitPlans.map((plan) => {
                     return (
                         <div 
@@ -287,7 +287,7 @@ function MitplanSelector( {encounter, mitplan, setMitplan} ){
                     );
                 })}
             </fieldset>
-            <div>mitplan state: {mitplan}</div>
+            {/* <div>mitplan state: {mitplan}</div> */}
         </>
     );
 }

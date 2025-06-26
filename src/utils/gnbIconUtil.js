@@ -86,6 +86,7 @@ const gnbMap = {
   Aurora: aurora,
   'Aurora bud': auroraB,
   auroraG,
+  Camouflage: camouflage,
   Camo: camouflage,
   camouflageCO,
   'Camo co': camouflageCO,

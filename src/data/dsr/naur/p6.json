@@ -21,7 +21,7 @@
                 }
               ],
               "WARDRK_DRK":[
-                "Shadowwall",
+                "Shadow Wall",
                 "Oblation",
                 {
                   "ability":"TBN",
@@ -63,7 +63,7 @@
                 }
               ],
               "GNBDRK_DRK":[
-                "Shadowwall",
+                "Shadow Wall",
                 "Oblation",
                 {
                   "ability":"TBN",
@@ -94,7 +94,7 @@
                 }
               ],
               "PLDDRK_DRK":[
-                "Shadowwall",
+                "Shadow Wall",
                 "Oblation",
                 {
                   "ability":"TBN",
@@ -377,8 +377,8 @@
                   "note":"Rampart at the start of the cast"
                 },
                 {
-                  "ability":"Shadowwall",
-                  "note":"Shadowwall at 80% of cast (B in wyrmsbreath)"
+                  "ability":"Shadow Wall",
+                  "note":"Shadow Wall at 80% of cast (B in wyrmsbreath)"
                 }
               ],
               "WARGNB_WAR":[
@@ -427,8 +427,8 @@
                   "note":"Rampart at the start of the cast"
                 },
                 {
-                  "ability":"Shadowwall",
-                  "note":"Shadowwall at 80% of cast (B in wyrmsbreath)"
+                  "ability":"Shadow Wall",
+                  "note":"Shadow Wall at 80% of cast (B in wyrmsbreath)"
                 },
                 {
                   "ability":"TBN",
@@ -471,8 +471,8 @@
                   "note":"Rampart at the start of the cast"
                 },
                 {
-                  "ability":"Shadowwall",
-                  "note":"Shadowwall at 80% of cast (B in wyrmsbreath)"
+                  "ability":"Shadow Wall",
+                  "note":"Shadow Wall at 80% of cast (B in wyrmsbreath)"
                 },
                 {
                   "ability":"TBN",
@@ -521,7 +521,7 @@
               ],
               "WARDRK_DRK":[
                 "Rampart",
-                "Shadowwall",
+                "Shadow Wall",
                 "Oblation",
                 "TBN"
               ],
@@ -556,7 +556,7 @@
               ],
               "GNBDRK_DRK":[
                 "Rampart",
-                "Shadowwall",
+                "Shadow Wall",
                 "Oblation",
                 "TBN"
               ],
@@ -585,7 +585,7 @@
               ],
               "PLDDRK_DRK":[
                 "Rampart",
-                "Shadowwall",
+                "Shadow Wall",
                 "Oblation",
                 "TBN"
               ],
