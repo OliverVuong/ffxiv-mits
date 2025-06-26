@@ -1,8 +1,13 @@
-button {
+.nav > button {
     /*opacity: 80%;*/
     background-color: rgb(28, 61, 120, 0.9);
     color: white;
+    border: none;
 }
+
+.nav > button:hover {
+    background-color: rgb(13, 28, 54);
+  }
 
 .nav {
     position: fixed;
