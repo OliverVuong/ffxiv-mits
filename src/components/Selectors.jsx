@@ -107,7 +107,7 @@ function ExtraChip( { input, extraPicks, setExtraPicks, hasData } ){
     const imgCode = extraPicks[input] ? input : input + 'G';
     return (
         <div className="extra-chip">
-            <button
+            <button className="extra-chip-button"
                 onClick={() => {
                     let newState = {...extraPicks};
                     newState[input] = !newState[input];

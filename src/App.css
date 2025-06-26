@@ -55,7 +55,7 @@ html {
   background-color: #121212;
 }
 
-.container.encounter > button:hover{
+.container.encounter > button {
   border: none;
 }
 /* REMOVE after adding semi transparent encounter image  */
@@ -126,6 +126,12 @@ legend {
   grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
+.roles > .chip > button:hover {
+  border: #EBE6C1 3px solid;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px 5px #ebe6c12c;
+}
+
 .tanks > .chip > button {
   border-color: #2D3A80;
   border-width: 3px;
@@ -231,8 +237,20 @@ button.left{
   border-radius: 25px 0 0 25px;
 }
 
+button.left:hover {
+  border: #EBE6C1 3px solid;
+  border-radius: 25px 0 0 25px;
+  box-shadow: 0px 0px 8px 5px #ebe6c12c;
+}
+
 button.right{
   border-radius: 0 25px 25px 0;
+}
+
+button.right:hover {
+  border: #EBE6C1 3px solid;
+  border-radius: 0 25px 25px 0;
+  box-shadow: 0px 0px 8px 5px #ebe6c12c;
 }
 
 /* Extra menu */
@@ -253,13 +271,14 @@ button.right{
   justify-content: center;
   justify-items: center;
   align-items: center;
+  border: none;
 }
 
 .extra-chip > button > .text {
   align-self: start;
 }
 
-.extra-icon:hover {
+.extra-chip-button:hover .extra-icon {
   border: #EBE6C1 3px solid;
   border-radius: 10px;
   box-shadow: 0px 0px 8px 5px #ebe6c12c;
