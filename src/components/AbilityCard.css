@@ -3,7 +3,11 @@
     text-align: center;
     width: 64px;
     font-size: 90%;
-  }
+}
+
+.isGreyscale {
+  filter: grayscale(1);
+}
 
 .hasOverflow {
     font-size: 75%;

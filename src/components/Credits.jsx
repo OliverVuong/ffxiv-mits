@@ -1,3 +1,5 @@
+import './Credits.css';
+
 function Credits(){
     return (
         <div className="credits">
@@ -24,6 +26,7 @@ function Credits(){
                 Template & Original Document: Sausfest, Vault Knights Sheet: Solarance Everwind @ Gilgamesh, NAUR Staff for the updated mitigation
             </div>
             <hr />
+            <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © SQUARE ENIX</div>
         </div>
     );
 }

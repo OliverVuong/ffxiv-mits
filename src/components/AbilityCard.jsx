@@ -6,11 +6,12 @@ function AbilityCard({ input }) {
     //const src = `${path}${input}.png`;
     const hasNote = typeof input !== 'string' && 'note' in input;
     const hasOverflow = typeof input !== 'string' && 'hasOverflow' in input;
+    const isGreyscale = typeof input !== 'string' && 'isGreyscale' in input && input['isGreyscale'];
     const abilityName = typeof input === 'string' ? input : input['ability'];
     let output = <span>ability card src: {abilityName}</span>;
     try {
         //console.log(abilityMap[input].img);
-        output = <div className={"aCard" + (hasOverflow ? " hasOverflow" : "")}>
+        output = <div className={"aCard" + (hasOverflow ? " hasOverflow" : "") + (isGreyscale ? " isGreyscale" : "")}>
             <div className="iconWrapper">
                 <img 
                 className="jobAbilityIcon"

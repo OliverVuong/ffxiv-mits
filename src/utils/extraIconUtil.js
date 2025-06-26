@@ -13,6 +13,10 @@ const magickbarrier = {
   name: 'Barrier',
   img: images[1].default,
 };
+const magickbarrierC = {
+  name: '↪Barrier',
+  img: images[1].default,
+};
 const mantra = {
   img: images[2].default,
   name: 'Mantra',
@@ -25,6 +29,7 @@ const naturesminne = {
 const extrasMap = {
   Dismantle: dismantle,
   'Magick Barrier': magickbarrier,
+  'Magick Barrier co': magickbarrierC,
   Barrier: magickbarrier,
   Mantra: mantra,
   'Natures Minne': naturesminne,

@@ -328,7 +328,10 @@
               "Feint"
             ],
             "RDM":[
-              "Magick Barrier co"
+              {
+                "ability": "Magick Barrier co",
+                "isGreyscale": true
+              }
             ],
             "MCH":[
               "Dismantle"

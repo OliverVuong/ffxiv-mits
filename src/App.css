@@ -300,21 +300,6 @@ td:nth-child(odd) {
 .has-note:hover .tooltiptext {
   visibility: visible;
 }
-.nav {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  /* display: flex;
-  flex-wrap: wrap; */
-}
-
-.nav > button {
-  /* flex: 1 1 180px;
-  width: 100%; */
-}
 /* .iconWrapper {
   position: relative;
 }
@@ -333,8 +318,4 @@ td:nth-child(odd) {
 
 .read-the-docs {
   color: #888;
-}
-
-.credits > div{
-  text-align: start;
 }
