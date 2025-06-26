@@ -39,10 +39,22 @@
   .name-header {
     width: 160px;
   }
+  tr {
+    height: 55px;
+  }
   .row-header{
     text-align: left;
   }
   
   .time-td{
     text-align: center;
+  }
+
+  /* Table */
+  div.cell {
+    text-align: left;
+  }
+  
+  td:nth-child(odd) {
+    background-color: #1b1b1b;
   }

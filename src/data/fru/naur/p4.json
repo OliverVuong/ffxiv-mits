@@ -159,7 +159,10 @@
               ],
               "SGE":[
                 "Zoe EukProg",
-                "Panhaima co",
+                {
+                  "ability": "Panhaima co",
+                  "hasOverflow": true
+                },
                 "Kerachole co"
               ],
               "M2":[
@@ -395,7 +398,10 @@
             "mitigations":{
               "T1":[
                 "Reprisal co",
-                "Party Mit co"
+                {
+                  "ability": "Party Mit co",
+                  "hasOverflow": true
+                }
               ],
               "SCH":[
                 "Seraph co",

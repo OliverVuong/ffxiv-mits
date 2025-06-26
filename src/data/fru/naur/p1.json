@@ -400,7 +400,10 @@
           "mitigations":{
             "T2":[
               "Reprisal co",
-              "Party Mit co"
+              {
+                "ability": "Party Mit co",
+                "hasOverflow": true
+              }
             ],
             "SCH":[
               "Soil co"
@@ -420,7 +423,10 @@
               "Feint co"
             ],
             "PRange":[
-              "Range Mit co"
+              {
+                "ability": "Range Mit co",
+                "hasOverflow": true
+              }
             ],
             "Caster":[
               "Addle co"
