@@ -57,7 +57,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Pantokrator",
-            "time":60,
+            "time":69,
             "mitigations":{
               "T1":[
                 "Party Mit"
@@ -89,7 +89,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Stack 1",
-            "time":60,
+            "time":81,
             "mitigations":{
               "T1":[
                 "Reprisal"
@@ -103,7 +103,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Stack 2",
-            "time":62,
+            "time":87,
             "mitigations":{
               "SCH":[
                 "Seraph"
@@ -114,7 +114,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Stack 3",
-            "time":63,
+            "time":93,
             "mitigations":{
               "T2":[
                 "Reprisal"
@@ -137,7 +137,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Stack 4",
-            "time":64,
+            "time":99,
             "mitigations":{
               
             }
@@ -146,7 +146,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Diffuse Wave Cannon",
-            "time":90,
+            "time":108,
             "mitigations":{
               "WARGNB_WAR":[
                 "Rampart",

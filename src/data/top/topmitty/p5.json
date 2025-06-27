@@ -10,7 +10,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Delta Solar Ray",
-            "time":1,
+            "time":7,
             "mitigations":{
               "WARGNB_GNB":[
                 "Superbolide"
@@ -48,7 +48,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Delta Cast",
-            "time":2,
+            "time":25,
             "mitigations":{
               "T1":[
                 "Reprisal"
@@ -83,7 +83,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Delta Mech",
-            "time":3,
+            "time":45,
             "mitigations":{
               "SCH":[
                 "Fey",
@@ -102,7 +102,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Sigma Solar Ray",
-            "time":4,
+            "time":91,
             "mitigations":{
               "WARGNB_WAR":[
                 "Kitchen Sink"
@@ -131,7 +131,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Sigma Cast",
-            "time":5,
+            "time":107,
             "mitigations":{
               "T1":[
                 "Reprisal",
@@ -177,7 +177,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Sigma Mech",
-            "time":6,
+            "time":130,
             "mitigations":{
               "SCH":[
                 "Expedient"
@@ -191,7 +191,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Omega Solar Ray",
-            "time":7,
+            "time":180,
             "mitigations":{
               "WARGNB_WAR":[
                 "Holmgang"
@@ -286,7 +286,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Omega Cast",
-            "time":8,
+            "time":196,
             "mitigations":{
               "T1":[
                 "Reprisal",
@@ -329,7 +329,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Omega Mech",
-            "time":9,
+            "time":231,
             "mitigations":{
               "SCH":[
                 "Seraph"
@@ -346,7 +346,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Final Buster",
-            "time":10,
+            "time":263,
             "mitigations":{
               "WARGNB_WAR":[
                 "Kitchen Sink"
@@ -412,7 +412,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Blind Faith",
-            "time":11,
+            "time":286,
             "mitigations":{
               "SCH":[
                 "Soil",

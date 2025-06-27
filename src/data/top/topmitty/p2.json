@@ -10,7 +10,7 @@
             "type": "Tankbuster",
             "stakeholder": "tanks",
             "name": "Solar Ray",
-            "time": 50,
+            "time": 11,
             "mitigations": {
               "WARGNB_WAR": [
                 "Holmgang"
@@ -69,42 +69,10 @@
             }
           },
           {
-            "type": "Raidwide",
-            "stakeholder": "all",
-            "name": "611",
-            "time": 60,
-            "mitigations": {
-              "T1": [
-                "Party Mit"
-              ],
-              "T2": [
-                "Party Mit"
-              ],
-              "SCH": [
-                "Everything"
-              ],
-              "SGE": [
-                "Everything"
-              ],
-              "WHM": [
-                "Everything"
-              ],
-              "AST": [
-                "Everything"
-              ],
-              "PRange": [
-                "Range Mit"
-              ],
-              "RDM": [
-                "Barrier"
-              ]
-            }
-          },
-          {
             "type": "Tankbuster",
             "stakeholder": "tanks",
             "name": "Tank Tethers",
-            "time": 70,
+            "time": 94,
             "mitigations": {
               "WARGNB_WAR": [
                 "Kitchen Sink"
@@ -143,7 +111,40 @@
                 "Kitchen Sink"
               ]
             }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "611",
+            "time": 108,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Everything"
+              ],
+              "SGE": [
+                "Everything"
+              ],
+              "WHM": [
+                "Everything"
+              ],
+              "AST": [
+                "Everything"
+              ],
+              "PRange": [
+                "Range Mit"
+              ],
+              "RDM": [
+                "Barrier"
+              ]
+            }
           }
+          
         ],
         "note": "After Playstation: Feint / Addle are free to use to help with tank autos (it does not work on flares or cosmo memory)"
       }

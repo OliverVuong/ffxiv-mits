@@ -18,7 +18,7 @@ function Navigation( { encounter, mitplan, phasesRef } ) {
                         key={phase.name}
                         onClick={() => handleScroll(phasesRef.current[index])}
                     >
-                        {phase.name}
+                        <strong>{phase.name}</strong>
                     </button>
                 );
             })}

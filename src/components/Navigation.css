@@ -1,15 +1,18 @@
 .nav > button {
-    /*opacity: 80%;*/
     background-color: rgb(28, 61, 120, 0.9);
     color: white;
-    border: none;
+    border: grey 2px solid;
 }
 
 .nav > button:hover {
-    background-color: rgb(13, 28, 54);
+    /*background-color: rgb(28, 61, 120, 1);*/
+    border: #EBE6C1 3px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 5px #ebe6c12c;
   }
 
 .nav {
+    height: 50px;
     position: fixed;
     left: 0;
     bottom: 0;

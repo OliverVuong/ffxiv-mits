@@ -10,7 +10,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Cosmo Memory",
-            "time": 1,
+            "time": 13,
             "mitigations": {
               "T1": [
                 "Tank LB"
@@ -39,7 +39,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Cosmo Dive 1",
-            "time": 2,
+            "time": 44,
             "mitigations": {
               "WARDRK_WAR": [
                 {
@@ -178,7 +178,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Protean 1",
-            "time": 3,
+            "time": 82,
             "mitigations": {
               "SCH": [
                 "Soil",
@@ -200,7 +200,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Wave Cannon 1",
-            "time": 4,
+            "time": 89,
             "mitigations": {
               "WARDRK_WAR": [
                 "Vengeance",
@@ -274,7 +274,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Protean 2",
-            "time": 5,
+            "time": 115,
             "mitigations": {
               "SCH": [
                 "Spread-Lo"
@@ -289,7 +289,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Wave Cannon 2",
-            "time": 6,
+            "time": 122,
             "mitigations": {
               "WARDRK_WAR": [
                 "Holmgang",
@@ -381,7 +381,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Cosmo Dive 2",
-            "time": 7,
+            "time": 157,
             "mitigations": {
               "WARDRK_WAR": [
                 "Rampart",
@@ -484,7 +484,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Cosmo Meteor",
-            "time": 8,
+            "time": 184,
             "mitigations": {
               "T1": [
                 "Reprisal"
@@ -517,7 +517,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Flares",
-            "time": 9,
+            "time": 202,
             "mitigations": {
               "SCH": [
                 "Spread-Lo",
@@ -536,7 +536,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Magic Number",
-            "time": 10,
+            "time": 214,
             "mitigations": {
               "T1": [
                 "Tank LB"
@@ -553,7 +553,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Magic Number",
-            "time": 11,
+            "time": 232,
             "mitigations": {
               "T2": [
                 "Tank LB"

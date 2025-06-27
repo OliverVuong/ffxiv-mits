@@ -10,7 +10,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Protean 1",
-            "time": 1,
+            "time": 14,
             "mitigations": {
               "T1": [
                 "Reprisal"
@@ -27,7 +27,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Stack 1",
-            "time": 2,
+            "time": 19,
             "mitigations": {
               "SCH": [
                 "Seraph",
@@ -42,7 +42,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Protean 2",
-            "time": 3,
+            "time": 23,
             "mitigations": {
               "T1": [
                 "Party Mit"
@@ -62,7 +62,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Stack 2",
-            "time": 4,
+            "time": 31,
             "mitigations": {
               "T2": [
                 "Party Mit"
@@ -79,7 +79,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Protean 3",
-            "time": 5,
+            "time": 36,
             "mitigations": {
               "T2": [
                 "Reprisal"
@@ -90,14 +90,14 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Stack 3",
-            "time": 6,
+            "time": 41,
             "mitigations": {}
           },
           {
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Blue Screen",
-            "time": 7,
+            "time": 57,
             "mitigations": {
               "SCH": [
                 "Succor",

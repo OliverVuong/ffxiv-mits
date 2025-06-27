@@ -10,7 +10,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Hello World",
-            "time": 1,
+            "time": 8,
             "mitigations": {
               "T1": [
                 "Reprisal"
@@ -36,7 +36,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "1st Patch Set",
-            "time": 2,
+            "time": 32,
             "mitigations": {
               "WARGNB_GNB": [
                 "Rampart"
@@ -78,7 +78,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "2nd Patch Set",
-            "time": 3,
+            "time": 53,
             "mitigations": {
               "WARGNB_GNB": [
                 "Nebula"
@@ -122,7 +122,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "3rd Patch Set",
-            "time": 4,
+            "time": 74,
             "mitigations": {
               "WARGNB_WAR": [
                 "Rampart",
@@ -177,7 +177,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "4th Patch Set",
-            "time": 5,
+            "time": 95,
             "mitigations": {
               "WARGNB_WAR": [
                 "Vengeance",
@@ -227,7 +227,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Critical Error",
-            "time": 6,
+            "time": 116,
             "mitigations": {
               "WARGNB_GNB": [
                 "Camo"
@@ -273,7 +273,7 @@
             "type": "Raidwide",
             "stakeholder": "tanks",
             "name": "Monitors",
-            "time": 7,
+            "time": 137,
             "mitigations": {
               "WARGNB_GNB": [
                 "Rampart"
