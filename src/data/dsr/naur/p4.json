@@ -10,7 +10,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Resentment",
-            "time":1,
+            "time":141,
             "mitigations":{
               "SCH":[
                 "Spreadlo"
@@ -31,7 +31,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Orb Pops",
-            "time":2,
+            "time":156,
             "mitigations":{
               "T1":[
                 {
@@ -68,7 +68,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Dives",
-            "time":3,
+            "time":175,
             "mitigations":{
               "SCH":[
                 "Succor",
@@ -93,7 +93,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Steep in Rage",
-            "time":4,
+            "time":200,
             "mitigations":{
               "T1":[
                 "Reprisal"

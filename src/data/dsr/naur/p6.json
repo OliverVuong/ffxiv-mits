@@ -10,7 +10,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Wyrmsbreath 1",
-            "time":1,
+            "time":12,
             "mitigations":{
               "WARDRK_WAR":[
                 "Vengeance",
@@ -132,7 +132,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Akh Afah",
-            "time":2,
+            "time":31,
             "mitigations":{
               "T1":[
                 "Reprisal"
@@ -154,7 +154,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Hallowed Wing 1",
-            "time":3,
+            "time":45,
             "mitigations":{
               "WARDRK_WAR":[
                 "Rampart",
@@ -219,7 +219,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Wroth Flames",
-            "time":4,
+            "time":60,
             "mitigations":{
               "T1":[
                 "Party Mit"
@@ -279,7 +279,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Akh Afah",
-            "time":5,
+            "time":101,
             "mitigations":{
               "T1":[
                 "Reprisal"
@@ -301,7 +301,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Hallowed Wing 2",
-            "time":6,
+            "time":114,
             "mitigations":{
               "WARDRK_WAR":[
                 "Thrill",
@@ -364,7 +364,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Wyrmsbreath 2",
-            "time":7,
+            "time":133,
             "mitigations":{
               "WARDRK_WAR":[
                 "Vengeance",
@@ -510,7 +510,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Cauterize",
-            "time":8,
+            "time":146,
             "mitigations":{
               "WARDRK_WAR":[
                 "Holmgang",

@@ -10,7 +10,7 @@
             "type": "Tankbuster",
             "stakeholder": "tanks",
             "name": "Ascalon's Might 1",
-            "time": 10,
+            "time": 14,
             "mitigations": {
               "WARGNB_WAR": [
                 "Holmgang"
@@ -48,7 +48,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Strength of the Ward",
-            "time": 45,
+            "time": 58,
             "mitigations": {
               "T1": [
                 "Party Mit"
@@ -96,7 +96,7 @@
             "type": "Tankbuster",
             "stakeholder": "tanks",
             "name": "Strength of the Ward Tether",
-            "time": 50,
+            "time": 58,
             "mitigations": {
               "WARGNB_WAR": [
                 "Kitchen Sink"
@@ -144,7 +144,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Ancient Quaga",
-            "time": 60,
+            "time": 70,
             "mitigations": {
               "T1": [
                 "Reprisal"
@@ -181,7 +181,7 @@
             "type": "Tankbuster",
             "stakeholder": "tanks",
             "name": "Ascalon's Might 2",
-            "time": 70,
+            "time": 80,
             "mitigations": {
               "WARGNB_GNB": [
                 "Superbolide"
@@ -207,7 +207,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Sanctity of the Ward",
-            "time": 80,
+            "time": 111,
             "mitigations": {
               "SCH": [
                 {
@@ -250,7 +250,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Ultimate End",
-            "time": 100,
+            "time": 165,
             "mitigations": {
               "T1": [
                 "Reprisal",
@@ -279,7 +279,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Final Chorus",
-            "time": 120,
+            "time": 200,
             "mitigations": {
               "T2": [
                 "Party Mit"

@@ -10,7 +10,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Healers",
-            "time":1,
+            "time":15,
             "mitigations":{
               "SCH":[
                 "Spreadlo"
@@ -33,7 +33,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Melee",
-            "time":2,
+            "time":20,
             "mitigations":{
               "T1":[
                 "buddyM1"
@@ -69,7 +69,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Range",
-            "time":3,
+            "time":25,
             "mitigations":{
               "T1":[
                 "Party Mit"
@@ -94,7 +94,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Tank",
-            "time":4,
+            "time":30,
             "mitigations":{
               
             }
@@ -103,7 +103,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Pure of Heart",
-            "time":5,
+            "time":34,
             "mitigations":{
               "T1":[
                 "Reprisal"

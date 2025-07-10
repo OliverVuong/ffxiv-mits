@@ -10,7 +10,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Wrath of the Heavens",
-            "time":1,
+            "time":30,
             "mitigations":{
               "T1":[
                 {
@@ -50,7 +50,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Ancient Quaga",
-            "time":2,
+            "time":60,
             "mitigations":{
               "T1":[
                 "Reprisal"
@@ -72,7 +72,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Ascalon's Might 1",
-            "time":3,
+            "time":70,
             "mitigations":{
               "WARDRK_WAR":[
                 "Holmgang"
@@ -98,7 +98,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Death of the Heavens",
-            "time":4,
+            "time":106,
             "mitigations":{
               "SCH":[
                 "Succor",
@@ -123,7 +123,7 @@
             "type":"Raidwide",
             "stakeholder":"all",
             "name":"Ancient Quaga",
-            "time":5,
+            "time":143,
             "mitigations":{
               "T1":[
                 "Party Mit",
@@ -164,7 +164,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Ascalon's Might 2",
-            "time":6,
+            "time":153,
             "mitigations":{
               "WARDRK_DRK":[
                 "Living Dead"
@@ -175,7 +175,7 @@
                   "note":"If boss gets to 2% before slashes hold vengance for wb1"
                 },
                 {
-                  "ability":"BW",
+                  "ability":"Bloodwhetting",
                   "note":"Take Slashes"
                 }
               ],

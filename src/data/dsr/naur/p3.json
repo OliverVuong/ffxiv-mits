@@ -10,7 +10,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "First Stack",
-            "time": 145,
+            "time": 28,
             "mitigations": {
               "T2": [
                 "Reprisal"
@@ -45,7 +45,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Second Stack",
-            "time": 155,
+            "time": 49,
             "mitigations": {
               "T1": [
                 "Reprisal",
@@ -80,7 +80,7 @@
             "type": "Tankbuster",
             "stakeholder": "all",
             "name": "Soul Tether",
-            "time": 180,
+            "time": 82,
             "mitigations": {
               "M1": [
                 "Feint"
