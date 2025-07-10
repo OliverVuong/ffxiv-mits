@@ -13,16 +13,25 @@
             "time": 18,
             "mitigations": {
               "T1": [
-                "Reprisal",
+                {
+                  "ability": "Reprisal",
+                  "note": "Reprisal slightly after Hell's Judgement to have up for Shell Crusher"
+                },
                 "Party Mit"
               ],
               "SCH": [
                 "Concitation",
-                "Soil"
+                {
+                  "ability": "Soil",
+                  "note": "Soil slightly after Hell's Judgement to have up for Shell Crusher or additional use on CD"
+                }
               ],
               "SGE": [
                 "EukProg",
-                "Kerachole"
+                {
+                  "ability": "Kerachole",
+                  "note": "Kerachole slightly after Hell's Judgement to have up for Shell Crusher or additional use on CD"
+                }
               ],
               "M1": [
                 "Feint"
@@ -44,13 +53,13 @@
               "SCH": [
                 "Spread-Lo",
                 "Seraph",
-                "Soil"
+                "Soil co"
               ],
               "SGE": [
                 "EukProg",
                 "Holos",
                 "Panhaima",
-                "Kerachole"
+                "Kerachole co"
               ],
               "WHM": [
                 "Temperance",
@@ -61,9 +70,6 @@
               ],
               "PRange": [
                 "Range Mit"
-              ],
-              "Caster": [
-                "Addle"
               ],
               "MNK":[
                 "Mantra"
@@ -127,7 +133,10 @@
                 "Feint"
               ],
               "CASTER2":[
-                "Addle"
+                {
+                  "ability": "Addle",
+                  "note": "Alternatively can use on Fire and Dark Set 2/3 instead"
+                }
               ]
             }
           },
@@ -142,17 +151,20 @@
               ],
               "SCH": [
                 "Concitation",
-                "Soil"
+                "Soil co"
               ],
               "SGE": [
                 "EukProg",
-                "Kerachole"
+                "Kerachole co"
               ],
               "M2": [
-                "Feint"
+                "Feint co"
               ],
               "MCH":[
                 "Dismantle"
+              ],
+              "CASTER2":[
+                "Addle co"
               ],
               "extranotes": {
                 "MCH": "Dismantle"
@@ -224,7 +236,10 @@
                 "Reprisal"
               ],
               "SCH": [
-                "Expdient",
+                {
+                  "ability": "Expedient co",
+                  "hasOverflow": true
+                },
                 "Spread-Lo"
               ],
               "SGE": [
@@ -280,7 +295,10 @@
             "time": 146,
             "mitigations": {
               "T1": [
-                "Reprisal",
+                {
+                  "ability": "Reprisal",
+                  "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+                },
                 "Party Mit"
               ],
               "SCH": [
@@ -292,13 +310,22 @@
                 "Kerachole"
               ],
               "M1": [
-                "Feint"
+                {
+                  "ability": "Feint",
+                  "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+                }
               ],
               "PRange": [
-                "Range Mit"
+                {
+                  "ability": "Range Mit",
+                  "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+                }
               ],
               "Caster": [
-                "Addle"
+                {
+                  "ability": "Addle",
+                  "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+                }
               ],
               "extranotes": {
                 "T1": "The timing for 15s to catch Shockwave Pulsar and Memory's end is fairly precise, hit mits at the <b>P</b> in Pulsar",
@@ -315,27 +342,30 @@
             "time": 159,
             "mitigations": {
               "T1": [
-                "Reprisal"
+                "Reprisal co"
               ],
               "SCH": [
                 "Concitation",
-                "Soil"
+                "Soil co"
               ],
               "SGE": [
-                "Holos",
-                "Kerachole"
+                {
+                  "ability": "Holos",
+                  "note": "Early Holos"
+                },
+                "Kerachole co"
               ],
-              "WHM": [
-                "Temperance"
+              "AST": [
+                "CU"
               ],
               "M1": [
-                "Feint"
+                "Feint co"
               ],
               "PRange": [
-                "Range Mit"
+                "Range Mit co"
               ],
               "Caster": [
-                "Addle"
+                "Addle co"
               ],
               "PLD":[
                 "Wings"

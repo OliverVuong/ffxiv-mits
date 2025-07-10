@@ -25,13 +25,21 @@ const nascentflash = {
   name: 'Nascent',
   img: images[4].default,
 };
+const shakeitoff = {
+  name: 'Shake',
+  img: images[5].default,
+};
+const shakeveil = {
+  name: 'Shake/Veil',
+  img: images[6].default,
+};
 const thrillofbattle = {
   name: 'Thrill',
-  img: images[5].default,
+  img: images[7].default,
 };
 const vengeance = {
   name: 'Vengeance',
-  img: images[6].default,
+  img: images[8].default,
 };
 
 const warMap = {
@@ -41,6 +49,10 @@ const warMap = {
   Holmgang: holmgang,
   'Nascent Buddy': nascentflash,
   Nascent: nascentflash,
+  shakeitoff,
+  Shake: shakeitoff,
+  shakeveil,
+  'Shake/Veil': shakeveil,
   Thrill: thrillofbattle,
   vengeance,
   Vengeance: vengeance,

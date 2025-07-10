@@ -16,6 +16,13 @@
               "Reprisal",
               "Party Mit"
             ],
+            "T2":[
+              {
+                "ability": "Shake/Veil",
+                "isGreyscale": true,
+                "note": "Shake/Veil can be used prepull to cover break 1"
+              }
+            ],
             "PLD2":[
               "Veil"
             ],
@@ -97,7 +104,8 @@
             ],
             "WARGNB_GNB":[
               "Rampart",
-              "Camo"
+              "Camo",
+              "HoC"
             ],
             "WARPLD_WAR":[
               "Rampart",
@@ -106,7 +114,8 @@
             ],
             "WARPLD_PLD":[
               "Rampart",
-              "Bulwark"
+              "Bulwark",
+              "Holy Sheltron"
             ],
             "WARDRK_WAR":[
               "Rampart",
@@ -135,12 +144,13 @@
             ],
             "GNBPLD_PLD":[
               "Rampart",
-              "Bulwark"
+              "Bulwark",
+              "Holy Sheltron"
             ],
             "PLDDRK_PLD":[
               "Rampart",
               "Bulwark",
-              "Sheltron"
+              "Holy Sheltron"
             ],
             "PLDDRK_DRK":[
               "Rampart",
@@ -168,12 +178,15 @@
         },
         {
           "type":"Raidwide",
-          "stakeholder":"all",
+          "stakeholder":"none",
           "name":"Flame stack",
           "time":78,
           "mitigations":{
             "SCH":[
-              "Soil"
+              {
+                "ability": "Soil",
+                "note": "Early Soil"
+              }
             ],
             "SGE":[
               "Kerachole"
@@ -193,11 +206,17 @@
               "Party Mit"
             ],
             "SCH":[
-              "Soil co",
+              {
+                "ability": "Soil",
+                "note": "Early Soil"
+              },
               "Spread-Lo"
             ],
             "SGE":[
-              "Kerachole",
+              {
+                "ability": "Kerachole",
+                "note": "Early Kerachole"
+              },
               "Holos"
             ],
             "WHM":[
@@ -259,20 +278,25 @@
           "name":"Fall of Faith (3/4)",
           "time":111,
           "mitigations":{
+            "T1":[
+              {
+                "ability": "Party Mit",
+                "isGreyscale": true
+              }
+            ],
             "SCH":[
               "Fey Illum co",
               "Consolation",
               "Soil"
             ],
             "SGE":[
-              "Kerachole",
-              "Sophia"
+              "Kerachole"
             ],
             "WHM":[
-              "Temperance"
+              "Temperance co"
             ],
             "AST":[
-              "Neutral",
+              "Neutral co",
               "Sun"
             ],
             "PRange": [
@@ -290,7 +314,10 @@
               "Party Mit"
             ],
             "T2":[
-              "Rep"
+              {
+                "ability": "Reprisal",
+                "note": "Late Rep"
+              }
             ],
             "SCH":[
               "Fey Illum co",
@@ -306,16 +333,22 @@
               "Caress"
             ],
             "AST":[
-              "Sun"
+              "Sun Sign co"
             ],
             "M1":[
-              "Feint"
+              {
+                "ability": "Feint",
+                "note": "Late Feint"
+              }
             ],
             "PRange": [
               "Range Mit"
             ],
             "CASTER2":[
-              "Addle"
+              {
+                "ability": "Addle",
+                "note": "Use late to catch TB"
+              }
             ],
             "extranotes":{
               
@@ -331,18 +364,26 @@
             "WARGNB_WAR":[
               {
                 "ability": "Damnation",
+                "note": "Late 40% can cover burnished glory 2",
                 "hasOverflow": true
               },
-              "Rampart",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Thrill",
               "Bloodwhetting"
             ],
             "WARPLD_WAR":[
               {
                 "ability": "Damnation",
+                "note": "Late 40% can cover burnished glory 2",
                 "hasOverflow": true
               },
-              "Rampart",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Thrill",
               "Bloodwhetting"
             ],
@@ -352,41 +393,82 @@
             "WARDRK_WAR":[
               {
                 "ability": "Damnation",
+                "note": "Late 40% can cover burnished glory 2",
                 "hasOverflow": true
               },
-              "Rampart",
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Thrill",
               "Bloodwhetting"
             ],
             "WARDRK_DRK":[
-              "The Blackest Night Buddy"
+              "Oblation Buddy",
+              {
+                "ability": "The Blackest Night Buddy",
+                "isGreyscale": true
+              }
             ],
             "GNBDRK_GNB":[
-              "Great Nebula",
-              "Rampart",
-              "Camo",
+              {
+                "ability": "Great Nebula",
+                "note": "Late 40% can cover burnished glory 2"
+              },
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
+              {
+                "ability": "Camo",
+                "note": "Late Camouflage"
+              },
               "HoC"
             ],
             "GNBDRK_DRK":[
-              "The Blackest Night Buddy"
+              "Oblation Buddy",
+              {
+                "ability": "The Blackest Night Buddy",
+                "isGreyscale": true
+              }
             ],
             "GNBPLD_GNB":[
-              "Great Nebula",
-              "Rampart",
-              "Camo",
+              {
+                "ability": "Great Nebula",
+                "note": "Late 40% can cover burnished glory 2"
+              },
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
+              {
+                "ability": "Camo",
+                "note": "Late Camouflage"
+              },
               "HoC"
             ],
             "GNBPLD_PLD":[
               "Intervention"
             ],
             "PLDDRK_PLD":[
-              "Guardian",
-              "Rampart",
+              {
+                "ability": "Guardian",
+                "note": "Late 40% can cover burnished glory 2",
+                "hasOverflow": true
+              },
+              {
+                "ability": "Rampart",
+                "note": "Late Rampart"
+              },
               "Bulwark",
-              "Sheltron"
+              "Holy Sheltron"
             ],
             "PLDDRK_DRK":[
-              "The Blackest Night Buddy"
+              "Oblation Buddy",
+              {
+                "ability": "The Blackest Night Buddy",
+                "isGreyscale": true
+              }
             ]
           }
         },
@@ -447,7 +529,7 @@
             ],
             "PLDDRK_PLD":[
               "Rampart",
-              "Sheltron"
+              "Holy Sheltron"
             ],
             "PLDDRK_DRK":[
               "Shadowed Vigil",

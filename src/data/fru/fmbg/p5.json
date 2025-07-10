@@ -64,9 +64,6 @@
               "M2": [
                 "Feint"
               ],
-              "PRange": [
-                "Range Mit"
-              ],
               "Caster": [
                 "Addle"
               ],
@@ -88,30 +85,39 @@
             "time": 470,
             "mitigations": {
               "WARGNB_WAR": [
-                "Holmgang",
+                {
+                  "ability": "Holmgang",
+                  "hasOverflow": true
+                },
                 {
                   "ability": "Nascent Buddy",
-                  "note": "Nascent Buddy Mit on 2nd Hit"
+                  "note": "Nascent Buddy Mit 2nd Hit"
                 }
               ],
               "WARGNB_GNB": [
                 "Kitchen Sink"
               ],
               "WARPLD_WAR": [
-                "Holmgang",
+                {
+                  "ability": "Holmgang",
+                  "hasOverflow": true
+                },
                 {
                   "ability": "Nascent Buddy",
-                  "note": "Nascent Buddy Mit on 2nd Hit"
+                  "note": "Nascent Buddy Mit 2nd Hit"
                 }
               ],
               "WARPLD_PLD": [
                 "Kitchen Sink"
               ],
               "WARDRK_WAR": [
-                "Holmgang",
+                {
+                  "ability": "Holmgang",
+                  "hasOverflow": true
+                },
                 {
                   "ability": "Nascent Buddy",
-                  "note": "Nascent Buddy Mit on 2nd Hit"
+                  "note": "Nascent Buddy Mit 2nd Hit"
                 }
               ],
               "WARDRK_DRK": [
@@ -121,7 +127,7 @@
                 "Superbolide",
                 {
                   "ability": "HoC Buddy",
-                  "note": "HoC Buddy Mit on 2nd Hit"
+                  "note": "HoC Buddy Mit 2nd Hit"
                 }
               ],
               "GNBDRK_DRK": [
@@ -134,14 +140,14 @@
                 "Hallowed Ground",
                 {
                   "ability": "Intervention",
-                  "note": "Intervention Buddy Mit on 2nd Hit"
+                  "note": "Intervention Buddy Mit 2nd Hit"
                 }
               ],
               "PLDDRK_PLD": [
                 "Hallowed Ground",
                 {
                   "ability": "Intervention",
-                  "note": "Intervention Buddy Mit on 2nd Hit"
+                  "note": "Intervention Buddy Mit 2nd Hit"
                 }
               ],
               "PLDDRK_DRK": [
@@ -168,7 +174,10 @@
                 "Soil"
               ],
               "SGE": [
-                "Panhaima",
+                {
+                  "ability": "Panhaima",
+                  "hasOverflow": true
+                },
                 "Kerachole"
               ],
               "WHM": [
@@ -186,7 +195,10 @@
                 "Natures Minne"
               ],
               "MNK":[
-                "Mantra"
+                {
+                  "ability": "Mantra",
+                  "note": "Alternatively can use on Polarizing Strikes instead"
+                }
               ]
             }
           },
@@ -197,22 +209,40 @@
             "time": 523,
             "mitigations": {
               "T1": [
-                "Tank LB"
+                {
+                  "ability": "Tank LB",
+                  "note": "Priority: WAR > DRK > PLD > GNB"
+                }
               ],
               "T2": [
-                "Tank LB",
-                "Reprisal"
+                {
+                  "ability": "Tank LB",
+                  "note": "Priority: WAR > DRK > PLD > GNB"
+                },
+                {
+                  "ability": "Reprisal grey",
+                  "note": "15s mits on the B in Box, it's more important to catch Fulgent Blade"
+                }
               ],
               "SCH": [
                 "Concitation",
-                "Soil grey"
+                {
+                  "ability": "Soil grey",
+                  "note": "15s mits on the B in Box, it's more important to catch Fulgent Blade"
+                }
               ],
               "SGE": [
                 "EukProg",
-                "Kerachole grey"
+                {
+                  "ability": "Kerachole grey",
+                  "note": "15s mits on the B in Box, it's more important to catch Fulgent Blade"
+                }
               ],
               "M1": [
-                "Feint grey"
+                {
+                  "ability": "Feint grey",
+                  "note": "15s mits on the B in Box, it's more important to catch Fulgent Blade"
+                }
               ],
               "extranotes": {
                 "SCH": "15s mits on the <b>B</b> in Box, it's more important to catch Fulgent Blade",
@@ -289,7 +319,7 @@
                 "Superbolide",
                 {
                   "ability": "HoC Buddy",
-                  "note": "HoC Buddy Mit on 2nd Hit"
+                  "note": "HoC Buddy Mit 2nd Hit"
                 }
               ],
               "WARPLD_WAR": [
@@ -299,7 +329,7 @@
                 "Hallowed Ground",
                 {
                   "ability": "Intervention",
-                  "note": "Intervention Buddy Mit on 2nd Hit"
+                  "note": "Intervention Buddy Mit 2nd Hit"
                 }
               ],
               "WARDRK_WAR": [
@@ -309,11 +339,11 @@
                 "Living Dead",
                 {
                   "ability": "Oblation Buddy",
-                  "note": "Oblation Buddy Mit on 2nd Hit"
+                  "note": "Oblation Buddy Mit 2nd Hit"
                 },
                 {
                   "ability": "TBN Buddy",
-                  "note": "TBN Buddy Mit on 2nd Hit"
+                  "note": "TBN Buddy Mit 2nd Hit"
                 }
               ],
               "GNBDRK_GNB": [
@@ -323,18 +353,18 @@
                 "Living Dead",
                 {
                   "ability": "Oblation Buddy",
-                  "note": "Oblation Buddy Mit on 2nd Hit"
+                  "note": "Oblation Buddy Mit 2nd Hit"
                 },
                 {
                   "ability": "TBN Buddy",
-                  "note": "TBN Buddy Mit on 2nd Hit"
+                  "note": "TBN Buddy Mit 2nd Hit"
                 }
               ],
               "GNBPLD_GNB": [
                 "Superbolide",
                 {
                   "ability": "HoC Buddy",
-                  "note": "HoC Buddy Mit on 2nd Hit"
+                  "note": "HoC Buddy Mit 2nd Hit"
                 }
               ],
               "GNBPLD_PLD": [
@@ -347,11 +377,11 @@
                 "Living Dead",
                 {
                   "ability": "Oblation Buddy",
-                  "note": "Oblation Buddy Mit on 2nd Hit"
+                  "note": "Oblation Buddy Mit 2nd Hit"
                 },
                 {
                   "ability": "TBN Buddy",
-                  "note": "TBN Buddy Mit on 2nd Hit"
+                  "note": "TBN Buddy Mit 2nd Hit"
                 }
               ]
             }
@@ -367,7 +397,10 @@
               ],
               "SCH": [
                 "Seraph",
-                "Seraphism",
+                {
+                  "ability": "Seraphism",
+                  "hasOverflow": true
+                },
                 "Expedient",
                 "Fey"
               ],
@@ -395,7 +428,10 @@
                 "Natures Minne"
               ],
               "MNK":[
-                "Mantra"
+                {
+                  "ability": "Mantra",
+                  "note": "Alternatively can use on Polarizing Strikes instead"
+                }
               ]
             }
           },

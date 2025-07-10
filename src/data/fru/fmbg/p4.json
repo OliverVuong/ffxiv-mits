@@ -38,6 +38,9 @@
               ],
               "CASTER2":[
                 "Addle"
+              ],
+              "MNK":[
+                "Mantra"
               ]
             }
           },
@@ -57,11 +60,11 @@
                 "Kerachole"
               ],
               "WHM": [
-                "Temperance",
+                "Temperance co",
                 "Caress"
               ],
               "AST": [
-                "Neutral",
+                "Neutral co",
                 "Sun"
               ]
             }
@@ -99,24 +102,21 @@
             "time": 238,
             "mitigations": {
               "WARGNB_WAR": [
-                {
-                  "ability": "Nascent Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), Bloodwhetting"
-                }
+                "Nascent Buddy"
               ],
               "WARGNB_GNB": [
-                "Rampart",
-                "Camo",
                 {
-                  "ability": "HoC",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: HoC"
-                }
+                  "ability": "Rampart",
+                  "note": "Right After 1st Somber"
+                },
+                {
+                  "ability": "Camo",
+                  "note": "Right After 1st Somber"
+                },
+                "HoC"
               ],
               "WARPLD_WAR": [
-                {
-                  "ability": "Nascent Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), Bloodwhetting"
-                }
+                "Nascent Buddy"
               ],
               "WARPLD_PLD": [
                 {
@@ -124,16 +124,10 @@
                   "note": "Right After 1st Somber"
                 },
                 "Bulwark",
-                {
-                  "ability": "Holy Sheltron",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Intervention"
-                }
+                "Holy Sheltron"
               ],
               "WARDRK_WAR": [
-                {
-                  "ability": "Nascent Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), Bloodwhetting"
-                }
+                "Nascent Buddy"
               ],
               "WARDRK_DRK": [
                 {
@@ -141,14 +135,8 @@
                   "note": "Right After 1st Somber"
                 },
                 "Dark Mind",
-                {
-                  "ability": "TBN",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
-                },
-                {
-                  "ability": "Oblation",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
-                }
+                "TBN",
+                "Oblation"
               ],
               "GNBDRK_GNB": [
                 {
@@ -159,26 +147,14 @@
                   "ability": "Camo",
                   "note": "Right After 1st Somber"
                 },
-                {
-                  "ability": "HoC",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: HoC"
-                }
+                "HoC"
               ],
               "GNBDRK_DRK": [
-                {
-                  "ability": "TBN Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
-                },
-                {
-                  "ability": "Oblation Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
-                }
+                "TBN Buddy",
+                "Oblation Buddy"
               ],
               "GNBPLD_GNB": [
-                {
-                  "ability": "HoC Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart/Camo (Right After 1st Somber), HoC"
-                }
+                "HoC Buddy"
               ],
               "GNBPLD_PLD": [
                 {
@@ -186,10 +162,7 @@
                   "note": "Right After 1st Somber"
                 },
                 "Bulwark",
-                {
-                  "ability": "Holy Sheltron",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Intervention"
-                }
+                "Holy Sheltron"
               ],
               "PLDDRK_PLD": [
                 {
@@ -197,20 +170,11 @@
                   "note": "Right After 1st Somber"
                 },
                 "Bulwark",
-                {
-                  "ability": "Holy Sheltron",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Intervention"
-                }
+                "Holy Sheltron"
               ],
               "PLDDRK_DRK": [
-                {
-                  "ability": "TBN Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
-                },
-                {
-                  "ability": "Oblation Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart (Right After 1st Somber), TBN, Oblation"
-                }
+                "TBN Buddy",
+                "Oblation Buddy"
               ],
               "T1": [
                 "Reprisal"
@@ -218,12 +182,22 @@
               "SCH": [
                 "Concitation",
                 "Seraph",
-                "Soil"
+                {
+                  "ability": "Soil",
+                  "note": "Soil should be used after 2nd somber"
+                }
               ],
               "SGE": [
                 "EukProg",
-                "Panhaima",
-                "Kerachole"
+                {
+                  "ability": "Panhaima",
+                  "hasOverflow": true
+                },
+                {
+                  "ability": "Kerachole",
+                  "note": "Kerachole should be used after 2nd somber",
+                  "hasOverflow": true
+                }
               ],
               "M1": [
                 {
@@ -233,9 +207,6 @@
               ],
               "PRange": [
                 "Range Mit"
-              ],
-              "MNK":[
-                "Mantra"
               ],
               "extranotes": {
                 "SGE": "Kera/Soil should be used after 2nd somber",
@@ -279,7 +250,13 @@
                 }
               ],
               "BRD":[
-                "Natures Minne"
+                {
+                  "ability": "Natures Minne",
+                  "note": "Alternatively can use on Darklit Dragonsong and Akh Morn Afah instead"
+                }
+              ],
+              "MNK":[
+                "Mantra"
               ]
             }
           },
@@ -292,7 +269,10 @@
               "SCH": [
                 "Spread-Lo",
                 "Expedient",
-                "Seraphism"
+                {
+                  "ability": "Seraphism",
+                  "hasOverflow": true
+                }
               ],
               "SGE": [
                 "EukProg",
@@ -300,14 +280,20 @@
                 "Sophia"
               ],
               "WHM": [
-                "Bell"
+                {
+                  "ability": "Bell",
+                  "note": "Bell should be used immediately for the Crystallize Time castbar finishes to heal for dark party stack"
+                }
               ],
               "AST": [
-                "Macro"
+                {
+                  "ability": "Macro",
+                  "note": "Macro should be used immediately for the Crystallize Time castbar finishes to heal for dark party stack"
+                }
               ],
               "extranotes": {
-                "WHM": "Bell and Macro should be used immediately for the for the Crystallize Time castbar finishes to heal for dark party stack",
-                "AST": "Bell and Macro should be used immediately for the for the Crystallize Time castbar finishes to heal for dark party stack"
+                "WHM": "Bell and Macro should be used immediately for the Crystallize Time castbar finishes to heal for dark party stack",
+                "AST": "Bell and Macro should be used immediately for the Crystallize Time castbar finishes to heal for dark party stack"
               }
             }
           },
@@ -373,14 +359,23 @@
               ],
               "SCH": [
                 "Concitation",
-                "Soil"
+                {
+                  "ability": "Soil",
+                  "note": "Soil immediately after rewinds are placed to have up for Morn Afah"
+                }
               ],
               "SGE": [
                 "EukProg",
-                "Kerachole"
+                {
+                  "ability": "Kerachole",
+                  "note": "Kerachole immediately after rewinds are placed to have up for Morn Afah"
+                }
               ],
               "PRange": [
-                "Range Mit"
+                {
+                  "ability": "Range Mit",
+                  "note": "You can move Phys Ranged party mit off both Akh Morns to Hallowed Wing for 3rd and 4th in line safety if doing both 7/1 AM."
+                }
               ],
               "extranotes": {
                 "SCH": "Kera/Soil immediately after rewinds are placed to have up for Morn Afah",
@@ -396,94 +391,49 @@
             "mitigations": {
               "WARGNB_WAR": [
                 "Rampart",
-                {
-                  "ability": "Bloodwhetting",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Nascent"
-                }
+                "Bloodwhetting"
               ],
               "WARGNB_GNB": [
-                {
-                  "ability": "HoC Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Camo, HoC"
-                }
+                "HoC Buddy"
               ],
               "WARPLD_WAR": [
                 "Rampart",
-                {
-                  "ability": "Bloodwhetting",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Nascent"
-                }
+                "Bloodwhetting"
               ],
               "WARPLD_PLD": [
-                {
-                  "ability": "Intervention",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Bulwark, Holy Sheltron"
-                }
+                "Intervention"
               ],
               "WARDRK_WAR": [
                 "Rampart",
-                {
-                  "ability": "Bloodwhetting",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: Nascent"
-                }
+                "Bloodwhetting"
               ],
               "WARDRK_DRK": [
-                {
-                  "ability": "TBN Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, TBN, Oblation"
-                },
-                {
-                  "ability": "Oblation Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, TBN, Oblation"
-                }
+                "TBN Buddy",
+                "Oblation Buddy"
               ],
               "GNBDRK_GNB": [
-                {
-                  "ability": "HoC Buddy",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Camo, HoC"
-                }
+                "HoC Buddy"
               ],
               "GNBDRK_DRK": [
                 "Rampart",
-                {
-                  "ability": "TBN",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
-                },
-                {
-                  "ability": "Oblation",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
-                }
+                "TBN",
+                "Oblation"
               ],
               "GNBPLD_GNB": [
                 "Rampart",
                 "Camo",
-                {
-                  "ability": "HoC",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: HoC"
-                }
+                "HoC"
               ],
               "GNBPLD_PLD": [
-                {
-                  "ability": "Intervention",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Bulwark, Holy Sheltron"
-                }
+                "Intervention"
               ],
               "PLDDRK_PLD": [
-                {
-                  "ability": "Intervention",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Rampart, Bulwark, Holy Sheltron"
-                }
+                "Intervention"
               ],
               "PLDDRK_DRK": [
                 "Rampart",
-                {
-                  "ability": "TBN",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
-                },
-                {
-                  "ability": "Oblation",
-                  "note": "Either tank can solo Akh Morn, discuss with your cotank and use Buddy Mit: TBN, Oblation"
-                }
+                "TBN",
+                "Oblation"
               ],
               "T1": [
                 "Reprisal"
@@ -522,9 +472,6 @@
               ],
               "MCH":[
                 "Dismantle"
-              ],
-              "MNK":[
-                "Mantra"
               ]
             }
           }

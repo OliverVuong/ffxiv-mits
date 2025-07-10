@@ -1,8 +1,8 @@
 .aCard {
-    display: inline-block;
-    text-align: center;
-    width: 64px;
-    font-size: 90%;
+  display: inline-block;
+  text-align: center;
+  width: 64px;
+  font-size: 90%;
 }
 
 .isGreyscale {
@@ -10,5 +10,13 @@
 }
 
 .hasOverflow {
-    /*font-size: 75%;*/
+  font-size: 75%;
+}
+
+.hasOverflow .tooltiptext {
+  font-size: 125%;
+}
+
+.ability-caption {
+  white-space: nowrap;
 }

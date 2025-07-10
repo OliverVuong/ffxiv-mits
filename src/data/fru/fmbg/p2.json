@@ -30,10 +30,16 @@
               "CU"
             ],
             "M2":[
-              "Feint"
+              {
+                "ability": "Feint",
+                "note": "Feint at start of Mirror Image castbar to have back up for Banish III"
+              }
             ],
             "Caster":[
-              "Addle"
+              {
+                "ability": "Addle",
+                "note": "Addle at start of Mirror Image castbar to have back up for Banish III"
+              }
             ],
             "extranotes":{
               "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
@@ -75,20 +81,29 @@
           "mitigations":{
             "SCH":[
               "Spread-Lo",
-              "Expedient"
+              {
+                "ability": "Expedient",
+                "note": "Expedient should be used as soon as Frigid Stone prey markers appear"
+              }
             ],
             "SGE":[
               "Zoe EukProg",
               "Holos"
             ],
             "PRange": [
-              "Range Mit"
+              {
+                "ability": "Range Mit",
+                "note": "Samba/Tact/Troub should be used walking in before KB"
+              }
             ],
             "RDM":[
               "Magick Barrier"
             ],
             "BRD":[
-              "Natures Minne"
+              {
+                "ability": "Natures Minne",
+                "note": "Alternatively can use on Mirror Mirror instead"
+              }
             ],
             "MNK":[
               "Mantra"
@@ -181,7 +196,7 @@
               "Caress"
             ],
             "AST":[
-              "Sun Sign"
+              "Sun Sign co"
             ],
             "M2":[
               "Feint grey"
@@ -220,7 +235,10 @@
               "Kerachole"
             ],
             "AST":[
-              "CU"
+              {
+                "ability": "CU",
+                "isGreyscale": true
+              }
             ],
             "M2":[
               "Feint"
@@ -275,12 +293,21 @@
           "mitigations":{
             "SCH":[
               "Concitation",
-              "Expedient",
-              "Soil"
+              {
+                "ability": "Expedient",
+                "note": "Early Expedient"
+              },
+              {
+                "ability": "Soil",
+                "note": "Soil should be used immediately after walking towards the middle tower soak"
+              }
             ],
             "SGE":[
               "EukProg",
-              "Kerachole"
+              {
+                "ability": "Kerachole",
+                "note": "Kerachole should be used immediately after walking towards the middle tower soak"
+              }
             ],
             "extranotes":{
               "SCH":"Soil should be used immediately after walking towards the middle tower soak",
@@ -299,7 +326,7 @@
             ],
             "SCH":[
               "Concitation",
-              "Expedient"
+              "Expedient co"
             ],
             "SGE":[
               "Holos"

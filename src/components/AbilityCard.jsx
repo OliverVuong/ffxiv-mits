@@ -24,13 +24,15 @@ function AbilityCard({ input }) {
             {
                 hasNote ? 
                 <div className="has-note">
-                    <u>
+                    <u className="ability-caption">
                         {abilityMap[abilityName].name + '*'}
                     </u>
                     <span className="tooltiptext">{input['note']}</span>
                 </div>
                 :
-                <div>{abilityMap[abilityName].name}</div>
+                <div className="ability-caption">
+                    {abilityMap[abilityName].name}
+                </div>
             }
         </div>
     } catch {
