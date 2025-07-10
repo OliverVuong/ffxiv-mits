@@ -98,7 +98,7 @@ export const tankCombosByPlan = {
       ['WARPLD_WAR', 'WARPLD_PLD'],
       ['WARDRK_WAR', 'WARDRK_DRK'],
       ['GNBDRK_GNB', 'GNBDRK_DRK'],
-      ['PLDGNB_PLD', 'PLDGNB_GNB'],
+      ['GNBPLD_PLD', 'GNBPLD_GNB'],
       ['PLDDRK_PLD', 'PLDDRK_DRK'],
     ],
   },

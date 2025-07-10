@@ -13,7 +13,10 @@
             "time": 13,
             "mitigations": {
               "T1": [
-                "Tank LB"
+                {
+                  "ability": "Tank LB",
+                  "note": "Priority: WAR > DRK > PLD >>> GNB"
+                }
               ],
               "T2": [
                 "Reprisal"
@@ -88,7 +91,7 @@
                   "note": "Rampart after 1st Cosmo Arrow cast finishes"
                 },
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "Intervention"
               ],
               "GNBDRK_GNB": [
@@ -122,7 +125,7 @@
                   "note": "Rampart after 1st Cosmo Arrow cast finishes"
                 },
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "Intervention"
               ],
               "PLDDRK_PLD": [
@@ -131,7 +134,7 @@
                   "note": "Rampart after 1st Cosmo Arrow cast finishes"
                 },
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "Intervention"
               ],
               "PLDDRK_DRK": [
@@ -244,7 +247,7 @@
               ],
               "PLDDRK_PLD": [
                 "Sentinel",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_DRK": [
                 "Living Dead",
@@ -314,7 +317,7 @@
               ],
               "WARPLD_PLD": [
                 "Sentinel",
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability": "Wings",
                   "note": "Hold Passage for block"
@@ -322,7 +325,7 @@
               ],
               "GNBDRK_GNB": [
                 "Superbolide",
-                "HoC"
+                "HoC Buddy"
               ],
               "GNBDRK_DRK": [
                 "Shadow Wall",
@@ -331,11 +334,11 @@
               ],
               "GNBPLD_GNB": [
                 "Superbolide",
-                "HoC"
+                "HoC Buddy"
               ],
               "GNBPLD_PLD": [
                 "Sentinel",
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability": "Wings",
                   "note": "Hold Passage for block"
@@ -415,7 +418,7 @@
               "WARPLD_PLD": [
                 "Rampart",
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "Intervention"
               ],
               "GNBDRK_GNB": [
@@ -440,13 +443,13 @@
               "GNBPLD_PLD": [
                 "Rampart",
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "Intervention"
               ],
               "PLDDRK_PLD": [
                 "Rampart",
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "Intervention"
               ],
               "PLDDRK_DRK": [

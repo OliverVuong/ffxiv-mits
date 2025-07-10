@@ -56,7 +56,7 @@
               "PLDDRK_DRK": [
                 "Rampart"
               ],
-              "T2": [
+              "T1": [
                 "Party Mit"
               ],
               "SCH": [
@@ -85,7 +85,7 @@
               ],
               "WARPLD_PLD": [
                 "Sentinel",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "WARDRK_DRK": [
                 "Shadow Wall"
@@ -95,7 +95,7 @@
               ],
               "GNBPLD_PLD": [
                 "Sentinel",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_DRK": [
                 "Shadow Wall"
@@ -201,7 +201,7 @@
               ],
               "PLDDRK_PLD": [
                 "Sentinel",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "T1": [
                 "Reprisal"
@@ -233,7 +233,7 @@
                 "Camo"
               ],
               "WARPLD_PLD": [
-                "Sheltron",
+                "Holy Sheltron",
                 "Bulwark"
               ],
               "WARDRK_DRK": [
@@ -243,7 +243,7 @@
                 "Dark Mind"
               ],
               "GNBPLD_PLD": [
-                "Sheltron",
+                "Holy Sheltron",
                 "Bulwark"
               ],
               "PLDDRK_DRK": [

@@ -5,92 +5,98 @@ const images = Object.values(
   )
 );
 
+const adloquium = {
+  name: 'Adlo',
+  img: images[0].default,
+};
 const concitation = {
   name: 'Concit',
-  img: images[0].default,
+  img: images[1].default,
 };
 const consolation = {
   name: 'Consolation',
-  img: images[1].default,
+  img: images[2].default,
 };
 const consolationCO = {
-  img: images[2].default,
+  img: images[3].default,
   name: '↪Consolation',
 };
 const expedient = {
   name: 'Expedient',
-  img: images[3].default,
+  img: images[4].default,
 };
 const expedientCO = {
   name: '↪Expedient',
-  img: images[4].default,
+  img: images[5].default,
 };
 const feyillum = {
   name: 'Illum',
-  img: images[5].default,
+  img: images[6].default,
 };
 const feyillumCO = {
   name: '↪Illum',
-  img: images[6].default,
+  img: images[7].default,
 };
 const recitConcitation = {
   name: 'RecitCon',
-  img: images[7].default,
+  img: images[8].default,
 };
 const recitConcitationCO = {
   name: '↪RecitCon',
-  img: images[8].default,
+  img: images[9].default,
 };
 const recitSuccor = {
   name: 'Recit Succor',
-  img: images[9].default,
+  img: images[10].default,
 };
 const recitSuccorCO = {
   name: 'Recit Succor',
-  img: images[10].default,
+  img: images[11].default,
 };
 const seraph = {
   name: 'Seraph',
-  img: images[11].default,
+  img: images[12].default,
 };
 const seraphCO = {
   name: '↪Seraph',
-  img: images[12].default,
+  img: images[13].default,
 };
 const seraphism = {
   name: 'Seraphism',
-  img: images[13].default,
+  img: images[14].default,
 };
 const seraphismCO = {
   name: '↪Seraphism',
-  img: images[14].default,
+  img: images[15].default,
 };
 const soil = {
   name: 'Soil',
-  img: images[15].default,
+  img: images[16].default,
 };
 const soilG = {
   name: 'Soil',
-  img: images[16].default,
+  img: images[17].default,
 };
 const soilCO = {
   name: '↪Soil',
-  img: images[16].default,
+  img: images[17].default,
 };
 const spreadlo = {
   name: 'Spreadlo',
-  img: images[17].default,
+  img: images[18].default,
 };
 const succor = {
   name: 'Succor',
-  img: images[18].default,
+  img: images[19].default,
 };
 const whisperingdawn = {
   name: 'WD',
-  img: images[19].default,
+  img: images[20].default,
 };
 
 const schMap = {
+  adloquium,
+  Adloquium: adloquium,
   Concitation: concitation,
   Concit: concitation,
   Consolation: consolation,

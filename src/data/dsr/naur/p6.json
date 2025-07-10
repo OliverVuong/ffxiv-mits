@@ -49,7 +49,7 @@
                 }
               ],
               "WARPLD_PLD":[
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability":"Intervention",
                   "note":"Buddy Mit: Intervention if solo buster on co-tank"
@@ -79,7 +79,7 @@
               ],
               "GNBPLD_PLD":[
                 "Sentinel",
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability":"Intervention",
                   "note":"Buddy Mit: Intervention if solo buster on co-tank"
@@ -87,7 +87,7 @@
               ],
               "PLDDRK_PLD":[
                 "Sentinel",
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability":"Intervention",
                   "note":"Buddy Mit: Intervention if solo buster on co-tank"
@@ -183,7 +183,7 @@
               ],
               "WARPLD_PLD":[
                 "Rampart",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "GNBDRK_GNB":[
                 "Rampart",
@@ -201,11 +201,11 @@
               ],
               "GNBPLD_PLD":[
                 "Rampart",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_PLD":[
                 "Rampart",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_DRK":[
                 "Rampart",
@@ -326,7 +326,7 @@
               ],
               "WARPLD_PLD":[
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability":"Intervention",
                   "note":"Buddy Mit"
@@ -347,11 +347,11 @@
               ],
               "GNBPLD_PLD":[
                 "Bulwark",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_PLD":[
                 "Bulwark",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "PLDDRK_DRK":[
                 "Dark Mind",
@@ -429,10 +429,6 @@
                 {
                   "ability":"Shadow Wall",
                   "note":"Shadow Wall at 80% of cast (B in wyrmsbreath)"
-                },
-                {
-                  "ability":"TBN",
-                  "note":"TBN at the start of the cast"
                 }
               ],
               "GNBPLD_GNB":[
@@ -473,10 +469,6 @@
                 {
                   "ability":"Shadow Wall",
                   "note":"Shadow Wall at 80% of cast (B in wyrmsbreath)"
-                },
-                {
-                  "ability":"TBN",
-                  "note":"TBN at the start of the cast"
                 }
               ],
               "SCH":[
@@ -547,7 +539,7 @@
               "WARPLD_PLD":[
                 "Rampart",
                 "Sentinel",
-                "Sheltron"
+                "Holy Sheltron"
               ],
               "GNBDRK_GNB":[
                 "Rampart",
@@ -568,7 +560,7 @@
               "GNBPLD_PLD":[
                 "Rampart",
                 "Sentinel",
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability":"Intervention",
                   "note":"Buddy Mit: Intervention"
@@ -577,7 +569,7 @@
               "PLDDRK_PLD":[
                 "Rampart",
                 "Sentinel",
-                "Sheltron",
+                "Holy Sheltron",
                 {
                   "ability":"Intervention",
                   "note":"Buddy Mit: Intervention"

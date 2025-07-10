@@ -31,13 +31,15 @@
                 "Kitchen Sink"
               ],
               "WARDRK_DRK":[
-                "TBN Buddy"
+                "TBN Buddy",
+                "Oblation Buddy"
               ],
               "GNBDRK_GNB":[
                 "Kitchen Sink"
               ],
               "GNBDRK_DRK":[
-                "TBN Buddy"
+                "TBN Buddy",
+                "Oblation Buddy"
               ],
               "GNBPLD_GNB":[
                 "Kitchen Sink"
@@ -163,7 +165,7 @@
               ],
               "WARPLD_PLD":[
                 "Rampart",
-                "Sheltron",
+                "Holy Sheltron",
                 "Bulwark",
                 "Intervention"
               ],
@@ -191,13 +193,13 @@
               ],
               "GNBPLD_PLD":[
                 "Rampart",
-                "Sheltron",
+                "Holy Sheltron",
                 "Bulwark",
                 "Intervention"
               ],
               "PLDDRK_PLD":[
                 "Rampart",
-                "Sheltron",
+                "Holy Sheltron",
                 "Bulwark",
                 "Intervention"
               ],

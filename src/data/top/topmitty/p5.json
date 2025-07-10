@@ -161,15 +161,6 @@
               ],
               "PRange":[
                 "Range Mit"
-              ],
-              "Caster":[
-                "Addle"
-              ],
-              "MCH":[
-                "Dismantle"
-              ],
-              "RDM":[
-                "Barrier"
               ]
             }
           },
@@ -209,7 +200,7 @@
                   "ability":"Rampart",
                   "note":"Prepop Rampart right before Omega-F is targettable (after Sigma)"
                 },
-                "Sheltron",
+                "Holy Sheltron",
                 "Bulwark",
                 "Reprisal",
                 "Intervention"
@@ -269,7 +260,7 @@
                   "ability":"Bulwark",
                   "note":"1st gcd Bulwark"
                 },
-                "Sheltron",
+                "Holy Sheltron",
                 "Intervention"
               ],
               "PLDDRK_DRK":[
@@ -389,7 +380,7 @@
               "GNBPLD_PLD":[
                 "Rampart",
                 "Bulwark",
-                "Sheltron",
+                "Holy Sheltron",
                 "Reprisal",
                 "Intervention"
               ],
