@@ -33,13 +33,17 @@ const shakeveil = {
   name: 'Shake/Veil',
   img: images[6].default,
 };
+const shortmit = {
+  name: 'Short Mit',
+  img: images[7].default,
+};
 const thrillofbattle = {
   name: 'Thrill',
-  img: images[7].default,
+  img: images[8].default,
 };
 const vengeance = {
   name: 'Vengeance',
-  img: images[8].default,
+  img: images[9].default,
 };
 
 const warMap = {
@@ -53,6 +57,7 @@ const warMap = {
   Shake: shakeitoff,
   shakeveil,
   'Shake/Veil': shakeveil,
+  shortmit,
   Thrill: thrillofbattle,
   vengeance,
   Vengeance: vengeance,

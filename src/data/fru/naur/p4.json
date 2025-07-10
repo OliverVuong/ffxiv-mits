@@ -25,7 +25,10 @@
               ],
               "SGE":[
                 "Kerachole",
-                "Philosophia"
+                {
+                  "ability": "Philosophia",
+                  "note": "Philosophia on CD"
+                }
               ],
               "AST":[
                 "CU"
@@ -59,11 +62,17 @@
               "WARDRK_WAR":[
                 "Holmgang"
               ],
-              "GNBDRK_DRK":[
-                "Superbolide"
+              "GNBDRK_GNB":[
+                {
+                  "ability": "Superbolide",
+                  "note": "Superbolide at 1-2s left on water stack"
+                }
               ],
               "PLDGNB_GNB":[
-                "Superbolide"
+                {
+                  "ability": "Superbolide",
+                  "note": "Superbolide at 1-2s left on water stack"
+                }
               ],
               "PLDDRK_DRK":[
                 "Living Dead"
@@ -104,7 +113,8 @@
               "GNBDRK_GNB":[
                 "Rampart",
                 "Camo",
-                "HoC"
+                "HoC",
+                "Aurora"
               ],
               "GNBDRK_DRK":[
                 "TBN Buddy",
@@ -136,8 +146,8 @@
                 "Seraphism"
               ],
               "SGE":[
-                "Panhaima",
-                "Kerachole"
+                "Kerachole",
+                "Panhaima"
               ],
               "M2":[
                 "Feint"
@@ -158,12 +168,14 @@
                 "Seraphism co"
               ],
               "SGE":[
-                "Zoe EukProg",
                 {
+                  "ability": "Kerachole co",
+                  "hasOverflow": true
+                },{
                   "ability": "Panhaima co",
                   "hasOverflow": true
                 },
-                "Kerachole co"
+                "Zoe EukProg"
               ],
               "M2":[
                 "Feint co"
@@ -225,7 +237,10 @@
                 "Temperance co"
               ],
               "AST":[
-                "Macro"
+                {
+                  "ability": "Macro",
+                  "note":"Macrcosmos can be used at either location, user preference"
+                }
               ],
               "extranotes":{
                 "AST":"Macrcosmos can be used at either location, user preference"
@@ -255,9 +270,14 @@
               "WARPLD_WAR":[
                 {
                   "ability": "Damnation",
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
                   "hasOverflow": true
                 },
-                "Thrill"
+                {
+                  "ability": "Thrill",
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
+                  "hasOverflow": true
+                }
               ],
               "WARPLD_PLD":[
                 "Guardian",
@@ -266,9 +286,14 @@
               "WARDRK_WAR":[
                 {
                   "ability": "Damnation",
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
                   "hasOverflow": true
                 },
-                "Thrill"
+                {
+                  "ability": "Thrill",
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
+                  "hasOverflow": true
+                }
               ],
               "WARDRK_DRK":[
                 "Shadowed Vigil",
@@ -342,6 +367,7 @@
               ],
               "GNBDRK_DRK":[
                 "Rampart",
+                "Dark Mind",
                 "TBN",
                 "Oblation"
               ],
@@ -380,7 +406,10 @@
               ],
               "AST":[
                 "CU",
-                "Macro"
+                {
+                  "ability": "Macro",
+                  "note":"Macrcosmos can be used at either location, user preference"
+                }
               ],
               "M1":[
                 "Feint"

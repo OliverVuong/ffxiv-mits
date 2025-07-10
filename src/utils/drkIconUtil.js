@@ -18,7 +18,7 @@ const oblation = {
   img: images[2].default,
 };
 const oblationB = {
-  name: 'Buddy Oblation',
+  name: 'Bud Oblation',
   img: images[2].default,
 };
 const shadowedvigil = {
@@ -34,7 +34,7 @@ const theblackestnight = {
   img: images[5].default,
 };
 const theblackestnightB = {
-  name: 'Buddy TBN',
+  name: 'Bud TBN',
   img: images[5].default,
 };
 

@@ -12,6 +12,9 @@
           "name":"Pre-pull",
           "time":"",
           "mitigations":{
+            "T1":[
+              "Shake/Veil"
+            ],
             "SCH":[
               "Recit Spread-Lo"
             ],
@@ -48,7 +51,7 @@
             "M1":[
               "Feint"
             ],
-            "Phys Range":[
+            "PRange":[
               "Range Mit"
             ],
             "Caster":[
@@ -196,62 +199,47 @@
           "time":41,
           "mitigations":{
             "WARGNB_WAR":[
-              "Rampart co",
               "Thrill"
             ],
             "WARGNB_GNB":[
-              "Rampart co",
-              "Camo co",
               "HoC"
             ],
             "WARPLD_WAR":[
-              "Rampart co",
               "Thrill"
             ],
             "WARPLD_PLD":[
-              "Rampart co",
               "Bulwark",
               "Holy Sheltron",
               "Intervention"
             ],
             "WARDRK_WAR":[
-              "Rampart co",
               "Thrill"
             ],
             "WARDRK_DRK":[
-              "Rampart co",
               "Dark Mind",
               "The Blackest Night",
               "Oblation"
             ],
             "GNBDRK_GNB":[
-              "Rampart co",
-              "Camo co",
               "HoC"
             ],
             "GNBDRK_DRK":[
-              "Rampart co",
               "Dark Mind",
               "The Blackest Night",
               "Oblation"
             ],
             "PLDGNB_PLD":[
-              "Rampart co",
               "Bulwark",
               "Holy Sheltron"
             ],
             "PLDGNB_GNB":[
-              "Rampart co",
-              "Camo co",
               "HoC"
             ],
             "PLDDRK_PLD":[
-              "Rampart co",
               "Bulwark",
               "Holy Sheltron"
             ],
             "PLDDRK_DRK":[
-              "Rampart co",
               "Dark Mind",
               "The Blackest Night",
               "Oblation"
@@ -309,7 +297,10 @@
             ],
             "SCH":[
               "Soil co",
-              "Expedient co",
+              {
+                "ability": "Expedient co",
+                "hasOverflow": true
+              },
               "Fey Illum"
             ],
             "SGE":[

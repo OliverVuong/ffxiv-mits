@@ -22,7 +22,7 @@
               "WARDRK_WAR":[
                 "Holmgang"
               ],
-              "GNBDRK_DRK":[
+              "GNBDRK_GNB":[
                 "Superbolide"
               ],
               "PLDGNB_PLD":[
@@ -54,7 +54,10 @@
                 "CU"
               ],
               "M2":[
-                "Feint"
+                {
+                  "ability": "Feint",
+                  "note": "Feint @ Mirror image"
+                }
               ],
               "RDM":[
                 "Magick Barrier"
@@ -84,6 +87,9 @@
               "AST":[
                 "Sun Sign",
                 "Neutral"
+              ],
+              "PRange":[
+                "Range Mit"
               ]
             }
           },
@@ -138,22 +144,31 @@
               "T1":[
                 {
                   "ability": "buddyM1",
-                  "note": "Short Mit m1"
+                  "note": "On 2nd Mirror: Short Mit Melee Partner"
                 }
               ],
               "T2":[
                 {
                   "ability": "buddyM2",
-                  "note": "Short Mit m2"
+                  "note": "On 2nd Mirror: Short Mit Melee Partner"
                 }
               ],
               "SCH":[
                 "Seraph",
                 "Seraphism",
-                "Fey Illum"
+                {
+                  "ability": "Fey Illum",
+                  "note": "On 2nd Mirror: Fey Illum"
+                }
               ],
               "SGE":[
-                "Holos"
+                {
+                  "ability": "Holos",
+                  "note": "On 2nd Mirror: Holos"
+                }
+              ],
+              "WHM":[
+                "Temperance"
               ],
               "M1":[
                 "Melee personals"
@@ -204,13 +219,30 @@
             "time":127,
             "mitigations":{
               "T1":[
-                "Reprisal co"
+                "Reprisal co",
+                {
+                  "ability": "Party Mit",
+                  "hasOverflow": true
+                },
+                {
+                  "ability": "shortmit",
+                  "note": "Short Mit Puddle Dropper"
+                }
+              ],
+              "T2":[
+                {
+                  "ability": "shortmit",
+                  "note": "Short Mit Puddle Dropper"
+                }
               ],
               "SCH":[
                 "Soil"
               ],
               "SGE":[
-                "Kerachole co",
+                {
+                  "ability": "Kerachole co",
+                  "hasOverflow": true
+                },
                 "EukProg"
               ],
               "AST":[

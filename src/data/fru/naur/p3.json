@@ -16,7 +16,7 @@
               "T2":[
                 {
                   "ability": "Reprisal",
-                  "note": "Use as the cast completes to cover Relativity"
+                  "note": "Use as the cast completes to cover Relativity and have it back up for Shell Crusher and Shockwave Pulsar"
                 }
               ],
               "SCH":[
@@ -25,7 +25,7 @@
               "SGE":[
                 {
                   "ability": "Kerachole",
-                  "note": "Use as the cast completes to cover Relativity"
+                  "note": "Use as the cast completes to cover Relativity and have it back up for Shell Crusher and Shockwave Pulsar"
                 }
               ],
               "extranotes":{
@@ -43,13 +43,23 @@
                 "Reprisal co"
               ],
               "SCH":[
+                "Expedient",
                 "Soil co",
-                "Recit Spread-Lo"
+                {
+                  "ability": "Recit Spread-Lo",
+                  "note": "Shield after UR cast"
+                }
               ],
               "SGE":[
                 "Kerachole co",
-                "Zoe EukProg",
-                "Holos"
+                {
+                  "ability": "Zoe EukProg",
+                  "note": "Shield after UR cast"
+                },
+                {
+                  "ability": "Holos",
+                  "note": "Shield after UR cast"
+                }
               ],
               "WHM":[
                 "Temperance"
@@ -138,9 +148,6 @@
               "SGE":[
                 "Kerachole"
               ],
-              "AST":[
-                "CU"
-              ],
               "M1":[
                 "Feint"
               ],
@@ -168,14 +175,8 @@
               "SGE":[
                 "Kerachole co"
               ],
-              "M1":[
-                "Feint co"
-              ],
-              "PRange":[
-                "Range Mit"
-              ],
-              "Caster":[
-                "Addle co"
+              "AST":[
+                "CU"
               ],
               "MCH":[
                 "Dismantle"
@@ -246,7 +247,10 @@
             "time":108,
             "mitigations":{
               "SCH":[
-                "Recit Spread-Lo"
+                {
+                  "ability": "Recit Spread-Lo",
+                  "note": "Recit / Spread-lo on CD"
+                }
               ]
             }
           },
@@ -299,6 +303,7 @@
                 "Reprisal"
               ],
               "SCH":[
+                "Soil co",
                 {
                   "ability": "Expedient",
                   "note": "Expedient on CD"

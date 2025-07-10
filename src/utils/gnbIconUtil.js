@@ -42,7 +42,7 @@ const heartofcorundumCO = {
   img: images[7].default,
 };
 const heartofcorundumB = {
-  name: 'BuddyHoC',
+  name: 'Bud HoC',
   img: images[6].default,
 };
 const heartoflight = {
@@ -58,7 +58,7 @@ const heartofstone = {
   img: images[10].default,
 };
 const heartofstoneB = {
-  name: 'Buddy HoS',
+  name: 'Bud HoS',
   img: images[10].default,
 };
 const heartofstoneCO = {

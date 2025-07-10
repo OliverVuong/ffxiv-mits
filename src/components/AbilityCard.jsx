@@ -16,7 +16,7 @@ function AbilityCard({ input }) {
                 <img 
                 className="jobAbilityIcon"
                 src={abilityMap[abilityName].img}
-                alt="alt text goes here"
+                alt={abilityMap[abilityName].name + 'icon'}
                 height='55'
                 width='55'
                 />
