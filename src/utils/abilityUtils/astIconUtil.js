@@ -1,6 +1,6 @@
 const images = Object.values(
   import.meta.glob(
-    '../assets/icons/abilities/ast/*.{png,jpg,jpeg,PNG,JPEG}',
+    '../../assets/icons/abilities/ast/*.{png,jpg,jpeg,PNG,JPEG}',
     { eager: true, query: 'url' }
   )
 );

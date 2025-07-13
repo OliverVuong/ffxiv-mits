@@ -8,8 +8,8 @@ import { tankCombosByPlan } from "../utils/utils";
 import { extras } from "../utils/utils";
 import { extrasByPlan } from "../utils/utils";
 import { MtCard, OtCard } from "./TankCard";
-import extrasSelectorMap from "../utils/extraMenuUtil";
-import encounterImgMap from "../utils/encounterImgUtil";
+import extrasSelectorMap from "../utils/menuIconUtils/extraMenuUtil";
+import encounterImgMap from "../utils/menuIconUtils/encounterImgUtil";
 import { defaultMitPlan, encounterNameMap } from "../utils/utils";
 import DeselectAll from "./DeselectAll";
 import './Selectors.css';
@@ -210,7 +210,7 @@ function TankMenu( {
 }){
     return(
         <fieldset>
-            <legend>Tankbusters</legend>
+            <legend>Tanks</legend>
             {/* <div>{JSON.stringify(tankView)}</div> */}
             <div className="menu tanks">
                 {tankCombosByPlan[encounter][mitplan].map((pair) => {

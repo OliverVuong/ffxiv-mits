@@ -4,6 +4,7 @@ import { EncounterView } from './components/Table'
 import Navigation from './components/Navigation'
 import './App.css'
 import { extrasDefault } from './utils/utils'
+import { tankCombos } from './utils/utils'
 import Credits from './components/Credits'
 
 /* import {RoleCheck} from './components/Table'
@@ -30,7 +31,7 @@ function App() {
     defaults[role] = true;
   }
 
-  const tankCombos = [
+  /*const tankCombos = [
     'WARGNB_WAR',
     'WARGNB_GNB',
     'WARPLD_WAR',
@@ -43,7 +44,7 @@ function App() {
     'GNBPLD_PLD',
     'PLDDRK_PLD',
     'PLDDRK_DRK'
-  ];
+  ];*/
 
   const tankDefaults = {};
   for(const combo of tankCombos){

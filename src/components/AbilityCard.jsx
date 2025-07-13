@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import abilityMap from "../utils/abilityUtil";
+import abilityMap from "../utils/abilityUtils/abilityUtil";
 import './AbilityCard.css';
 
 function AbilityCard({ input }) {

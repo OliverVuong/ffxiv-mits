@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-//import jobMap from "../utils/jobIconUtil";
-import jobAltMap from "../utils/jobAltIconUtil";
+//import jobMap from "../utils/menuIconUtils/jobIconUtil";
+import jobAltMap from "../utils/menuIconUtils/jobAltIconUtil";
 
 export function MtCard({input, isActive}) {
     let output = <div>ability card for: {input}</div>;
