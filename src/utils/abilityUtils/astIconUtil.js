@@ -18,28 +18,31 @@ const macrocosmos = {
   img: images[2].default,
 };
 const macrocosmosCO = {
-  img: images[3].default,
+  img: images[2].default,
   name: '↪Macro',
+  iconClass: 'isGreyscale',
 };
 const neutralsect = {
   name: 'Neutral',
-  img: images[4].default,
+  img: images[3].default,
 };
 const neutralsectCO = {
   name: '↪Neutral',
-  img: images[5].default,
+  img: images[3].default,
+  iconClass: 'isGreyscale',
 };
 const star = {
   name: 'Star',
-  img: images[6].default,
+  img: images[4].default,
 };
 const sunsign = {
   name: 'Sun',
-  img: images[7].default,
+  img: images[5].default,
 };
 const sunsignCO = {
   name: '↪Sun',
-  img: images[8].default,
+  img: images[5].default,
+  iconClass: 'isGreyscale',
 };
 
 const astMap = {

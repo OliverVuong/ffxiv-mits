@@ -11,95 +11,104 @@ const addle = {
 };
 const addleCO = {
   name: '↪Addle',
-  img: images[1].default,
+  img: images[0].default,
+  iconClass: 'isGreyscale',
 };
 const addleG = {
   name: 'Addle',
-  img: images[1].default,
+  img: images[0].default,
+  iconClass: 'isGreyscale',
 };
 const bloodbath = {
   name: 'Bloodbath',
-  img: images[2].default,
+  img: images[1].default,
 };
 const feint = {
   name: 'Feint',
-  img: images[3].default,
+  img: images[2].default,
 };
 const feintCO = {
   name: '↪Feint',
-  img: images[4].default,
+  img: images[2].default,
+  iconClass: 'isGreyscale',
 };
 const feintG = {
   name: 'Feint',
-  img: images[4].default,
+  img: images[2].default,
+  iconClass: 'isGreyscale',
 };
 const healerEverything = {
   name: 'Everything',
-  img: images[5].default,
+  img: images[3].default,
 };
 const kitchensink = {
   name: 'Everything',
-  img: images[6].default,
+  img: images[4].default,
 };
 const limitbreak = {
   name: 'LB',
-  img: images[7].default,
+  img: images[5].default,
 };
 const buddyM1 = {
   name: 'Mit M1',
-  img: images[8].default,
+  img: images[6].default,
 };
 const buddyM2 = {
   name: 'Mit M2',
-  img: images[9].default,
+  img: images[7].default,
 };
 const partymit = {
   name: 'Party Mit',
-  img: images[10].default,
+  img: images[8].default,
 };
 const partymitCO = {
   name: '↪Party Mit',
-  img: images[11].default,
+  img: images[8].default,
+  iconClass: 'isGreyscale',
 };
 const provoke = {
   name: 'Provoke',
-  img: images[12].default,
+  img: images[9].default,
 };
 const rampart = {
   name: 'Rampart',
-  img: images[13].default,
+  img: images[10].default,
 };
 const rampartCO = {
   name: '↪Rampart',
-  img: images[14].default,
+  img: images[10].default,
+  iconClass: 'isGreyscale',
 };
 const rangemit = {
   name: 'RangeMit',
-  img: images[15].default,
+  img: images[11].default,
 };
 const rangemitCO = {
   name: '↪RangeMit',
-  img: images[16].default,
+  img: images[11].default,
+  iconClass: 'isGreyscale',
 };
 const reprisal = {
   name: 'Reprisal',
-  img: images[17].default,
+  img: images[12].default,
 };
 const reprisalCO = {
   name: '↪Reprisal',
-  img: images[18].default,
+  img: images[12].default,
+  iconClass: 'isGreyscale',
 };
 const reprisalG = {
   name: 'Reprisal',
-  img: images[18].default,
+  img: images[12].default,
+  iconClass: 'isGreyscale',
 };
 const secondwind = {
   name: 'Reprisal',
-  img: images[19].default,
+  img: images[13].default,
 };
 const secondwindbloodbath = {
   name: 'Personals',
-  img: images[20].default,
+  img: images[14].default,
 };
 
 const rolesAbilityMap = {

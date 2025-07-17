@@ -32,6 +32,7 @@ const shakeitoff = {
 const shakeveil = {
   name: 'Shake/Veil',
   img: images[6].default,
+  captionClass: 'overflow80',
 };
 const shortmit = {
   name: 'Short Mit',

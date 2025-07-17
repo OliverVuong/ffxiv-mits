@@ -15,71 +15,79 @@ const auroraB = {
 };
 const auroraG = {
   name: 'Aurora',
-  img: images[1].default,
+  img: images[0].default,
+  iconClass: 'isGreyscale',
 };
 const camouflage = {
   name: 'Camo',
-  img: images[2].default,
+  img: images[1].default,
 };
 const camouflageCO = {
   name: '↪Camo',
-  img: images[3].default,
+  img: images[1].default,
+  iconClass: 'isGreyscale',
 };
 const greatnebula = {
   name: 'Nebula',
-  img: images[4].default,
+  img: images[2].default,
 };
 const greatnebulaCO = {
   name: '↪Nebula',
-  img: images[5].default,
+  img: images[2].default,
+  iconClass: 'isGreyscale',
 };
 const heartofcorundum = {
   name: 'HoC',
-  img: images[6].default,
+  img: images[3].default,
 };
 const heartofcorundumCO = {
   name: '↪HoC',
-  img: images[7].default,
+  img: images[3].default,
+  iconClass: 'isGreyscale',
 };
 const heartofcorundumB = {
   name: 'Bud HoC',
-  img: images[6].default,
+  img: images[3].default,
 };
 const heartoflight = {
   name: 'HoL',
-  img: images[8].default,
+  img: images[4].default,
 };
 const heartoflightCO = {
   name: '↪HoL',
-  img: images[9].default,
+  img: images[4].default,
+  iconClass: 'isGreyscale',
 };
 const heartofstone = {
   name: 'HoS',
-  img: images[10].default,
+  img: images[5].default,
 };
 const heartofstoneB = {
   name: 'Bud HoS',
-  img: images[10].default,
+  img: images[5].default,
 };
 const heartofstoneCO = {
   name: '↪HoS',
-  img: images[11].default,
+  img: images[5].default,
+  iconClass: 'isGreyscale',
 };
 const nebula = {
   name: 'Nebula',
-  img: images[12].default,
+  img: images[6].default,
 };
 const nebulaCO = {
   name: '↪Nebula',
-  img: images[13].default,
+  img: images[6].default,
+  iconClass: 'isGreyscale',
 };
 const superbolide = {
   name: 'Bolide',
-  img: images[14].default,
+  img: images[7].default,
 };
 const superbolideCO = {
   name: '↪Bolide',
-  img: images[15].default,
+  img: images[7].default,
+  iconClass: 'isGreyscale',
 };
 
 const gnbMap = {

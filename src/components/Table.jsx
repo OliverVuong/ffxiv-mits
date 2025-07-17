@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 //import p1 from '../data/fru/p1.json'
 import encounters from '../utils/encounters';
-import { roles, tankCombos, extras, displayNameMap } from '../utils/utils';
+import { roles, tankCombos, tankCombosByPlan, extras, displayNameMap } from '../utils/utils';
 import AbilityCard from './AbilityCard';
 import { extrasByPlan } from '../utils/utils';
 import './Table.css';
@@ -116,7 +116,18 @@ function TableView( {
     extraOptions
 } ) {
     const visibleRoles = roles.filter((role) => roleOptions[role]);
-    const visibleTanks = tankCombos.filter((combo) => tankOptions[combo]);
+    const containsCombo = (combo, combos) => {
+        console.log(encounter);
+        for(const pair of combos){
+            if(combo === pair[0] || combo === pair[1]){
+                return true;
+            }
+        }
+        return false;
+    }
+    const visibleTanks = tankCombos
+                            .filter((combo) => tankOptions[combo])
+                            .filter((combo) => containsCombo(combo, tankCombosByPlan[encounter][mitplan]));
     const visibleExtras = extras.filter((extra) => extraOptions[extra] && extrasByPlan[encounter][mitplan].includes(extra));
     const visible = visibleTanks.concat(visibleRoles).concat(visibleExtras);
     //console.log(section);

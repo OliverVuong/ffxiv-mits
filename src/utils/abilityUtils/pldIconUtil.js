@@ -11,87 +11,98 @@ const bulwark = {
 };
 const bulwarkCO = {
   name: '↪Bulwark',
-  img: images[1].default,
+  img: images[0].default,
+  iconClass: 'isGreyscale',
 };
 const clemency = {
   name: 'Clemency',
-  img: images[2].default,
+  img: images[1].default,
 };
 const clemencyG = {
-  name: '↪Clemency',
-  img: images[3].default,
+  name: 'Clemency',
+  img: images[1].default,
+  iconClass: 'isGreyscale',
 };
 const cover = {
   name: 'Cover',
-  img: images[4].default,
+  img: images[2].default,
 };
 const coverCO = {
   name: '↪Cover',
-  img: images[5].default,
+  img: images[2].default,
+  iconClass: 'isGreyscale',
 };
 const divineveil = {
   name: 'Veil',
-  img: images[6].default,
+  img: images[3].default,
 };
 const divineveilG = {
   name: '↪Veil',
-  img: images[7].default,
+  img: images[3].default,
+  iconClass: 'isGreyscale',
 };
 const guardian = {
   name: 'Guardian',
-  img: images[8].default,
+  img: images[4].default,
 };
 const guardianCO = {
   name: '↪Guardian',
-  img: images[9].default,
+  img: images[4].default,
+  iconClass: 'isGreyscale',
 };
 const hallowedground = {
   name: 'Hallowed',
-  img: images[10].default,
+  img: images[5].default,
 };
 const hallowedgroundCO = {
   name: '↪Hallowed',
-  img: images[11].default,
+  img: images[5].default,
+  iconClass: 'isGreyscale',
 };
 const holysheltron = {
   name: 'Sheltron',
-  img: images[12].default,
+  img: images[6].default,
 };
 const holysheltronCO = {
   name: '↪Sheltron',
-  img: images[13].default,
+  img: images[6].default,
+  iconClass: 'isGreyscale',
 };
 const intervention = {
   name: 'Intervention',
-  img: images[14].default,
+  img: images[7].default,
 };
 const interventionCO = {
   name: '↪Intervention',
-  img: images[15].default,
+  img: images[7].default,
+  iconClass: 'isGreyscale',
 };
 const passageofarms = {
   name: 'Wings',
-  img: images[16].default,
+  img: images[8].default,
 };
 const passageofarmsCO = {
   name: '↪Wings',
-  img: images[17].default,
+  img: images[8].default,
+  iconClass: 'isGreyscale',
 };
 const sentinel = {
   name: 'Sentinel',
-  img: images[18].default,
+  img: images[9].default,
 };
 const sentinelCO = {
   name: '↪Sentinel',
-  img: images[19].default,
+  img: images[9].default,
+  iconClass: 'isGreyscale',
 };
 const sheltron = {
   name: 'Sheltron',
-  img: images[20].default,
+  img: images[10].default,
 };
 const sheltronCO = {
   name: '↪Sheltron',
-  img: images[21].default,
+  img: images[10].default,
+  iconClass: 'isGreyscale',
 };
 
 const pldMap = {

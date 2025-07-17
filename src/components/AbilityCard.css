@@ -9,14 +9,18 @@
   filter: grayscale(1);
 }
 
+.overflow80 {
+  font-size: .8em;
+}
+
+.ability-caption {
+  white-space: nowrap;
+}
+
 .hasOverflow {
   font-size: 75%;
 }
 
 .hasOverflow .tooltiptext {
   font-size: 125%;
-}
-
-.ability-caption {
-  white-space: nowrap;
 }

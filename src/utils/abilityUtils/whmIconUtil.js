@@ -14,16 +14,18 @@ const caress = {
   img: images[1].default,
 };
 const divinecaressCO = {
-  img: images[2].default,
+  img: images[1].default,
   name: '↪Caress',
+  iconClass: 'isGreyscale',
 };
 const temperance = {
   name: 'Temp',
-  img: images[3].default,
+  img: images[2].default,
 };
 const temperanceCO = {
   name: '↪Temp',
-  img: images[4].default,
+  img: images[2].default,
+  iconClass: 'isGreyscale',
 };
 
 const whmMap = {

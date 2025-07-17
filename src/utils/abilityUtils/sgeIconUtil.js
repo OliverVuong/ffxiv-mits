@@ -22,52 +22,58 @@ const holos = {
   img: images[3].default,
 };
 const holosCO = {
-  img: images[4].default,
   name: '↪Holos',
+  img: images[3].default,
+  iconClass: 'isGreyscale',
 };
 const kerachole = {
   name: 'Kerachole',
-  img: images[5].default,
+  img: images[4].default,
 };
 const keracholeCO = {
   name: '↪Kerachole',
-  img: images[6].default,
+  img: images[4].default,
+  iconClass: 'isGreyscale',
 };
 const keracholeG = {
   name: 'Kerachole',
-  img: images[6].default,
+  img: images[4].default,
+  iconClass: 'isGreyscale',
 };
 const panhaima = {
   name: 'Panhaima',
-  img: images[7].default,
+  img: images[5].default,
 };
 const panhaimaCO = {
   name: '↪Panhaima',
-  img: images[8].default,
+  img: images[5].default,
+  iconClass: 'isGreyscale',
 };
 const philosophia = {
   name: 'Sophia',
-  img: images[9].default,
+  img: images[6].default,
 };
 const physis2 = {
   name: 'Physis',
-  img: images[10].default,
+  img: images[7].default,
 };
 const zoeeukprog = {
   name: 'Zoe',
-  img: images[11].default,
-};
-const zoeeukprog90 = {
-  name: 'Zoe',
-  img: images[12].default,
-};
-const zoeeukprog90co = {
-  name: 'Zoe',
-  img: images[13].default,
+  img: images[8].default,
 };
 const zoeeukprogCO = {
   name: 'Zoe',
-  img: images[14].default,
+  img: images[8].default,
+  iconClass: 'isGreyscale',
+};
+const zoeeukprog90 = {
+  name: 'Zoe',
+  img: images[9].default,
+};
+const zoeeukprog90co = {
+  name: 'Zoe',
+  img: images[9].default,
+  iconClass: 'isGreyscale',
 };
 
 const sgeMap = {

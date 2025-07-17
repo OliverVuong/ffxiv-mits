@@ -18,80 +18,88 @@ const consolation = {
   img: images[2].default,
 };
 const consolationCO = {
-  img: images[3].default,
+  img: images[2].default,
   name: '↪Consolation',
 };
 const expedient = {
   name: 'Expedient',
-  img: images[4].default,
+  img: images[3].default,
+  captionClass: 'overflow80',
 };
 const expedientCO = {
   name: '↪Expedient',
-  img: images[5].default,
+  img: images[3].default,
 };
 const feyillum = {
   name: 'Illum',
-  img: images[6].default,
+  img: images[4].default,
 };
 const feyillumCO = {
   name: '↪Illum',
-  img: images[7].default,
+  img: images[4].default,
+  iconClass: 'isGreyscale',
 };
 const recitConcitation = {
   name: 'RecitCon',
-  img: images[8].default,
+  img: images[5].default,
 };
 const recitConcitationCO = {
   name: '↪RecitCon',
-  img: images[9].default,
+  img: images[5].default,
+  iconClass: 'isGreyscale',
 };
 const recitSuccor = {
   name: 'Recit Succor',
-  img: images[10].default,
+  img: images[6].default,
 };
 const recitSuccorCO = {
   name: 'Recit Succor',
-  img: images[11].default,
+  img: images[6].default,
+  iconClass: 'isGreyscale',
 };
 const seraph = {
   name: 'Seraph',
-  img: images[12].default,
+  img: images[7].default,
 };
 const seraphCO = {
   name: '↪Seraph',
-  img: images[13].default,
+  img: images[7].default,
+  iconClass: 'isGreyscale',
 };
 const seraphism = {
   name: 'Seraphism',
-  img: images[14].default,
+  img: images[8].default,
 };
 const seraphismCO = {
   name: '↪Seraphism',
-  img: images[15].default,
+  img: images[8].default,
+  iconClass: 'isGreyscale',
 };
 const soil = {
   name: 'Soil',
-  img: images[16].default,
+  img: images[9].default,
 };
 const soilG = {
   name: 'Soil',
-  img: images[17].default,
+  img: images[9].default,
+  iconClass: 'isGreyscale',
 };
 const soilCO = {
   name: '↪Soil',
-  img: images[17].default,
+  img: images[9].default,
+  iconClass: 'isGreyscale',
 };
 const spreadlo = {
   name: 'Spreadlo',
-  img: images[18].default,
+  img: images[10].default,
 };
 const succor = {
   name: 'Succor',
-  img: images[19].default,
+  img: images[11].default,
 };
 const whisperingdawn = {
   name: 'WD',
-  img: images[20].default,
+  img: images[12].default,
 };
 
 const schMap = {
