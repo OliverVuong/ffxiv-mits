@@ -1,8 +1,28 @@
 .credits {
     text-align: start;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
+hr {
+  margin: 20px 0;
+}
+
+.credits h2 {
+  margin: 10px 50px;
+}
+
 .credits div {
-    margin: 10px 0;
+    margin: 10px 50px;
+}
+
+footer {
+  margin-left: 50px;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+footer .right {
+  margin-left: auto;
+  margin-right: 50px;
 }

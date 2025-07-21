@@ -3,22 +3,24 @@
     font-size: 32px;
     padding: 10px;
     text-align: center;
-    /*width: 1255px;*/
+    margin: 32px 50px;
   }
   .section-header {
     font-size: 32px;
     text-align: center;
+    margin: 32px 50px;
     /*width: 1255px;*/
   }
   
   table {
     table-layout: fixed;
-    width: 100%;
+    /*width: 100%;*/
     border-collapse: collapse;
+    margin: 0 50px;
   }
   
   .T1, .T2 {
-    width: 128px;
+    min-width: 128px;
   }
   
   .SCH, .SGE, 
@@ -26,19 +28,19 @@
   .GNBDRK_GNB, .GNBDRK_DRK, .GNBPLD_GNB, .GNBPLD_PLD, 
   .PLDDRK_PLD, .PLDDRK_DRK, .PLDGNB_PLD, .PLDGNB_GNB,
   .t1, .t2 {
-    width: 196px;
+    min-width: 196px;
   }
   
   .WHM, .AST {
-    width: 128px;
+    min-width: 128px;
   }
   
   .M1, .M2, .PRange, .Caster, .time, .BRD, .RDM, .MCH, .PLD, .MNK, .CASTER2 {
-    width: 64px;
+    min-width: 64px;
   }
   
   .name-header {
-    width: 160px;
+    min-width: 160px;
   }
   tr {
     height: 60px;

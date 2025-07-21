@@ -2,12 +2,13 @@ import './Credits.css';
 
 function Credits(){
     return (
+        <>
         <div className="credits">
             <hr></hr>
             <h2>Credits</h2>
             <div>
-                <strong>FMBG: </strong>
-                Fae Nightwolf
+                FMBG&mdash;
+                <strong> Fae Nightwolf</strong>
             </div>
             <div>
                 <strong>Room-Mits: </strong>
@@ -26,8 +27,13 @@ function Credits(){
                 Template & Original Document: Sausfest, Vault Knights Sheet: Solarance Everwind @ Gilgamesh, NAUR Staff for the updated mitigation
             </div>
             <hr />
-            <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © SQUARE ENIX</div>
         </div>
+        <footer>
+            <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © SQUARE ENIX</div>
+            <div className='right'>Made by Jaye Money-Ultros</div>
+        </footer>
+        </>
+        
     );
 }
 
