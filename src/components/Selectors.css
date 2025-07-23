@@ -1,7 +1,21 @@
 .selectors {
     position: relative;
-    width: 1282px;
+    max-width: 1282px;
     margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  fieldset {
+    border-radius: .25rem;
+    border-color: grey;
+    background-color: #212121;
+  }
+
+  legend {
+    margin: auto;
+    font-size: 1.4rem;
+    padding: 0 8px;
   }
 .selectors::after {
     position: absolute;
@@ -12,21 +26,20 @@
     opacity: 0%;
     pointer-events: none;
 }
-
-.container.mits {
-    display: grid;
-    grid-template-columns: 650px 600px;
-  }
   
   /* encounter menu */
   .container.encounter {
-    width: 1282px;
-    display: grid;
-    grid-template-columns: 427px 427px 427px;
+    max-width: 1282px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*display: grid;
+    grid-template-columns: 427px 427px 427px;*/
   }
   
   .container.encounter > button{
-    background-color: #121212;
+    background-color: #212121;
+    padding: 0;
   }
   
   .container.encounter > button {
@@ -47,11 +60,12 @@
   }
   
   .middle {
-    transition: .5s ease;
-    opacity: 0;
+    /*transition: .5s ease;
+    opacity: 1;*/
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 75%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
   }
@@ -65,22 +79,29 @@
   }
   
   .middle > .text {
-    background-color: #1c3d78;
-    border-radius: 15px;
+    background-color: #630330;/*#1c3d78;*/
+    border-radius: .5rem;
     color: white;
     font-size: 20px;
     padding: 16px 32px;
   }
+  .encounter-img-container:hover .middle > .text {
+    border: #EBE6C1 3px solid;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 8px 5px #ebe6c12c;
+  }
+
+  /* Mitigation Plan menu */
+  .container.plan {
+    min-height: 80px;
+  }
+  
   
   /* role menu */
-  fieldset {
-    border-radius: 25px;
-    background-color: #212121;
-  }
-  legend {
-    margin: auto;
-    padding: 0 8px;
-  }
+.container.mits {
+  display: grid;
+  grid-template-columns: 650px 600px;
+}
   .menu.roles{
     display: grid;
     grid-template-columns: 200px 200px 200px;
@@ -217,10 +238,14 @@
   
   /* Extra menu */
   .extra-menu {
-    display: grid;
+    /*display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
     grid-auto-rows: 150px;
-    align-items: center;
+    align-items: center;*/
+    max-width: 1282px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   
   .extra-chip > button {
@@ -261,7 +286,7 @@
 }
 
 .noDataOverlay > .text {
-    background-color: rgb(28, 61, 120, 0.9); /*hex code: #1c3d78 ;*/
+    background-color: rgb(99, 3, 48, 0.9);/*rgb(28, 61, 120, 0.9); hex code: #1c3d78 ;*/
     border-radius: 15px;
     color: white;
     font-size: 16px;

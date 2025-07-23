@@ -1,14 +1,19 @@
+.mitigation-sheet {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .phase-header {
-    border: 2px solid white;
+    border: 2px solid grey;
     font-size: 32px;
     padding: 10px;
     text-align: center;
-    margin: 32px 50px;
+    margin: 32px 0px;
   }
   .section-header {
     font-size: 32px;
     text-align: center;
-    margin: 32px 50px;
+    margin: 32px 0px;
     /*width: 1255px;*/
   }
   
@@ -16,7 +21,7 @@
     table-layout: fixed;
     /*width: 100%;*/
     border-collapse: collapse;
-    margin: 0 50px;
+    /*margin: 0 50px;*/
   }
   
   .T1, .T2 {

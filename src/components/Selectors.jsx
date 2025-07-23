@@ -230,33 +230,36 @@ function TankMenu( {
 
 function EncounterSelector( { activeEncounter, setEncounter, setMitplan }){
     return (
-        <div className="container encounter">
-        {encounters.map((encounter) => {
-            return <button 
-                        className={encounter === activeEncounter ? 'active' : 'inactive'}
-                        onClick={() => {
-                            setEncounter(encounter);
-                            setMitplan(defaultMitPlan[encounter])
-                        }}
-                        key={encounter}>
-                            {/* encounter */}
-                        <div className="encounter-img-container">
-                            <img 
-                                className="encounter-img"
-                                src={
-                                    encounter === activeEncounter ? 
-                                    encounterImgMap[encounter].img :
-                                    encounterImgMap[encounter + 'opaque'].img 
-                                }
-                            />
-                            <div className="middle">
-                                <div className="text">{encounterNameMap[encounter]}</div>
+        <fieldset>
+            <legend>Encounter</legend>
+            <div className="container encounter">
+            {encounters.map((encounter) => {
+                return <button 
+                            className={encounter === activeEncounter ? 'active' : 'inactive'}
+                            onClick={() => {
+                                setEncounter(encounter);
+                                setMitplan(defaultMitPlan[encounter])
+                            }}
+                            key={encounter}>
+                                {/* encounter */}
+                            <div className="encounter-img-container">
+                                <img 
+                                    className="encounter-img"
+                                    src={
+                                        encounter === activeEncounter ? 
+                                        encounterImgMap[encounter].img :
+                                        encounterImgMap[encounter + 'opaque'].img 
+                                    }
+                                />
+                                <div className="middle">
+                                    <div className="text">{encounterNameMap[encounter]}</div>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-        })
-        }
-        </div>
+                        </button>
+            })
+            }
+            </div>
+        </fieldset>
     );
 }
 
@@ -264,7 +267,7 @@ function MitplanSelector( {encounter, mitplan, setMitplan} ){
     const mitPlans = mits[encounter];
     return (
         <>
-            <fieldset>
+            <fieldset className="container plan">
                 <legend>Mitigation Plan</legend>
                 {mitPlans.map((plan) => {
                     return (

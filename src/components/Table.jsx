@@ -237,7 +237,7 @@ export function EncounterView( {
     console.log(extraOptions);
     //onsole.log(extraOptions.filter((option) => extrasByPlan[encounter][mitplan].includes(option)));
     return (
-        <>
+        <div className='mitigation-sheet'>
             {/* <h2 className='mitplan-encounter-header'>{mitplan} {encounter}</h2> */}
             {phases.map((phase, index) => {
                 return (
@@ -254,7 +254,7 @@ export function EncounterView( {
                     />
                 );
             })}
-        </>
+        </div>
     );
 }
 
