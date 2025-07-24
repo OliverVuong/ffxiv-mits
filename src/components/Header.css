@@ -1,0 +1,27 @@
+.masthead {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 25px;
+}
+.masthead img{
+    height: 45px;
+    width: 45px;
+}
+
+.masthead h3 {
+    margin: 0;
+}
+
+.header-content {
+    margin:  0px 50px;
+    display: flex;
+}
+
+.header-selection {
+    margin-left: auto;
+}
+
+header hr{
+    margin: 0;
+}

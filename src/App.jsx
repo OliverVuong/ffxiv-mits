@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import Header from './components/Header'
 import Selectors from './components/Selectors'
 import { EncounterView } from './components/Table'
 import Navigation from './components/Navigation'
@@ -60,6 +61,7 @@ function App() {
 
   return (
     <>
+      <Header></Header>
       <h1>Mitigation Timeline</h1>
       <div>{/* JSON.stringify(phasesRef.current) */}</div>
       <Selectors
