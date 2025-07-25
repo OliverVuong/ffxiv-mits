@@ -1,13 +1,11 @@
 import { useState, useRef } from 'react'
 import Header from './components/Header'
-import Selectors from './components/Selectors'
-import { EncounterView } from './components/Table'
-import Navigation from './components/Navigation'
 import './App.css'
 import { extrasDefault } from './utils/utils'
 import { tankCombos } from './utils/utils'
 import Credits from './components/Footer'
 import CreditsModal from './components/CreditsModal'
+import Content from './components/Content'
 
 /* import {RoleCheck} from './components/Table'
 import AbilityCard from './components/AbilityCard' */
@@ -33,21 +31,6 @@ function App() {
     defaults[role] = true;
   }
 
-  /*const tankCombos = [
-    'WARGNB_WAR',
-    'WARGNB_GNB',
-    'WARPLD_WAR',
-    'WARPLD_PLD',
-    'WARDRK_WAR',
-    'WARDRK_DRK',
-    'GNBDRK_GNB',
-    'GNBDRK_DRK',
-    'GNBPLD_GNB',
-    'GNBPLD_PLD',
-    'PLDDRK_PLD',
-    'PLDDRK_DRK'
-  ];*/
-
   const tankDefaults = {};
   for(const combo of tankCombos){
     tankDefaults[combo] = false;
@@ -60,6 +43,24 @@ function App() {
   const [mitplan, setMitplan] = useState('fmbg');
   const [isOpenCredits, setIsOpenCredits] = useState(false);
   const phasesRef = useRef([]);
+  const [sheet, setSheet] = useState('FRU_fmbg');
+
+  const mainContent = 
+    <Content
+      roleView={roleView}
+      setRoleView={setRoleView}
+      tankView={tankView}
+      setTankView={setTankView}
+      encounter={encounter}
+      setEncounter={setEncounter}
+      mitplan={mitplan}
+      setMitplan={setMitplan}
+      extraPicks={extraPicks}
+      setExtraPicks={setExtraPicks}
+      phasesRef={phasesRef}
+      sheet={sheet}
+      setSheet={setSheet}
+    />
 
   return (
     <>
@@ -70,49 +71,8 @@ function App() {
         open={isOpenCredits}
         setOpen={setIsOpenCredits}
       />
-      <h1>Mitigation Timeline</h1>
-      <div>{/* JSON.stringify(phasesRef.current) */}</div>
-      <Selectors
-        roleView={roleView}
-        setRoleView={setRoleView}
-        tankView={tankView}
-        setTankView={setTankView}
-        encounter={encounter}
-        setEncounter={setEncounter}
-        mitplan={mitplan}
-        setMitplan={setMitplan}
-        extraPicks={extraPicks}
-        setExtraPicks={setExtraPicks}
-      />
-      {/* <RoleCheck
-        //roles={roles}
-        roleView={roleView}
-        //tankCombos={tankCombos}
-        tankView={tankView}
-      />
-      <AbilityCard 
-        input={'Reprisal'}
-      />
-      <AbilityCard 
-        input={'Shadowed Vigil'}
-      />
-      <AbilityCard 
-        input={'Shaded viil'}
-      /> */}
-      <EncounterView 
-        encounter={encounter}
-        mitplan={mitplan}
-        roleOptions={roleView}
-        tankOptions={tankView}
-        extraOptions={extraPicks}
-        phasesRef={phasesRef}
-      />
+      {mainContent}
       <Credits></Credits>
-      <Navigation
-        encounter={encounter}
-        mitplan={mitplan}
-        phasesRef={phasesRef}
-      />
     </>
   )
 }

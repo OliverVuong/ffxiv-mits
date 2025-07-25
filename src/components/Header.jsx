@@ -2,20 +2,21 @@
 import './Header.css';
 import logo from '../assets/miscAssets/ffxivMitsLogo.png';
 import Dropdown from './Dropdown';
+import { Link } from 'react-router-dom';
 
 function Header({ setIsOpenCredits }){
     return (
         <header>
             <div className="header-content">
-                <div className='masthead'>
+                <Link to={'/'} className='masthead'>
                     <img src={logo} alt='logo image'/>
                     <h2>FFXIV Mits</h2>
-                </div>
+                </Link>
                 <div className='header-selection'>
                     <Dropdown/>
                     <button 
                         onClick={()=> setIsOpenCredits(true)}
-                        className='credit-btn'
+                        className='credit btn'
                     >
                         Credits
                     </button>

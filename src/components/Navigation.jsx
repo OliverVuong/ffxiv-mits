@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import encounters from '../utils/encounters';
+//import encounters from '../utils/encounters';
 import './Navigation.css';
 
 const handleScroll = (ref) => {
@@ -9,10 +9,11 @@ const handleScroll = (ref) => {
     })
 }
 
-function Navigation( { encounter, mitplan, phasesRef } ) {
+function Navigation( { data, phasesRef } ) {
+    console.log(data);
     return (
         <div className='nav'>
-            {encounters[encounter][mitplan].map((phase, index) => {
+            {data.map((phase, index) => {
                 return (
                     <button
                         key={phase.name}

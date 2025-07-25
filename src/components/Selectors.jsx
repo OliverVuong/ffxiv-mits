@@ -338,7 +338,7 @@ function Selectors({
 
     return (
     <div className="selectors">
-        <EncounterSelector 
+        {/* <EncounterSelector 
             activeEncounter={encounter}
             setEncounter={setEncounter}
             setMitplan={setMitplan}
@@ -347,7 +347,7 @@ function Selectors({
             encounter={encounter}
             mitplan={mitplan}
             setMitplan={setMitplan}
-        />
+        /> */}
         <div className="container mits">
             <RoleMenu 
                 roleView={roleView}

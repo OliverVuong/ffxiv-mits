@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 //import p1 from '../data/fru/p1.json'
-import encounters from '../utils/encounters';
+//import encounters from '../utils/encounters';
 import { roles, tankCombos, tankCombosByPlan, extras, displayNameMap } from '../utils/utils';
 import AbilityCard from './AbilityCard';
 import { extrasByPlan } from '../utils/utils';
@@ -117,7 +117,7 @@ function TableView( {
 } ) {
     const visibleRoles = roles.filter((role) => roleOptions[role]);
     const containsCombo = (combo, combos) => {
-        console.log(encounter);
+        //console.log(encounter);
         for(const pair of combos){
             if(combo === pair[0] || combo === pair[1]){
                 return true;
@@ -229,12 +229,16 @@ export function EncounterView( {
     roleOptions, 
     tankOptions,
     extraOptions,
-    phasesRef
+    phasesRef,
+    sheet
 }){
-    console.log(encounters[encounter][mitplan])
-    const phases = encounters[encounter][mitplan];
-    console.log('EXTRA OPTIONS');
-    console.log(extraOptions);
+    //console.log('Encounter View prints:')
+    //console.log(encounters[encounter][mitplan]);
+    //console.log(sheet.data)
+    //console.log('Encounter View end:')
+    const phases = sheet.data;
+    //console.log('EXTRA OPTIONS');
+    //console.log(extraOptions);
     //onsole.log(extraOptions.filter((option) => extrasByPlan[encounter][mitplan].includes(option)));
     return (
         <div className='mitigation-sheet'>
