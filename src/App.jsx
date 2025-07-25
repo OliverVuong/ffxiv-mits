@@ -6,7 +6,8 @@ import Navigation from './components/Navigation'
 import './App.css'
 import { extrasDefault } from './utils/utils'
 import { tankCombos } from './utils/utils'
-import Credits from './components/Credits'
+import Credits from './components/Footer'
+import CreditsModal from './components/CreditsModal'
 
 /* import {RoleCheck} from './components/Table'
 import AbilityCard from './components/AbilityCard' */
@@ -57,11 +58,18 @@ function App() {
   const [extraPicks, setExtraPicks] = useState(extrasDefault);
   const [encounter, setEncounter] = useState('FRU');
   const [mitplan, setMitplan] = useState('fmbg');
+  const [isOpenCredits, setIsOpenCredits] = useState(false);
   const phasesRef = useRef([]);
 
   return (
     <>
-      <Header></Header>
+      <Header 
+        setIsOpenCredits={setIsOpenCredits}
+      />
+      <CreditsModal 
+        open={isOpenCredits}
+        setOpen={setIsOpenCredits}
+      />
       <h1>Mitigation Timeline</h1>
       <div>{/* JSON.stringify(phasesRef.current) */}</div>
       <Selectors

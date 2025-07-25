@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
 import './Header.css';
 import logo from '../assets/miscAssets/ffxivMitsLogo.png';
+import Dropdown from './Dropdown';
 
-function Header(){
+function Header({ setIsOpenCredits }){
     return (
         <header>
             <div className="header-content">
@@ -10,8 +12,13 @@ function Header(){
                     <h2>FFXIV Mits</h2>
                 </div>
                 <div className='header-selection'>
-                    <button>Encounters</button>
-                    <button>Credits</button>
+                    <Dropdown/>
+                    <button 
+                        onClick={()=> setIsOpenCredits(true)}
+                        className='credit-btn'
+                    >
+                        Credits
+                    </button>
                 </div>
             </div>
             <hr />

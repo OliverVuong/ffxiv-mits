@@ -20,6 +20,15 @@
 
 .header-selection {
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-selection button {
+    width: 150px;
+    height: 50px;
 }
 
 header hr{
