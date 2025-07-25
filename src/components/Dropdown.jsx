@@ -1,6 +1,7 @@
  
 import './Dropdown.css';
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 function Dropdown(){
     const [isOpen, setIsOpen] = useState(false);
@@ -27,47 +28,55 @@ function Dropdown(){
             id: 1,
             label: "Futures Rewritten (FMBG)",
             value: "FRU_FMBG",
+            path: "/fru/fmbg",
             disabled: false,
         },
         {
             id: 2,
             label: "Futures Rewritten (NAUR)",
             value: "FRU_NAUR",
+            path: "/fru/naur",
             disabled: false,
         },
         {
             id: 3,
             label: "The Omega Protocol",
             value: "TOP",
+            path: "/top",
             disabled: false,
         },
         {
             id: 4,
             label: "Dragonsong's Reprise",
             value: "DSR",
+            path: "/dsr",
             disabled: false,
         },
         {
             id: 5,
             label: "The Epic of Alexander",
             value: "TEA",
+            path: "/tea",
             disabled: true,
         },
         {
             id: 6,
             label: "The Weapon's Refrain",
             value: "UWU",
+            path: "/uwu",
             disabled: true,
         },
         {
             id: 7,
             label: "The Unending Coil of Bahamut",
             value: "UCOB",
+            path: "/ucob",
             disabled: true,
         },
     ]
+
     return (
-        <div className='dropdown' ref={dropdownRef}>
+        <div className='dropdown btn' ref={dropdownRef}>
             <button 
                 className='toggle' 
                 onClick={() => {
@@ -84,11 +93,11 @@ function Dropdown(){
                 {dropdownOptions.map((option) => {
                     if(option.disabled){
                         return (
-                            <button disabled key={option.id}>{option.label}</button>
+                            <Link className='dropoption disabled' key={option.id}>{option.label}</Link>
                         )
                     } else {
                         return (
-                            <button key={option.id}>{option.label}</button>
+                            <Link to={option.path} className='dropoption hover-underline' key={option.id}>{option.label}</Link>
                         )
                     }
                 })}
