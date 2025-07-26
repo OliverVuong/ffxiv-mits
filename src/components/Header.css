@@ -1,5 +1,5 @@
 header {
-    height: 120px;
+    /*height: 120px;*/
 }
 
 .masthead {
@@ -21,6 +21,7 @@ header {
 .header-content {
     margin:  0px 50px;
     display: flex;
+    height: 120px;
 }
 
 .header-selection {

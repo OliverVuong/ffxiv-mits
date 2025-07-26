@@ -6,24 +6,26 @@ import { Link } from 'react-router-dom';
 
 function Header({ setIsOpenCredits }){
     return (
-        <header>
-            <div className="header-content">
-                <Link to={'/'} className='masthead'>
-                    <img src={logo} alt='logo image'/>
-                    <h2>FFXIV Mits</h2>
-                </Link>
-                <div className='header-selection'>
-                    <Dropdown/>
-                    <button 
-                        onClick={()=> setIsOpenCredits(true)}
-                        className='credit btn'
-                    >
-                        Credits
-                    </button>
+        <>
+            <header>
+                <div className="header-content">
+                    <Link to={'/'} className='masthead'>
+                        <img src={logo} alt='logo image'/>
+                        <h2>FFXIV Mits</h2>
+                    </Link>
+                    <div className='header-selection'>
+                        <Dropdown/>
+                        <button 
+                            onClick={()=> setIsOpenCredits(true)}
+                            className='credit btn'
+                        >
+                            Credits
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <hr />
-        </header>
+                <hr />
+            </header>
+        </>
         
     );
 }
