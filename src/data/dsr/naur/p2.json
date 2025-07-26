@@ -217,10 +217,7 @@
               ],
               "SGE": [
                 "EukProg90",
-                {
-                  "ability": "Panhaima",
-                  "hasOverflow": true
-                },
+                "Panhaima",
                 "Kerachole"
               ],
               "WHM": [

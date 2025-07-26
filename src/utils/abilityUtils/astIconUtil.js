@@ -9,6 +9,11 @@ const cu = {
   name: 'CU',
   img: images[0].default,
 };
+const cuG = {
+  name: 'CU',
+  img: images[0].default,
+  iconClass: 'isGreyscale',
+};
 const horoscope = {
   name: 'Horoscope',
   img: images[1].default,
@@ -47,6 +52,7 @@ const sunsignCO = {
 
 const astMap = {
   CU: cu,
+  cuG,
   horoscope,
   Horoscope: horoscope,
   Macro: macrocosmos,

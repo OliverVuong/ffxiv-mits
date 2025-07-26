@@ -85,10 +85,7 @@
             "time": 470,
             "mitigations": {
               "WARGNB_WAR": [
-                {
-                  "ability": "Holmgang",
-                  "hasOverflow": true
-                },
+                "Holmgang",
                 {
                   "ability": "Nascent Buddy",
                   "note": "Nascent Buddy Mit 2nd Hit"
@@ -98,10 +95,7 @@
                 "Kitchen Sink"
               ],
               "WARPLD_WAR": [
-                {
-                  "ability": "Holmgang",
-                  "hasOverflow": true
-                },
+                "Holmgang",
                 {
                   "ability": "Nascent Buddy",
                   "note": "Nascent Buddy Mit 2nd Hit"
@@ -111,10 +105,7 @@
                 "Kitchen Sink"
               ],
               "WARDRK_WAR": [
-                {
-                  "ability": "Holmgang",
-                  "hasOverflow": true
-                },
+                "Holmgang",
                 {
                   "ability": "Nascent Buddy",
                   "note": "Nascent Buddy Mit 2nd Hit"
@@ -174,10 +165,7 @@
                 "Soil"
               ],
               "SGE": [
-                {
-                  "ability": "Panhaima",
-                  "hasOverflow": true
-                },
+                "Panhaima",
                 "Kerachole"
               ],
               "WHM": [
@@ -397,10 +385,7 @@
               ],
               "SCH": [
                 "Seraph",
-                {
-                  "ability": "Seraphism",
-                  "hasOverflow": true
-                },
+                "Seraphism",
                 "Expedient",
                 "Fey"
               ],

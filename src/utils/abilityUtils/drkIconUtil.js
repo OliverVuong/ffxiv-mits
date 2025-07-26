@@ -16,10 +16,12 @@ const livingdead = {
 const oblation = {
   name: 'Oblation',
   img: images[2].default,
+  captionClass: 'overflow80',
 };
 const oblationB = {
   name: 'Bud Oblation',
   img: images[2].default,
+  captionClass: 'overflow80',
 };
 const shadowedvigil = {
   name: 'Vigil',
@@ -33,9 +35,19 @@ const theblackestnight = {
   name: 'TBN',
   img: images[5].default,
 };
+const theblackestnightG = {
+  name: 'TBN',
+  img: images[5].default,
+  iconClass: 'isGreyscale',
+};
 const theblackestnightB = {
   name: 'Bud TBN',
   img: images[5].default,
+};
+const theblackestnightBG = {
+  name: 'Bud TBN',
+  img: images[5].default,
+  iconClass: 'isGreyscale',
 };
 
 const drkMap = {
@@ -47,7 +59,9 @@ const drkMap = {
   shadowwall,
   'Shadow Wall': shadowwall,
   TBN: theblackestnight,
+  theblackestnightG,
   'The Blackest Night Buddy': theblackestnightB,
+  theblackestnightBG,
   'TBN Buddy': theblackestnightB,
   'The Blackest Night': theblackestnight,
 };

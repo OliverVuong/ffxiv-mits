@@ -29,7 +29,7 @@ function AbilityCard({ input }) {
             {
                 hasNote ? 
                 <div className="has-note">
-                    <u className={"ability-caption" + captionClass}>
+                    <u className={"ability-caption hasStar" + captionClass}>
                         {abilityMap[abilityName].name + '*'}
                     </u>
                     <span className="tooltiptext">{input['note']}</span>

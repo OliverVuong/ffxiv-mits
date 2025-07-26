@@ -29,25 +29,30 @@ const holosCO = {
 const kerachole = {
   name: 'Kerachole',
   img: images[4].default,
+  captionClass: 'overflow80',
 };
 const keracholeCO = {
   name: '↪Kerachole',
   img: images[4].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
 };
 const keracholeG = {
   name: 'Kerachole',
   img: images[4].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
 };
 const panhaima = {
   name: 'Panhaima',
   img: images[5].default,
+  captionClass: 'overflow90',
 };
 const panhaimaCO = {
   name: '↪Panhaima',
   img: images[5].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow90',
 };
 const philosophia = {
   name: 'Sophia',

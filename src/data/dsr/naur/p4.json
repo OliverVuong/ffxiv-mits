@@ -36,15 +36,13 @@
               "T1":[
                 {
                   "ability":"Party Mit",
-                  "note":"If Shake/Veil use AFTER the bleed fully falls off",
-                  "hasOverflow": true
+                  "note":"If Shake/Veil use AFTER the bleed fully falls off"
                 }
               ],
               "T2":[
                 {
                   "ability":"Party Mit",
-                  "note":"If Shake/Veil use AFTER the bleed fully falls off",
-                  "hasOverflow": true
+                  "note":"If Shake/Veil use AFTER the bleed fully falls off"
                 }
               ],
               "SCH":[

@@ -235,10 +235,7 @@
               "Kerachole"
             ],
             "AST":[
-              {
-                "ability": "CU",
-                "isGreyscale": true
-              }
+              "cuG"
             ],
             "M2":[
               "Feint"

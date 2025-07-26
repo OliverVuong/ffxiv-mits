@@ -29,6 +29,7 @@ const expedient = {
 const expedientCO = {
   name: '↪Expedient',
   img: images[3].default,
+  captionClass: 'overflow80',
 };
 const feyillum = {
   name: 'Illum',
@@ -69,11 +70,13 @@ const seraphCO = {
 const seraphism = {
   name: 'Seraphism',
   img: images[8].default,
+  captionClass: 'overflow80',
 };
 const seraphismCO = {
   name: '↪Seraphism',
   img: images[8].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
 };
 const soil = {
   name: 'Soil',
@@ -92,6 +95,7 @@ const soilCO = {
 const spreadlo = {
   name: 'Spreadlo',
   img: images[10].default,
+  captionClass: 'overflow90-with-note',
 };
 const succor = {
   name: 'Succor',

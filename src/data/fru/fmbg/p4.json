@@ -189,14 +189,10 @@
               ],
               "SGE": [
                 "EukProg",
-                {
-                  "ability": "Panhaima",
-                  "hasOverflow": true
-                },
+                "Panhaima",
                 {
                   "ability": "Kerachole",
-                  "note": "Kerachole should be used after 2nd somber",
-                  "hasOverflow": true
+                  "note": "Kerachole should be used after 2nd somber"
                 }
               ],
               "M1": [
@@ -269,10 +265,7 @@
               "SCH": [
                 "Spread-Lo",
                 "Expedient",
-                {
-                  "ability": "Seraphism",
-                  "hasOverflow": true
-                }
+                "Seraphism"
               ],
               "SGE": [
                 "EukProg",
@@ -304,30 +297,21 @@
             "time": 306,
             "mitigations": {
               "WARGNB_WAR": [
-                {
-                  "ability": "Damnation",
-                  "hasOverflow": true
-                },
+                "Damnation",
                 "Thrill"
               ],
               "WARGNB_GNB": [
                 "Great Nebula"
               ],
               "WARPLD_WAR": [
-                {
-                  "ability": "Damnation",
-                  "hasOverflow": true
-                },
+                "Damnation",
                 "Thrill"
               ],
               "WARPLD_PLD": [
                 "Guardian"
               ],
               "WARDRK_WAR": [
-                {
-                  "ability": "Damnation",
-                  "hasOverflow": true
-                },
+                "Damnation",
                 "Thrill"
               ],
               "WARDRK_DRK": [

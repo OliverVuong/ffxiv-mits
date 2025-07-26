@@ -168,13 +168,8 @@
                 "Seraphism co"
               ],
               "SGE":[
-                {
-                  "ability": "Kerachole co",
-                  "hasOverflow": true
-                },{
-                  "ability": "Panhaima co",
-                  "hasOverflow": true
-                },
+                "Kerachole co",
+                "Panhaima co",
                 "Zoe EukProg"
               ],
               "M2":[
@@ -256,8 +251,7 @@
               "WARGNB_WAR":[
                 {
                   "ability": "Damnation",
-                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
-                  "hasOverflow": true
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit"
                 },
                 {
                   "ability": "Bloodwhetting",
@@ -270,13 +264,11 @@
               "WARPLD_WAR":[
                 {
                   "ability": "Damnation",
-                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
-                  "hasOverflow": true
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit"
                 },
                 {
                   "ability": "Thrill",
-                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
-                  "hasOverflow": true
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit"
                 }
               ],
               "WARPLD_PLD":[
@@ -286,13 +278,11 @@
               "WARDRK_WAR":[
                 {
                   "ability": "Damnation",
-                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
-                  "hasOverflow": true
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit"
                 },
                 {
                   "ability": "Thrill",
-                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit",
-                  "hasOverflow": true
+                  "note": "If using shake on rewind, use shake prior to pressing damnation/thrill to avoid shaking off the mit"
                 }
               ],
               "WARDRK_DRK":[
@@ -427,10 +417,7 @@
             "mitigations":{
               "T1":[
                 "Reprisal co",
-                {
-                  "ability": "Party Mit co",
-                  "hasOverflow": true
-                }
+                "Party Mit co"
               ],
               "SCH":[
                 "Seraph co",

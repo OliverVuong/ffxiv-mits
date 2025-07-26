@@ -12,6 +12,7 @@ const bloodwhetting = {
 const damnation = {
   name: 'Damnation',
   img: images[1].default,
+  captionClass: 'overflow80',
 };
 const equilibrium = {
   name: 'Equilibrium',
@@ -20,6 +21,7 @@ const equilibrium = {
 const holmgang = {
   name: 'Holmgang',
   img: images[3].default,
+  captionClass: 'overflow80',
 };
 const nascentflash = {
   name: 'Nascent',
@@ -34,9 +36,16 @@ const shakeveil = {
   img: images[6].default,
   captionClass: 'overflow80',
 };
+const shakeveilG = {
+  name: 'Shake/Veil',
+  img: images[6].default,
+  iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
+};
 const shortmit = {
   name: 'Short Mit',
   img: images[7].default,
+  captionClass: 'overflow90',
 };
 const thrillofbattle = {
   name: 'Thrill',
@@ -58,6 +67,7 @@ const warMap = {
   Shake: shakeitoff,
   shakeveil,
   'Shake/Veil': shakeveil,
+  shakeveilG,
   shortmit,
   Thrill: thrillofbattle,
   vengeance,

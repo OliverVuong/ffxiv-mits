@@ -60,11 +60,19 @@ const buddyM2 = {
 const partymit = {
   name: 'Party Mit',
   img: images[8].default,
+  captionClass: 'overflow90-with-note',
+};
+const partymitG = {
+  name: 'Party Mit',
+  img: images[8].default,
+  iconClass: 'isGreyscale',
+  captionClass: 'overflow90-with-note',
 };
 const partymitCO = {
   name: '↪Party Mit',
   img: images[8].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
 };
 const provoke = {
   name: 'Provoke',
@@ -73,6 +81,7 @@ const provoke = {
 const rampart = {
   name: 'Rampart',
   img: images[10].default,
+  captionClass: 'overflow90',
 };
 const rampartCO = {
   name: '↪Rampart',
@@ -82,25 +91,30 @@ const rampartCO = {
 const rangemit = {
   name: 'RangeMit',
   img: images[11].default,
+  captionClass: 'overflow90',
 };
 const rangemitCO = {
   name: '↪RangeMit',
   img: images[11].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
 };
 const reprisal = {
   name: 'Reprisal',
   img: images[12].default,
+  captionClass: 'overflow90-with-note',
 };
 const reprisalCO = {
   name: '↪Reprisal',
   img: images[12].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
 };
 const reprisalG = {
   name: 'Reprisal',
   img: images[12].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow90-with-note',
 };
 const secondwind = {
   name: 'Reprisal',
@@ -128,6 +142,7 @@ const rolesAbilityMap = {
   buddyM1,
   buddyM2,
   'Party Mit': partymit,
+  partymitG,
   partymitCO,
   'Party Mit co': partymitCO,
   Provoke: provoke,

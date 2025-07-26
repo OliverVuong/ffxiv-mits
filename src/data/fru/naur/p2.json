@@ -220,10 +220,7 @@
             "mitigations":{
               "T1":[
                 "Reprisal co",
-                {
-                  "ability": "Party Mit",
-                  "hasOverflow": true
-                },
+                "Party Mit",
                 {
                   "ability": "shortmit",
                   "note": "Short Mit Puddle Dropper"
@@ -239,10 +236,7 @@
                 "Soil"
               ],
               "SGE":[
-                {
-                  "ability": "Kerachole co",
-                  "hasOverflow": true
-                },
+                "Kerachole co",
                 "EukProg"
               ],
               "AST":[

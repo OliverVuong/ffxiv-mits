@@ -16,6 +16,7 @@ const magickbarrier = {
 const magickbarrierC = {
   name: '↪Barrier',
   img: images[1].default,
+  iconClass: 'isGreyscale',
 };
 const mantra = {
   img: images[2].default,
