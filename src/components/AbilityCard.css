@@ -25,3 +25,30 @@
 .hasOverflow .tooltiptext {
   font-size: 125%;
 }
+
+/* Tooltips */
+.has-note {
+  position: relative;
+  display: inline-block;
+}
+
+.has-note .tooltiptext {
+  visibility: hidden;
+  width: 240px;
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -120px;
+}
+
+.has-note:hover .tooltiptext {
+  visibility: visible;
+}
