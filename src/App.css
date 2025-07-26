@@ -1,10 +1,10 @@
 html {
-  background-color: #121212;
+  background-color: var(--main-bg-color);
   /*width: 100%;*/
 }
 
 body {
-  background-color: #121212;
+  background-color: var(--main-bg-color);
 }
 
 #root {
@@ -14,6 +14,24 @@ body {
   /*padding: 2rem;*/
   text-align: center;
   color: white;
-  background-color: #121212;
+  background-color: var(--main-bg-color);
   align-self: flex-start;
+}
+
+:root {
+  /* color palette dark*/
+  
+  /*--main-bg-color: #121212;
+  --panel-bg-color: #212121;
+  --accent-2: #630330;
+  --accent-2-fontcolor: #fff;*/
+  
+  
+  /* deep dark blue theme */
+  --main-bg-color: #0C111C;
+  --panel-bg-color: #141B29;/*121B29 vs 141B29*/
+  --accent-2: #99BFFF;/*#4C7EE8;*/
+  --accent-2-fontcolor: black;
+  --border-color: #28344B;
+  --border-light-color: #D6DAE9;
 }

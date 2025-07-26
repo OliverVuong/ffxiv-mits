@@ -1,12 +1,19 @@
 .dropdown {
     position: relative;
-    /*display: flex;
-    flex-direction: column;
-    width: 100%;*/
-    /*max-width: 200px;
-    align-self: center;*/
+}
+/*
+    background-color: var(--accent-2);
+    color: var(--accent-2-fontcolor);
+*/
+
+.toggle {
+    background-color: var(--accent-2);
+    color: var(--accent-2-fontcolor);
 }
 
+.toggle:hover{
+    filter: brightness(120%);
+}
 .options {
     position: absolute;
     top: 100%;
@@ -15,22 +22,26 @@
     flex-direction: column;
     z-index: 100;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: var(--accent-2);
+    color: var(--accent-2-fontcolor);
 }
 
 .options a {
-    background-color: #fff;
-    border: #fff 3px solid;
+    background-color: var(--accent-2);
     padding: 0.6em 1.2em;
     /*width: 100%;*/
     text-align: left;
     border-radius: 0;
     margin: 1px 0;
+    color: var(--accent-2-fontcolor);
 }
 
-.options a:hover {
-    /*border: #EBE6C1 3px solid;
-    box-shadow: 0px 0px 8px 5px #ebe6c12c;*/
+.dropoption:hover {
+    filter: brightness(120%);
+}
+
+.dropoption.disabled {
+    color: rgba(0, 0, 0, 0.25);
 }
 
 .options a:first-child {
@@ -49,35 +60,3 @@ svg {
     width: 1em;
     display: inline-block;
 }
-
-
-.hover-underline {
-    /*font-size: 2rem;
-    color: #ffffff;*/
-    position: relative;
-    display: inline-block;
-  }
-  
-  .hover-underline::after,
-  .hover-underline::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(to right, #DA0769, #4C7EE8);
-    bottom: -5px;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.4s ease-out;
-  }
-  
-  .hover-underline::before {
-    top: -5px;
-    transform-origin: left;
-  }
-  
-  .hover-underline:hover::after,
-  .hover-underline:hover::before {
-    transform: scaleX(1);
-  }

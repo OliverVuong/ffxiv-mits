@@ -1,8 +1,9 @@
 .nav > button {
-    background-color: rgb(99, 3, 48, 0.9);/*rgb(28, 61, 120, 0.9);*/
-    height: 50px;
-    color: white;
-    border: grey 2px solid;
+  background-color: var(--accent-2);
+  opacity: 0.9;
+  color: var(--accent-2-fontcolor);
+  height: 50px;
+  border: var(--border-light-color) 2px solid;
 }
 
 .nav > button:hover {

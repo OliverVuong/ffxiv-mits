@@ -54,21 +54,21 @@ function Dropdown(){
         },
         {
             id: 5,
-            label: "The Epic of Alexander",
+            label: "TEA (under construction)",
             value: "TEA",
             path: "/tea",
             disabled: true,
         },
         {
             id: 6,
-            label: "The Weapon's Refrain",
+            label: "UWU (under construction)",
             value: "UWU",
             path: "/uwu",
             disabled: true,
         },
         {
             id: 7,
-            label: "The Unending Coil of Bahamut",
+            label: "UCOB (under construction)",
             value: "UCOB",
             path: "/ucob",
             disabled: true,
@@ -97,7 +97,7 @@ function Dropdown(){
                         )
                     } else {
                         return (
-                            <Link to={option.path} className='dropoption hover-underline' key={option.id}>{option.label}</Link>
+                            <Link to={option.path} className='dropoption active' key={option.id}>{option.label}</Link>
                         )
                     }
                 })}

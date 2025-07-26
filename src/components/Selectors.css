@@ -8,8 +8,8 @@
 
   fieldset {
     border-radius: .25rem;
-    border-color: grey;
-    background-color: #212121;
+    border-color: var(--border-light-color);
+    background-color: var(--panel-bg-color);
   }
 
   legend {
@@ -132,8 +132,7 @@
     border-color: #2D3A80;
     border-width: 3px;
     color: white;
-    /* background-color: #545E99; */
-    background-color: #121212;
+    background-color: var(--main-bg-color);
   }
   .tanks > .chip.active > button {
     background-color: #545E99;
@@ -143,7 +142,7 @@
     border-width: 3px;
     color: white;
     /* background-color: #548046; */
-    background-color: #121212;
+    background-color: var(--main-bg-color);
   }
   .healers > .chip.active > button {
     background-color: #548046
@@ -154,7 +153,7 @@
     border-width: 3px;
     color: white;
     /* background-color: #8C4D4D; */
-    background-color: #121212;
+    background-color: var(--main-bg-color);
   }
   .dps > .chip.active > button {
     background-color: #8C4D4D;
@@ -251,14 +250,14 @@
   .extra-chip > button {
     width: 110px;
     height: 140px;
-    background-color: #191919;
+    background-color: var(--panel-bg-color);
+    border: 1px solid var(--border-color);
     color: white;
     display: grid;
     grid-template-rows: 80px 50px;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    border: none;
   }
   
   .extra-chip > button > .text {
@@ -286,9 +285,10 @@
 }
 
 .noDataOverlay > .text {
-    background-color: rgb(99, 3, 48, 0.9);/*rgb(28, 61, 120, 0.9); hex code: #1c3d78 ;*/
+    background-color: var(--accent-2);
+    opacity: 0.9;
+    color: var(--accent-2-fontcolor);
     border-radius: 15px;
-    color: white;
     font-size: 16px;
     padding: 16px 32px;
     opacity: 1;
