@@ -39,28 +39,8 @@ function App() {
   const [roleView, setRoleView] = useState(defaults);
   const [tankView, setTankView] = useState(tankDefaults);
   const [extraPicks, setExtraPicks] = useState(extrasDefault);
-  const [encounter, setEncounter] = useState('FRU');
-  const [mitplan, setMitplan] = useState('fmbg');
   const [isOpenCredits, setIsOpenCredits] = useState(false);
   const phasesRef = useRef([]);
-  const [sheet, setSheet] = useState('FRU_fmbg');
-
-  const mainContent = 
-    <Content
-      roleView={roleView}
-      setRoleView={setRoleView}
-      tankView={tankView}
-      setTankView={setTankView}
-      encounter={encounter}
-      setEncounter={setEncounter}
-      mitplan={mitplan}
-      setMitplan={setMitplan}
-      extraPicks={extraPicks}
-      setExtraPicks={setExtraPicks}
-      phasesRef={phasesRef}
-      sheet={sheet}
-      setSheet={setSheet}
-    />
 
   return (
     <>
@@ -71,7 +51,15 @@ function App() {
         open={isOpenCredits}
         setOpen={setIsOpenCredits}
       />
-      {mainContent}
+      <Content
+        roleView={roleView}
+        setRoleView={setRoleView}
+        tankView={tankView}
+        setTankView={setTankView}
+        extraPicks={extraPicks}
+        setExtraPicks={setExtraPicks}
+        phasesRef={phasesRef}
+      />
       <Credits></Credits>
     </>
   )

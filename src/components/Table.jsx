@@ -1,9 +1,6 @@
 /* eslint-disable react/prop-types */
-//import p1 from '../data/fru/p1.json'
-//import encounters from '../utils/encounters';
-import { roles, tankCombos, tankCombosByPlan, extras, displayNameMap } from '../utils/utils';
+import { roles, tankCombos, extras, displayNameMap } from '../utils/utils';
 import AbilityCard from './AbilityCard';
-import { extrasByPlan } from '../utils/utils';
 import './Table.css';
 
 //const data = JSON.parse(p1);
@@ -108,12 +105,11 @@ export function RoleCheck({ roleView, tankView }) {
 //rename Table to sectiondisplay and include a section title
 
 function TableView( {
-    encounter, 
-    mitplan, 
     section, 
     roleOptions, 
     tankOptions,
-    extraOptions
+    extraOptions,
+    sheet
 } ) {
     const visibleRoles = roles.filter((role) => roleOptions[role]);
     const containsCombo = (combo, combos) => {
@@ -127,8 +123,8 @@ function TableView( {
     }
     const visibleTanks = tankCombos
                             .filter((combo) => tankOptions[combo])
-                            .filter((combo) => containsCombo(combo, tankCombosByPlan[encounter][mitplan]));
-    const visibleExtras = extras.filter((extra) => extraOptions[extra] && extrasByPlan[encounter][mitplan].includes(extra));
+                            .filter((combo) => containsCombo(combo, sheet.tankCombos));
+    const visibleExtras = extras.filter((extra) => extraOptions[extra] && sheet.extras.includes(extra));
     const visible = visibleTanks.concat(visibleRoles).concat(visibleExtras);
     //console.log(section);
     let table = section['table']
@@ -161,12 +157,11 @@ function TableView( {
 }
 
 function SectionView( {
-    encounter, 
-    mitplan, 
     sections, 
     roleOptions, 
     tankOptions,
-    extraOptions
+    extraOptions,
+    sheet
 } ) {
     //const visible = roles.filter((role) => roleOptions[role]);
     //const visTanks = tankCombos.filter((combo) => tankOptions[combo]);
@@ -177,12 +172,11 @@ function SectionView( {
                     <div key={section['id']}>
                         {section['sectionName'] && <h3 className='section-header'>{section['sectionName']}</h3>}
                         <TableView 
-                            encounter={encounter}
-                            mitplan={mitplan}
                             section={section}
                             roleOptions={roleOptions}
                             tankOptions={tankOptions}
                             extraOptions={extraOptions}
+                            sheet={sheet}
                         />
                     </div>
                 );
@@ -192,14 +186,13 @@ function SectionView( {
 }
 
 function PhaseView( {
-    encounter, 
-    mitplan, 
     phase, 
     roleOptions, 
     tankOptions,
     extraOptions,
     phasesRef,
-    index
+    index,
+    sheet
 } ){
     return (
         <>
@@ -211,12 +204,11 @@ function PhaseView( {
                 {phase['name']}
             </h3>
             <SectionView
-                encounter={encounter}
-                mitplan={mitplan}
                 sections={phase['sections']}
                 roleOptions={roleOptions}
                 tankOptions={tankOptions}
                 extraOptions={extraOptions}
+                sheet={sheet}
             />
         </>
     );
@@ -224,8 +216,6 @@ function PhaseView( {
 
 
 export function EncounterView( {
-    encounter, 
-    mitplan, 
     roleOptions, 
     tankOptions,
     extraOptions,
@@ -246,8 +236,6 @@ export function EncounterView( {
             {phases.map((phase, index) => {
                 return (
                     <PhaseView 
-                        encounter={encounter}
-                        mitplan={mitplan}
                         phase={phase}
                         roleOptions={roleOptions}
                         tankOptions={tankOptions}
@@ -255,6 +243,7 @@ export function EncounterView( {
                         key={phase['phase']}
                         phasesRef={phasesRef}
                         index={index}
+                        sheet={sheet}
                     />
                 );
             })}

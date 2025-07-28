@@ -1,17 +1,11 @@
 /* eslint-disable react/prop-types */
 //import { useState } from 'react';
 import { isTank } from "../utils/utils";
-import { encounters } from "../utils/utils";
-import { mits } from "../utils/utils";
-//import { tankStateDefault } from "../utils/utils";
-import { tankCombosByPlan } from "../utils/utils";
 import { extras } from "../utils/utils";
-import { extrasByPlan } from "../utils/utils";
 import { MtCard, OtCard } from "./TankCard";
 import extrasSelectorMap from "../utils/menuIconUtils/extraMenuUtil";
-import encounterImgMap from "../utils/menuIconUtils/encounterImgUtil";
-import { defaultMitPlan, encounterNameMap } from "../utils/utils";
 import DeselectAll from "./DeselectAll";
+import { allSheets } from '../utils/mitSheets/mitSheetsUtil';
 import './Selectors.css';
 
 function Chip({ input, picks, setPicks }) {
@@ -130,7 +124,7 @@ function ExtraChip( { input, extraPicks, setExtraPicks, hasData } ){
     );
 }
 
-function ExtraMenu({ encounter, mitplan, extraPicks, setExtraPicks }) {
+function ExtraMenu({ extrasByPlan, extraPicks, setExtraPicks }) {
     return (
         <fieldset>
             <legend>Extras</legend>
@@ -147,7 +141,7 @@ function ExtraMenu({ encounter, mitplan, extraPicks, setExtraPicks }) {
                             input={extra}
                             extraPicks={extraPicks}
                             setExtraPicks={setExtraPicks}
-                            hasData={extrasByPlan[encounter][mitplan].includes(extra)}
+                            hasData={extrasByPlan.includes(extra)}
                         />
                         /* <Chip
                             key={extra}
@@ -203,17 +197,17 @@ function TankPairChip( {pair, tankView, setTankView} ) {
 }
 
 function TankMenu( {
-    encounter, 
-    mitplan, 
+    tankCombos,
     tankView, 
     setTankView
 }){
+    console.log(tankCombos);
     return(
         <fieldset>
             <legend>Tanks</legend>
             {/* <div>{JSON.stringify(tankView)}</div> */}
             <div className="menu tanks">
-                {tankCombosByPlan[encounter][mitplan].map((pair) => {
+                {tankCombos.map((pair) => {
                     return(
                         <TankPairChip 
                             key={pair[0]+pair[1]}
@@ -228,7 +222,7 @@ function TankMenu( {
     );
 }
 
-function EncounterSelector( { activeEncounter, setEncounter, setMitplan }){
+/*  function EncounterSelector( { activeEncounter, setEncounter, setMitplan }){
     return (
         <fieldset>
             <legend>Encounter</legend>
@@ -241,7 +235,6 @@ function EncounterSelector( { activeEncounter, setEncounter, setMitplan }){
                                 setMitplan(defaultMitPlan[encounter])
                             }}
                             key={encounter}>
-                                {/* encounter */}
                             <div className="encounter-img-container">
                                 <img 
                                     className="encounter-img"
@@ -261,9 +254,9 @@ function EncounterSelector( { activeEncounter, setEncounter, setMitplan }){
             </div>
         </fieldset>
     );
-}
+}  */
 
-function MitplanSelector( {encounter, mitplan, setMitplan} ){
+/* function MitplanSelector( {encounter, mitplan, setMitplan} ){
     const mitPlans = mits[encounter];
     return (
         <>
@@ -290,10 +283,9 @@ function MitplanSelector( {encounter, mitplan, setMitplan} ){
                     );
                 })}
             </fieldset>
-            {/* <div>mitplan state: {mitplan}</div> */}
         </>
     );
-}
+} */
 
 /* function Checkbox( { role, view, setView }) {
     return (
@@ -328,12 +320,9 @@ function Selectors({
     setRoleView,
     tankView, 
     setTankView,
-    encounter,
-    setEncounter,
-    mitplan,
-    setMitplan,
     extraPicks,
-    setExtraPicks
+    setExtraPicks,
+    sheet
  }) {
 
     return (
@@ -354,180 +343,19 @@ function Selectors({
                 setRoleView={setRoleView}
             />
             <TankMenu 
-                encounter={encounter}
-                mitplan={mitplan}
+                tankCombos={allSheets[sheet].tankCombos}
                 tankView={tankView}
                 setTankView={setTankView}
             />
         </div>
         
         <ExtraMenu 
-            encounter={encounter}
-            mitplan={mitplan}
+            extrasByPlan={allSheets[sheet].extras}
             extraPicks={extraPicks}
             setExtraPicks={setExtraPicks}
         />
     </div>)
 
-        /*<fieldset>
-            <legend>Choose your tank roles</legend>
-            <Checkbox 
-                role="T1" 
-                view={roleView}
-                setView={setRoleView}
-            />
-            <Checkbox 
-                role="T2" 
-                view={roleView}
-                setView={setRoleView}
-            />
-        </fieldset>
-
-        <fieldset>
-            <legend>Choose your healer roles</legend>
-            <Checkbox 
-                role="SCH" 
-                view={roleView}
-                setView={setRoleView}
-            />
-            <Checkbox 
-                role="SGE" 
-                view={roleView}
-                setView={setRoleView}
-            />
-            <Checkbox 
-                role="WHM" 
-                view={roleView}
-                setView={setRoleView}
-            />
-            <Checkbox 
-                role="AST" 
-                view={roleView}
-                setView={setRoleView}
-            />
-        </fieldset>
-
-        <fieldset>
-            <legend>Choose your DPS roles</legend>
-            <Checkbox 
-                role="M1" 
-                view={roleView}
-                setView={setRoleView}
-            />
-            <Checkbox 
-                role="M2" 
-                view={roleView}
-                setView={setRoleView}
-            />
-            <Checkbox 
-                role="PRange" 
-                view={roleView}
-                setView={setRoleView}
-            />
-            <Checkbox 
-                role="Caster" 
-                view={roleView}
-                setView={setRoleView}
-            />
-        </fieldset>*/
-        
-        /*
-        <div>
-            <fieldset>
-                <legend>WAR+GNB</legend>
-                <Checkbox 
-                    role="WARGNB_WAR" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-                <Checkbox 
-                    role="WARGNB_GNB" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-            </fieldset>
-            <fieldset>
-                <legend>WAR+PLD</legend>
-                <Checkbox 
-                    role="WARPLD_WAR" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-                <Checkbox 
-                    role="WARPLD_PLD" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-            </fieldset>
-            <fieldset>
-                <legend>WAR+DRK</legend>
-                <Checkbox 
-                    role="WARDRK_WAR" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-                <Checkbox 
-                    role="WARDRK_DRK" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-            </fieldset>
-            <fieldset>
-                <legend>GNB+DRK</legend>
-                <Checkbox 
-                    role="GNBDRK_GNB" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-                <Checkbox 
-                    role="GNBDRK_DRK" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-            </fieldset>
-            <fieldset>
-                <legend>GNB+PLD</legend>
-                <Checkbox 
-                    role="GNBPLD_GNB" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-                <Checkbox 
-                    role="GNBPLD_PLD" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-            </fieldset>
-            <fieldset>
-                <legend>PLD+DRK</legend>
-                <Checkbox 
-                    role="PLDDRK_PLD" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-                <Checkbox 
-                    role="PLDDRK_DRK" 
-                    view={tankView}
-                    setView={setTankView}
-                />
-            </fieldset>
-        </div>
-        */
-    
-    
-        /* <ul>
-            {roles.map((role) => {
-                return (
-                    <li key={role}>
-                        <Checkbox 
-                            role={role} 
-                            selections={selections}
-                            setView={setView}
-                        />
-                    </li>
-                );
-            })}
-        </ul> */
     
 }
 

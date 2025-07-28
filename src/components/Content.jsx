@@ -11,10 +11,6 @@ function Content({
     setRoleView,
     tankView, 
     setTankView,
-    encounter,
-    setEncounter,
-    mitplan,
-    setMitplan,
     extraPicks,
     setExtraPicks,
     phasesRef,
@@ -46,16 +42,11 @@ function Content({
                 setRoleView={setRoleView}
                 tankView={tankView}
                 setTankView={setTankView}
-                encounter={encounter}
-                setEncounter={setEncounter}
-                mitplan={mitplan}
-                setMitplan={setMitplan}
                 extraPicks={extraPicks}
                 setExtraPicks={setExtraPicks}
+                sheet={sheet}
             />
             <EncounterView 
-                encounter={encounter}
-                mitplan={mitplan}
                 roleOptions={roleView}
                 tankOptions={tankView}
                 extraOptions={extraPicks}
