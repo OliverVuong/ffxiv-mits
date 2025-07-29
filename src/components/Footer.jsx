@@ -1,8 +1,10 @@
 import './Footer.css';
+import ScrollToTop from './ScrollToTop';
 
 function Footer(){
     return (
         <>
+        <ScrollToTop />
         <footer>
             <hr className='footer-divider'/>
             <div className='footer-content'>
@@ -10,7 +12,7 @@ function Footer(){
                 <div className='right'>Created by Jaye Money@Ultros</div>
     
             </div>
-            </footer>
+        </footer>
         </>
         
     );

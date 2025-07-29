@@ -1,0 +1,22 @@
+.scrollTop {
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    padding: 0;
+    background-color: transparent;
+
+    &:hover {
+        transform: scale(1.1);
+        filter: brightness(120%);
+    }
+}
+
+svg {
+    stroke: var(--accent-2);
+    margin: auto;
+}
+
+.scrollTop svg {
+    height: 60px;
+    width: 60px;
+}

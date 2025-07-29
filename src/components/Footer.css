@@ -11,10 +11,10 @@ footer {
 
 .footer-content {
   display: flex;
-  padding-left: 50px;
+  padding-left: 150px;
 }
 
 footer .right {
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: 150px;
 }
