@@ -17,6 +17,7 @@ const cuG = {
 const horoscope = {
   name: 'Horoscope',
   img: images[1].default,
+  captionClass: 'overflow80',
 };
 const macrocosmos = {
   name: 'Macro',

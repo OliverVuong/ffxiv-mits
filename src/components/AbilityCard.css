@@ -1,9 +1,20 @@
+.cell {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .aCard {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   width: 64px;
   font-size: 90%;
   padding: 5px 0;
+}
+
+.ability-caption {
+  white-space: nowrap;
 }
 
 .isGreyscale {
@@ -23,10 +34,6 @@
 
 .hasStar.overflow90-with-note {
   font-size: .9em;
-}
-
-.ability-caption {
-  white-space: nowrap;
 }
 
 .hasOverflow {
