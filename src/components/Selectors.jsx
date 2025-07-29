@@ -29,7 +29,7 @@ function Chip({ input, picks, setPicks }) {
 
 function RoleMenu({ roleView, setRoleView }) {
     return(
-        <fieldset>
+        <fieldset className="left">
             <legend>Roles</legend>
             <DeselectAll 
                 selection={roleView}
@@ -203,7 +203,7 @@ function TankMenu( {
 }){
     console.log(tankCombos);
     return(
-        <fieldset>
+        <fieldset className="right">
             <legend>Tanks</legend>
             {/* <div>{JSON.stringify(tankView)}</div> */}
             <div className="menu tanks">

@@ -17,6 +17,7 @@
     font-size: 1.4rem;
     padding: 0 8px;
   }
+  /* 
 .selectors::after {
     position: absolute;
     border-radius: 25px;
@@ -25,82 +26,23 @@
     content: '';
     opacity: 0%;
     pointer-events: none;
-}
-  
-  /* encounter menu */
-  .container.encounter {
-    max-width: 1282px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /*display: grid;
-    grid-template-columns: 427px 427px 427px;*/
-  }
-  
-  .container.encounter > button{
-    background-color: #212121;
-    padding: 0;
-  }
-  
-  .container.encounter > button {
-    border: none;
-  }
-  /* REMOVE after adding semi transparent encounter image  */
-  /* .container.encounter > button.inactive{
-    opacity: 35%;
-  } */
-  
-  .encounter-img-container {
-    position: relative;
-  }
-  
-  .encounter-img{
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle {
-    /*transition: .5s ease;
-    opacity: 1;*/
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 75%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-  }
-  
-  .encounter-img-container:hover .encounter-img {
-    opacity: 0.3;
-  }
-  
-  .encounter-img-container:hover .middle {
-    opacity: 1;
-  }
-  
-  .middle > .text {
-    background-color: #630330;/*#1c3d78;*/
-    border-radius: .5rem;
-    color: white;
-    font-size: 20px;
-    padding: 16px 32px;
-  }
-  .encounter-img-container:hover .middle > .text {
-    border: #EBE6C1 3px solid;
-    border-radius: .5rem;
-    box-shadow: 0px 0px 8px 5px #ebe6c12c;
-  }
-
-  /* Mitigation Plan menu */
-  .container.plan {
-    min-height: 80px;
-  }
-  
+} */
   
   /* role menu */
 .container.mits {
-  display: grid;
-  grid-template-columns: 650px 600px;
+  /* display: grid;
+  grid-template-columns: 650px 600px; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.container.mits .left {
+  flex-grow: 1;
+}
+.container.mits .right {
+  flex-grow: 1;
 }
   .menu.roles{
     display: grid;
@@ -174,7 +116,7 @@
     grid-template-columns: 300px 300px;
     grid-auto-columns: 300px;
     grid-auto-flow: column;
-    /* justify-content: center; */
+    justify-content: center;
     /* align-content: center; */
     justify-items: center;
     align-items: center;
@@ -293,3 +235,76 @@
     padding: 16px 32px;
     opacity: 1;
 }
+
+
+
+
+
+  /* encounter menu */
+  .container.encounter {
+    max-width: 1282px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*display: grid;
+    grid-template-columns: 427px 427px 427px;*/
+  }
+  
+  .container.encounter > button{
+    background-color: #212121;
+    padding: 0;
+  }
+  
+  .container.encounter > button {
+    border: none;
+  }
+  /* REMOVE after adding semi transparent encounter image  */
+  /* .container.encounter > button.inactive{
+    opacity: 35%;
+  } */
+  
+  .encounter-img-container {
+    position: relative;
+  }
+  
+  .encounter-img{
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    /*transition: .5s ease;
+    opacity: 1;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .encounter-img-container:hover .encounter-img {
+    opacity: 0.3;
+  }
+  
+  .encounter-img-container:hover .middle {
+    opacity: 1;
+  }
+  
+  .middle > .text {
+    background-color: #630330;/*#1c3d78;*/
+    border-radius: .5rem;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+  .encounter-img-container:hover .middle > .text {
+    border: #EBE6C1 3px solid;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 8px 5px #ebe6c12c;
+  }
+
+  /* Mitigation Plan menu */
+  .container.plan {
+    min-height: 80px;
+  }
