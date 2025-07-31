@@ -9,7 +9,7 @@ function Header({ setIsOpenCredits }){
         <>
             <header>
                 <div className="header-content">
-                    <Link to={'/'} className='masthead'>
+                    <Link to={'/ffxiv-mits'} className='masthead'>
                         <img src={logo} alt='logo image'/>
                         <h2>FFXIV Mits</h2>
                     </Link>

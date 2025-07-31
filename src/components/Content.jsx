@@ -19,17 +19,17 @@ function Content({
     const [sheet, setSheet] = useState('FRU_fmbg');
 
     useEffect(() => {
-        if (location.pathname === '/') {
+        if (location.pathname === '/ffxiv-mits') {
             setSheet('FRU_fmbg');
-        } else if (location.pathname === '/fru'){
+        } else if (location.pathname === '/ffxiv-mits/fru'){
             setSheet('FRU_fmbg');
-        } else if (location.pathname === '/fru/fmbg'){
+        } else if (location.pathname === '/ffxiv-mits/fru/fmbg'){
             setSheet('FRU_fmbg');
-        } else if (location.pathname === '/fru/naur'){
+        } else if (location.pathname === '/ffxiv-mits/fru/naur'){
             setSheet('FRU_naur');
-        } else if (location.pathname === '/top'){
+        } else if (location.pathname === '/ffxiv-mits/top'){
             setSheet('TOP');
-        } else if (location.pathname === '/dsr'){
+        } else if (location.pathname === '/ffxiv-mits/dsr'){
             setSheet('DSR');
         }
     }, [location.pathname]);
@@ -62,12 +62,12 @@ function Content({
 
     return (
         <Routes>
-            <Route path='/' element={container}/>
-            <Route path='/fru' element={container}/>
-            <Route path='/fru/fmbg' element={container}/>
-            <Route path='/fru/naur' element={container}/>
-            <Route path='/top' element={container}/>
-            <Route path='/dsr' element={container}/>
+            <Route path='/ffxiv-mits' element={container}/>
+            <Route path='/ffxiv-mits/fru' element={container}/>
+            <Route path='/ffxiv-mits/fru/fmbg' element={container}/>
+            <Route path='/ffxiv-mits/fru/naur' element={container}/>
+            <Route path='/ffxiv-mits/top' element={container}/>
+            <Route path='/ffxiv-mits/dsr' element={container}/>
             <Route path='*' element={<div>error 404</div>}/>
         </Routes>
     )

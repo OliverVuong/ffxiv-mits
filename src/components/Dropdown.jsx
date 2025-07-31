@@ -97,7 +97,7 @@ function Dropdown(){
                         )
                     } else {
                         return (
-                            <Link to={option.path} className='dropoption active' key={option.id}>{option.label}</Link>
+                            <Link to={'/ffxiv-mits' + option.path} className='dropoption active' key={option.id}>{option.label}</Link>
                         )
                     }
                 })}
