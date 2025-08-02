@@ -38,22 +38,21 @@
   gap: 5px;
 }
 
-.container.mits .left {
-  flex-grow: 1;
+.container.mits fieldset.left, .container.mits fieldset.right {
+  flex: 1;
 }
-.container.mits .right {
-  flex-grow: 1;
+
+.menu.roles{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-  .menu.roles{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    justify-content: center;
+
+  fieldset.left .chip {
+    margin: 20px 15px;
   }
-  .container.roles{
-    display: grid;
-    grid-template-rows: 100px 100px 100px 100px;
-    justify-content: center;
-    align-items: center;
+  fieldset.right .chip {
+    margin: 10px 5px;
   }
   .roles > .chip > button {
     width: 150px;
@@ -61,7 +60,7 @@
     padding: 5px 5px;
     border-radius: 25px;
     display: grid;
-    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+    grid-template-columns: 1fr 1fr 1fr;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
   .roles > .chip > button:hover {
@@ -110,43 +109,43 @@
   .menu.tanks {
     /*Padding is needed to aligns tanks with the roles since tanks don't
     have a select/deselect all checkbox*/
-    padding-top: 24px; 
-    display: grid;
+    padding-top: 34px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: grid;
     grid-template-rows: 100px 100px 100px 100px;
     grid-template-columns: 300px 300px;
     grid-auto-columns: 300px;
     grid-auto-flow: column;
-    justify-content: center;
-    /* align-content: center; */
     justify-items: center;
-    align-items: center;
+    align-items: center; */
   }
   
   .tankpair.chip {
     height: 50px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    max-width: 290px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
     /* margin: auto; */
-    /* width: 300px; */
+    /* width: 300px; */ 
   }
   
   .tankpair > button {
     width: 145px;
     height: 50px;
+    padding: 0px 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-left: 3px; */
     display: inline-grid;
-    grid-template-columns: 35px 35px 35px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   
-  .tankpair > button.left {
-    padding: 0;
-    justify-content: center;
-  }
   .tankpair > button.left.active{
     background-color: #545E99;
-  }
-  .tankpair > button.right {
-    padding: 0;
-    justify-content: center;
   }
   .tankpair > button.right.active {
     background-color: #545E99;
