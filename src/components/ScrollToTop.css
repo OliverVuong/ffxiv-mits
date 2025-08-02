@@ -1,6 +1,5 @@
 .scrollTop {
     position: fixed;
-    bottom: 90px;
     right: 50px;
     padding: 0;
     background-color: transparent;
@@ -8,6 +7,18 @@
     &:hover {
         transform: scale(1.1);
         filter: brightness(120%);
+    }
+}
+
+@media (min-width: 720px){
+    .scrollTop {
+        bottom: 90px;
+    }
+}
+
+@media (max-width: 710px){
+    .scrollTop {
+        bottom: 140px;
     }
 }
 
