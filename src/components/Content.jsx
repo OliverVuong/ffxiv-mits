@@ -5,6 +5,7 @@ import Selectors from "./Selectors";
 import { EncounterView } from "./Table";
 import Navigation from "./Navigation";
 import { allSheets } from '../utils/mitSheets/mitSheetsUtil';
+import NotFound from './NotFound';
 
 function Content({ 
     roleView, 
@@ -68,7 +69,7 @@ function Content({
             <Route path='/ffxiv-mits/fru/naur' element={container}/>
             <Route path='/ffxiv-mits/top' element={container}/>
             <Route path='/ffxiv-mits/dsr' element={container}/>
-            <Route path='*' element={<div>error 404</div>}/>
+            <Route path='*' element={<NotFound />}/>
         </Routes>
     )
  }

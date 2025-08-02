@@ -1,0 +1,12 @@
+.return-home {
+    margin-top: 40px;
+}
+
+.return-home-btn {
+    font-size: 2em;
+    background-color: var(--accent-2);
+    color: var(--accent-2-fontcolor);
+    border: 1px solid var(--border-light-color);
+    border-radius: .25em;
+    padding: 10px;
+}
