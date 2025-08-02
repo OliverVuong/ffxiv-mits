@@ -18,7 +18,7 @@ function Chip({ input, picks, setPicks }) {
                     setPicks(newState)
                 }}
             >
-                <span className="check">{picks[input] && '🗸 '}</span>
+                <span className="check">{picks[input] && '\u2713'}</span>
                 <span className="descriptor">{input}</span>
                 
                 {/*'✅ ✓ ✔ '*/}

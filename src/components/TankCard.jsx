@@ -7,7 +7,7 @@ export function MtCard({input, isActive}) {
     let job = input.slice(-3);
     try {
         output = <>
-            <span className="check">{isActive && '🗸 '}</span>
+            <span className="check">{isActive && '\u2713'}</span>
             <span className="descriptor">{job + ' '} </span>
             <img 
                 src={jobAltMap[job].img}
@@ -33,7 +33,7 @@ export function OtCard({input, isActive}) {
                 className="icon"
             />
             <span className="descriptor">{job}</span>
-            <span className="check">{isActive && '🗸 '}</span>
+            <span className="check">{isActive && '\u2713'}</span>
         </>
     } catch {
         output = <span className="aCard">{input}</span>;
