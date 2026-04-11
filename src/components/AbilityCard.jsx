@@ -7,8 +7,8 @@ function AbilityCard({ input }) {
     const hasNote = typeof input !== 'string' && 'note' in input;
     const abilityName = typeof input === 'string' ? input : input['ability'];
     
-    const iconClass = 'iconClass' in abilityMap[abilityName] ? ' ' + abilityMap[abilityName].iconClass : '';
-    const captionClass = 'captionClass' in abilityMap[abilityName] ? ' ' + abilityMap[abilityName].captionClass : '';
+    const iconClass = abilityName in abilityMap && 'iconClass' in abilityMap[abilityName] ? ' ' + abilityMap[abilityName].iconClass : '';
+    const captionClass = abilityName in abilityMap && 'captionClass' in abilityMap[abilityName] ? ' ' + abilityMap[abilityName].captionClass : '';
 
     const hasOverflow = typeof input !== 'string' && 'hasOverflow' in input;
     const isGreyscale = typeof input !== 'string' && 'isGreyscale' in input && input['isGreyscale'];

@@ -91,6 +91,7 @@ const sgeMap = {
   holosCO,
   'Holos co': holosCO,
   Kerachole: kerachole,
+  Kera: kerachole,
   'kerachole g': keracholeG,
   'Kerachole grey': keracholeG,
   keracholeCO,

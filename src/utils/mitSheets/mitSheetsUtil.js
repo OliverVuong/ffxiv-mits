@@ -2,12 +2,14 @@ import FRU_fmbg from './FRU_fmbg';
 import FRU_naur from './FRU_naur';
 import TOP from './TOP';
 import DSR from './DSR';
+import TEA from './TEA';
 
 export const allSheets = {
   FRU_fmbg,
   FRU_naur,
   TOP,
   DSR,
+  TEA,
 };
 
 export const allTankCombos = [
@@ -27,6 +29,8 @@ export const allTankCombos = [
   'PLDGNB_GNB',
   'Tank 1',
   'Tank 2',
+  'MT',
+  'OT',
 ];
 
 export const allExtras = [

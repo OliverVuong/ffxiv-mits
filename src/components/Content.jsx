@@ -32,7 +32,9 @@ function Content({
             setSheet('TOP');
         } else if (location.pathname === '/ffxiv-mits/dsr'){
             setSheet('DSR');
-        }
+        } else if (location.pathname === '/ffxiv-mits/tea'){
+            setSheet('TEA');
+        } 
     }, [location.pathname]);
 
     const container = (
@@ -69,6 +71,7 @@ function Content({
             <Route path='/ffxiv-mits/fru/naur' element={container}/>
             <Route path='/ffxiv-mits/top' element={container}/>
             <Route path='/ffxiv-mits/dsr' element={container}/>
+            <Route path='/ffxiv-mits/tea' element={container}/>
             <Route path='*' element={<NotFound />}/>
         </Routes>
     )

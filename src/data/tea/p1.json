@@ -1,0 +1,429 @@
+{
+    "phase": 1,
+    "length": 120,
+    "name": "Living Liquid",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Prepull",
+            "time": 1,
+            "mitigations": {
+              "T1": [
+                {
+                  "ability": "Rampart",
+                  "note": "Use at -8s"
+                }
+              ],
+              "SCH": [
+                "Succor"
+              ],
+              "SGE": [
+                {
+                  "ability": "ZoeEukProg90",
+                  "note": "Use at -8s"
+                }
+              ],
+              "WHM": [
+                {
+                  "ability": "Regen",
+                  "note": "Use on MT at -5s"
+                },
+                {
+                  "ability": "Divine Benison",
+                  "note": "Use on MT at -5s"
+                }
+              ],
+              "AST": [
+                {
+                  "ability": "Horoscope",
+                  "note": "Use on MT at -15s"
+                },
+                {
+                  "ability": "Intersection",
+                  "note": "Use on MT at -15s"
+                },
+                {
+                  "ability": "Star",
+                  "note": "Place on Pull"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Fluid Swing",
+            "time": 2,
+            "mitigations": {
+              "T1": [
+                "Rampart",
+                "Short",
+                "Reprisal"
+              ],
+              "T2": [
+                {
+                  "ability": "Short",
+                  "note": "to MT"
+                }
+              ],
+              "SCH": [
+                "Soil",
+                "Dissipation"
+              ],
+              "SGE": [
+                "Kerachole"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Cascade",
+            "time": 3,
+            "mitigations": {
+              "T1": [
+                "Rampart"
+              ],
+              "SCH": [
+                "Indom"
+              ],
+              "SGE": [
+                "Physis",
+                "Ixo"
+              ],
+              "WHM": [
+                "Assize",
+                {
+                  "ability": "Benison",
+                  "note": "Use on Ranged"
+                }
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "PLD": [
+                "Wings"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Fluid Swing",
+            "time": 4,
+            "mitigations": {
+              "T1": [
+                "Invuln"
+              ],
+              "WHM": [
+                {
+                  "ability": "Benediction",
+                  "note": "Use on MT"
+                }
+              ],
+              "AST": [
+                {
+                  "ability": "Synastry + Benefic 2",
+                  "note": "Use on MT"
+                },
+                {
+                  "ability": "ED",
+                  "note": "Use on MT"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Doll Feed",
+            "time": 5,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Soil",
+                "Spreadlo",
+                "Whisper"
+              ],
+              "SGE": [
+                "EProg",
+                {
+                  "ability": "Holos",
+                  "note": "Use Holos once the first Doll AOE's go off"
+                },
+                {
+                  "ability": "Kerachole",
+                  "note": "Use Kerachole once the first Doll AOE's go off"
+                },
+                "Ixo"
+              ],
+              "WHM": [
+                {
+                  "ability": "Temperance",
+                  "note": "Use Temperance once the first Doll AOE's go off"
+                },
+                "Plenary"
+              ],
+              "AST": [
+                "Neutral",
+                "Horoscope",
+                {
+                  "ability": "Defensive Cards",
+                  "note": "Use on Ranged"
+                }
+              ],
+              "MCH": [
+                {
+                  "ability": "Tactitian",
+                  "note": "Only MCH should use their party mit here. DNC and BRD should save their party mit for Splashes and Drainage"
+                }
+              ],
+              "BRD": [
+                "Minne"
+              ],
+              "MNK": [
+                "Mantra"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Fluid Swing",
+            "time": 6,
+            "mitigations": {
+              "T1": [
+                "120s",
+                "Short"
+              ],
+              "T2": [
+                "120s",
+                "Reprisal",
+                "Short"
+              ],
+              "SCH": [
+                "Fey Blessing"
+              ],
+              "SGE": [
+                {
+                  "ability": "Taurochole",
+                  "note": "Use on OT"
+                },
+                {
+                  "ability": "Haima",
+                  "note": "Use on MT"
+                }
+              ],
+              "WHM": [
+                {
+                  "ability": "Tetra",
+                  "note": "Use on OT"
+                }
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on MT"
+                },
+                "Celestial Opposition"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Protean 1",
+            "time": 7,
+            "mitigations": {
+              "T2": [
+                {
+                  "ability": "TBN",
+                  "note": "TBN on CD"
+                }
+              ],
+              "SCH": [
+                "Succor"
+              ],
+              "SGE": [
+                {
+                  "ability": "Kardia + Soteria",
+                  "note": "Use on OT"
+                }
+              ],
+              "WHM": [
+                "Assize",
+                {
+                  "ability": "Benison",
+                  "note": "Use on MT"
+                }
+              ],
+              "AST": [
+                "Star Place"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Splashes + Drainage",
+            "time": 8,
+            "mitigations": {
+              "T1": [
+                "Reprisal",
+                "Rampart",
+                "Short"
+              ],
+              "T2": [
+                "Party Mit",
+                "Rampart",
+                "Short"
+              ],
+              "SCH": [
+                "Soil",
+                "Fey Illum",
+                "Seraph1"
+              ],
+              "SGE": [
+                "Panhaia",
+                "Kerachole",
+                "Physis"
+              ],
+              "WHM": [
+                "Asylum"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "PRange": [
+                {
+                  "ability": "RangeMit",
+                  "note": "MCH can use their Range Mit on Doll Feeds"
+                }
+              ],
+              "Caster": [
+                {
+                  "ability": "Addle",
+                  "note": "Use on Living Liquid"
+                }
+              ],
+              "MCH": [
+                {
+                  "ability": "Dismantle",
+                  "note": "Use on Living Liquid"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Cascade",
+            "time": 9,
+            "mitigations": {
+              "T1": [
+                "Reprisal",
+                "Rampart"
+              ],
+              "T2": [
+                "Party Mit",
+                "Rampart"
+              ],
+              "SCH": [
+                "Seraph2"
+              ],
+              "SGE": [
+                "Ixo"
+              ],
+              "AST": [
+                "CU"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Protean 2",
+            "time": 10,
+            "mitigations": {
+              "T1": [
+                {
+                  "ability": "Short",
+                  "note": "Use on OT"
+                }
+              ],
+              "T2": [
+                "Short"
+              ],
+              "SCH": [
+                {
+                  "ability": "Excog",
+                  "note": "Use on OT"
+                },
+                "Soil",
+                "Fey Blessing",
+                "Succor"
+              ],
+              "SGE": [
+                "EProg",
+                "Kera"
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on OT"
+                },
+                "Plenary",
+                "Assize"
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on OT"
+                },
+                "Celestial Opposition"
+              ],
+              "M1": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Limit Cut",
+            "time": 11,
+            "mitigations": {
+              "SCH": [
+                "Succor"
+              ],
+              "SGE": [
+                "EProg"
+              ],
+              "WHM": [
+                "Medica 2"
+              ],
+              "AST": [
+                "Horoscope",
+                "Aspected Helios",
+                {
+                  "ability": "Star",
+                  "note": "Place on #6"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
+  

@@ -1,0 +1,437 @@
+{
+    "phase": 3,
+    "length": 120,
+    "name": "Alexander Prime",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Timestop",
+            "time": 1,
+            "mitigations": {
+              "SCH": [
+                "Succor"
+              ],
+              "SGE": [
+                "EProg"
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on OT"
+                },
+                "Plenary",
+                "Assize"
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on OT"
+                },
+                "Celestial Opposition"
+              ],
+              "M1": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Chastening Heat + Cleaves",
+            "time": 2,
+            "mitigations": {
+              "T2": [
+                "Invuln"
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on Tank"
+                },
+                {
+                  "ability": "Defensive Cards",
+                  "note": "Use on Tank"
+                }
+              ],
+              "M1": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Inception (Crystal Boom)",
+            "time": 3,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Everything"
+              ],
+              "SGE": [
+                "Everything"
+              ],
+              "WHM": [
+                "Everything"
+              ],
+              "AST": [
+                "Everything"
+              ],
+              "PRange": [
+                "Range Mit"
+              ],
+              "BRD": [
+                "Minne"
+              ],
+              "MNK": [
+                "Mantra"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Super Jump",
+            "time": 4,
+            "mitigations": {
+              "T2": [
+                "120s",
+                "Rampart"
+              ],
+              "SCH": [
+                {
+                  "ability": "Adlo",
+                  "note": "Use on Tanks"
+                }
+              ],
+              "SGE": [
+                {
+                  "ability": "EDiag",
+                  "note": "Use on Tanks"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Chastening Heat",
+            "time": 5,
+            "mitigations": {
+              "T1": [
+                "Kitchen Sink"
+              ],
+              "T2": [
+                "Reprisal",
+                {
+                  "ability": "Short",
+                  "note": "Use on MT"
+                }
+              ],
+              "SGE": [
+                {
+                  "ability": "Tauro",
+                  "note": "Use on Tank"
+                }
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on Tank"
+                }
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on Tank"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Cleaves",
+            "time": 6,
+            "mitigations": {
+              "T1": [
+                "Invuln"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Wormhole",
+            "time": 7,
+            "mitigations": {
+              "SCH": [
+                "Succor",
+                "Soil"
+              ],
+              "SGE": [
+                "EProg",
+                "Kera"
+              ],
+              "AST": [
+                "Horoscope",
+                "AspHelios",
+                {
+                  "ability": "Defensive Cards",
+                  "note": "Use on DPS"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Post-Wormhole Stack",
+            "time": 8,
+            "mitigations": {
+              "T1": [
+                {
+                  "ability": "Party Mit",
+                  "note": "If 7 people"
+                }
+              ],
+              "SCH": [
+                "Succor",
+                "Fey Blessing"
+              ],
+              "SGE": [
+                "EProg",
+                "Ixo"
+              ],
+              "WHM": [
+                "Plenary"
+              ],
+              "AST": [
+                "CU",
+                {
+                  "ability": "Star",
+                  "note": "Star Place"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Mega Holy",
+            "time": 9,
+            "mitigations": {
+              "T1": [
+                {
+                  "ability": "Reprisal",
+                  "note": "Use late"
+                }
+              ],
+              "SCH": [
+                "Succor",
+                "Soil"
+              ],
+              "SGE": [
+                "EProg",
+                "Kera"
+              ],
+              "AST": [
+                "Celestial Opposition"
+              ],
+              "M1": [
+                {
+                  "ability": "Feint",
+                  "note": "Use late"
+                }
+              ],
+              "Caster": [
+                {
+                  "ability": "Addle",
+                  "note": "Use late"
+                }
+              ],
+              "MCH": [
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "JKick",
+            "time": 10,
+            "mitigations": {
+              "SCH": [
+                "Spreadlo"
+              ],
+              "SGE": [
+                "ZoeEProg",
+                "Ixo"
+              ],
+              "AST": [
+                "Horoscope"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Jwaves 0-3",
+            "time": 11,
+            "mitigations": {
+              "SCH": [
+                "Succor"
+              ],
+              "SGE": [
+                "EProg"
+              ],
+              "WHM": [
+                "Asylum"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Jwaves 4",
+            "time": 12,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Reprial"
+              ],
+              "SCH": [
+                "Succor",
+                "Soil",
+                "Illum",
+                "Seraph"
+              ],
+              "SGE": [
+                "EProg",
+                "Panhaima",
+                "Kera"
+              ],
+              "WHM": [
+                "Temprance"
+              ],
+              "AST": [
+                "Neutral",
+                "AspHelios"
+              ],
+              "PRange": [
+                "Range Mit"
+              ],
+              "BRD": [
+                "Minne"
+              ],
+              "MNK": [
+                "Mantra"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Jwaves6",
+            "time": 11,
+            "mitigations": {
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Succor",
+                "Fey Blessing"
+              ],
+              "SGE": [
+                "EProg",
+                "Holos",
+                "Physis"
+              ],
+              "WHM": [
+                "Plenary"
+              ],
+              "AST": [
+                "CU",
+                {
+                  "ability": "Star",
+                  "note": "Star Place"
+                }
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "PLD": [
+                "Wings"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Jwaves 8",
+            "time": 12,
+            "mitigations": {
+              "T1": [
+                {
+                  "ability": "Reprisal",
+                  "note": "Use whenever it's up"
+                }
+              ],
+              "SCH": [
+                "Succor",
+                "Dissipate",
+                "Indom"
+              ],
+              "SGE": [
+                "EProg",
+                "Ixo"
+              ],
+              "WHM": [
+                "Med2",
+                "Cure3"
+              ],
+              "AST": [
+                "AspHelios",
+                "Helios"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Transition Raidwie",
+            "time": 13,
+            "mitigations": {
+              "T1": [
+                "LB3"
+              ],
+              "T2": [
+                "LB3"
+              ],
+              "SCH": [
+                "Succor",
+                "Soil"
+              ],
+              "SGE": [
+                "EProg",
+                "Kera"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
+  

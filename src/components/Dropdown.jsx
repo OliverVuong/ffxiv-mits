@@ -57,7 +57,7 @@ function Dropdown(){
             label: "TEA (under construction)",
             value: "TEA",
             path: "/tea",
-            disabled: true,
+            disabled: false,
         },
         {
             id: 6,

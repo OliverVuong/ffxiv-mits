@@ -1,0 +1,467 @@
+{
+    "phase": 2,
+    "length": 120,
+    "name": "BJCC",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "JKick",
+            "time": 1,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Soil",
+                "Succor"
+              ],
+              "SGE": [
+                "EProg",
+                "Kera"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "PLD": [
+                "Wings"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Whirlwind",
+            "time": 2,
+            "mitigations": {
+              "T1": [
+                "Party Mit",
+                "Short"
+              ],
+              "T2": [
+                "Reprisal",
+                "Short"
+              ],
+              "SCH": [
+                "Fey Blessing",
+                "Whisper",
+                "Succor"
+              ],
+              "SGE": [
+                {
+                  "ability": "Tauro",
+                  "note": "Use on MT"
+                },
+                "EProg"
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on Tank"
+                }
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on Tank"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Photon",
+            "time": 3,
+            "mitigations": {
+              "T1": [
+                "Rampart"
+              ],
+              "SCH": [
+                "Indom",
+                "Spreadlo",
+                "Dissipation"
+              ],
+              "SGE": [
+                {
+                  "ability": "Kera",
+                  "note": "Use when first Water Debuff-Timer hits 14s and from there on CD to cover all"
+                },
+                "Physis",
+                "Ixo",
+                "ZoeEprog"
+              ],
+              "WHM": [
+                "Asylum",
+                "Plenary"
+              ],
+              "AST": [
+                "Horoscope",
+                "Celestial Opposition"
+              ],
+              "BRD": [
+                "Minne"
+              ],
+              "MNK": [
+                "Mantra"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Water 1",
+            "time": 4,
+            "mitigations": {
+              "T1": [
+                {
+                  "ability": "Reprisal",
+                  "note": "Use on Brute Justice"
+                }
+              ],
+              "SCH": [
+                "Soil",
+                {
+                  "ability": "Succor",
+                  "note": "Use when first Water Debuff-Timer hits 14s and from there on CD to cover all"
+                }
+              ],
+              "SGE": [
+                "EProg",
+                "Kera"
+              ],
+              "AST": [
+                {
+                  "ability": "Star",
+                  "note": "Star Place"
+                }
+              ],
+              "M2": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Mines",
+            "time": 5,
+            "mitigations": {
+              "T2": [
+                "Kitchen Sink"
+              ],
+              "SCH": [
+                {
+                  "ability": "Excog",
+                  "note": "Use on OT"
+                }
+              ],
+              "SGE": [
+                {
+                  "ability": "Excog",
+                  "note": "Use on OT"
+                },
+                {
+                  "ability": "Soteria",
+                  "note": "Use on OT"
+                },
+                "Holos"
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on OT"
+                },
+                "Temperance"
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on OT"
+                },
+                {
+                  "ability": "Defensive Cards",
+                  "note": "Use on OT"
+                }
+              ],
+              "PRange": [
+                {
+                  "ability": "Ranged Mit",
+                  "note": "Pres it when Enum goes off"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Water 2",
+            "time": 6,
+            "mitigations": {
+              "T1": [
+                "120s",
+                "Short"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Soil",
+                "Succor"
+              ],
+              "SGE": [
+                "Kera",
+                "Ixo"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "Caster": [
+                {
+                  "ability": "Addle",
+                  "note": "Use on Brute Justice"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Limit Cut + Flarethrower",
+            "time": 7,
+            "mitigations": {
+              "SGE": [
+                {
+                  "ability": "Tauro",
+                  "note": "Use on MT"
+                }
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on MT"
+                }
+              ],
+              "AST": [
+                {
+                  "ability": "Intersection",
+                  "note": "Use on MT"
+                }
+              ],
+              "M1": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Whirlwind",
+            "time": 8,
+            "mitigations": {
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Reprisal"
+              ],
+              "SCH": [
+                "Fey Illum",
+                "Whisper",
+                "Seraph1",
+                "Soil"
+              ],
+              "SGE": [
+                "Panhaima",
+                "Kera",
+                "Physis"
+              ],
+              "WHM": [
+                "Plenary"
+              ],
+              "AST": [
+                "Neutral",
+                "Horoscope",
+                "Celestial Opposition"
+              ],
+              "MCH": [
+                {
+                  "ability": "Dismantle",
+                  "note": "Use on Cruise Chaser"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Water 3",
+            "time": 9,
+            "mitigations": {
+              "T1": [
+                "Short"
+              ],
+              "T2": [
+                "Short"
+              ],
+              "SCH": [
+                "Succor",
+                "Seraph2"
+              ],
+              "SGE": [
+                {
+                  "ability": "Kardia",
+                  "note": "Use on MT"
+                }
+              ],
+              "AST": [
+                "Neutral"
+              ],
+              "M1": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Gavel Linep",
+            "time": 10,
+            "mitigations": {
+              "SCH": [
+                "Fairy Tether"
+              ],
+              "SGE": [
+                "Ixo"
+              ],
+              "WHM": [
+                "Asylumn"
+              ],
+              "AST": [
+                {
+                  "ability": "Star",
+                  "note": "Star Place"
+                }
+              ],
+              "M1": [
+                "Feint"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Photon",
+            "time": 11,
+            "mitigations": {
+              "T1": [
+                "Rampart"
+              ],
+              "SCH": [
+                "Soil",
+                {
+                  "ability": "Excog",
+                  "note": "Use on Tank"
+                }
+              ],
+              "SGE": [
+                {
+                  "ability": "Tauro",
+                  "note": "Use on OT"
+                },
+                {
+                  "ability": "Druo",
+                  "note": "Use on Tanks"
+                }
+              ],
+              "WHM": [
+                "Benediction"
+              ],
+              "AST": [
+                {
+                  "ability": "Synastry+Benefic2",
+                  "note": "Use on MT"
+                },
+                {
+                  "ability": "ED",
+                  "note": "Use on OT"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Double Rocket Punch",
+            "time": 12,
+            "mitigations": {
+              "T1": [
+                "Reprisal",
+                "Short"
+              ],
+              "T2": [
+                "Rampart",
+                "Short"
+              ],
+              "SCH": [
+                "Soil",
+                "Adlo"
+              ],
+              "SGE": [
+                "Kera",
+                {
+                  "ability": "Ediag",
+                  "note": "Use on Tanks"
+                }
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on Tank"
+                }
+              ],
+              "AST": [
+                "CU",
+                {
+                  "ability": "Intersection",
+                  "note": "Use on Tank"
+                }
+              ],
+              "PLD": [
+                {
+                  "ability": "Wings",
+                  "note": "Wings to other tank"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Whirlwind",
+            "time": 13,
+            "mitigations": {
+              "T2": [
+                "Reprisal"
+              ],
+              "SGE": [
+                "EProg",
+                "Kera"
+              ],
+              "M2": [
+                "Feint"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
+  

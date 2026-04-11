@@ -1,0 +1,228 @@
+{
+    "phase": 4,
+    "length": 120,
+    "name": "Perfect Alexander",
+    "sections": [
+      {
+        "id": 0,
+        "table": [
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Optical Sight",
+            "time": 1,
+            "mitigations": {
+              "T1": [
+                "Party Mit",
+                "Reprisal"
+              ],
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Everything"
+              ],
+              "SGE": [
+                "Everything"
+              ],
+              "WHM": [
+                "Everything"
+              ],
+              "AST": [
+                "Everything"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "PRange": [
+                "Range Mit"
+              ],
+              "Caster": [
+                {
+                  "ability": "Addle",
+                  "note": "Use late"
+                }
+              ],
+              "MCH": [
+                "Dismantle"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Ordained Capital Punishment",
+            "time": 2,
+            "mitigations": {
+              "T1": [
+                "Kitchen Sink"
+              ],
+              "T2": [
+                "Kitchen Sink"
+              ],
+              "SCH": [
+                "Soil"
+              ],
+              "SGE": [
+                "Kera",
+                {
+                  "ability": "Haima",
+                  "note": "Use on Tank"
+                },
+                {
+                  "ability": "Tauro",
+                  "note": "Use on Tank"
+                }
+              ],
+              "WHM": [
+                {
+                  "ability": "Benison",
+                  "note": "Use on Tank"
+                }
+              ],
+              "AST": [
+                "CU",
+                {
+                  "ability": "Intersection",
+                  "note": "Use on Tank"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Fate Calibration Beta",
+            "time": 3,
+            "mitigations": {
+              "T2": [
+                "Party Mit"
+              ],
+              "SCH": [
+                "Succor"
+              ],
+              "SGE": [
+                "Kera",
+                "EProg"
+              ],
+              "WHM": [
+                "Plenary",
+                "Asylum"
+              ],
+              "AST": [
+                "Horoscope",
+                "AspHelios"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Ordained Capital Punishment",
+            "time": 4,
+            "mitigations": {
+              "T2": [
+                "Invln"
+              ],
+              "WHM": [
+                {
+                  "ability": "Benediction",
+                  "note": "Use on Tank"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Irresistable Grace 1",
+            "time": 5,
+            "mitigations": {
+              "T1": [
+                "Party Mit",
+                "Reprisal"
+              ],
+              "SCH": [
+                "Spreadlo",
+                "Soil",
+                "Fey Blessing"
+              ],
+              "SGE": [
+                "Panhaima",
+                "Kera",
+                "ZoeEProg"
+              ],
+              "WHM": [
+                "Temperance"
+              ],
+              "AST": [
+                "Neutral"
+              ],
+              "M1": [
+                "Feint"
+              ],
+              "Caster": [
+                "Addle"
+              ],
+              "PLD": [
+                "Wings"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Ordained Capital Punishment",
+            "time": 6,
+            "mitigations": {
+              "T1": [
+                "Invuln"
+              ]
+            }
+          },
+          {
+            "type": "Raidwide",
+            "stakeholder": "all",
+            "name": "Irresistable Grace 2",
+            "time": 7,
+            "mitigations": {
+              "T2": [
+                "Party Mit",
+                "Reprisal"
+              ],
+              "SCH": [
+                "Seraph",
+                "Illum",
+                "Soil"
+              ],
+              "SGE": [
+                "Holos",
+                "Kera",
+                "EProg"
+              ],
+              "WHM": [
+                "Asylum"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "M2": [
+                "Feint"
+              ],
+              "PRange": [
+                "Party Mit"
+              ],
+              "MCH": [
+                "Dismantle"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
+  
