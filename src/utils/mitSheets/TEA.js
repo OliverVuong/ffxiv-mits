@@ -5,7 +5,7 @@ import tea_p4 from '../../data/tea/p4.json';
 
 const DSR = {
   data: [tea_p1, tea_p2, tea_p3, tea_p4],
-  tankCombos: [['T1', 'T2']],
+  tankCombos: [['MT', 'OT']],
   extras: ['BRD', 'MCH', 'PLD', 'MNK'],
   name: `The Epic of Alexander`,
 };

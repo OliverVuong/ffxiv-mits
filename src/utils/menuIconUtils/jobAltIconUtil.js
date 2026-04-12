@@ -21,12 +21,18 @@ const war = {
   name: 'WAR',
   img: images[3].default,
 };
+const tank = {
+  name: 'tank',
+  img: images[4].default,
+};
 
 const jobAltMap = {
   DRK: drk,
   GNB: gnb,
   PLD: pld,
   WAR: war,
+  MT: tank,
+  OT: tank,
 };
 
 export default jobAltMap;
