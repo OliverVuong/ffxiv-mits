@@ -1,9 +1,100 @@
+import AspectedBeneficIcon from '../../assets/icons/spells/ast/AspectedBenefic.png';
+import AspectedHeliosIcon from '../../assets/icons/spells/ast/AspectedHelios.png';
+import BenefitcIIIcon from '../../assets/icons/spells/ast/BenefitcII.png';
+import CelestialIntersectionIcon from '../../assets/icons/spells/ast/CelestialIntersection.png';
+import CelestialOppositionIcon from '../../assets/icons/spells/ast/CelestialOpposition.png';
+import EssentialDignityIcon from '../../assets/icons/spells/ast/EssentialDignity.png';
+import ExaltationIcon from '../../assets/icons/spells/ast/Exaltation.png';
+import HeliosConjunctionIcon from '../../assets/icons/spells/ast/HeliosConjunction.png';
+import HoroscopeTriggerIcon from '../../assets/icons/spells/ast/HoroscopeTrigger.png';
+import LightspeedIcon from '../../assets/icons/spells/ast/Lightspeed.png';
+import MicrocosmosIcon from '../../assets/icons/spells/ast/Microcosmos.png';
+import MinorArcanaIcon from '../../assets/icons/spells/ast/MinorArcana.png';
+import PlayIIIcon from '../../assets/icons/spells/ast/PlayII.png';
+import PlayIIIIcon from '../../assets/icons/spells/ast/PlayIII.png';
+import StellarDetonationIcon from '../../assets/icons/spells/ast/StellarDetonation.png';
+import SynastryIcon from '../../assets/icons/spells/ast/Synastry.png';
+import UnaspectedHeliosIcon from '../../assets/icons/spells/ast/UnaspectedHelios.png';
+//import HoroscopeIcon from '../../assets/icons/spells/ast/Horoscope.png';
+
 const images = Object.values(
   import.meta.glob(
     '../../assets/icons/abilities/ast/*.{png,jpg,jpeg,PNG,JPEG}',
     { eager: true, query: 'url' }
   )
 );
+
+const AspectedBenefic = {
+  name: 'Benefic',
+  img: AspectedBeneficIcon,
+};
+const AspectedHelios = {
+  name: 'Helios',
+  img: AspectedHeliosIcon,
+};
+const BenefitcII = {
+  name: 'Benefitc II',
+  img: BenefitcIIIcon,
+};
+const CelestialIntersection = {
+  name: 'Intersection',
+  img: CelestialIntersectionIcon,
+  captionClass: 'overflow80',
+};
+const CelestialOpposition = {
+  name: 'CO',
+  img: CelestialOppositionIcon,
+};
+const EssentialDignity = {
+  name: 'ED',
+  img: EssentialDignityIcon,
+};
+const Exaltation = {
+  name: 'Exaltation',
+  img: ExaltationIcon,
+};
+const HeliosConjunction = {
+  name: 'Helios',
+  img: HeliosConjunctionIcon,
+};
+const HoroscopeTrigger = {
+  name: 'HoroscopeTrigger',
+  img: HoroscopeTriggerIcon,
+};
+const Lightspeed = {
+  name: 'Lightspeed',
+  img: LightspeedIcon,
+};
+const Microcosmos = {
+  name: 'Microcosmos',
+  img: MicrocosmosIcon,
+};
+const MinorArcana = {
+  name: 'Minor Arcana',
+  img: MinorArcanaIcon,
+};
+const PlayII = {
+  name: 'Def-Cards',
+  img: PlayIIIcon,
+  captionClass: 'overflow80',
+};
+const PlayIII = {
+  name: 'Def-Cards',
+  img: PlayIIIIcon,
+  captionClass: 'overflow80',
+};
+const StellarDetonation = {
+  name: 'Detonation',
+  img: StellarDetonationIcon,
+};
+const Synastry = {
+  name: 'Synastry',
+  img: SynastryIcon,
+};
+const UnaspectedHelios = {
+  name: 'Helios',
+  img: UnaspectedHeliosIcon,
+};
 
 const cu = {
   name: 'CU',
@@ -68,6 +159,31 @@ const astMap = {
   'Sun Sign': sunsign,
   sunsignCO,
   'Sun Sign co': sunsignCO,
+  AspectedBenefic,
+  AspectedHelios,
+  'Aspected Helios': AspectedHelios,
+  BenefitcII,
+  CelestialIntersection,
+  'Celestial Intersection': CelestialIntersection,
+  CelestialOpposition,
+  'Celestial Opposition': CelestialOpposition,
+  EssentialDignity,
+  'Essential Dignity': EssentialDignity,
+  Exaltation,
+  HeliosConjunction,
+  Helios: HeliosConjunction,
+  HoroscopeTrigger,
+  Lightspeed,
+  Microcosmos,
+  MinorArcana,
+  PlayII,
+  'Play II': PlayII,
+  PlayIII,
+  'Play III': PlayIII,
+  StellarDetonation,
+  Synastry,
+  UnaspectedHelios,
+  'Unaspected Helios': UnaspectedHelios,
 };
 
 export default astMap;

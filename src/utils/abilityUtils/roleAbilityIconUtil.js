@@ -1,9 +1,36 @@
+import ninetyIcon from '../../assets/icons/abilities/tanks/generics/90s.png';
+import onetwentyIcon from '../../assets/icons/abilities/tanks/generics/120s.png';
+import extraTankmitIcon from '../../assets/icons/abilities/tanks/generics/extra.png';
+import invulnIcon from '../../assets/icons/abilities/tanks/generics/invuln.png';
+import shortIcon from '../../assets/icons/abilities/tanks/generics/short.png';
+
 const images = Object.values(
   import.meta.glob(
     '../../assets/icons/abilities/roles/*.{png,jpg,jpeg,PNG,JPEG}',
     { eager: true, query: 'url' }
   )
 );
+
+const ninety = {
+  name: '90s',
+  img: ninetyIcon,
+};
+const onetwenty = {
+  name: '120s',
+  img: onetwentyIcon,
+};
+const extraTankmit = {
+  name: 'Extra',
+  img: extraTankmitIcon,
+};
+const Invuln = {
+  name: 'Invuln',
+  img: invulnIcon,
+};
+const Short = {
+  name: 'Short',
+  img: shortIcon,
+};
 
 const addle = {
   name: 'Addle',
@@ -139,6 +166,7 @@ const rolesAbilityMap = {
   Everything: healerEverything,
   'Tank LB': limitbreak,
   'Healer LB': limitbreak,
+  LB3: limitbreak,
   buddyM1,
   buddyM2,
   'Party Mit': partymit,
@@ -160,6 +188,14 @@ const rolesAbilityMap = {
   secondwind,
   secondwindbloodbath,
   'Melee personals': secondwindbloodbath,
+  ninety,
+  '90s': ninety,
+  onetwenty,
+  '120s': onetwenty,
+  extraTankmit,
+  Extra: extraTankmit,
+  Invuln,
+  Short,
 };
 
 export default rolesAbilityMap;

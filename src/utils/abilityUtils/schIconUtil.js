@@ -1,9 +1,37 @@
+import excogitationIcon from '../../assets/icons/spells/sch/excogitation.png';
+import AetherpactIcon from '../../assets/icons/spells/sch/Aetherpact.png';
+import DissipationIcon from '../../assets/icons/spells/sch/Dissipation.png';
+import IndomitabilityIcon from '../../assets/icons/spells/sch/Indomitability.png';
+import FeyBlessingIcon from '../../assets/icons/spells/sch/Fey_Blessing.png';
+
 const images = Object.values(
   import.meta.glob(
     '../../assets/icons/abilities/sch/*.{png,jpg,jpeg,PNG,JPEG}',
     { eager: true, query: 'url' }
   )
 );
+
+const excogitation = {
+  name: 'Excog',
+  img: excogitationIcon,
+};
+const dissipation = {
+  name: 'Dissipation',
+  img: DissipationIcon,
+  captionClass: 'overflow80',
+};
+const indomitability = {
+  name: 'Indom',
+  img: IndomitabilityIcon,
+};
+const feyblessing = {
+  name: 'Fey',
+  img: FeyBlessingIcon,
+};
+const aetherpact = {
+  name: 'Tether',
+  img: AetherpactIcon,
+};
 
 const adloquium = {
   name: 'Adlo',
@@ -16,6 +44,16 @@ const concitation = {
 const consolation = {
   name: 'Consolation',
   img: images[2].default,
+};
+const seraph1 = {
+  name: 'Seraph 1',
+  img: images[2].default,
+  captionClass: 'overflow90',
+};
+const seraph2 = {
+  name: 'Seraph 2',
+  img: images[2].default,
+  captionClass: 'overflow90',
 };
 const consolationCO = {
   img: images[2].default,
@@ -138,6 +176,20 @@ const schMap = {
   succor,
   Succor: succor,
   'Whispering Dawn': whisperingdawn,
+  Whisper: whisperingdawn,
+  Excog: excogitation,
+  dissipation,
+  Dissipation: dissipation,
+  indomitability,
+  Indom: indomitability,
+  feyblessing,
+  'Fey Blessing': feyblessing,
+  aetherpact,
+  Aetherpact: aetherpact,
+  seraph1,
+  Seraph1: seraph1,
+  seraph2,
+  Seraph2: seraph2,
 };
 
 export default schMap;

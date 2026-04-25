@@ -173,7 +173,7 @@ function TankPairChip( {pair, tankView, setTankView} ) {
                 newSelections[it] = false;
             }
         }
-        setTankView(newSelections)
+        setTankView(newSelections);
     }
 
     return(

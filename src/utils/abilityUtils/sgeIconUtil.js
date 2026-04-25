@@ -1,9 +1,42 @@
+import druocholeIcon from '../../assets/icons/spells/sge/Druochole.png';
+import haimaIcon from '../../assets/icons/spells/sge/Haima.png';
+import ixocholeIcon from '../../assets/icons/spells/sge/Ixochole.png';
+import kardiaIcon from '../../assets/icons/spells/sge/Kardia.png';
+import soteriaIcon from '../../assets/icons/spells/sge/Soteria.png';
+import taurocholeIcon from '../../assets/icons/spells/sge/Taurochole.png';
+
 const images = Object.values(
   import.meta.glob(
     '../../assets/icons/abilities/sge/*.{png,jpg,jpeg,PNG,JPEG}',
     { eager: true, query: 'url' }
   )
 );
+
+const druochole = {
+  name: 'Druochole',
+  img: druocholeIcon,
+};
+const haima = {
+  name: 'Haima',
+  img: haimaIcon,
+};
+const ixochole = {
+  name: 'Ixochole',
+  img: ixocholeIcon,
+};
+const kardia = {
+  name: 'Kardia',
+  img: kardiaIcon,
+};
+const soteria = {
+  name: 'Soteria',
+  img: soteriaIcon,
+};
+const taurochole = {
+  name: 'Taurochole',
+  img: taurocholeIcon,
+  captionClass: 'overflow80',
+};
 
 const eukdiagnosis = {
   name: 'EukDiag',
@@ -87,6 +120,7 @@ const sgeMap = {
   EukProg: eukprog,
   eukprog90,
   EukProg90: eukprog90,
+  EProg80: eukprog90,
   Holos: holos,
   holosCO,
   'Holos co': holosCO,
@@ -112,6 +146,19 @@ const sgeMap = {
   zoeeukprog90co,
   zoeeukprogCO,
   'Zoe EukProg co': zoeeukprogCO,
+  ZoeEprog80: zoeeukprog90,
+  druochole,
+  Druochole: druochole,
+  haima,
+  Haima: haima,
+  ixochole,
+  Ixochole: ixochole,
+  soteria,
+  Soteria: soteria,
+  taurochole,
+  Taurochole: taurochole,
+  kardia,
+  Kardia: kardia,
 };
 
 export default sgeMap;

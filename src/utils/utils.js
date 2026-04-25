@@ -29,6 +29,8 @@ export const tankCombos = [
   'PLDGNB_GNB',
   'Tank 1',
   'Tank 2',
+  'MT',
+  'OT',
 ];
 
 export const displayNameMap = {
@@ -65,6 +67,8 @@ export const displayNameMap = {
   MNK: 'MNK',
   CASTER2: 'Double Caster',
   PRange2: 'Double PRange',
+  MT: 'MT TB',
+  OT: 'OT TB',
 };
 
 export const tankStateDefault = {};
