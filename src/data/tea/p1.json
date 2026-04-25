@@ -12,10 +12,10 @@
             "name": "Prepull",
             "time": 1,
             "mitigations": {
-              "T1": [
+              "MT": [
                 {
-                  "ability": "Rampart",
-                  "note": "Use at -8s"
+                  "ability": "90s",
+                  "note": "Use Rampart at -8s"
                 }
               ],
               "SCH": [
@@ -43,7 +43,7 @@
                   "note": "Use on MT at -15s"
                 },
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on MT at -15s"
                 },
                 {
@@ -59,12 +59,12 @@
             "name": "Fluid Swing",
             "time": 2,
             "mitigations": {
-              "T1": [
-                "Rampart",
+              "MT": [
+                "90s",
                 "Short",
                 "Reprisal"
               ],
-              "T2": [
+              "OT": [
                 {
                   "ability": "Short",
                   "note": "to MT"
@@ -85,20 +85,20 @@
             "name": "Cascade",
             "time": 3,
             "mitigations": {
-              "T1": [
-                "Rampart"
+              "MT": [
+                "90s"
               ],
               "SCH": [
                 "Indom"
               ],
               "SGE": [
                 "Physis",
-                "Ixo"
+                "Ixochole"
               ],
               "WHM": [
                 "Assize",
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on Ranged"
                 }
               ],
@@ -119,7 +119,7 @@
             "name": "Fluid Swing",
             "time": 4,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Invuln"
               ],
               "WHM": [
@@ -130,11 +130,11 @@
               ],
               "AST": [
                 {
-                  "ability": "Synastry + Benefic 2",
-                  "note": "Use on MT"
+                  "ability": "Synastry",
+                  "note": "Use Synastry + Benefic 2 on MT"
                 },
                 {
-                  "ability": "ED",
+                  "ability": "Essential Dignity",
                   "note": "Use on MT"
                 }
               ]
@@ -155,7 +155,7 @@
                 "Whisper"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 {
                   "ability": "Holos",
                   "note": "Use Holos once the first Doll AOE's go off"
@@ -164,21 +164,21 @@
                   "ability": "Kerachole",
                   "note": "Use Kerachole once the first Doll AOE's go off"
                 },
-                "Ixo"
+                "Ixochole"
               ],
               "WHM": [
                 {
                   "ability": "Temperance",
                   "note": "Use Temperance once the first Doll AOE's go off"
                 },
-                "Plenary"
+                "Plenary Indulgence"
               ],
               "AST": [
                 "Neutral",
                 "Horoscope",
                 {
-                  "ability": "Defensive Cards",
-                  "note": "Use on Ranged"
+                  "ability": "Play II",
+                  "note": "Use Defensive Cards on Ranged"
                 }
               ],
               "MCH": [
@@ -201,11 +201,11 @@
             "name": "Fluid Swing",
             "time": 6,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "120s",
                 "Short"
               ],
-              "T2": [
+              "OT": [
                 "120s",
                 "Reprisal",
                 "Short"
@@ -225,13 +225,13 @@
               ],
               "WHM": [
                 {
-                  "ability": "Tetra",
+                  "ability": "Tetragrammaton",
                   "note": "Use on OT"
                 }
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on MT"
                 },
                 "Celestial Opposition"
@@ -244,10 +244,10 @@
             "name": "Protean 1",
             "time": 7,
             "mitigations": {
-              "T2": [
+              "OT": [
                 {
-                  "ability": "TBN",
-                  "note": "TBN on CD"
+                  "ability": "theblackestnightG",
+                  "note": "IF DRK TBN on CD"
                 }
               ],
               "SCH": [
@@ -255,14 +255,14 @@
               ],
               "SGE": [
                 {
-                  "ability": "Kardia + Soteria",
+                  "ability": "Soteria",
                   "note": "Use on OT"
                 }
               ],
               "WHM": [
                 "Assize",
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on MT"
                 }
               ],
@@ -277,15 +277,19 @@
             "name": "Splashes + Drainage",
             "time": 8,
             "mitigations": {
-              "T1": [
-                "Reprisal",
-                "Rampart",
+              "MT": [
+                "90s",
                 "Short"
               ],
-              "T2": [
-                "Party Mit",
-                "Rampart",
+              "OT": [
+                "90s",
                 "Short"
+              ],
+              "T1": [
+                "Reprisal"
+              ],
+              "T2": [
+                "Party Mit"
               ],
               "SCH": [
                 "Soil",
@@ -293,7 +297,7 @@
                 "Seraph1"
               ],
               "SGE": [
-                "Panhaia",
+                "Panhaima",
                 "Kerachole",
                 "Physis"
               ],
@@ -305,7 +309,7 @@
               ],
               "PRange": [
                 {
-                  "ability": "RangeMit",
+                  "ability": "Range Mit",
                   "note": "MCH can use their Range Mit on Doll Feeds"
                 }
               ],
@@ -329,19 +333,23 @@
             "name": "Cascade",
             "time": 9,
             "mitigations": {
+              "MT": [
+                "90s"
+              ],
+              "OT": [
+                "90s"
+              ],
               "T1": [
-                "Reprisal",
-                "Rampart"
+                "Reprisal"
               ],
               "T2": [
-                "Party Mit",
-                "Rampart"
+                "Party Mit"
               ],
               "SCH": [
                 "Seraph2"
               ],
               "SGE": [
-                "Ixo"
+                "Ixochole"
               ],
               "AST": [
                 "CU"
@@ -354,13 +362,13 @@
             "name": "Protean 2",
             "time": 10,
             "mitigations": {
-              "T1": [
+              "MT": [
                 {
                   "ability": "Short",
                   "note": "Use on OT"
                 }
               ],
-              "T2": [
+              "OT": [
                 "Short"
               ],
               "SCH": [
@@ -373,20 +381,20 @@
                 "Succor"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Kera"
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on OT"
                 },
-                "Plenary",
+                "Plenary Indulgence",
                 "Assize"
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on OT"
                 },
                 "Celestial Opposition"
@@ -406,10 +414,10 @@
                 "Succor"
               ],
               "SGE": [
-                "EProg"
+                "EProg80"
               ],
               "WHM": [
-                "Medica 2"
+                "Medica II"
               ],
               "AST": [
                 "Horoscope",

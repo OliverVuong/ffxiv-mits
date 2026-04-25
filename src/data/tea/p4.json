@@ -57,10 +57,10 @@
             "name": "Ordained Capital Punishment",
             "time": 2,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Kitchen Sink"
               ],
-              "T2": [
+              "OT": [
                 "Kitchen Sink"
               ],
               "SCH": [
@@ -73,20 +73,20 @@
                   "note": "Use on Tank"
                 },
                 {
-                  "ability": "Tauro",
+                  "ability": "Taurochole",
                   "note": "Use on Tank"
                 }
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on Tank"
                 }
               ],
               "AST": [
                 "CU",
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on Tank"
                 }
               ]
@@ -106,15 +106,15 @@
               ],
               "SGE": [
                 "Kera",
-                "EProg"
+                "EProg80"
               ],
               "WHM": [
-                "Plenary",
+                "Plenary Indulgence",
                 "Asylum"
               ],
               "AST": [
                 "Horoscope",
-                "AspHelios"
+                "Aspected Helios"
               ]
             }
           },
@@ -124,8 +124,8 @@
             "name": "Ordained Capital Punishment",
             "time": 4,
             "mitigations": {
-              "T2": [
-                "Invln"
+              "OT": [
+                "Invuln"
               ],
               "WHM": [
                 {
@@ -153,7 +153,7 @@
               "SGE": [
                 "Panhaima",
                 "Kera",
-                "ZoeEProg"
+                "ZoeEprog80"
               ],
               "WHM": [
                 "Temperance"
@@ -178,7 +178,7 @@
             "name": "Ordained Capital Punishment",
             "time": 6,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Invuln"
               ]
             }
@@ -195,13 +195,13 @@
               ],
               "SCH": [
                 "Seraph",
-                "Illum",
+                "Fey Illum",
                 "Soil"
               ],
               "SGE": [
                 "Holos",
                 "Kera",
-                "EProg"
+                "EProg80"
               ],
               "WHM": [
                 "Asylum"
@@ -213,7 +213,7 @@
                 "Feint"
               ],
               "PRange": [
-                "Party Mit"
+                "Range Mit"
               ],
               "MCH": [
                 "Dismantle"

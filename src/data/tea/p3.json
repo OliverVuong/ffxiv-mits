@@ -16,19 +16,19 @@
                 "Succor"
               ],
               "SGE": [
-                "EProg"
+                "EProg80"
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on OT"
                 },
-                "Plenary",
+                "Plenary Indulgence",
                 "Assize"
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on OT"
                 },
                 "Celestial Opposition"
@@ -44,17 +44,17 @@
             "name": "Chastening Heat + Cleaves",
             "time": 2,
             "mitigations": {
-              "T2": [
+              "OT": [
                 "Invuln"
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on Tank"
                 },
                 {
-                  "ability": "Defensive Cards",
-                  "note": "Use on Tank"
+                  "ability": "Play II",
+                  "note": "Use Defensive Cards on Tank"
                 }
               ],
               "M1": [
@@ -103,19 +103,19 @@
             "name": "Super Jump",
             "time": 4,
             "mitigations": {
-              "T2": [
+              "OT": [
                 "120s",
-                "Rampart"
+                "90s"
               ],
               "SCH": [
                 {
-                  "ability": "Adlo",
+                  "ability": "Adloquium",
                   "note": "Use on Tanks"
                 }
               ],
               "SGE": [
                 {
-                  "ability": "EDiag",
+                  "ability": "Eukrasian Diagnosis",
                   "note": "Use on Tanks"
                 }
               ]
@@ -127,10 +127,10 @@
             "name": "Chastening Heat",
             "time": 5,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Kitchen Sink"
               ],
-              "T2": [
+              "OT": [
                 "Reprisal",
                 {
                   "ability": "Short",
@@ -139,19 +139,19 @@
               ],
               "SGE": [
                 {
-                  "ability": "Tauro",
+                  "ability": "Taurochole",
                   "note": "Use on Tank"
                 }
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on Tank"
                 }
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on Tank"
                 }
               ]
@@ -163,7 +163,7 @@
             "name": "Cleaves",
             "time": 6,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Invuln"
               ]
             }
@@ -179,15 +179,15 @@
                 "Soil"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Kera"
               ],
               "AST": [
                 "Horoscope",
-                "AspHelios",
+                "Aspected Helios",
                 {
-                  "ability": "Defensive Cards",
-                  "note": "Use on DPS"
+                  "ability": "Play II",
+                  "note": "Use Defensive Cards on DPS"
                 }
               ]
             }
@@ -209,11 +209,11 @@
                 "Fey Blessing"
               ],
               "SGE": [
-                "EProg",
-                "Ixo"
+                "EProg80",
+                "Ixochole"
               ],
               "WHM": [
-                "Plenary"
+                "Plenary Indulgence"
               ],
               "AST": [
                 "CU",
@@ -241,7 +241,7 @@
                 "Soil"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Kera"
               ],
               "AST": [
@@ -274,8 +274,8 @@
                 "Spreadlo"
               ],
               "SGE": [
-                "ZoeEProg",
-                "Ixo"
+                "ZoeEprog80",
+                "Ixochole"
               ],
               "AST": [
                 "Horoscope"
@@ -292,7 +292,7 @@
                 "Succor"
               ],
               "SGE": [
-                "EProg"
+                "EProg80"
               ],
               "WHM": [
                 "Asylum"
@@ -309,25 +309,25 @@
                 "Party Mit"
               ],
               "T2": [
-                "Reprial"
+                "Reprisal"
               ],
               "SCH": [
                 "Succor",
                 "Soil",
-                "Illum",
+                "Fey Illum",
                 "Seraph"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Panhaima",
                 "Kera"
               ],
               "WHM": [
-                "Temprance"
+                "Temperance"
               ],
               "AST": [
                 "Neutral",
-                "AspHelios"
+                "Aspected Helios"
               ],
               "PRange": [
                 "Range Mit"
@@ -354,12 +354,12 @@
                 "Fey Blessing"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Holos",
                 "Physis"
               ],
               "WHM": [
-                "Plenary"
+                "Plenary Indulgence"
               ],
               "AST": [
                 "CU",
@@ -390,20 +390,20 @@
               ],
               "SCH": [
                 "Succor",
-                "Dissipate",
+                "Dissipation",
                 "Indom"
               ],
               "SGE": [
-                "EProg",
-                "Ixo"
+                "EProg80",
+                "Ixochole"
               ],
               "WHM": [
-                "Med2",
-                "Cure3"
+                "Medica II",
+                "Cure III"
               ],
               "AST": [
-                "AspHelios",
-                "Helios"
+                "Aspected Helios",
+                "Unaspected Helios"
               ]
             }
           },
@@ -424,7 +424,7 @@
                 "Soil"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Kera"
               ]
             }

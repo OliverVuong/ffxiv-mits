@@ -20,7 +20,7 @@
                 "Succor"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Kera"
               ],
               "AST": [
@@ -37,13 +37,17 @@
             "name": "Whirlwind",
             "time": 2,
             "mitigations": {
-              "T1": [
-                "Party Mit",
+              "MT": [
                 "Short"
               ],
-              "T2": [
-                "Reprisal",
+              "OT": [
                 "Short"
+              ],
+              "T1": [
+                "Party Mit"
+              ],
+              "T2": [
+                "Reprisal"
               ],
               "SCH": [
                 "Fey Blessing",
@@ -52,20 +56,20 @@
               ],
               "SGE": [
                 {
-                  "ability": "Tauro",
+                  "ability": "Taurochole",
                   "note": "Use on MT"
                 },
-                "EProg"
+                "EProg80"
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on Tank"
                 }
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on Tank"
                 }
               ]
@@ -77,7 +81,7 @@
             "name": "Photon",
             "time": 3,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Rampart"
               ],
               "SCH": [
@@ -91,12 +95,12 @@
                   "note": "Use when first Water Debuff-Timer hits 14s and from there on CD to cover all"
                 },
                 "Physis",
-                "Ixo",
-                "ZoeEprog"
+                "Ixochole",
+                "ZoeEprog80"
               ],
               "WHM": [
                 "Asylum",
-                "Plenary"
+                "Plenary Indulgence"
               ],
               "AST": [
                 "Horoscope",
@@ -130,7 +134,7 @@
                 }
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Kera"
               ],
               "AST": [
@@ -150,7 +154,7 @@
             "name": "Mines",
             "time": 5,
             "mitigations": {
-              "T2": [
+              "OT": [
                 "Kitchen Sink"
               ],
               "SCH": [
@@ -172,24 +176,24 @@
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on OT"
                 },
                 "Temperance"
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on OT"
                 },
                 {
-                  "ability": "Defensive Cards",
-                  "note": "Use on OT"
+                  "ability": "Play II",
+                  "note": "Use Defensive Cards on OT"
                 }
               ],
               "PRange": [
                 {
-                  "ability": "Ranged Mit",
+                  "ability": "Range Mit",
                   "note": "Pres it when Enum goes off"
                 }
               ]
@@ -201,7 +205,7 @@
             "name": "Water 2",
             "time": 6,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "120s",
                 "Short"
               ],
@@ -214,7 +218,7 @@
               ],
               "SGE": [
                 "Kera",
-                "Ixo"
+                "Ixochole"
               ],
               "WHM": [
                 "Temperance"
@@ -238,24 +242,21 @@
             "mitigations": {
               "SGE": [
                 {
-                  "ability": "Tauro",
+                  "ability": "Taurochole",
                   "note": "Use on MT"
                 }
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on MT"
                 }
               ],
               "AST": [
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on MT"
                 }
-              ],
-              "M1": [
-                "Feint"
               ]
             }
           },
@@ -283,7 +284,7 @@
                 "Physis"
               ],
               "WHM": [
-                "Plenary"
+                "Plenary Indulgence"
               ],
               "AST": [
                 "Neutral",
@@ -304,10 +305,10 @@
             "name": "Water 3",
             "time": 9,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Short"
               ],
-              "T2": [
+              "OT": [
                 "Short"
               ],
               "SCH": [
@@ -335,22 +336,19 @@
             "time": 10,
             "mitigations": {
               "SCH": [
-                "Fairy Tether"
+                "Aetherpact"
               ],
               "SGE": [
-                "Ixo"
+                "Ixochole"
               ],
               "WHM": [
-                "Asylumn"
+                "Asylum"
               ],
               "AST": [
                 {
                   "ability": "Star",
                   "note": "Star Place"
                 }
-              ],
-              "M1": [
-                "Feint"
               ]
             }
           },
@@ -360,8 +358,8 @@
             "name": "Photon",
             "time": 11,
             "mitigations": {
-              "T1": [
-                "Rampart"
+              "MT": [
+                "90s"
               ],
               "SCH": [
                 "Soil",
@@ -372,11 +370,11 @@
               ],
               "SGE": [
                 {
-                  "ability": "Tauro",
+                  "ability": "Taurochole",
                   "note": "Use on OT"
                 },
                 {
-                  "ability": "Druo",
+                  "ability": "Druochole",
                   "note": "Use on Tanks"
                 }
               ],
@@ -385,11 +383,11 @@
               ],
               "AST": [
                 {
-                  "ability": "Synastry+Benefic2",
-                  "note": "Use on MT"
+                  "ability": "Synastry",
+                  "note": "Use Synastry + Benefic II on MT"
                 },
                 {
-                  "ability": "ED",
+                  "ability": "Essential Dignity",
                   "note": "Use on OT"
                 }
               ]
@@ -401,35 +399,35 @@
             "name": "Double Rocket Punch",
             "time": 12,
             "mitigations": {
-              "T1": [
+              "MT": [
                 "Reprisal",
                 "Short"
               ],
-              "T2": [
-                "Rampart",
+              "OT": [
+                "90s",
                 "Short"
               ],
               "SCH": [
                 "Soil",
-                "Adlo"
+                "Adloquium"
               ],
               "SGE": [
                 "Kera",
                 {
-                  "ability": "Ediag",
+                  "ability": "Eukrasian Diagnosis",
                   "note": "Use on Tanks"
                 }
               ],
               "WHM": [
                 {
-                  "ability": "Benison",
+                  "ability": "Divine Benison",
                   "note": "Use on Tank"
                 }
               ],
               "AST": [
                 "CU",
                 {
-                  "ability": "Intersection",
+                  "ability": "Celestial Intersection",
                   "note": "Use on Tank"
                 }
               ],
@@ -451,7 +449,7 @@
                 "Reprisal"
               ],
               "SGE": [
-                "EProg",
+                "EProg80",
                 "Kera"
               ],
               "M2": [
