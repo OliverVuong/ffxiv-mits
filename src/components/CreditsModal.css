@@ -49,6 +49,8 @@
     z-index: 1000;
     width: 100%;
     max-width: 600px;
+    max-height: 100%;
+    overflow: auto;
 }
 
 .toprow, .avatars, .fru-credit, .top-credit, .dsr-credit{
@@ -72,7 +74,7 @@
     max-width: 70px;
 }
 
-.fru-credit, .top-credit, .dsr-credit {
+.fru-credit, .top-credit, .dsr-credit, .tea-credit, .uwu-credit, .ucob-credit {
     height: 140px;
     background-size: 105%;
     background-position: center;
@@ -109,4 +111,16 @@ a {
 
 .dsr-credit {
     background-image: url("../assets/encounterImg/DSR.png");
+}
+
+.tea-credit {
+    background-image: url("../assets/encounterImg/TEA.png");
+}
+
+.ucob-credit {
+    background-image: url("../assets/encounterImg/UCOB.png");
+}
+
+.uwu-credit {
+    background-image: url("../assets/encounterImg/UWU.png");
 }

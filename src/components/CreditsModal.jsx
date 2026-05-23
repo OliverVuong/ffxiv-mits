@@ -38,7 +38,7 @@ function CreditsModal({ open, setOpen}){
                                 <u>FRU Mit but Good</u>
                         </a>
                         <br />
-                        <span>Fae Nightwolf</span>
+                        <span>Fae Nightwolf & Valiaa Masume</span>
                         <br />
                         <br />
                         <a 
@@ -72,6 +72,44 @@ function CreditsModal({ open, setOpen}){
                             Template & Original Document: Sausfest<br />
                             NAUR Staff for the updated mitigation<br />
                             Solarance Everwind @ Gilgamesh
+                        </span>
+                    </div>
+                    <div className='tea-credit'>
+                        <a 
+                            href='https://docs.google.com/spreadsheets/d/1A58RflNeNq9mesuvSEcQzIvQ3MwOGyvPRi5khNACrc8/edit#gid=1511755464' 
+                            target="_blank"
+                            className='title'>
+                                <u>TEA Mit+Heal</u>
+                        </a>
+                        <br />
+                        <span>
+                            edited for NAUR with the help from Jamie Jams@Faerie<br />
+                            reworked on 11/21/2025 on behalf of NAUR-Staff
+                        </span>
+                    </div>
+                    <div className='uwu-credit'>
+                        <a 
+                            href='https://docs.google.com/spreadsheets/d/1Aebpp_26RpVMYL3vLzahu461BbrwXkMENNRVSoqbxYw/edit?usp=sharing' 
+                            target="_blank"
+                            className='title'>
+                                <u>UWU Mit - Ethel Master</u>
+                        </a>
+                        <br />
+                        <span>
+                            Mitigation provided by: Ethel Malaguld<br />
+                            Base excel created by Kizu Sayuri and edited by Chad Bradly								
+                        </span>
+                    </div>
+                    <div className='ucob-credit'>
+                        <a 
+                            href='https://tinyurl.com/ucobmitty' 
+                            target="_blank"
+                            className='title'>
+                                <u>ucob mit recommendations</u>
+                        </a>
+                        <br />
+                        <span>
+                            Cob Enjoyers								
                         </span>
                     </div>
                 </div>
