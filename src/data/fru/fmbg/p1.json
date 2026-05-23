@@ -81,6 +81,9 @@
           "name":"Utopian Sky",
           "time":30,
           "mitigations":{
+            "WHM":[
+              "Confession"
+            ],
             "SCH":[
               "Concitation"
             ],
@@ -326,6 +329,7 @@
             ],
             "WHM":[
               "Temperance co",
+              "Confession",
               "Caress"
             ],
             "AST":[

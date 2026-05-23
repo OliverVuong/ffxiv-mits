@@ -23,6 +23,9 @@
                 "EukProg",
                 "Kerachole"
               ],
+              "WHM":[
+                "Confession"
+              ],
               "AST": [
                 "CU"
               ],
@@ -256,6 +259,9 @@
                 "EukProg",
                 "Kerachole"
               ],
+              "WHM":[
+                "Confession"
+              ],
               "AST": [
                 "CU"
               ],
@@ -438,7 +444,8 @@
                 "Kerachole"
               ],
               "WHM": [
-                "Temperance"
+                "Temperance",
+                "Confession"
               ],
               "AST": [
                 "Neutral",

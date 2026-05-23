@@ -18,6 +18,9 @@
             "T2":[
               "Party Mit"
             ],
+            "WHM":[
+              "Confession"
+            ],
             "SCH":[
               "Concitation",
               "Soil"
@@ -164,7 +167,8 @@
               "Panhaima"
             ],
             "WHM":[
-              "Temperance"
+              "Temperance",
+              "Confession"
             ],
             "AST":[
               "Neutral",
@@ -347,6 +351,9 @@
             "SGE":[
               "EukProg",
               "Kerachole"
+            ],
+            "WHM":[
+              "Confession"
             ],
             "AST":[
               "CU"

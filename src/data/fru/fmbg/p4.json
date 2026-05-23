@@ -61,6 +61,7 @@
               ],
               "WHM": [
                 "Temperance co",
+                "Confession",
                 "Caress"
               ],
               "AST": [
@@ -229,6 +230,9 @@
               "SGE": [
                 "EukProg",
                 "Kerachole"
+              ],
+              "WHM":[
+                "Confession"
               ],
               "AST": [
                 "CU"
