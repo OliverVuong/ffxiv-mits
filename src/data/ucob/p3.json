@@ -1,0 +1,448 @@
+{
+  "phase": 3,
+  "length": 120,
+  "name": "Bahamut",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Transition",
+          "time": 0,
+          "mitigations": {
+            "SCH": [
+              "Succor",
+              "Soil"
+            ],
+            "SGE": [
+              {
+                "ability": "Zoe Eukrasian Prognosis",
+                "note": "Zoe can be moved to Quickmarch"
+              },
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Use Range Mit if LB2"
+              }
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Flare breath + Flatten",
+          "time": 17,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Short",
+                "note": "for Flarebreath upon targetable"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "for Flarebreath upon targetable"
+              },
+              {
+                "ability": "Invuln",
+                "note": "Invuln Flatten cast"
+              }
+            ],
+            "OT": [
+              "Buddy Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Quick March",
+          "time": 32,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart as soon as targetable"
+              },
+              "Extra",
+              "Short"
+            ],
+            "OT": [
+              "Reprisal",
+              "Buddy Mit"
+            ],
+            "T1": [
+              "Party Mit"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Sacred Soil"
+            ],
+            "SGE": [
+              {
+                "ability": "Zoe Eukrasian Prognosis",
+                "note": "If Zoe wasn't used on transition"
+              },
+              "Kerachole"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Press when tempest wing goes off"
+              }
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "optional"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "optional"
+              }
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "optional"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Blackfire",
+          "time": 75,
+          "mitigations": {
+            "OT": [
+              {
+                "ability": "120s",
+                "note": "Use 120s a the 'G' in Gigaflare"
+              },
+              "Rampart",
+              "Extra",
+              "Short"
+            ],
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Gigaflare"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Party Mit a few seconds after Nael stack"
+              }
+            ],
+            "SCH": [
+              "Succor",
+              "Fey Illumination",
+              {
+                "ability": "Sacred Soil",
+                "note": "Place soil after right/left dodges"
+              }
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              {
+                "ability": "Kerachole",
+                "note": "Kerachole after right/left dodges"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Plenary Indulgence",
+                "note": "Plenary thermionic"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "CU thermionic"
+              }
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "if not usesd on transition"
+              }
+            ],
+            "BRD": [
+              {
+                "ability": "Nature's Minne",
+                "note": "if not usesd on transition"
+              }
+            ],
+            "MNK": [
+              {
+                "ability": "Mantra",
+                "note": "if not usesd on transition"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Fellruin",
+          "time": 125,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart around the end of Gigaflare cast"
+              },
+              {
+                "ability": "120s",
+                "note": "Use 120s when boss starts turning"
+              },
+              "Extra",
+              "Short"
+            ],
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Gigaflare"
+              }
+            ],
+            "SCH": [
+              "Succor",
+              {
+                "ability": "Sacred Soil",
+                "note": "Place soil after 2nd part of quote"
+              }
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              {
+                "ability": "Kerachole",
+                "note": "Use Kerachole after 2nd part of quote"
+              }
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M1": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Heavensfall",
+          "time": 177,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal the Triple Flares"
+              }
+            ],
+            "OT": [
+              {
+                "ability": "Everything",
+                "note": "Kitchen sink Triple Flare (Same as prior, 120s when it comes up)"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Gigaflare"
+              },
+              {
+                "ability": "Party Mit",
+                "note": "Party Mit for fireball + gigaflre"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Deploy Initial hit"
+              },
+              {
+                "ability": "Succor",
+                "note": "Succor fireball + gigaflare"
+              },
+              {
+                "ability": "Fey Illumination",
+                "note": "Fey Illumination fireball + gigaflare"
+              },
+              {
+                "ability": "Sacred Soil",
+                "note": "Soil fireball + gigaflare"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Zoe Eukrasian Prognosis",
+                "note": "Deploy Initial hit"
+              },
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "Succor fireball + gigaflare"
+              },
+              {
+                "ability": "Kerachole",
+                "note": "Kerachole fireball + gigaflare"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Plenary Indulgence",
+                "note": "Plenary fireball + gigaflare"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "CU fireball + gigaflare"
+              }
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "MCH": [
+              "Dismantle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tenstrike",
+          "time": 238,
+          "mitigations": {
+            "MT": [
+              "120s",
+              "Short",
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Flatten + Flare"
+              }
+            ],
+            "OT": [
+              "Buddy Mit"
+            ],
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Gigaflare"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Succor",
+                "note": "Succor dives, shakers, and gigaflare"
+              },
+              {
+                "ability": "Sacred Soil",
+                "note": "Soil later rather than sooner for shakers + gigaflare"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "Eukrasian Prognosis dives, shakers, and gigaflare"
+              },
+              {
+                "ability": "Kerachole",
+                "note": "Kerachole later rather than sooner for shakers + gigaflare"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Plenary Indulgence",
+                "note": "Plenary for fireball + gigaflare"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "CU for fireball + gigaflare"
+              }
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Octet",
+          "time": 375,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Limit Break",
+                "note": "Limit Break when towers spawn"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Limit Break",
+                "note": "Limit Break when towers spawn"
+              }
+            ],
+            "SCH": [
+              "Succor",
+              "Soil"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              "Kerachole"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

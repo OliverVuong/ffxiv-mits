@@ -1,0 +1,242 @@
+{
+  "phase": 2,
+  "length": 120,
+  "name": "Nael Deus Darnus",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Transition",
+          "time": 0,
+          "mitigations": {
+            "SCH": [
+              {
+                "ability": "Succor",
+                "note": "Succor initial hit + dives"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "Eukrasian Prognosis initial hit + dives"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "optional"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Dalamud Dive + Bahamut's Claw 1",
+          "time": 9,
+          "mitigations": {
+            "OT": [
+              "Invuln"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Quote 1",
+          "time": 36,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal if in > stack"
+              }
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Sacred Soil"
+            ],
+            "SGE": [
+              "Zoe EukProg",
+              "Kerachole"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "optional"
+              }
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "optional"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "optional"
+              }
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "optional"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Bahamut's Claw 2",
+          "time": 51,
+          "mitigations": {
+            "MT": [
+              "Reprisal",
+              "Provoke"
+            ],
+            "OT": [
+              "120s",
+              "Short"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Quote 2",
+          "time": 61,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "Use Shake it Off/Veil after the first fire tether goes off"
+              }
+            ],
+            "T2": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "Succor",
+              "Sacred Soil",
+              {
+                "ability": "Fey Illumination",
+                "note": "If Fey Illumination is up in time, use on quote 2"
+              }
+            ],
+            "SGE": [
+              "EukProg",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "If not on first stack"
+              }
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "If not on first stack"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "If not on first stack"
+              }
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "If not on first stack"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Bahamut's Claw 3",
+          "time": 87,
+          "mitigations": {
+            "MT": [
+              "90s",
+              "Extra",
+              "Short"
+            ],
+            "OT": [
+              "Buddy Mit",
+              "Provoke"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Ravensbeak",
+          "time": 87,
+          "mitigations": {
+            "MT": [
+              "Provoke"
+            ],
+            "OT": [
+              "90s",
+              "Extra",
+              "Short",
+              "Reprisal"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Quote 4",
+          "time": 143,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal if stack. Rep may not be up for first flarebreath if used on Quote 4"
+              }
+            ],
+            "SCH": [
+              "Succor"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Dalamud Dive + Bahamut's Claw",
+          "time": 154,
+          "mitigations": {
+            "MT": [
+              "120s",
+              "Short",
+              "Reprisal"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

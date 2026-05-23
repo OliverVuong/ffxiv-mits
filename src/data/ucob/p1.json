@@ -1,0 +1,201 @@
+{
+  "phase": 1,
+  "length": 120,
+  "name": "Twintania",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Plummet 1",
+          "time": 6,
+          "mitigations": {
+            "MT": [
+              "90s",
+              "Extra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Fireball 1",
+          "time": 16,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "Earliest you can shake/veil is <15s on countdown. Thrill and Raw Intuition is free to buff our shake"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Heart of Light/Dark Missionary after the first GCD"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Earliest you can fish for adlo for Fireball 1 is <15s on countdown"
+              },
+              "Sacred Soil"
+            ],
+            "SGE": [
+              {
+                "ability": "Zoe EukProg",
+                "note": "Earliest you can Zoe EukProg for Fireball 1 is <15s on countdown"
+              },
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "CU can be used on autos if you are comfortably living Fireball 1"
+              },
+              {
+                "ability": "Star",
+                "note": "-4s Earthly Star can catch Fireball 1"
+              }
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Death Sentence 1",
+          "time": 24,
+          "mitigations": {
+            "MT": [
+              "120s",
+              "90s",
+              "Short",
+              "Reprisal"
+            ],
+            "OT": [
+              "Extra",
+              "Provoke"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Death Sentence 2",
+          "time": 72,
+          "mitigations": {
+            "MT": [
+              "Provoke"
+            ],
+            "OT": [
+              {
+                "ability": "120s",
+                "note": "Use 120s mit after first Generte cast"
+              },
+              "Short",
+              "Reprisal"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Plummet 2",
+          "time": 88,
+          "mitigations": {
+            "MT": [
+              "Reprisal"
+            ],
+            "OT": [
+              {
+                "ability": "90s",
+                "note": "Rampart after Death Sentence 3 cast"
+              },
+              "Short"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Fireball 2",
+          "time": 128,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "If you skip the second hatch, party mit may not be up for fireball 2"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Fey Illumination",
+                "note": "Press Fey Illum as Twin starts liquid hells"
+              },
+              "Sacred Soil",
+              "Succor"
+            ],
+            "SGE": [
+              "EukProg",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Death Sentence 3",
+          "time": 137,
+          "mitigations": {
+            "MT": [
+              "90s",
+              "Extra",
+              "Short",
+              "Reprisal"
+            ],
+            "OT": [
+              "Provoke"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Plummet 3",
+          "time": 140,
+          "mitigations": {
+            "OT": [
+              "90s",
+              "Extra",
+              "Reprisal"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

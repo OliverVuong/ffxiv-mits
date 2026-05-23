@@ -1,0 +1,227 @@
+{
+  "phase": 4,
+  "length": 120,
+  "name": "Adds",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Plummet + Bahamut's Claw",
+          "time": 0,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Rampart",
+                "note": "Prepop Rampart"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal as soon as targetable"
+              },
+              "Short",
+              "Extra"
+            ],
+            "OT": [
+              {
+                "ability": "Rampart",
+                "note": "Prepop Rampart"
+              },
+              "Short",
+              "Extra"
+            ],
+            "SGE": [
+              {
+                "ability": "Kerachole",
+                "note": "Kerachole can be used at the start of adds to catch tank autos + buster"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Quote 1 (if stack)",
+          "time": 24,
+          "mitigations": {
+            "SCH": [
+              "Succor",
+              {
+                "ability": "Fey Illumination",
+                "note": "Use Fey Illumination late (right before stack) to catch Megaflare"
+              },
+              {
+                "ability": "Soil",
+                "note": "Use Soil late (right before stack) to catch Megaflare"
+              }
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Use Feint early"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Megaflare",
+          "time": 44,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Fey Illumination",
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "Try to hit tanks with CU, the regen is very strong"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle late into cast"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Range Mit late into cast"
+              }
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "Dismantle late into cast"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Death Sentence + Ravens Beak",
+          "time": 52,
+          "mitigations": {
+            "MT": [
+              "120s",
+              "Short",
+              "Provoke",
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Plummet + Claw"
+              }
+            ],
+            "OT": [
+              "120s",
+              "Short",
+              "Provoke"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Quote 2 (if stack)",
+          "time": 86,
+          "mitigations": {
+            "SCH": [
+              "Succor",
+              "Soil"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "Use Feint late into cast"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Death Sentence + Ravens Beak 2",
+          "time": 108,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Rampart",
+                "note": "Prepop Rampart during 2nd part of quote"
+              },
+              "Short"
+            ],
+            "OT": [
+              {
+                "ability": "Rampart",
+                "note": "Prepop Rampart during 2nd part of quote"
+              },
+              "Short"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Megaflare 2",
+          "time": 121,
+          "mitigations": {
+            "SCH": [
+              "Succor",
+              "Soil"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "Try to hit tanks with CU, the regen is very strong"
+              }
+            ],
+            "M1": [
+              "Feint"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

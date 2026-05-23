@@ -1,0 +1,338 @@
+{
+  "phase": 5,
+  "length": 120,
+  "name": "Golden Bahamut",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Morn Afh 1",
+          "time": 6,
+          "mitigations": {
+            "T2": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "Succor",
+              "Fey Illumination",
+              "Soil"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "Can use CU on Morn Afah 2/4 instead of 1/3/5 if needed"
+              }
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint as soon as targetable. Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle as soon as targetable. Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Range Mit can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ],
+            "BRD": [
+              {
+                "ability": "Nature's Minne",
+                "note": "Nature's Minne any time before Morn Afah"
+              }
+            ],
+            "MNK": [
+              {
+                "ability": "Mantra",
+                "note": "Mantra any time before Morn Afah"
+              }
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "Dismantle can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Akh Morn 1",
+          "time": 12,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Everything",
+                "note": "30% my not be up if adds is killed quickly. Will need exra heal or help from healers"
+              },
+              "Provoke"
+            ],
+            "OT": [
+              {
+                "ability": "Everything",
+                "note": "30% my not be up if adds is killed quickly. Will need exra heal or help from healers"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Akh Morn 2",
+          "time": 44,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Invuln",
+                "note": "If an invuln is down, replace with tank lb3"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Morn Afh 2",
+          "time": 62,
+          "mitigations": {
+            "T1": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint on bahamut auto after Akh Morn 2. Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
+              }
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "Feint on bahamut auto after Akh Morn 2. Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle  on bahamut auto after Akh Morn 2. Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Range Mit can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "Dismantle can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Morn Afh 3",
+          "time": 95,
+          "mitigations": {
+            "T2": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "Succor",
+              "Soil"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "Can use CU on Morn Afah 2/4 instead of 1/3/5 if needed"
+              }
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint on cd. Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle on cd. Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Akh Morn 3",
+          "time": 107,
+          "mitigations": {
+            "OT": [
+              {
+                "ability": "Invuln",
+                "note": "If an invuln is down, replace with tank lb3. Akh Morn 3 can also be taken with Rampart + short CDs as a last resort."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Morn Afh 4",
+          "time": 145,
+          "mitigations": {
+            "T1": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "Succor",
+              "Fey Illumination",
+              "Soil"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
+              }
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Range Mit can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "Dismantle can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Akh Morn 4",
+          "time": 157,
+          "mitigations": {
+            "MT": [
+              "Everything",
+              "Provoke"
+            ],
+            "OT": [
+              "Everything"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Morn Afh 5",
+          "time": 197,
+          "mitigations": {
+            "T2": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              {
+                "ability": "CU",
+                "note": "Can use CU on Morn Afah 2/4 instead of 1/3/5 if needed"
+              }
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
+              }
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Range Mit can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "Dismantle can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
