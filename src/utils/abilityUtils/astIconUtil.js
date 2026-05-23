@@ -86,6 +86,7 @@ const PlayIII = {
 const StellarDetonation = {
   name: 'Detonation',
   img: StellarDetonationIcon,
+  captionClass: 'overflow80',
 };
 const Synastry = {
   name: 'Synastry',
@@ -144,6 +145,7 @@ const sunsignCO = {
 
 const astMap = {
   CU: cu,
+  'Collective Unconscious': cu,
   cuG,
   horoscope,
   Horoscope: horoscope,
@@ -181,6 +183,7 @@ const astMap = {
   PlayIII,
   'Play III': PlayIII,
   StellarDetonation,
+  'Stellar Detonation': StellarDetonation,
   Synastry,
   UnaspectedHelios,
   'Unaspected Helios': UnaspectedHelios,

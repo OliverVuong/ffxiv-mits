@@ -55,6 +55,11 @@ const PlenaryIndulgence = {
   name: 'Plenary',
   img: PlenaryIndulgenceIcon,
 };
+const Confession = {
+  name: 'Confession',
+  img: PlenaryIndulgenceIcon,
+  captionClass: 'overflow80',
+};
 const Regen = {
   name: 'Regen',
   img: RegenIcon,
@@ -111,6 +116,7 @@ const whmMap = {
   'Medica III': MedicaIII,
   'Medica 3': MedicaIII,
   'Plenary Indulgence': PlenaryIndulgence,
+  Confession,
   Regen,
   Tetragrammaton,
 };

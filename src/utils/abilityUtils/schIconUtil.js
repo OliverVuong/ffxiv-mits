@@ -3,6 +3,7 @@ import AetherpactIcon from '../../assets/icons/spells/sch/Aetherpact.png';
 import DissipationIcon from '../../assets/icons/spells/sch/Dissipation.png';
 import IndomitabilityIcon from '../../assets/icons/spells/sch/Indomitability.png';
 import FeyBlessingIcon from '../../assets/icons/spells/sch/Fey_Blessing.png';
+import LustrateIcon from '../../assets/icons/spells/sch/Lustrate.png';
 
 const images = Object.values(
   import.meta.glob(
@@ -31,6 +32,10 @@ const feyblessing = {
 const aetherpact = {
   name: 'Tether',
   img: AetherpactIcon,
+};
+const Lustrate = {
+  name: 'Lustrate',
+  img: LustrateIcon,
 };
 
 const adloquium = {
@@ -158,6 +163,7 @@ const schMap = {
   'Fey Illumination': feyillum,
   'Fey Illum co': feyillumCO,
   'Fey Illumination co': feyillumCO,
+  'Fey Illumination cont': feyillumCO,
   recitConcitation,
   'Recit Concitation': recitConcitation,
   recitConcitationCO,
@@ -168,8 +174,11 @@ const schMap = {
   Seraphism: seraphism,
   'Seraphism co': seraphismCO,
   Soil: soil,
+  'Sacred Soil': soil,
   'Soil grey': soilG,
   'Soil co': soilCO,
+  'Soil cont': soilCO,
+  'Sacred Soil cont': soilCO,
   'Spread-Lo': spreadlo,
   Spreadlo: spreadlo,
   'Recit Spread-Lo': spreadlo,
@@ -190,6 +199,7 @@ const schMap = {
   Seraph1: seraph1,
   seraph2,
   Seraph2: seraph2,
+  Lustrate,
 };
 
 export default schMap;
