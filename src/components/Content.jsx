@@ -34,6 +34,10 @@ function Content({
             setSheet('DSR');
         } else if (location.pathname === '/ffxiv-mits/tea'){
             setSheet('TEA');
+        } else if (location.pathname === '/ffxiv-mits/uwu'){
+            setSheet('UWU');
+        } else if (location.pathname === '/ffxiv-mits/ucob'){
+            setSheet('UCOB');
         } 
     }, [location.pathname]);
 
@@ -72,6 +76,8 @@ function Content({
             <Route path='/ffxiv-mits/top' element={container}/>
             <Route path='/ffxiv-mits/dsr' element={container}/>
             <Route path='/ffxiv-mits/tea' element={container}/>
+            <Route path='/ffxiv-mits/uwu' element={container}/>
+            <Route path='/ffxiv-mits/ucob' element={container}/>
             <Route path='*' element={<NotFound />}/>
         </Routes>
     )
