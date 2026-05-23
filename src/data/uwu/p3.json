@@ -1,0 +1,249 @@
+{
+  "phase": 3,
+  "length": 120,
+  "name": "Titan",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Geocrush",
+          "time": 0,
+          "mitigations": {
+            "SCH": [
+              "Sacred Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "WHM": [
+              {
+                "ability": "Medica II",
+                "note": "GCD Heal to full"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Aspected Helios",
+                "note": "GCD Heal to full"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Earthen Fury",
+          "time": 4,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Sacred Soil cont"
+            ],
+            "SGE": [
+              "Kerachole cont"
+            ],
+            "WHM": [
+              {
+                "ability": "Medica II",
+                "note": "GCD Heal to full"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Aspected Helios",
+                "note": "GCD Heal to full"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Rock & Mountain Buster",
+          "time": 15,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "WAR can Invuln. If saw final Incinerate: Delegate to OT"
+              }
+            ],
+            "OT": [
+              {
+                "ability": "kitchensinkG",
+                "note": "If saw final Incinerate skipped: Delegate to MT"
+              }
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Geocrush",
+          "time": 30,
+          "mitigations": {
+            "SCH": [
+              "Whispering Dawn"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Plant Star"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tumult (x8)",
+          "time": 52,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Sacred Soil"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Physis"
+            ],
+            "WHM": [
+              "Assize",
+              "Asylum"
+            ],
+            "AST": [
+              {
+                "ability": "Stellar Detonation",
+                "note": "Detonate Star"
+              },
+              "Celestial Opposition"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Geocrush",
+          "time": 84,
+          "mitigations": {
+            "SCH": [
+              {
+                "ability": "Aetherpact",
+                "note": "Fairy Tether on tank"
+              }
+            ],
+            "SGE": [
+              "Soteria",
+              {
+                "ability": "Haima",
+                "note": "Haima on tank"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tumult (x6)",
+          "time": 106,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Sacred Soil",
+              "Fey Illumination"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "WHM": [
+              "Assize"
+            ],
+            "AST": [
+              "Collective Unconscious"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "MCH": [
+              "Dismantle"
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Rock & Mountain Buster",
+          "time": 115,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "It is very flexible who takes Mountain Buster. Please talk with your co-tank on how you'll take it."
+              },
+              {
+                "ability": "Buddy Short",
+                "note": "If not Kitchen Sink"
+              }
+            ],
+            "OT": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "It is very flexible who takes Mountain Buster. Please talk with your co-tank on how you'll take it."
+              }
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Rock & Mountain Buster",
+          "time": 139,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "It is very flexible who takes Mountain Buster. Please talk with your co-tank on how you'll take it."
+              }
+            ],
+            "OT": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "It is very flexible who takes Mountain Buster. Please talk with your co-tank on how you'll take it."
+              }
+            ],
+            "M1": [
+              "Feint"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

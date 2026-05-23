@@ -1,0 +1,354 @@
+{
+  "phase": 2,
+  "length": 120,
+  "name": "Ifrit",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Hellfire",
+          "time": 2,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SGE": [
+              "Kera"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "MCH": [
+              "Dismantle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Vulcan Burst",
+          "time": 10,
+          "mitigations": {
+            "T1": [
+              "Arm's Length"
+            ],
+            "T2": [
+              "Arm's Length"
+            ],
+            "SCH": [
+              "Surecast"
+            ],
+            "SGE": [
+              "Surecast"
+            ],
+            "WHM": [
+              "Surecast"
+            ],
+            "AST": [
+              "Surecast"
+            ],
+            "M1": [
+              "Arm's Length"
+            ],
+            "M2": [
+              "Arm's Length"
+            ],
+            "PRange": [
+              "Arm's Length"
+            ],
+            "Caster": [
+              "Surecast"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "Tanks",
+          "name": "Incinerate",
+          "time": 12,
+          "mitigations": {
+            "OT": [
+              {
+                "ability": "Invuln",
+                "note": "GNB/PLD Comps may not have their invulns back up for Ultima if Killtimes are too fast"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Infernal Nails (Spawn)",
+          "time": 29,
+          "mitigations": {
+            "T1": [
+              "Shake/Veil"
+            ],
+            "T2": [
+              "Shake/Veil"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Fey Illumination"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis I"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Plant Star"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Searing Wind & Ifrit Chains",
+          "time": 37,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "healerBuddyMit",
+                "note": "Buddy Mit on Healer"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "healerBuddyMit",
+                "note": "Buddy Mit on Healer"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Excog",
+                "note": "Excog on Searing Healer"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Haima",
+                "note": "Haima on Searing Healer"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Regen",
+                "note": "Regen  on Searing Healer"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "AspectedBenefic",
+                "note": "Regen  on Searing Healer"
+              }
+            ],
+            "M1": [
+              "Melee personals"
+            ],
+            "M2": [
+              "Melee personals"
+            ],
+            "PRange": [
+              "Second Wind"
+            ],
+            "Caster": [
+              {
+                "ability": "casterMit",
+                "note": "Sorry RDM"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Nail Detonation",
+          "time": 49,
+          "mitigations": {
+            "MT": [
+              "Rampart",
+              "Short"
+            ],
+            "OT": [
+              "Buddy Short"
+            ],
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Front Nails after Eruption Castbar"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Heart of Light/Dark Missionary"
+              }
+            ],
+            "SCH": [
+              "Sacred Soil",
+              {
+                "ability": "Aetherpact",
+                "note": "Aetherpact Tether on MT"
+              }
+            ],
+            "SGE": [
+              "Kera"
+            ],
+            "WHM": [
+              "Asylum"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Detonate Star"
+              }
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Ranged Mit once you are back mid after eruptions"
+              }
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Hellfire",
+          "time": 66,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "No Reprisal",
+                "note": "Do not Reprisal. To avoid lack of LB, ensure Woken Hellfire has no Boss Damage Down mits"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "No Reprisal",
+                "note": "Do not Reprisal. To avoid lack of LB, ensure Woken Hellfire has no Boss Damage Down mits"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Succor",
+                "note": "Shield to full"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "Shield to full"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Medica II",
+                "note": "GCD Heal to full"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Aspected Helios",
+                "note": "GCD Heal to full"
+              }
+            ],
+            "M1": [
+              {
+                "ability": "No Feint",
+                "note": "Do not Feint. To avoid lack of LB, ensure Woken Hellfire has no Boss Damage Down mits"
+              }
+            ],
+            "M2": [
+              {
+                "ability": "No Feint",
+                "note": "Do not Feint. To avoid lack of LB, ensure Woken Hellfire has no Boss Damage Down mits"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "No Addle",
+                "note": "Do not Addle. To avoid lack of LB, ensure Woken Hellfire has no Boss Damage Down mits"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "Tanks",
+          "name": "Autos after nails",
+          "time": 76,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "120s",
+                "note": "Pop after Inferno Howl/Searing Wind Cast"
+              },
+              {
+                "ability": "Short",
+                "note": "Pop after Inferno Howl/Searing Wind Cast"
+              }
+            ],
+            "OT": [
+              "Buddy Short"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Flaming Crush (Stack)",
+          "time": 100,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SGE": [
+              "Soteria"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Plant Star on CD"
+              }
+            ],
+            "M1": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "Tanks",
+          "name": "Incinerate",
+          "time": 12,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Invuln",
+                "note": "GNB/PLD Comps may not have their invulns back up for Ultima if Killtimes are too fast"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

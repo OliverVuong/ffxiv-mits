@@ -1,0 +1,76 @@
+{
+  "phase": 4,
+  "length": 120,
+  "name": "Transition: Beyond Limits",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Freefire (x4)",
+          "time": 0,
+          "mitigations": {
+            "SCH": [
+              "Succor"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis"
+            ],
+            "WHM": [
+              {
+                "ability": "Medica II",
+                "note": "GCD Heal to full"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Aspected Helios",
+                "note": "GCD Heal to full"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Ultima",
+          "time": 57,
+          "mitigations": {
+            "T1": [
+              "LB3"
+            ],
+            "T2": [
+              "LB3"
+            ],
+            "SCH": [
+              {
+                "ability": "Succor",
+                "note": "Only use GCD shields, no need for Soil"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "Only use GCD shields, no need for Kerachole"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "HealerNote",
+                "note": "After Ultima, do not top up party, for LB Cheese on tank purge you want party to be at about 70-80%HP"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "HealerNote",
+                "note": "After Ultima, do not top up party, for LB Cheese on tank purge you want party to be at about 70-80%HP"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

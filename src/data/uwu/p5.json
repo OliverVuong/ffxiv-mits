@@ -1,0 +1,654 @@
+{
+  "phase": 5,
+  "length": 120,
+  "name": "The Ultima Weapon",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "cast",
+          "stakeholder": "all",
+          "name": "Cutscene Prep",
+          "time": "",
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Shake/Veil",
+                "note": "Use when Titan dies"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Shake/Veil",
+                "note": "Use when Titan dies"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Use when Titan dies"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Zoe Eukrasian Prognosis I",
+                "note": "Use when Titan dies"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tank Purge",
+          "time": 0,
+          "mitigations": {
+            "T1": [
+              "HoLDM"
+            ],
+            "T2": [
+              "HoLDM"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Plant Star when screen is white"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Viscous Aetheroplasm",
+          "time": 7,
+          "mitigations": {
+            "SCH": [
+              "Whispering Dawn"
+            ],
+            "WHM": [
+              "Assize"
+            ],
+            "AST": [
+              "Stellar Detonation"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Homing 1",
+          "time": 10,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "TankNote",
+                "note": "Hold Aggro"
+              }
+            ],
+            "OT": [
+              "Kitchen Sink"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "sectionName": "Ultimate Predation",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tumult",
+          "time": 80,
+          "mitigations": {
+            "T1": [
+              "HoLDM"
+            ],
+            "T2": [
+              "HoLDM"
+            ],
+            "SCH": [
+              "Soil",
+              "Fey Illumination"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "WHM": [
+              "Asylum"
+            ],
+            "AST": [
+              "Celestial Opposition",
+              {
+                "ability": "Star",
+                "note": "Plant Star off CD"
+              }
+            ],
+            "M1": [
+              {
+                "ability": "Melee personals",
+                "note": "Bloodbath and Second Wind if chained"
+              }
+            ],
+            "M2": [
+              {
+                "ability": "Melee personals",
+                "note": "Bloodbath and Second Wind if chained"
+              }
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "Caster": [
+              {
+                "ability": "casterMit",
+                "note": "Self Mit if chained"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mistral Shriek",
+          "time": 92,
+          "mitigations": {
+            "T1": [
+              "Shake/Veil"
+            ],
+            "T2": [
+              "Shake/Veil"
+            ],
+            "SCH": [
+              "Soil cont",
+              "Fey Illumination cont"
+            ],
+            "SGE": [
+              "Kerachole cont"
+            ],
+            "WHM": [
+              "Assize"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M1": [
+              {
+                "ability": "Melee personals",
+                "note": "Bloodbath and Second Wind if chained"
+              }
+            ],
+            "M2": [
+              {
+                "ability": "Melee personals",
+                "note": "Bloodbath and Second Wind if chained"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Homing 2",
+          "time": 93,
+          "mitigations": {
+            "MT": [
+              "Invuln"
+            ],
+            "OT": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke once Aetheroplasm is on MT"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sectionName": "Ultimate Annihilation",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Flaming Crush (Stack)",
+          "time": 111,
+          "mitigations": {
+            "SCH": [
+              "Whispering Dawn"
+            ],
+            "SGE": [
+              "Physis"
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mesohigh & Super Cyclone",
+          "time": 115,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "rangeBuddyMit",
+                "note": "Buddy Mit on Pys Ranged"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "rangeBuddyMit",
+                "note": "Buddy Mit on Pys Ranged"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Plant Star"
+              }
+            ],
+            "PRanged": [
+              {
+                "ability": "Second Wind",
+                "note": "Second Wind if missed heals"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Searing Wind",
+          "time": 130,
+          "mitigations": {
+            "SGE": [
+              {
+                "ability": "Haima",
+                "note": "Haima Searing Healer"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mesohigh & Super Cyclone",
+          "time": 132,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "rangeBuddyMit",
+                "note": "Buddy Mit on Pys Ranged"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "rangeBuddyMit",
+                "note": "Buddy Mit on Pys Ranged"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Lustrate",
+                "note": "Heal yourself"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Druochole",
+                "note": "Heal yourself"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Tetragrammaton",
+                "note": "Heal yourself"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Essential Dignity",
+                "note": "Heal yourself"
+              },
+              {
+                "ability": "Star",
+                "note": "Detonate Star"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tank Purge",
+          "time": 136,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "MCH": [
+              "Dismantle"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Homing 3",
+          "time": 152,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "TankNote",
+                "note": "Hold Aggro"
+              }
+            ],
+            "OT": [
+              "Invuln"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sectionName": "Ultimate Supression",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Mistral Song x2",
+          "time": 197,
+          "mitigations": {
+            "MT": [
+              "Short"
+            ],
+            "OT": [
+              "Short"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Flaming Crush (Stack)",
+          "time": 216,
+          "mitigations": {
+            "T1": [
+              "90s"
+            ],
+            "SCH": [
+              {
+                "ability": "Succor",
+                "note": "GCD Heal"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "GCD Heal"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Medica II",
+                "note": "GCD Heal"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Aspected Helios",
+                "note": "GCD Heal"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tank Purge",
+          "time": 221,
+          "mitigations": {
+            "SCH": [
+              {
+                "ability": "Succor",
+                "note": "GCD Heal"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "GCD Heal"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Medica II",
+                "note": "GCD Heal"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Aspected Helios",
+                "note": "GCD Heal"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "sectionName": "Primal Gauntlet",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Ultima",
+          "time": 231,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "T2": [
+              "Limit Break"
+            ],
+            "SCH": [
+              "Fey Illumination"
+            ],
+            "SGE": [
+              "Physis"
+            ],
+            "AST": [
+              "Celestial Opposition",
+              {
+                "ability": "Star",
+                "note": "Plant Star"
+              }
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Aetheric Boom",
+          "time": 243,
+          "mitigations": {
+            "MT": [
+              "Kitchen Sink"
+            ],
+            "OT": [
+              "Kitchen Sink"
+            ],
+            "T1": [
+              "Limit Break"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "WHM": [
+              "Assize"
+            ],
+            "AST": [
+              "Stellar Detonation"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Primal 1",
+          "time": 282,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Short",
+                "note": "Use your fast mit on cooldown, expecially to mitigate the primal raidwides"
+              }
+            ],
+            "OT": [
+              "Buddy Short",
+              {
+                "ability": "provokeG",
+                "note": "If MT is dying to autos, you may provoke to make sure they don't die!!!"
+              }
+            ],
+            "T2": [
+              "90s"
+            ],
+            "SCH": [
+              "Soil",
+              "Succor",
+              "Aetherpact"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Eukrasian Prognosis",
+              {
+                "ability": "Haima",
+                "note": "Haima MT"
+              }
+            ],
+            "AST": [
+              "Celestial Opposition"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Primal 2",
+          "time": 300,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Short",
+                "note": "Use your fast mit on cooldown, expecially to mitigate the primal raidwides"
+              }
+            ],
+            "OT": [
+              "Buddy Short",
+              {
+                "ability": "provokeG",
+                "note": "If MT is dying to autos, you may provoke to make sure they don't die!!!"
+              }
+            ],
+            "SCH": [
+              "Spreadlo"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II"
+            ],
+            "WHM": [
+              "Assize",
+              "Asylum"
+            ],
+            "AST": [
+              "Collective Unconscious"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "PLD": [
+              "Wings"
+            ],
+            "BRD": [
+              "Nauture's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Primal 3",
+          "time": 321,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Short",
+                "note": "Use your fast mit on cooldown, expecially to mitigate the primal raidwides"
+              }
+            ],
+            "OT": [
+              "Buddy Short",
+              {
+                "ability": "provokeG",
+                "note": "If MT is dying to autos, you may provoke to make sure they don't die!!!"
+              }
+            ],"T1": [
+              "90s"
+            ],
+            "SCH": [
+              "Soil",
+              "Succor"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Eukrasian Prognosis"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

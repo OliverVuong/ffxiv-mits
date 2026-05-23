@@ -1,0 +1,335 @@
+{
+  "phase": 1,
+  "length": 120,
+  "name": "Garuda",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mistral Song",
+          "time": 5,
+          "mitigations": {
+            "OT": [
+              "Extra",
+              "Short"
+            ],
+            "SCH": [
+              "Whispering Dawn",
+              "Dissipation"
+            ],
+            "SGE": [
+              "Kera"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Plant Star after Divination"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Downburst & Spiny",
+          "time": 27,
+          "mitigations": {
+            "MT": [
+              "Rampart",
+              "Extra",
+              "Short"
+            ],
+            "OT": [
+              {
+                "ability": "Reprisal",
+                "note": "Use to grab Spiny"
+              },
+              "Rampart",
+              "120s",
+              "Short"
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Spreadlo on OT"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Haima",
+                "note": "Use on OT"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Assize",
+                "note": "Use to heal after TB"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Stellar Detonation",
+                "note": "Detonate Star after TB"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mistral Shriek",
+          "time": 37,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Sacred Soil"
+            ],
+            "SGE": [
+              "ZoeEukProg90",
+              {
+                "ability": "Physis",
+                "note": "Use After Cast"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Asylum",
+                "note": "Use After Castbar"
+              }
+            ],
+            "AST": [
+              "Celestial Opposition"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Friction #1",
+          "time": 47,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "Heart of Light or Dark Missionary"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Heart of Light or Dark Missionary"
+              }
+            ],
+            "SCH": [
+              "Fey Illumination",
+              "Soil cont"
+            ],
+            "SGE": [
+              "Kera"
+            ],
+            "AST": [
+              "Collective Unconscious"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Friction #2",
+          "time": 53,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "Shake/Veil"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Shake/Veil"
+              }
+            ],
+            "SCH": [
+              "Fey Illumination cont"
+            ],
+            "SGE": [
+              "Kerachole co"
+            ],
+            "M1": [
+              "Feint cont"
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "Feint once 1st flls off"
+              }
+            ],
+            "MCH": [
+              "Dismantle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Cleanses",
+          "time": 58,
+          "mitigations": {
+            "SGE": [
+              "Kerachole co"
+            ],
+            "M2": [
+              "Feint cont"
+            ],
+            "PLD": [
+              "Wings"
+            ],
+            "DNC": [
+              {
+                "ability": "Curing Waltz",
+                "note": "Afer 1st cleanse"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Aerial Blast",
+          "time": 71,
+          "mitigations": {
+            "SCH": [
+              {
+                "ability": "Succor",
+                "note": "Cast GCD during brief feather rain downtime"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Eukrasian Prognosis",
+                "note": "Cast GCD during brief feather rain downtime"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Medica II",
+                "note": "Cast GCD during brief feather rain downtime"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Aspected Helios",
+                "note": "Cast GCD during brief feather rain downtime"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Sister Block",
+          "time": 95,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "120s",
+                "note": "Pop early; when sisters spawn"
+              }
+            ],
+            "OT": [
+              "Extra",
+              "Buddy Short"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Excog",
+              "Aetherpact"
+            ],
+            "SGE": [
+              "Druochole",
+              "Soteria",
+              {
+                "ability": "Physis",
+                "note": "Use after block"
+              }
+            ],
+            "WHM": [
+              "Divine Benison"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Plant Star on Wicked Wheel Castbar"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Sister Tethers",
+          "time": 126,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Sacred Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "Caster": [
+              {
+                "ability": "casterMit",
+                "note": "Self mit for Tether"
+              }
+              
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "Tanks",
+          "name": "Downburst + Awaken",
+          "time": 152,
+          "mitigations": {
+            "MT": [
+              "Extra",
+              "Short"
+            ],
+            "OT": [
+              "Buddy Short"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
