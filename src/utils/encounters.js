@@ -77,4 +77,5 @@ const DSR = {
 
 const encounters = { FRU, TOP, DSR };
 
+// encounters may be deprecated
 export default encounters;

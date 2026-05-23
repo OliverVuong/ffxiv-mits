@@ -3,6 +3,8 @@ import FRU_naur from './FRU_naur';
 import TOP from './TOP';
 import DSR from './DSR';
 import TEA from './TEA';
+import UWU from './UWU';
+import UCOB from './UCOB';
 
 export const allSheets = {
   FRU_fmbg,
@@ -10,6 +12,8 @@ export const allSheets = {
   TOP,
   DSR,
   TEA,
+  UWU,
+  UCOB,
 };
 
 export const allTankCombos = [
