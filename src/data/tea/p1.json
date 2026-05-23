@@ -10,7 +10,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Prepull",
-            "time": 1,
+            "time": "",
             "mitigations": {
               "MT": [
                 {
@@ -57,7 +57,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Fluid Swing",
-            "time": 2,
+            "time": 10,
             "mitigations": {
               "MT": [
                 "90s",
@@ -83,7 +83,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Cascade",
-            "time": 3,
+            "time": 18,
             "mitigations": {
               "MT": [
                 "90s"
@@ -117,7 +117,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Fluid Swing",
-            "time": 4,
+            "time": 37,
             "mitigations": {
               "MT": [
                 "Invuln"
@@ -144,7 +144,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Doll Feed",
-            "time": 5,
+            "time": 45,
             "mitigations": {
               "T1": [
                 "Party Mit"
@@ -199,7 +199,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Fluid Swing",
-            "time": 6,
+            "time": 55,
             "mitigations": {
               "MT": [
                 "120s",
@@ -242,7 +242,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Protean 1",
-            "time": 7,
+            "time": 71,
             "mitigations": {
               "OT": [
                 {
@@ -275,7 +275,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Splashes + Drainage",
-            "time": 8,
+            "time": 80,
             "mitigations": {
               "MT": [
                 "90s",
@@ -331,7 +331,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Cascade",
-            "time": 9,
+            "time": 91,
             "mitigations": {
               "MT": [
                 "90s"
@@ -360,7 +360,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Protean 2",
-            "time": 10,
+            "time": 108,
             "mitigations": {
               "MT": [
                 {
@@ -408,7 +408,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Limit Cut",
-            "time": 11,
+            "time": "",
             "mitigations": {
               "SCH": [
                 "Succor"

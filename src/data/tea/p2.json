@@ -10,7 +10,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "JKick",
-            "time": 1,
+            "time": 0,
             "mitigations": {
               "T1": [
                 "Party Mit"
@@ -35,7 +35,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Whirlwind",
-            "time": 2,
+            "time": 12,
             "mitigations": {
               "MT": [
                 "Short"
@@ -79,7 +79,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Photon",
-            "time": 3,
+            "time": 37,
             "mitigations": {
               "MT": [
                 "Rampart"
@@ -118,7 +118,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Water 1",
-            "time": 4,
+            "time": 50,
             "mitigations": {
               "T1": [
                 {
@@ -152,7 +152,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Mines",
-            "time": 5,
+            "time": 67,
             "mitigations": {
               "OT": [
                 "Kitchen Sink"
@@ -203,7 +203,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Water 2",
-            "time": 6,
+            "time": 81,
             "mitigations": {
               "MT": [
                 "120s",
@@ -238,7 +238,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Limit Cut + Flarethrower",
-            "time": 7,
+            "time": 88,
             "mitigations": {
               "SGE": [
                 {
@@ -264,7 +264,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Whirlwind",
-            "time": 8,
+            "time": 102,
             "mitigations": {
               "T1": [
                 "Party Mit"
@@ -303,7 +303,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Water 3",
-            "time": 9,
+            "time": 111,
             "mitigations": {
               "MT": [
                 "Short"
@@ -333,7 +333,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Gavel Linep",
-            "time": 10,
+            "time": 120,
             "mitigations": {
               "SCH": [
                 "Aetherpact"
@@ -356,7 +356,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Photon",
-            "time": 11,
+            "time": 142,
             "mitigations": {
               "MT": [
                 "90s"
@@ -397,7 +397,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Double Rocket Punch",
-            "time": 12,
+            "time": 150,
             "mitigations": {
               "MT": [
                 "Reprisal",
@@ -443,7 +443,7 @@
             "type": "Raidwide",
             "stakeholder": "all",
             "name": "Whirlwind",
-            "time": 13,
+            "time": 170,
             "mitigations": {
               "T2": [
                 "Reprisal"
