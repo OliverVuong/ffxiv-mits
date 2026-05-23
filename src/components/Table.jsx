@@ -25,7 +25,7 @@ function Row({ data, visibleRoles }) {
     let name = data['name'];
     let mitigations = data['mitigations'];
     let time
-    if(data['time']){
+    if(typeof data['time'] === 'number'){
         let minutes = Math.floor(data['time'] / 60);
         let seconds = data['time'] % 60;
         time = minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
