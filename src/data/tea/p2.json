@@ -1,7 +1,7 @@
 {
     "phase": 2,
     "length": 120,
-    "name": "BJCC",
+    "name": "Brute Justice + Cruise Chaser",
     "sections": [
       {
         "id": 0,
@@ -82,7 +82,7 @@
             "time": 37,
             "mitigations": {
               "MT": [
-                "Rampart"
+                "90s"
               ],
               "SCH": [
                 "Indom",
@@ -107,7 +107,7 @@
                 "Celestial Opposition"
               ],
               "BRD": [
-                "Minne"
+                "Natures Minne"
               ],
               "MNK": [
                 "Mantra"
@@ -127,15 +127,11 @@
                 }
               ],
               "SCH": [
-                "Soil",
                 {
-                  "ability": "Succor",
+                  "ability": "Soil",
                   "note": "Use when first Water Debuff-Timer hits 14s and from there on CD to cover all"
-                }
-              ],
-              "SGE": [
-                "EProg80",
-                "Kera"
+                },
+                "Succor"
               ],
               "AST": [
                 {
@@ -165,7 +161,7 @@
               ],
               "SGE": [
                 {
-                  "ability": "Excog",
+                  "ability": "Haima",
                   "note": "Use on OT"
                 },
                 {

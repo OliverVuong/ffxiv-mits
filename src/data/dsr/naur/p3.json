@@ -17,11 +17,22 @@
               ],
               "SCH": [
                 "Expedient",
-                "Succor"
+                "Succor",
+                {
+                  "ability": "Soil",
+                  "note": "Soil as numbers go out above heads to have it back for Second stack"
+                }
               ],
               "SGE": [
                 "EukProg90",
-                "Holos"
+                {
+                  "ability": "Holos",
+                  "note": "If with WHM, Holos will be on Final Chorus instead First stack"
+                },
+                {
+                  "ability": "Kerachole",
+                  "note": "Kerachole as numbers go out above heads to have it back for Second stack"
+                }
               ],
               "WHM": [
                 {
@@ -59,7 +70,13 @@
               "SGE": [
                 "EukProg90",
                 "Panhaima",
-                "Holos"
+                "Kerachole"
+              ],
+              "AST": [
+                "CU"
+              ],
+              "WHM": [
+                "Plenary Indulgence"
               ],
               "M2": [
                 "Feint"

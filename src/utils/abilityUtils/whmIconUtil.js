@@ -26,7 +26,7 @@ const Assize = {
   img: AssizeIcon,
 };
 const Asylum = {
-  name: 'Bell',
+  name: 'Asylum',
   img: AsylumIcon,
 };
 const Benediction = {

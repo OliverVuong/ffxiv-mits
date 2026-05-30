@@ -17,6 +17,7 @@ const damnation = {
 const equilibrium = {
   name: 'Equilibrium',
   img: images[2].default,
+  captionClass: 'overflow80',
 };
 const holmgang = {
   name: 'Holmgang',
@@ -54,6 +55,7 @@ const thrillofbattle = {
 const vengeance = {
   name: 'Vengeance',
   img: images[9].default,
+  captionClass: 'overflow80',
 };
 
 const warMap = {

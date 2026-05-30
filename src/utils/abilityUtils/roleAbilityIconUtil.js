@@ -170,6 +170,12 @@ const rangemit = {
   img: rangemitIcon,
   captionClass: 'overflow90',
 };
+const rangemitGrey = {
+  name: 'RangeMit',
+  img: rangemitIcon,
+  iconClass: 'isGreyscale',
+  captionClass: 'overflow90',
+};
 const rangemitCO = {
   name: '↪RangeMit',
   img: rangemitIcon,
@@ -240,6 +246,10 @@ const casterMit = {
   name: 'Self-Mit',
   img: casterIcon,
 };
+const prangeMit = {
+  name: 'Self-Mit',
+  img: rangeIcon,
+};
 const HealerNote = {
   name: 'Note',
   img: healerIcon,
@@ -281,6 +291,8 @@ const rolesAbilityMap = {
   'Range Mit': rangemit,
   rangemitCO,
   'Range Mit co': rangemitCO,
+  rangemitGrey,
+  'Range Mit Grey': rangemitGrey,
   Rep: reprisal,
   Reprisal: reprisal,
   'Reprisal grey': reprisalG,
@@ -310,6 +322,7 @@ const rolesAbilityMap = {
   healerBuddyMit,
   rangeBuddyMit,
   casterMit,
+  prangeMit,
   HoLDM,
   HealerNote,
   TankNote,

@@ -17,18 +17,6 @@
             ],
             "SGE": [
               "Eukrasian Prognosis"
-            ],
-            "WHM": [
-              {
-                "ability": "Medica II",
-                "note": "GCD Heal to full"
-              }
-            ],
-            "AST": [
-              {
-                "ability": "Aspected Helios",
-                "note": "GCD Heal to full"
-              }
             ]
           }
         },

@@ -23,15 +23,21 @@
               ],
               "GNBDRK_GNB": [
                 "Nebula",
-                "HoC",
-                "Reprisal"
+                "HoC"
               ],
               "GNBDRK_DRK": [
                 "TBN Buddy",
-                "Oblation Buddy"
+                "Oblation Buddy",
+                {
+                  "ability": "Reprisal",
+                  "note": "Rep from tank not doing 1st Quaga for 1st Might"
+                }
               ],
               "GNBPLD_GNB": [
-                "Superbolide"
+                {
+                  "ability": "Superbolide",
+                  "note": "Which tank invulns which buster in P2 is irrelevant"
+                }
               ],
               "PLDDRK_PLD": [
                 "Rampart",
@@ -40,7 +46,11 @@
               ],
               "PLDDRK_DRK": [
                 "TBN Buddy",
-                "Oblation Buddy"
+                "Oblation Buddy",
+                {
+                  "ability": "Reprisal",
+                  "note": "Rep from tank not doing 1st Quaga for 1st Might"
+                }
               ]
             }
           },
@@ -66,7 +76,7 @@
                 "EukProg90",
                 {
                   "ability": "Holos",
-                  "note": "Delay all Party Mit on Strength of the Ward a few seconds after the blue markers show to catch the Ancient Quaga"
+                  "note": "If with WHM, use Holos on Final Chorus to avoid high roll killing squishy DPS/Healers. Delay all Party Mit on Strength of the Ward a few seconds after the blue markers show to catch the Ancient Quaga"
                 }
               ],
               "WHM": [
@@ -160,6 +170,9 @@
               "AST": [
                 "CU"
               ],
+              "WHM": [
+                "Plenary Indulgence"
+              ],
               "M1": [
                 "Feint"
               ],
@@ -196,7 +209,10 @@
                 "Superbolide"
               ],
               "GNBPLD_PLD": [
-                "Hallowed Ground"
+                {
+                  "ability": "Hallowed Ground",
+                  "note": "Which tank invulns which buster in P2 is irrelevant"
+                }
               ],
               "PLDDRK_PLD": [
                 "Hallowed Ground"
@@ -264,6 +280,9 @@
               "AST": [
                 "CU"
               ],
+              "WHM": [
+                "Plenary Indulgence"
+              ],
               "M1": [
                 "Feint"
               ],
@@ -290,7 +309,11 @@
               "SGE": [
                 "ZoeEukProg90",
                 "Kerachole",
-                "Physis"
+                "Physis",
+                {
+                  "ability": "Holos grey",
+                  "note": "If with WHM, use Holos on Final Chorus to avoid high roll killing squishy DPS/Healers."
+                }
               ],
               "AST": [
                 "Neutral"

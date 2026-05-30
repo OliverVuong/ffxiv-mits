@@ -22,7 +22,7 @@
             "SGE": [
               {
                 "ability": "Eukrasian Prognosis",
-                "note": "Eukrasian Prognosis initial hit + dives"
+                "note": "Eukprog initial hit + dives"
               }
             ],
             "PRange": [
@@ -61,7 +61,7 @@
               "Sacred Soil"
             ],
             "SGE": [
-              "Zoe EukProg",
+              "Zoe Eukrasian Prognosis",
               "Kerachole"
             ],
             "M1": [
@@ -100,7 +100,10 @@
           "time": 51,
           "mitigations": {
             "MT": [
-              "Reprisal",
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal if in > out"
+              },
               "Provoke"
             ],
             "OT": [
@@ -134,7 +137,7 @@
               }
             ],
             "SGE": [
-              "EukProg",
+              "Eukrasian Prognosis",
               "Kerachole"
             ],
             "WHM": [
@@ -181,7 +184,7 @@
               "Short"
             ],
             "OT": [
-              "Buddy Mit",
+              "Buddy Short",
               "Provoke"
             ]
           }

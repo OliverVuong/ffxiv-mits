@@ -53,29 +53,35 @@ const guardianCO = {
 const hallowedground = {
   name: 'Hallowed',
   img: images[5].default,
+  captionClass: 'overflow90',
 };
 const hallowedgroundCO = {
   name: '↪Hallowed',
   img: images[5].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow90',
 };
 const holysheltron = {
   name: 'Sheltron',
   img: images[6].default,
+  captionClass: 'overflow90',
 };
 const holysheltronCO = {
   name: '↪Sheltron',
   img: images[6].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow90',
 };
 const intervention = {
-  name: 'Intervention',
+  name: 'Intervent',
   img: images[7].default,
+  captionClass: 'overflow80',
 };
 const interventionCO = {
-  name: '↪Intervention',
+  name: '↪Intervent',
   img: images[7].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
 };
 const passageofarms = {
   name: 'Wings',

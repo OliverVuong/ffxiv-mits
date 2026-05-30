@@ -61,8 +61,8 @@
               ],
               "WHM": [
                 "Temperance co",
-                "Confession",
-                "Caress"
+                "Caress",
+                "Confession"
               ],
               "AST": [
                 "Neutral co",
@@ -170,8 +170,8 @@
                   "ability": "Rampart",
                   "note": "Right After 1st Somber"
                 },
-                "Bulwark",
-                "Holy Sheltron"
+                "Holy Sheltron",
+                "Bulwark"
               ],
               "PLDDRK_DRK": [
                 "TBN Buddy",
@@ -435,6 +435,7 @@
                 "Kerachole"
               ],
               "WHM": [
+                "Confession",
                 "Temperance",
                 "Caress"
               ],

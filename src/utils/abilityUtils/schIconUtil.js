@@ -49,6 +49,7 @@ const concitation = {
 const consolation = {
   name: 'Consolation',
   img: images[2].default,
+  captionClass: 'overflow80',
 };
 const seraph1 = {
   name: 'Seraph 1',
@@ -63,6 +64,7 @@ const seraph2 = {
 const consolationCO = {
   img: images[2].default,
   name: '↪Consolation',
+  captionClass: 'overflow80',
 };
 const expedient = {
   name: 'Expedient',
@@ -73,6 +75,7 @@ const expedientCO = {
   name: '↪Expedient',
   img: images[3].default,
   captionClass: 'overflow80',
+  iconClass: 'isGreyscale',
 };
 const feyillum = {
   name: 'Illum',

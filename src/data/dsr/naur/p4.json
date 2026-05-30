@@ -76,14 +76,17 @@
                 "EukProg90",
                 "Holos"
               ],
+              "WHM": [
+                {
+                  "ability": "Plenary Indulgence",
+                  "note":"Use for Dive 1"
+                }
+              ],
               "PRange2":[
                 {
                   "ability": "Range Mit",
                   "note":"You can save Double Phys Ranged mit for Rewind if you prefer"
                 }
-              ],
-              "Caster":[
-                "Addle"
               ]
             }
           },

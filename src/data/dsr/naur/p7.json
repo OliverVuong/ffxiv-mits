@@ -45,6 +45,9 @@
               "AST":[
                 "CU"
               ],
+              "WHM": [
+                "Plenary Indulgence"
+              ],
               "PRange":[
                 "Range Mit"
               ],
@@ -156,7 +159,7 @@
                 "Fey Illum",
                 {
                   "ability":"Soil",
-                  "note":"Early Soil (After 2nd Melee Auto)"
+                  "note":"Use after first melee auto before Ahk Morns to ensure it will be up for castbar of Gigaflare"
                 }
               ],
               "SGE":[
@@ -164,7 +167,7 @@
                 "Panhaima",
                 {
                   "ability":"Kerachole",
-                  "note":"Early Kerachole (After 2nd Melee Auto)"
+                  "note":"Use after first melee auto before Ahk Morns to ensure it will be up for castbar of Gigaflare"
                 }
               ],
               "WHM":[
@@ -199,6 +202,78 @@
             "name":"Gigaflare 1",
             "time":56,
             "mitigations":{
+              "WARDRK_WAR":[
+                {
+                  "ability":"Bloodwhetting",
+                  "note":"Bloodwhetting just before next set of autos"
+                }
+              ],
+              "WARDRK_DRK":[
+                {
+                  "ability":"TBN",
+                  "note":"TBN just before next set of autos"
+                }
+              ],
+              "WARGNB_WAR":[
+                {
+                  "ability":"Bloodwhetting",
+                  "note":"Bloodwhetting just before next set of autos"
+                }
+              ],
+              "WARGNB_GNB":[
+                {
+                  "ability":"HoC",
+                  "note":"Heart of Corundum just before next set of autos"
+                }
+              ],
+              "WARPLD_WAR":[
+                {
+                  "ability":"Bloodwhetting",
+                  "note":"Bloodwhetting just before next set of autos"
+                }
+              ],
+              "WARPLD_PLD":[
+                {
+                  "ability":"Holy Sheltron",
+                  "note":"Holy Sheltron just before next set of autos"
+                }
+              ],
+              "GNBDRK_GNB":[
+                {
+                  "ability":"HoC",
+                  "note":"Heart of Corundum just before next set of autos"
+                }
+              ],
+              "GNBDRK_DRK":[
+                {
+                  "ability":"TBN",
+                  "note":"TBN just before next set of autos"
+                }
+              ],
+              "GNBPLD_GNB":[
+                {
+                  "ability":"HoC",
+                  "note":"Heart of Corundum just before next set of autos"
+                }
+              ],
+              "GNBPLD_PLD":[
+                {
+                  "ability":"Holy Sheltron",
+                  "note":"Holy Sheltron just before next set of autos"
+                }
+              ],
+              "PLDDRK_PLD":[
+                {
+                  "ability":"Holy Sheltron",
+                  "note":"Holy Sheltron just before next set of autos"
+                }
+              ],
+              "PLDDRK_DRK":[
+                {
+                  "ability":"TBN",
+                  "note":"TBN just before next set of autos"
+                }
+              ],
               "T2":[
                 {
                   "ability":"Reprisal",
@@ -216,7 +291,8 @@
                 "Kerachole"
               ],
               "WHM":[
-                "Bell"
+                "Bell",
+                "Plenary Indulgence"
               ],
               "AST":[
                 "CU"
@@ -234,7 +310,10 @@
                 }
               ],
               "MCH":[
-                "Dismantle"
+                {
+                  "ability":"Dismantle",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
               ]
             }
           },
@@ -297,14 +376,14 @@
                 "Succor",
                 {
                   "ability":"Soil",
-                  "note":"Early Soil (After 2nd Melee Auto)"
+                  "note":"Use after first melee auto before Ahk Morns to ensure it will be up for castbar of Gigaflare"
                 }
               ],
               "SGE":[
                 "EukProg90",
                 {
                   "ability":"Kerachole",
-                  "note":"Early Kerachole (After 2nd Melee Auto)"
+                  "note":"Use after first melee auto before Ahk Morns to ensure it will be up for castbar of Gigaflare"
                 }
               ],
               "PRange":[
@@ -318,7 +397,78 @@
             "name":"Gigaflare 2",
             "time":136,
             "mitigations":{
-              "T1":[
+              "WARDRK_WAR":[
+                {
+                  "ability":"Bloodwhetting",
+                  "note":"Bloodwhetting just before next set of autos"
+                }
+              ],
+              "WARDRK_DRK":[
+                {
+                  "ability":"TBN",
+                  "note":"TBN just before next set of autos"
+                }
+              ],
+              "WARGNB_WAR":[
+                {
+                  "ability":"Bloodwhetting",
+                  "note":"Bloodwhetting just before next set of autos"
+                }
+              ],
+              "WARGNB_GNB":[
+                {
+                  "ability":"HoC",
+                  "note":"Heart of Corundum just before next set of autos"
+                }
+              ],
+              "WARPLD_WAR":[
+                {
+                  "ability":"Bloodwhetting",
+                  "note":"Bloodwhetting just before next set of autos"
+                }
+              ],
+              "WARPLD_PLD":[
+                {
+                  "ability":"Holy Sheltron",
+                  "note":"Holy Sheltron just before next set of autos"
+                }
+              ],
+              "GNBDRK_GNB":[
+                {
+                  "ability":"HoC",
+                  "note":"Heart of Corundum just before next set of autos"
+                }
+              ],
+              "GNBDRK_DRK":[
+                {
+                  "ability":"TBN",
+                  "note":"TBN just before next set of autos"
+                }
+              ],
+              "GNBPLD_GNB":[
+                {
+                  "ability":"HoC",
+                  "note":"Heart of Corundum just before next set of autos"
+                }
+              ],
+              "GNBPLD_PLD":[
+                {
+                  "ability":"Holy Sheltron",
+                  "note":"Holy Sheltron just before next set of autos"
+                }
+              ],
+              "PLDDRK_PLD":[
+                {
+                  "ability":"Holy Sheltron",
+                  "note":"Holy Sheltron just before next set of autos"
+                }
+              ],
+              "PLDDRK_DRK":[
+                {
+                  "ability":"TBN",
+                  "note":"TBN just before next set of autos"
+                }
+              ],"T1":[
                 {
                   "ability":"Party Mit",
                   "note":"Shake/Veil should be used after the first hit."
@@ -344,7 +494,8 @@
                 "Kerachole"
               ],
               "WHM":[
-                "Temperance"
+                "Temperance",
+                "Plenary Indulgence"
               ],
               "AST":[
                 "CU",
@@ -366,7 +517,10 @@
                 }
               ],
               "RDM":[
-                "Barrier"
+                {
+                  "ability":"Barrier",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
               ]
             }
           },
@@ -484,7 +638,10 @@
                 }
               ],
               "MCH":[
-                "Dismantle"
+                {
+                  "ability":"Dismantle",
+                  "note":"Use late into the cast to catch all hits. (70-80%)"
+                }
               ]
             }
           }

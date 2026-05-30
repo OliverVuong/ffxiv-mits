@@ -147,6 +147,9 @@
               ],
               "AST":[
                 "CU"
+              ],
+              "WHM": [
+                "Plenary Indulgence"
               ]
             }
           },
@@ -487,13 +490,16 @@
                   "note":"Single Target Shield Rot Melee"
                 }
               ],
+              "WHM": [
+                "Plenary Indulgence"
+              ],
               "PRange2":[
                 "Range Mit"
               ],
               "CASTER2":[
                 {
                   "ability":"Addle",
-                  "note":"Double Caster Addle can be used for either Hallowed Wing 2 or WB2"
+                  "note":"Double Caster Addle can be used for either Hallowed Wings 2 or WB2"
                 }
               ]
             }

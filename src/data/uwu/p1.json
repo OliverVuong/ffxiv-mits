@@ -117,16 +117,10 @@
           "time": 47,
           "mitigations": {
             "T1": [
-              {
-                "ability": "Party Mit",
-                "note": "Heart of Light or Dark Missionary"
-              }
+              "HoLDM"
             ],
             "T2": [
-              {
-                "ability": "Party Mit",
-                "note": "Heart of Light or Dark Missionary"
-              }
+              "HoLDM"
             ],
             "SCH": [
               "Fey Illumination",
@@ -159,19 +153,14 @@
           "time": 53,
           "mitigations": {
             "T1": [
-              {
-                "ability": "Party Mit",
-                "note": "Shake/Veil"
-              }
+              "Shake/Veil"
             ],
             "T2": [
-              {
-                "ability": "Party Mit",
-                "note": "Shake/Veil"
-              }
+              "Shake/Veil"
             ],
             "SCH": [
-              "Fey Illumination cont"
+              "Fey Illumination cont",
+              "Soil cont"
             ],
             "SGE": [
               "Kerachole co"

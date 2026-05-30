@@ -198,7 +198,10 @@
                 "Oblation Buddy"
               ],
               "GNBDRK_GNB": [
-                "Superbolide"
+                {
+                  "ability": "Superbolide",
+                  "note": "Only available if invulning PM1 or PM2 and DRK not invulning Darkest Dance"
+                }
               ],
               "GNBPLD_GNB": [
                 "Kitchen Sink"
@@ -245,6 +248,9 @@
               ],
               "MNK":[
                 "Mantra"
+              ],
+              "WHM": [
+                "Confession"
               ]
             }
           },
@@ -252,7 +258,7 @@
             "type":"Tankbuster",
             "stakeholder":"tanks",
             "name":"Darkest Dance",
-            "time":94,
+            "time":132,
             "mitigations":{
               "WARGNB_GNB":[
                 "Superbolide"
@@ -270,7 +276,10 @@
                 "HoC Buddy"
               ],
               "GNBDRK_DRK":[
-                "Living Dead"
+                {
+                  "ability": "Kitchen Sink",
+                  "note": "DRK can invuln Darkest Dance instead. This requires swapping all invulns in P4 and P5"
+                }
               ],
               "GNBPLD_GNB":[
                 "HoC Buddy"

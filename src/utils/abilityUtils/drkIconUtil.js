@@ -43,11 +43,13 @@ const theblackestnightG = {
 const theblackestnightB = {
   name: 'Bud TBN',
   img: images[5].default,
+  captionClass: 'overflow90',
 };
 const theblackestnightBG = {
   name: 'Bud TBN',
   img: images[5].default,
   iconClass: 'isGreyscale',
+  captionClass: 'overflow90',
 };
 
 const drkMap = {

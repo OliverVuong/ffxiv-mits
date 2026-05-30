@@ -115,7 +115,10 @@
                 }
               ],
               "WARDRK_DRK": [
-                "Kitchen Sink"
+                {
+                  "ability": "Kitchen Sink",
+                  "note": "TBN 2nd Hit"
+                }
               ],
               "GNBDRK_GNB": [
                 "Superbolide",
@@ -125,7 +128,10 @@
                 }
               ],
               "GNBDRK_DRK": [
-                "Kitchen Sink"
+                {
+                  "ability": "Kitchen Sink",
+                  "note": "TBN 2nd Hit"
+                }
               ],
               "GNBPLD_GNB": [
                 "Kitchen Sink"
@@ -145,7 +151,10 @@
                 }
               ],
               "PLDDRK_DRK": [
-                "Kitchen Sink"
+                {
+                  "ability": "Kitchen Sink",
+                  "note": "TBN 2nd Hit"
+                }
               ]
             }
           },

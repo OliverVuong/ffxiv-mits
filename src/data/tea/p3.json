@@ -17,24 +17,6 @@
               ],
               "SGE": [
                 "EProg80"
-              ],
-              "WHM": [
-                {
-                  "ability": "Divine Benison",
-                  "note": "Use on OT"
-                },
-                "Plenary Indulgence",
-                "Assize"
-              ],
-              "AST": [
-                {
-                  "ability": "Celestial Intersection",
-                  "note": "Use on OT"
-                },
-                "Celestial Opposition"
-              ],
-              "M1": [
-                "Feint"
               ]
             }
           },
@@ -56,9 +38,6 @@
                   "ability": "Play II",
                   "note": "Use Defensive Cards on Tank"
                 }
-              ],
-              "M1": [
-                "Feint"
               ]
             }
           },
@@ -90,7 +69,7 @@
                 "Range Mit"
               ],
               "BRD": [
-                "Minne"
+                "Natures Minne"
               ],
               "MNK": [
                 "Mantra"
@@ -333,7 +312,7 @@
                 "Range Mit"
               ],
               "BRD": [
-                "Minne"
+                "Natures Minne"
               ],
               "MNK": [
                 "Mantra"

@@ -38,10 +38,7 @@
                 }
               ],
               "AST": [
-                {
-                  "ability": "Horoscope",
-                  "note": "Use on MT at -15s"
-                },
+                "Horoscope",
                 {
                   "ability": "Celestial Intersection",
                   "note": "Use on MT at -15s"
@@ -86,7 +83,7 @@
             "time": 18,
             "mitigations": {
               "MT": [
-                "90s"
+                "Reprisal"
               ],
               "SCH": [
                 "Indom"
@@ -150,7 +147,10 @@
                 "Party Mit"
               ],
               "SCH": [
-                "Soil",
+                {
+                  "ability": "Soil",
+                  "note": "Use Soil once the first Doll AOEs go off"
+                },
                 "Spreadlo",
                 "Whisper"
               ],
@@ -158,18 +158,18 @@
                 "EProg80",
                 {
                   "ability": "Holos",
-                  "note": "Use Holos once the first Doll AOE's go off"
+                  "note": "Use Holos once the first Doll AOEs go off"
                 },
                 {
                   "ability": "Kerachole",
-                  "note": "Use Kerachole once the first Doll AOE's go off"
+                  "note": "Use Kerachole once the first Doll AOEs go off"
                 },
                 "Ixochole"
               ],
               "WHM": [
                 {
                   "ability": "Temperance",
-                  "note": "Use Temperance once the first Doll AOE's go off"
+                  "note": "Use Temperance once the first Doll AOEs go off"
                 },
                 "Plenary Indulgence"
               ],
@@ -181,14 +181,26 @@
                   "note": "Use Defensive Cards on Ranged"
                 }
               ],
+              "Caster": [
+                {
+                  "ability": "casterMit",
+                  "note": "Use personals (Mana Ward, Radiant Aegis)"
+                }
+              ],
+              "PRange": [
+                {
+                  "ability": "prangeMit",
+                  "note": "Use personals"
+                }
+              ],
               "MCH": [
                 {
-                  "ability": "Tactitian",
+                  "ability": "Range Mit",
                   "note": "Only MCH should use their party mit here. DNC and BRD should save their party mit for Splashes and Drainage"
                 }
               ],
               "BRD": [
-                "Minne"
+                "Natures Minne"
               ],
               "MNK": [
                 "Mantra"
@@ -256,7 +268,7 @@
               "SGE": [
                 {
                   "ability": "Soteria",
-                  "note": "Use on OT"
+                  "note": "Use Kardia + Soteria on OT"
                 }
               ],
               "WHM": [
@@ -267,7 +279,10 @@
                 }
               ],
               "AST": [
-                "Star Place"
+                {
+                  "ability": "Star",
+                  "note": "Star Place"
+                }
               ]
             }
           },
@@ -400,7 +415,17 @@
                 "Celestial Opposition"
               ],
               "M1": [
-                "Feint"
+                "Feint",
+                {
+                  "ability": "Melee personals",
+                  "note": "Use personals (Second Wind, Riddle of Earth, Shadeshift)"
+                }
+              ],
+              "M2": [
+                {
+                  "ability": "Melee personals",
+                  "note": "Use personals (Second Wind, Riddle of Earth, Shadeshift)"
+                }
               ]
             }
           },

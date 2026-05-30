@@ -15,6 +15,7 @@ const images = Object.values(
 const druochole = {
   name: 'Druochole',
   img: druocholeIcon,
+  captionClass: 'overflow80',
 };
 const haima = {
   name: 'Haima',
@@ -53,6 +54,11 @@ const eukprog90 = {
 const holos = {
   name: 'Holos',
   img: images[3].default,
+};
+const holosG = {
+  name: 'Holos',
+  img: images[3].default,
+  iconClass: 'isGreyscale',
 };
 const holosCO = {
   name: '↪Holos',
@@ -125,6 +131,7 @@ const sgeMap = {
   EProg80: eukprog90,
   Holos: holos,
   holosCO,
+  'Holos grey': holosG,
   'Holos co': holosCO,
   Kerachole: kerachole,
   Kera: kerachole,

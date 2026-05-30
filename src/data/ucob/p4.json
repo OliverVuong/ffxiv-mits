@@ -15,7 +15,7 @@
           "mitigations": {
             "MT": [
               {
-                "ability": "Rampart",
+                "ability": "90s",
                 "note": "Prepop Rampart"
               },
               {
@@ -27,7 +27,7 @@
             ],
             "OT": [
               {
-                "ability": "Rampart",
+                "ability": "90s",
                 "note": "Prepop Rampart"
               },
               "Short",
@@ -77,11 +77,17 @@
           "time": 44,
           "mitigations": {
             "T1": [
-              "Party Mit"
+              {
+                "ability": "Party Mit",
+                "note": "Press shake/veil after first quote resolves, so the shield is not eaten by any extra damage such as the nael spread"
+              }
             ],
             "T2": [
               "Reprisal",
-              "Party Mit"
+              {
+                "ability": "Party Mit",
+                "note": "Press shake/veil after first quote resolves, so the shield is not eaten by any extra damage such as the nael spread"
+              }
             ],
             "SCH": [
               "Spreadlo",
@@ -179,14 +185,14 @@
           "mitigations": {
             "MT": [
               {
-                "ability": "Rampart",
+                "ability": "90s",
                 "note": "Prepop Rampart during 2nd part of quote"
               },
               "Short"
             ],
             "OT": [
               {
-                "ability": "Rampart",
+                "ability": "90s",
                 "note": "Prepop Rampart during 2nd part of quote"
               },
               "Short"

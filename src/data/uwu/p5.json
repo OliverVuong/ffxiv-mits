@@ -248,13 +248,13 @@
             "T1": [
               {
                 "ability": "rangeBuddyMit",
-                "note": "Buddy Mit on Pys Ranged"
+                "note": "TBN/Intervention on Phys Ranged"
               }
             ],
             "T2": [
               {
                 "ability": "rangeBuddyMit",
-                "note": "Buddy Mit on Pys Ranged"
+                "note": "TBN/Intervention on Phys Ranged"
               }
             ],
             "AST": [
@@ -293,43 +293,41 @@
           "mitigations": {
             "T1": [
               {
-                "ability": "rangeBuddyMit",
-                "note": "Buddy Mit on Pys Ranged"
+                "ability": "healerBuddyMit",
+                "note": "Heart of Stone/TBN/Intervention on Healer"
               }
             ],
             "T2": [
               {
-                "ability": "rangeBuddyMit",
-                "note": "Buddy Mit on Pys Ranged"
+                "ability": "healerBuddyMit",
+                "note": "Heart of Stone/TBN/Intervention on Healer"
               }
             ],
             "SCH": [
               {
-                "ability": "Lustrate",
+                "ability": "HealerNote",
                 "note": "Heal yourself"
-              }
+              },
+              "Lustrate"
             ],
             "SGE": [
               {
-                "ability": "Druochole",
+                "ability": "HealerNote",
                 "note": "Heal yourself"
               }
             ],
             "WHM": [
               {
-                "ability": "Tetragrammaton",
+                "ability": "HealerNote",
                 "note": "Heal yourself"
               }
             ],
             "AST": [
               {
-                "ability": "Essential Dignity",
+                "ability": "HealerNote",
                 "note": "Heal yourself"
               },
-              {
-                "ability": "Star",
-                "note": "Detonate Star"
-              }
+              "Stellar Detonation"
             ]
           }
         },
@@ -399,7 +397,7 @@
           "name": "Flaming Crush (Stack)",
           "time": 216,
           "mitigations": {
-            "T1": [
+            "MT": [
               "90s"
             ],
             "SCH": [
@@ -485,13 +483,12 @@
               "Physis"
             ],
             "AST": [
-              "Celestial Opposition",
               {
                 "ability": "Star",
                 "note": "Plant Star"
               }
             ],
-            "M1": [
+            "M2": [
               "Feint"
             ],
             "Caster": [
@@ -548,9 +545,7 @@
               {
                 "ability": "provokeG",
                 "note": "If MT is dying to autos, you may provoke to make sure they don't die!!!"
-              }
-            ],
-            "T2": [
+              },
               "90s"
             ],
             "SCH": [
@@ -610,7 +605,7 @@
               "Wings"
             ],
             "BRD": [
-              "Nauture's Minne"
+              "Nature's Minne"
             ],
             "MNK": [
               "Mantra"
@@ -627,7 +622,8 @@
               {
                 "ability": "Short",
                 "note": "Use your fast mit on cooldown, expecially to mitigate the primal raidwides"
-              }
+              },
+              "90s"
             ],
             "OT": [
               "Buddy Short",
@@ -635,8 +631,6 @@
                 "ability": "provokeG",
                 "note": "If MT is dying to autos, you may provoke to make sure they don't die!!!"
               }
-            ],"T1": [
-              "90s"
             ],
             "SCH": [
               "Soil",

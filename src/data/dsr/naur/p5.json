@@ -61,8 +61,17 @@
                 "EukProg90",
                 "Kerachole"
               ],
+              "AST": [
+                "CU"
+              ],
+              "WHM": [
+                "Plenary Indulgence"
+              ],
               "M1":[
                 "Feint"
+              ],
+              "CASTER2":[
+                "Addle"
               ]
             }
           },
@@ -138,6 +147,12 @@
                 "EukProg90",
                 "Kerachole"
               ],
+              "AST": [
+                "CU"
+              ],
+              "WHM": [
+                "Plenary Indulgence"
+              ],
               "M1":[
                 {
                   "ability":"Feint",
@@ -151,9 +166,6 @@
                 "Range Mit"
               ],
               "Caster":[
-                "Addle"
-              ],
-              "CASTER2":[
                 "Addle"
               ]
             }
@@ -170,7 +182,7 @@
               "WARGNB_WAR":[
                 {
                   "ability":"Vengeance",
-                  "note":"If boss gets to 2% before slashes hold vengance for wb1"
+                  "note":"Take Slashes, if boss gets to 2% before slashes hold vengance for wb1"
                 },
                 {
                   "ability":"Bloodwhetting",
@@ -180,7 +192,7 @@
               "WARGNB_GNB":[
                 {
                   "ability":"Nebula",
-                  "note":"If boss gets to 2-3% before heel, hold Nebula for wb1"
+                  "note":"Take Heel, if boss gets to 2-3% before heel, hold Nebula for wb1"
                 },
                 {
                   "ability":"HoC",
@@ -190,7 +202,7 @@
               "WARPLD_WAR":[
                 {
                   "ability":"Vengeance",
-                  "note":"Can also use thrill + Equilibrium (after second slash) instead of Vengeance (since you have 20-30% from intervention)"
+                  "note":"Take Slashes, can also use thrill + Equilibrium (after second slash) instead of Vengeance (since you have 20-30% from intervention)"
                 },
                 {
                   "ability":"Bloodwhetting",
@@ -200,7 +212,7 @@
               "WARPLD_PLD":[
                 {
                   "ability":"Sentinel",
-                  "note":"If boss gets to 2-3% before heel, hold Sentinel for wb1"
+                  "note":"Take Heel, if boss gets to 2-3% before heel, hold Sentinel for wb1"
                 },
                 {
                   "ability":"Holy Sheltron",

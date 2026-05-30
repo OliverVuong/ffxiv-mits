@@ -20,7 +20,7 @@
             "SGE": [
               {
                 "ability": "Zoe Eukrasian Prognosis",
-                "note": "Zoe can be moved to Quickmarch"
+                "note": "If LB2/1, you can use Zoe on final hit of transition, otherwise can be moved to Quickmarch"
               },
               "Kerachole"
             ],
@@ -53,11 +53,11 @@
             "MT": [
               {
                 "ability": "Short",
-                "note": "for Flarebreath upon targetable"
+                "note": "Short Mit for Flarebreath upon targetable"
               },
               {
                 "ability": "Reprisal",
-                "note": "for Flarebreath upon targetable"
+                "note": "Reprisal for Flarebreath upon targetable"
               },
               {
                 "ability": "Invuln",
@@ -65,7 +65,7 @@
               }
             ],
             "OT": [
-              "Buddy Mit"
+              "Buddy Short"
             ]
           }
         },
@@ -77,15 +77,27 @@
           "mitigations": {
             "MT": [
               {
-                "ability": "Rampart",
+                "ability": "90s",
                 "note": "Rampart as soon as targetable"
               },
-              "Extra",
-              "Short"
+              {
+                "ability": "Extra",
+                "note": "Extra for flatten"
+              },
+              {
+                "ability": "Short",
+                "note": "Short for flatten"
+              }
             ],
             "OT": [
-              "Reprisal",
-              "Buddy Mit"
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal for flatten"
+              },
+              {
+                "ability": "Buddy Short",
+                "note": "Buddy Mit MT for flatten"
+              }
             ],
             "T1": [
               "Party Mit"
@@ -106,27 +118,6 @@
                 "ability": "Feint",
                 "note": "Press when tempest wing goes off"
               }
-            ],
-            "M2": [
-              {
-                "ability": "Feint",
-                "note": "optional"
-              }
-            ],
-            "Caster": [
-              {
-                "ability": "Addle",
-                "note": "optional"
-              }
-            ],
-            "PRange": [
-              "Range Mit"
-            ],
-            "MCH": [
-              {
-                "ability": "Dismantle",
-                "note": "optional"
-              }
             ]
           }
         },
@@ -141,9 +132,13 @@
                 "ability": "120s",
                 "note": "Use 120s a the 'G' in Gigaflare"
               },
-              "Rampart",
+              "90s",
               "Extra",
-              "Short"
+              "Short",
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Tank buster"
+              }
             ],
             "T1": [
               {
@@ -218,7 +213,7 @@
           "mitigations": {
             "MT": [
               {
-                "ability": "Rampart",
+                "ability": "90s",
                 "note": "Rampart around the end of Gigaflare cast"
               },
               {
@@ -226,7 +221,16 @@
                 "note": "Use 120s when boss starts turning"
               },
               "Extra",
-              "Short"
+              {
+                "ability": "Short",
+                "note": "Short Mit for Tempest wing prior to targetable"
+              }
+            ],
+            "OT": [
+              {
+                "ability": "Short",
+                "note": "Short Mit for Tempest wing prior to targetable"
+              }
             ],
             "T1": [
               "Party Mit"
@@ -276,7 +280,7 @@
             ],
             "OT": [
               {
-                "ability": "Everything",
+                "ability": "Kitchen Sink",
                 "note": "Kitchen sink Triple Flare (Same as prior, 120s when it comes up)"
               }
             ],
@@ -311,11 +315,11 @@
             "SGE": [
               {
                 "ability": "Zoe Eukrasian Prognosis",
-                "note": "Deploy Initial hit"
+                "note": "Zoe Eukprog is interchangeable between Heavensfall and Tenstrike"
               },
               {
                 "ability": "Eukrasian Prognosis",
-                "note": "Succor fireball + gigaflare"
+                "note": "Eukprog fireball + gigaflare"
               },
               {
                 "ability": "Kerachole",
@@ -360,7 +364,7 @@
               }
             ],
             "OT": [
-              "Buddy Mit"
+              "Buddy Short"
             ],
             "T1": [
               "Party Mit"
@@ -384,7 +388,7 @@
             "SGE": [
               {
                 "ability": "Eukrasian Prognosis",
-                "note": "Eukrasian Prognosis dives, shakers, and gigaflare"
+                "note": "Eukprog dives, shakers, and gigaflare"
               },
               {
                 "ability": "Kerachole",
@@ -403,7 +407,7 @@
                 "note": "CU for fireball + gigaflare"
               }
             ],
-            "M1": [
+            "M2": [
               "Feint"
             ],
             "BRD": [
@@ -417,19 +421,19 @@
         {
           "type": "Raidwide",
           "stakeholder": "all",
-          "name": "Octet",
+          "name": "Grand Octet",
           "time": 375,
           "mitigations": {
             "T1": [
               {
                 "ability": "Limit Break",
-                "note": "Limit Break when towers spawn"
+                "note": "Limit Break 3 when towers spawn"
               }
             ],
             "T2": [
               {
                 "ability": "Limit Break",
-                "note": "Limit Break when towers spawn"
+                "note": "Limit Break 3 when towers spawn"
               }
             ],
             "SCH": [

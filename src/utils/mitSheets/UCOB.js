@@ -7,7 +7,7 @@ import ucob_p5 from '../../data/ucob/p5.json';
 const UCOB = {
   data: [ucob_p1, ucob_p2, ucob_p3, ucob_p4, ucob_p5],
   tankCombos: [['MT', 'OT']],
-  extras: ['BRD', 'MCH', 'PLD', 'MNK'],
+  extras: ['BRD', 'MCH', 'MNK'],
   name: `The Unending Coil of Bahamut`,
 };
 

@@ -10,21 +10,30 @@
         {
           "type": "Raidwide",
           "stakeholder": "all",
-          "name": "Morn Afh 1",
+          "name": "Morn Afah 1",
           "time": 6,
           "mitigations": {
             "T2": [
-              "Party Mit",
+              {
+                "ability": "Party Mit",
+                "note": "Party Mit as soon as Bahamut starts spinning into an egg (right before targetable)"
+              },
               "Reprisal"
             ],
             "SCH": [
               "Succor",
               "Fey Illumination",
-              "Soil"
+              {
+                "ability": "Soil",
+                "note": "Late Soil on Morn Afah 1/4 to catch Akh Morns"
+              }
             ],
             "SGE": [
               "Eukrasian Prognosis",
-              "Kerachole"
+              {
+                "ability": "Kerachole",
+                "note": "Late Kerachole on Morn Afah 1/4 to catch Akh Morns"
+              }
             ],
             "WHM": [
               "Plenary Indulgence"
@@ -44,7 +53,7 @@
             "Caster": [
               {
                 "ability": "Addle",
-                "note": "Addle as soon as targetable. Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+                "note": "Addle as soon as targetable. Addle can be used on 1/3/5 OR 2/4. If two casters, can do both"
               }
             ],
             "PRange": [
@@ -81,14 +90,14 @@
           "mitigations": {
             "MT": [
               {
-                "ability": "Everything",
+                "ability": "Kitchen Sink",
                 "note": "30% my not be up if adds is killed quickly. Will need exra heal or help from healers"
               },
               "Provoke"
             ],
             "OT": [
               {
-                "ability": "Everything",
+                "ability": "Kitchen Sink",
                 "note": "30% my not be up if adds is killed quickly. Will need exra heal or help from healers"
               }
             ]
@@ -111,11 +120,14 @@
         {
           "type": "Raidwide",
           "stakeholder": "all",
-          "name": "Morn Afh 2",
+          "name": "Morn Afah 2",
           "time": 62,
           "mitigations": {
             "T1": [
-              "Party Mit",
+              {
+                "ability": "Party Mit",
+                "note": "Party Mit early, during Akh Morn 2 ideally"
+              },
               "Reprisal"
             ],
             "SCH": [
@@ -126,33 +138,27 @@
               "Zoe Eukrasian Prognosis",
               "Kerachole"
             ],
-            "M1": [
-              {
-                "ability": "Feint",
-                "note": "Feint on bahamut auto after Akh Morn 2. Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
-              }
-            ],
             "M2": [
               {
                 "ability": "Feint",
                 "note": "Feint on bahamut auto after Akh Morn 2. Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
               }
             ],
-            "Caster": [
-              {
-                "ability": "Addle",
-                "note": "Addle  on bahamut auto after Akh Morn 2. Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
-              }
-            ],
             "PRange": [
               {
-                "ability": "Range Mit",
+                "ability": "Range Mit Grey",
                 "note": "Range Mit can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle grey",
+                "note": "Addle as soon as the first Bahamut auto goes off after Akh Morn 2. Addle can be used on 1/3/5 OR 2/4. If two casters, can do both"
               }
             ],
             "MCH": [
               {
-                "ability": "Dismantle",
+                "ability": "Dismantle grey",
                 "note": "Dismantle can be used on 1/4 OR 2/5. If two prange, can do both"
               }
             ]
@@ -161,7 +167,7 @@
         {
           "type": "Raidwide",
           "stakeholder": "all",
-          "name": "Morn Afh 3",
+          "name": "Morn Afah 3",
           "time": 95,
           "mitigations": {
             "T2": [
@@ -194,7 +200,7 @@
             "Caster": [
               {
                 "ability": "Addle",
-                "note": "Addle on cd. Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+                "note": "Addle on cd. Addle can be used on 1/3/5 OR 2/4. If two casters, can do both"
               }
             ]
           }
@@ -216,7 +222,7 @@
         {
           "type": "Raidwide",
           "stakeholder": "all",
-          "name": "Morn Afh 4",
+          "name": "Morn Afah 4",
           "time": 145,
           "mitigations": {
             "T1": [
@@ -226,16 +232,16 @@
             "SCH": [
               "Succor",
               "Fey Illumination",
-              "Soil"
+              {
+                "ability": "Soil",
+                "note": "Late Soil on Morn Afah 1/4 to catch Akh Morns"
+              }
             ],
             "SGE": [
               "Eukrasian Prognosis",
-              "Kerachole"
-            ],
-            "M1": [
               {
-                "ability": "Feint",
-                "note": "Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
+                "ability": "Kerachole",
+                "note": "Late Kerachole on Morn Afah 1/4 to catch Akh Morns"
               }
             ],
             "M2": [
@@ -243,8 +249,8 @@
             ],
             "Caster": [
               {
-                "ability": "Addle",
-                "note": "Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
+                "ability": "Addle grey",
+                "note": "Addle can be used on 1/3/5 OR 2/4. If two casters, can do both"
               }
             ],
             "PRange": [
@@ -268,18 +274,18 @@
           "time": 157,
           "mitigations": {
             "MT": [
-              "Everything",
+              "Kitchen Sink",
               "Provoke"
             ],
             "OT": [
-              "Everything"
+              "Kitchen Sink"
             ]
           }
         },
         {
           "type": "Raidwide",
           "stakeholder": "all",
-          "name": "Morn Afh 5",
+          "name": "Morn Afah 5",
           "time": 197,
           "mitigations": {
             "T2": [
@@ -309,24 +315,21 @@
                 "note": "Feint can be used on 1/3/5 OR 2/4 if you only have one melee"
               }
             ],
-            "M2": [
-              "Feint"
+            "PRange": [
+              {
+                "ability": "Range Mit Grey",
+                "note": "Range Mit can be used on 1/4 OR 2/5. If two prange, can do both"
+              }
             ],
             "Caster": [
               {
                 "ability": "Addle",
-                "note": "Addle can be used on 1/3/5 OR 2/4. If two caters, can do both"
-              }
-            ],
-            "PRange": [
-              {
-                "ability": "Range Mit",
-                "note": "Range Mit can be used on 1/4 OR 2/5. If two prange, can do both"
+                "note": "Addle can be used on 1/3/5 OR 2/4. If two casters, can do both"
               }
             ],
             "MCH": [
               {
-                "ability": "Dismantle",
+                "ability": "Dismantle grey",
                 "note": "Dismantle can be used on 1/4 OR 2/5. If two prange, can do both"
               }
             ]

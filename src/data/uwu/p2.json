@@ -141,13 +141,13 @@
             "WHM": [
               {
                 "ability": "Regen",
-                "note": "Regen  on Searing Healer"
+                "note": "Regen on Searing Healer"
               }
             ],
             "AST": [
               {
                 "ability": "AspectedBenefic",
-                "note": "Regen  on Searing Healer"
+                "note": "Asp Benefic on Searing Healer"
               }
             ],
             "M1": [
@@ -187,16 +187,13 @@
               }
             ],
             "T2": [
-              {
-                "ability": "Party Mit",
-                "note": "Heart of Light/Dark Missionary"
-              }
+              "HoLDM"
             ],
             "SCH": [
               "Sacred Soil",
               {
                 "ability": "Aetherpact",
-                "note": "Aetherpact Tether on MT"
+                "note": "Fairy Tether on MT"
               }
             ],
             "SGE": [
@@ -206,10 +203,7 @@
               "Asylum"
             ],
             "AST": [
-              {
-                "ability": "Star",
-                "note": "Detonate Star"
-              }
+              "Stellar Detonation"
             ],
             "M2": [
               "Feint"

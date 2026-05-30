@@ -8,6 +8,13 @@ const images = Object.values(
 const dismantle = {
   name: 'Dismantle',
   img: images[0].default,
+  captionClass: 'overflow90-with-note',
+};
+const dismantleG = {
+  name: 'Dismantle',
+  img: images[0].default,
+  iconClass: 'isGreyscale',
+  captionClass: 'overflow90-with-note',
 };
 const magickbarrier = {
   name: 'Barrier',
@@ -29,11 +36,14 @@ const naturesminne = {
 
 const extrasMap = {
   Dismantle: dismantle,
+  dismantleG,
+  'Dismantle grey': dismantleG,
   'Magick Barrier': magickbarrier,
   'Magick Barrier co': magickbarrierC,
   Barrier: magickbarrier,
   Mantra: mantra,
   'Natures Minne': naturesminne,
+  "Nature's Minne": naturesminne,
 };
 
 export default extrasMap;

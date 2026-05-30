@@ -7,6 +7,32 @@
       "id": 0,
       "table":[
         {
+          "type":"Tankbuster",
+          "stakeholder":"tanks",
+          "name":"Quadruple Slap",
+          "time":172,
+          "mitigations":{
+            "WARGNB_GNB":[
+              "Superbolide"
+            ],
+            "WARPLD_PLD":[
+              "Hallowed Ground"
+            ],
+            "WARDRK_DRK":[
+              "Living Dead"
+            ],
+            "GNBDRK_DRK":[
+              "Living Dead"
+            ],
+            "GNBPLD_PLD":[
+              "Hallowed Ground"
+            ],
+            "PLDDRK_DRK":[
+              "Living Dead"
+            ]
+          }
+        },
+        {
           "type":"Raidwide",
           "stakeholder":"all",
           "name":"Diamond Dust",
@@ -48,32 +74,6 @@
               "M2":"Feint at start of Mirror Image castbar to have back up for Banish III",
               "Caster":"Addle at start of Mirror Image castbar to have back up for Banish III"
             }
-          }
-        },
-        {
-          "type":"Tankbuster",
-          "stakeholder":"tanks",
-          "name":"Quadruple Slap",
-          "time":172,
-          "mitigations":{
-            "WARGNB_GNB":[
-              "Superbolide"
-            ],
-            "WARPLD_PLD":[
-              "Hallowed Ground"
-            ],
-            "WARDRK_DRK":[
-              "Living Dead"
-            ],
-            "GNBDRK_DRK":[
-              "Living Dead"
-            ],
-            "GNBPLD_PLD":[
-              "Hallowed Ground"
-            ],
-            "PLDDRK_DRK":[
-              "Living Dead"
-            ]
           }
         },
         {
@@ -294,10 +294,7 @@
           "mitigations":{
             "SCH":[
               "Concitation",
-              {
-                "ability": "Expedient",
-                "note": "Early Expedient"
-              },
+              "Expedient",
               {
                 "ability": "Soil",
                 "note": "Soil should be used immediately after walking towards the middle tower soak"

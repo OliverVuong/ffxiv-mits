@@ -46,7 +46,7 @@
             ],
             "SGE": [
               {
-                "ability": "Zoe EukProg",
+                "ability": "Zoe Eukrasian Prognosis",
                 "note": "Earliest you can Zoe EukProg for Fireball 1 is <15s on countdown"
               },
               "Kerachole"
@@ -66,6 +66,18 @@
             ],
             "PRange": [
               "Range Mit"
+            ],
+            "BRD": [
+              {
+                "ability": "Nature's Minne",
+                "note": "Use Nature's Minne for prepull shields"
+              }
+            ],
+            "MNK": [
+              {
+                "ability": "Mantra",
+                "note": "Use Mantra for prepull shields"
+              }
             ]
           }
         },
@@ -99,28 +111,10 @@
             "OT": [
               {
                 "ability": "120s",
-                "note": "Use 120s mit after first Generte cast"
+                "note": "Use 120s mit after first Generate cast"
               },
               "Short",
               "Reprisal"
-            ]
-          }
-        },
-        {
-          "type": "Tankbuster",
-          "stakeholder": "all",
-          "name": "Plummet 2",
-          "time": 88,
-          "mitigations": {
-            "MT": [
-              "Reprisal"
-            ],
-            "OT": [
-              {
-                "ability": "90s",
-                "note": "Rampart after Death Sentence 3 cast"
-              },
-              "Short"
             ]
           }
         },
@@ -148,7 +142,7 @@
               "Succor"
             ],
             "SGE": [
-              "EukProg",
+              "Eukrasian Prognosis",
               "Kerachole"
             ],
             "WHM": [
@@ -179,6 +173,24 @@
             ],
             "OT": [
               "Provoke"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Plummet 2",
+          "time": 88,
+          "mitigations": {
+            "MT": [
+              "Reprisal"
+            ],
+            "OT": [
+              {
+                "ability": "90s",
+                "note": "Rampart after Death Sentence 3 cast"
+              },
+              "Short"
             ]
           }
         },
