@@ -9,6 +9,11 @@ const bulwark = {
   name: 'Bulwark',
   img: images[0].default,
 };
+const BulwarkG = {
+  name: 'Bulwark',
+  img: images[0].default,
+  iconClass: 'isGreyscale',
+};
 const bulwarkCO = {
   name: '↪Bulwark',
   img: images[0].default,
@@ -114,6 +119,7 @@ const sheltronCO = {
 const pldMap = {
   bulwark,
   Bulwark: bulwark,
+  BulwarkG,
   bulwarkCO,
   clemency,
   clemencyG,

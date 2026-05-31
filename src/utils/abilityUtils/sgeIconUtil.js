@@ -4,6 +4,7 @@ import ixocholeIcon from '../../assets/icons/spells/sge/Ixochole.png';
 import kardiaIcon from '../../assets/icons/spells/sge/Kardia.png';
 import soteriaIcon from '../../assets/icons/spells/sge/Soteria.png';
 import taurocholeIcon from '../../assets/icons/spells/sge/Taurochole.png';
+import pneumaIcon from '../../assets/icons/spells/sge/Pneuma.png';
 
 const images = Object.values(
   import.meta.glob(
@@ -37,6 +38,10 @@ const taurochole = {
   name: 'Taurochole',
   img: taurocholeIcon,
   captionClass: 'overflow80',
+};
+const Pneuma = {
+  name: 'Pneuma',
+  img: pneumaIcon,
 };
 
 const eukdiagnosis = {
@@ -172,6 +177,7 @@ const sgeMap = {
   Taurochole: taurochole,
   kardia,
   Kardia: kardia,
+  Pneuma,
 };
 
 export default sgeMap;

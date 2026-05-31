@@ -52,13 +52,16 @@ function CreditsModal({ open, setOpen}){
                     </div>
                     <div className='top-credit'>
                         <a 
-                            href='http://tinyurl.com/topmitty' 
+                            href='https://bit.ly/topmit2' 
                             target="_blank"
                             className='title'>
-                                <u>Top Mitty</u>
+                                <u>Run: **NAmit</u>
                         </a>
                         <br />
-                        <span>Malachite Laurent</span>
+                        <span>
+                            Unknown 01<br />
+                            Top Mitty- Malachite Laurent
+                        </span>
                     </div>
                     <div className='dsr-credit'>
                         <a 

@@ -1,0 +1,611 @@
+{
+  "phase": 5,
+  "length": 120,
+  "name": "P5 Dynamis",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Delta Solar Ray",
+          "time": 7,
+          "mitigations": {
+            "WARGNB_GNB": [
+              "Superbolide"
+            ],
+            "WARPLD_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_GNB": [
+              "Superbolide"
+            ],
+            "GNBPLD_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_DRK": [
+              "Kitchen Sink"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Delta Cast",
+          "time": 25,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Spread-Lo",
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe EukProg90",
+              "Kerachole",
+              "Holos"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "15s party mit must be pressed after the second hit of the tankbuster"
+              }
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Delta Mech",
+          "time": 45,
+          "mitigations": {
+            "SCH": [
+              "Fey",
+              "Whispering Dawn"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "WHM": [
+              "Bell"
+            ],
+            "AST": [
+              "Macrocosmos",
+              "Star"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Sigma Solar Ray",
+          "time": 91,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Holmgang"
+            ],
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "TankNote",
+                "note": "Can give DRK HoC after 2nd hit to help heal Walking Dead"
+              }
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead"
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Superbolide",
+                "note": "Can Use HoC to proc the heal"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "Living Dead"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Sigma Cast",
+          "time": 107,
+          "mitigations": {
+            "T1": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "T2": [
+              "Party Mit"
+            ],
+            "SCH": [
+              "Seraph",
+              "Soil",
+              {
+                "ability": "Expedient",
+                "note": "You do not need both Soil and Expedient here. Ensure you have AT LEAST 1 10% on the raidwide though. You are welcome to do both in prog."
+              },
+              "Succor"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Panhaima",
+              "Eukrasian Prognosis"
+            ],
+            "WHM": [
+              "Temperance",
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU",
+              "Neutral Sect"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "We understand many Phys Range jobs have a weave heavy burst window and hitting your mit after 2nd tankbuster can be forgotten for newer players. As long as it is pressed before the castbar finishes, this is perfectly okay. Just skip using it on Omega Cast and ensure you use it for Blind Faith instead."
+              }
+            ],
+            "CASTER2": [
+              "Addle"
+            ],
+            "MCH": [
+              "Dismantle"
+            ],
+            "RDM": [
+              "Barrier"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Sigma Mech",
+          "time": 130,
+          "mitigations": {
+            "SCH": [
+              "Expedient"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Omega Solar Ray",
+          "time": 180,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Holmgang"
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "HoC Buddy",
+                "note": "Use after 2nd Solar to proc Excog"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              "Vengeance",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              "Holy Sheltron",
+              "Bulwark",
+              "Reprisal"
+            ],
+            "WARDRK_WAR": [
+              "Holmgang"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after 1st Dynamic Bounce during Sigma"
+              },
+              "HoC"
+            ],
+            "GNBDRK_DRK": [
+              "Shadow Wall",
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              "Dark Mind",
+              "Oblation",
+              "Reprisal",
+              "TBN Buddy",
+              "Oblation Buddy"
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after 1st Dynamic Bounce during Sigma"
+              },
+              "HoC"
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              "Sentinel",
+              {
+                "ability": "Bulwark",
+                "note": "1st gcd Bulwark"
+              },
+              "Reprisal",
+              "Intervention"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              "Holy Sheltron",
+              {
+                "ability": "Bulwark",
+                "note": "1st gcd Bulwark"
+              },
+              "Intervention",
+              {
+                "ability": "Reprisal",
+                "note": "Late Reprisal to help cover autos"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "Shadow Wall",
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Dynamic Bounce during Sigma"
+              },
+              "Dark Mind",
+              "Oblation",
+              "Reprisal",
+              "TBN Buddy",
+              "Oblation Buddy"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Omega Cast",
+          "time": 196,
+          "mitigations": {
+            "T1": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "T2": [
+              "Party Mit"
+            ],
+            "SCH": [
+              "Spread-Lo",
+              "Fey",
+              "Soil"
+            ],
+            "SGE": [
+              "Holos",
+              "Kerachole",
+              "Eukrasian Prognosis"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Omega Autos",
+          "time": 205,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Bloodwhetting",
+              "Equilibrium"
+            ],
+            "WARGNB_GNB": [
+              "HoC Buddy",
+              "Aurora bud",
+              "Reprisal"
+            ],
+            "WARPLD_WAR": [
+              "Bloodwhetting",
+              "Equilibrium"
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Intervention",
+                "note": "Be careful about Oath Gauge here, you need 100 gauge for final Solar Ray. You should generate ~100 before Blind Faith buster"
+              }
+            ],
+            "WARDRK_WAR": [
+              "Bloodwhetting",
+              "Equilibrium",
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in Omega Cast to help with autos"
+              }
+            ],
+            "WARDRK_DRK": [
+              "TBN Buddy",
+              "Oblation Buddy",
+              "Reprisal"
+            ],
+            "GNBDRK_GNB": [
+              "HoC",
+              "Aurora",
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in Omega Cast to help with autos"
+              }
+            ],
+            "GNBDRK_DRK": [
+              "TBN Buddy"
+            ],
+            "GNBPLD_GNB": [
+              "HoC",
+              "Aurora",
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in Omega Cast to help with autos"
+              }
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "Intervention",
+                "note": "Be careful about Oath Gauge here, you need 100 gauge for final Solar Ray. You should generate ~100 before Blind Faith buster"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Holy Sheltron",
+                "note": "You need 50 Oath Gauge for final Solar Ray"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "TBN Buddy"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Omega-1 Mech",
+          "time": 231,
+          "mitigations": {
+            "SCH": [
+              "Seraph"
+            ],
+            "SGE": [
+              "Panhaima"
+            ],
+            "WHM": [
+              "Bell"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Omega-2 Mech",
+          "time": 249,
+          "mitigations": {
+            "SCH": [
+              "Seraph",
+              {
+                "ability": "Expedient",
+                "note": "Healer 120s should be used ~4s before the Near/Far world debuffs expire so they can help cover tankbuster"
+              }
+            ],
+            "SGE": [
+              "Panhaima"
+            ],
+            "WHM": [
+              {
+                "ability": "Temperance",
+                "note": "Healer 120s should be used ~4s before the Near/Far world debuffs expire so they can help cover tankbuster"
+              },
+              "Bell"
+            ],
+            "AST": [
+              {
+                "ability": "Neutral Sect",
+                "note": "Healer 120s should be used ~4s before the Near/Far world debuffs expire so they can help cover tankbuster"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Final Solar Ray",
+          "time": 263,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Kitchen Sink",
+              "Reprisal"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Rampart",
+              "Bloodwhetting",
+              "Thrill"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink",
+              "Reprisal",
+              "Intervention Buddy"
+            ],
+            "WARDRK_WAR": [
+              "Kitchen Sink",
+              "Reprisal"
+            ],
+            "WARDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "TBN",
+              "Oblation",
+              "Reprisal"
+            ],
+            "GNBPLD_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_PLD": [
+              "Rampart",
+              "Bulwark",
+              "Holy Sheltron",
+              "Reprisal",
+              "Intervention"
+            ],
+            "PLDDRK_PLD": [
+              "Rampart",
+              "Sentinel",
+              "Bulwark",
+              "Intervention"
+            ],
+            "PLDDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "Oblation",
+              "Reprisal",
+              "TBN Buddy"
+            ],
+            "SCH": [
+              "Expedient"
+            ],
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "CASTER2": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Blind Faith",
+          "time": 286,
+          "mitigations": {
+            "T2": [
+              "Party Mit"
+            ],
+            "SCH": [
+              "Soil",
+              {
+                "ability": "Succor",
+                "note": "You can opt to Spreadlo this if you want"
+              }
+            ],
+            "SGE": [
+              "Kerachole",
+              "Eukrasian Prognosis"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "RDM": [
+              "Barrier"
+            ]
+          }
+        }
+      ],
+      "note": {
+        "all": "15s party mit should be pressed after the second hit of the tank buster, 10s party mit should be pressed at the start of the raidwide cast, Healers must put personal mit on tanks or they die to busters"
+      }
+    }
+  ]
+}

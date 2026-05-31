@@ -11,7 +11,7 @@ function Header({ setIsOpenCredits }){
                 <div className="header-content">
                     <Link to={'/ffxiv-mits'} className='masthead'>
                         <img src={logo} alt='logo image'/>
-                        <h2>FFXIV Mits</h2>
+                        <h2>XIV MIT</h2>
                     </Link>
                     <div className='header-selection'>
                         <Dropdown/>

@@ -55,6 +55,11 @@ const PlenaryIndulgence = {
   name: 'Plenary',
   img: PlenaryIndulgenceIcon,
 };
+const PlenaryIndulgenceGray = {
+  name: 'Plenary',
+  img: PlenaryIndulgenceIcon,
+  iconClass: 'isGreyscale',
+};
 const Confession = {
   name: 'Confession',
   img: PlenaryIndulgenceIcon,
@@ -116,6 +121,7 @@ const whmMap = {
   'Medica III': MedicaIII,
   'Medica 3': MedicaIII,
   'Plenary Indulgence': PlenaryIndulgence,
+  'Plenary Indulgence grey': PlenaryIndulgenceGray,
   Confession,
   Regen,
   Tetragrammaton,

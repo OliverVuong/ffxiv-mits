@@ -1,0 +1,337 @@
+{
+  "phase": 2,
+  "length": 120,
+  "name": "P2 Male / Female",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Solar Ray",
+          "time": 11,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              "Rampart",
+              "Camouflage",
+              "HoC"
+            ],
+            "WARPLD_WAR": [
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              "Rampart",
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "WARDRK_WAR": [
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "Oblation",
+              "TBN"
+            ],
+            "GNBDRK_GNB": [
+              "Rampart",
+              "Camouflage",
+              "HoC"
+            ],
+            "GNBDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "Oblation",
+              "TBN"
+            ],
+            "GNBPLD_GNB": [
+              "Rampart",
+              "Camouflage",
+              "HoC"
+            ],
+            "GNBPLD_PLD": [
+              "Rampart",
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_PLD": [
+              "Rampart",
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "Oblation",
+              "TBN"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Party Synergy Autos",
+          "time": 61,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Equilibrium",
+              "Reprisal",
+              "Nascent"
+            ],
+            "WARGNB_GNB": [
+              "HoC",
+              "Reprisal",
+              "Aurora"
+            ],
+            "WARPLD_WAR": [
+              "Equilibrium",
+              "Reprisal",
+              "Nascent"
+            ],
+            "WARPLD_PLD": [
+              "Holy Sheltron",
+              "Reprisal"
+            ],
+            "WARDRK_WAR": [
+              "Equilibrium",
+              "Reprisal",
+              "Nascent"
+            ],
+            "WARDRK_DRK": [
+              "TBN",
+              "Oblation",
+              "Dark Mind",
+              "Reprisal"
+            ],
+            "GNBDRK_GNB": [
+              "HoC",
+              "Reprisal",
+              {
+                "ability": "Aurora",
+                "note": "Buddy Mit Aurora"
+              }
+            ],
+            "GNBDRK_DRK": [
+              "TBN",
+              "Oblation",
+              "Dark Mind",
+              "Reprisal"
+            ],
+            "GNBPLD_GNB": [
+              "HoC",
+              "Reprisal",
+              {
+                "ability": "Aurora",
+                "note": "Buddy Mit Aurora"
+              }
+            ],
+            "GNBPLD_PLD": [
+              "Holy Sheltron",
+              "Reprisal"
+            ],
+            "PLDDRK_PLD": [
+              "Holy Sheltron",
+              "Reprisal"
+            ],
+            "PLDDRK_DRK": [
+              "TBN",
+              "Oblation",
+              "Dark Mind",
+              "Reprisal"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Tank Tethers",
+          "time": 94,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Vengeance",
+              "Rampart",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Vengeance",
+              "Rampart",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              "Sentinel",
+              "Rampart",
+              "Holy Sheltron"
+            ],
+            "WARDRK_WAR": [
+              "Vengeance",
+              "Rampart",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              "Shadow Wall",
+              "Rampart",
+              "TBN",
+              "Oblation"
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_DRK": [
+              "Shadow Wall",
+              "Rampart",
+              "TBN",
+              "Oblation"
+            ],
+            "GNBPLD_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_PLD": [
+              "Sentinel",
+              "Rampart",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_PLD": [
+              "Sentinel",
+              "Rampart",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              "Shadow Wall",
+              "Rampart",
+              "TBN",
+              "Oblation"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "CASTER2": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Limitless Synergy 611",
+          "time": 108,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "Shake and Veil should be used after firewall expires to cover the tethers in case of any mistimed tank mits. Heart of Light and Dark Missionary should be used immediately after a tank is hit with Beyond Defense"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Shake and Veil should be used after firewall expires to cover the tethers in case of any mistimed tank mits. Heart of Light and Dark Missionary should be used immediately after a tank is hit with Beyond Defense"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Spreadlo after Omega-F teleports N"
+              },
+              {
+                "ability": "Expedient",
+                "note": "Expedient as baited Sagittarius Arrow appears"
+              },
+              {
+                "ability": "Fey Illumination",
+                "note": "Fey Illumination when Flare markers appear"
+              },
+              {
+                "ability": "Soil",
+                "note": "Soil anytime after Flare markers appear"
+              },
+              "Seraph"
+            ],
+            "SGE": [
+              {
+                "ability": "Zoe Eukrasian Prognosis",
+                "note": "Zoe EProg can be used at any time"
+              },
+              {
+                "ability": "Panhaima",
+                "note": "Panhaima when tank tether damage goes off"
+              },
+              {
+                "ability": "Holos",
+                "note": "Holos when flares appear"
+              },
+              {
+                "ability": "Kerachole",
+                "note": "Kerachole when Beyond Defense is applied onto a tank"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Temperance",
+                "note": "Temperance when baited line AOE appears"
+              },
+              {
+                "ability": "Plenary Indulgence",
+                "note": "Plenary immediately after Flare/Pile Pitch damage occurs"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Neutral",
+                "note": "Neutral + GCD when baited line AOE appears"
+              },
+              {
+                "ability": "CU",
+                "note": "Collective the Cosmo Memory damage AFTER the Flares/Pile Pitch"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "CasterNote",
+                "note": "If you have a Flare as a ranged player, you can take it away from the stack to reduce damage and topup needed. Just go opposite of where the tanks are baiting Beyond Defense"
+              }
+            ],
+            "CASTER2": [
+              {
+                "ability": "CasterNote",
+                "note": "If you have a Flare as a ranged player, you can take it away from the stack to reduce damage and topup needed. Just go opposite of where the tanks are baiting Beyond Defense"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Range Mit should be used immediately after a tank is hit with Beyond Defense"
+              },
+              {
+                "ability": "RangeNote",
+                "note": "If you have a Flare as a ranged player, you can take it away from the stack to reduce damage and topup needed. Just go opposite of where the tanks are baiting Beyond Defense"
+              }
+            ],
+            "RDM": [
+              "Barrier"
+            ]
+          }
+        }
+      ],
+      "note": "After Playstation: Feint / Addle are free to use to help with tank autos (it does not work on flares or cosmo memory)"
+    }
+  ]
+}

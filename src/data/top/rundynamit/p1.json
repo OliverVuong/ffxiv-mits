@@ -1,0 +1,367 @@
+{
+  "phase": 1,
+  "length": 120,
+  "name": "P1 Beetle Omega",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Autos",
+          "stakeholder": "tanks",
+          "name": "Prepull",
+          "time": 0,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_GNB": [
+              "HoS Buddy"
+            ],
+            "WARPLD_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_PLD": [
+              "Intervention"
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Vengeance",
+                "note": "Vengeance as you pull boss"
+              },
+              {
+                "ability": "Kitchen Sink",
+                "note": "Kitchen sink after TBN breaks"
+              }
+            ],
+            "WARDRK_DRK": [
+              "TBN Buddy",
+              "Oblation Buddy"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart @ -5s"
+              },
+              {
+                "ability": "Kitchen Sink",
+                "note": "Kitchen sink after TBN breaks"
+              }
+            ],
+            "GNBDRK_DRK": [
+              "TBN Buddy",
+              "Oblation Buddy"
+            ],
+            "GNBPLD_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_PLD": [
+              "Intervention"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart @ -5s"
+              },
+              {
+                "ability": "Kitchen Sink",
+                "note": "Kitchen sink after TBN breaks"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "TBN Buddy",
+              "Oblation Buddy"
+            ],
+            "WHM": [
+              {
+                "ability": "Regen",
+                "note": "Regen MT -5s"
+              },
+              {
+                "ability": "Divine Benison",
+                "note": "Divine Benison MT -5s"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Star @ -12s"
+              },
+              {
+                "ability": "PlayII",
+                "note": "Defensive Cards on MT"
+              },
+              {
+                "ability": "Celestial Intersection",
+                "note": "Celestial Intersection on MT"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Looper",
+          "time": 15,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "TankNote",
+                "note": "Buddy Mit Squishies"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "TankNote",
+                "note": "Buddy Mit Squishies"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "HealerNote",
+                "note": "G2 Healer: Self > Bottom 3rd In Line (Ignore Tanks) > Bottom 4th In Line (Ignore tanks)"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "HealerNote",
+                "note": "G2 Healer: Self > Bottom 3rd In Line (Ignore Tanks) > Bottom 4th In Line (Ignore tanks)"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "HealerNote",
+                "note": "G1 Healer: Self > Top 3rd In Line (Ignore Tanks) > Top 4th In Line (Ignore Tanks)"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "HealerNote",
+                "note": "G1 Healer: Self > Top 3rd In Line (Ignore Tanks) > Top 4th In Line (Ignore Tanks)"
+              }
+            ],
+            "M1": [
+              "Melee personals"
+            ],
+            "M2": [
+              "Melee personals"
+            ],
+            "Caster": [
+              "casterMit"
+            ],
+            "Caster2": [
+              "casterMit"
+            ],
+            "PRange": [
+              "prangeMit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Pantokrator",
+          "time": 69,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "Party Mit here if WAR/PLD MT at end of cast"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "This can be done whenever comfortable as long as it is after Looper resolves and before puddles drop"
+              }
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis"
+            ],
+            "WHM": [
+              "Everything"
+            ],
+            "AST": [
+              "Neutral"
+            ],
+            "BRD": [
+              "Nature's Minne"
+            ],
+            "MNK": [
+              "Mantra"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Stack 1",
+          "time": 81,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "Party Mit here if GNB MT when baited puddle appears"
+              },
+              "Reprisal"
+            ],
+            "SCH": [
+              {
+                "ability": "Expedient",
+                "note": "Use when baited puddle appears"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Holos",
+                "note": "Use when baited puddle appears"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "Temperance",
+                "note": "Temperance can be used after the flamethrower moves 1x"
+              },
+              {
+                "ability": "Bell",
+                "note": "Place Bell as baited puddles appear/1GCD after"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "Macrocosmos",
+                "note": "Use when baited puddle appears"
+              }
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Use when baited puddle appears"
+              }
+            ],
+            "Caster2": [
+              {
+                "ability": "Addle",
+                "note": "Use when baited puddle appears"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Stack 2",
+          "time": 87,
+          "mitigations": {
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "2 GCDs after Stack 1"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Soil",
+                "note": "can use immediately after Stack 1"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Panhaima",
+                "note": "2 GCDs after Stack 1"
+              },
+              {
+                "ability": "Kerachole",
+                "note": "2 GCDs after Stack 1"
+              }
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Stack 3",
+          "time": 93,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Seraph"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "MCH": [
+              "Dismantle"
+            ],
+            "RDM": [
+              "Barrier"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Stack 4",
+          "time": 99,
+          "mitigations": {
+            "SCH": [
+              "Seraph"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Diffuse Wave Cannon",
+          "time": 108,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Holmgang"
+            ],
+            "WARGNB_GNB": [
+              "Superbolide"
+            ],
+            "WARPLD_WAR": [
+              "Holmgang"
+            ],
+            "WARPLD_PLD": [
+              "Hallowed Ground"
+            ],
+            "WARDRK_WAR": [
+              "Holmgang"
+            ],
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "GNBDRK_GNB": [
+              "Superbolide"
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead"
+            ],
+            "GNBPLD_GNB": [
+              "Superbolide"
+            ],
+            "GNBPLD_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDDRK_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDDRK_DRK": [
+              "Living Dead"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

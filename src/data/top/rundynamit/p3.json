@@ -1,0 +1,619 @@
+{
+  "phase": 3,
+  "length": 120,
+  "name": "P3 Final Omega",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Hello World",
+          "time": 8,
+          "mitigations": {
+            "WARGNB_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting after cast"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting after cast"
+              }
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting after cast"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "HoC",
+                "note": "HoC after cast"
+              },
+              {
+                "ability": "Aurora",
+                "note": "Aurora after cast"
+              }
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "HoC",
+                "note": "HoC after cast"
+              },
+              {
+                "ability": "Aurora",
+                "note": "Aurora after cast"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron after cast"
+              }
+            ],
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Soil",
+              "Succor"
+            ],
+            "SGE": [
+              "Kerachole",
+              "EukProg90"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Patch 1",
+          "time": 32,
+          "mitigations": {
+            "WARGNB_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart halfway through cast"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting off CD"
+              }
+            ],
+            "WARGNB_GNB": [
+              "HoC Buddy"
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart halfway through cast"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting off CD"
+              }
+            ],
+            "WARPLD_PLD": [
+              "Intervention"
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart halfway through cast"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting off CD"
+              }
+            ],
+            "WARDRK_DRK": [
+              "Oblation Buddy"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart halfway through cast"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC off CD"
+              }
+            ],
+            "GNBDRK_DRK": [
+              "Oblation Buddy"
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart halfway through cast"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC off CD"
+              }
+            ],
+            "GNBPLD_PLD": [
+              "Intervention"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart halfway through cast"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron off CD"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "Oblation Buddy"
+            ],
+            "T1": [
+              {
+                "ability": "Party Mit",
+                "note": "If you have an expecially fast P2 KT, with GNB MT, there is a chance that Party Mit will not be back up for Patch 1. Communicate to your healers and either use on CD during the tether breaks, or save for Patch 2"
+              }
+            ],
+            "SCH": [
+              "Spread-Lo"
+            ],
+            "SGE": [
+              "ZoeEukProg90",
+              "Kerachole"
+            ],
+            "AST": [
+              {
+                "ability": "Star",
+                "note": "Place 2 GCDs after HW"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Patch 2",
+          "time": 53,
+          "mitigations": {
+            "WARGNB_WAR": [
+              {
+                "ability": "Vengeance",
+                "note": "Vengeance end of cast"
+              },
+              "Equilibrium"
+            ],
+            "WARGNB_GNB": [
+              "Aurora bud"
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Vengeance",
+                "note": "Vengeance end of cast"
+              },
+              "Equilibrium"
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Vengeance",
+                "note": "Vengeance end of cast"
+              },
+              "Equilibrium"
+            ],
+            "WARDRK_DRK": [
+              "TBN Buddy"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Nebula",
+                "note": "Nebula end of cast"
+              },
+              "Aurora"
+            ],
+            "GNBDRK_DRK": [
+              "TBN Buddy"
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Nebula",
+                "note": "Nebula end of cast"
+              },
+              "Aurora"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Sentinel",
+                "note": "Sentinel end of cast"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "TBN Buddy"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Expedient",
+              "Seraph"
+            ],
+            "SGE": [
+              "Panhaima"
+            ],
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "MCH": [
+              "Dismantle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Patch 3",
+          "time": 74,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "HoC Buddy",
+                "note": "If holding boss, Nebula + HoC Self"
+              }
+            ],
+            "WARPLD_WAR": [
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Intervention",
+                "note": "If holding boss, Sentinel + Sheltron"
+              }
+            ],
+            "WARDRK_WAR": [
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "Oblation Buddy",
+                "note": "If holding boss, Shadow Wall + Oblation Self"
+              }
+            ],
+            "GNBDRK_GNB": [
+              "HoC"
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Oblation Buddy",
+                "note": "If holding boss, Shadow Wall + Oblation Self"
+              }
+            ],
+            "GNBPLD_GNB": [
+              "HoC"
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "Intervention",
+                "note": "If holding boss, Sentinel + Sheltron"
+              }
+            ],
+            "PLDDRK_PLD": [
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Oblation Buddy",
+                "note": "If holding boss, Shadow Wall + Oblation Self"
+              }
+            ],
+            "SCH": [
+              "Fey",
+              "Seraph"
+            ],
+            "SGE": [
+              "Kerachole",
+              "EukProg90"
+            ],
+            "WHM": [
+              "Plenary Indulgence",
+              {
+                "ability": "Bell",
+                "note": "Place Bell after the Latent Defect damage goes off"
+              }
+            ],
+            "AST": [
+              "Macrocosmos"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "CASTER2": [
+              "Addle"
+            ],
+            "RDM": [
+              "Barrier"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Patch 4",
+          "time": 95,
+          "mitigations": {
+            "WARGNB_WAR": [
+              "Thrill",
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting on CD"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in cast to cover Autos"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "RampartG",
+                "note": "If holding boss"
+              },
+              {
+                "ability": "CamouflageG",
+                "note": "If holding boss"
+              }
+            ],
+            "WARPLD_WAR": [
+              "Thrill",
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting on CD"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in cast to cover Autos"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "RampartG",
+                "note": "If holding boss"
+              },
+              {
+                "ability": "BulwarkG",
+                "note": "If holding boss"
+              }
+            ],
+            "WARDRK_WAR": [
+              "Thrill",
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting on CD"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in cast to cover Autos"
+              }
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "TBN Buddy",
+                "note": "If holding boss, Rampart + TBN Self"
+              }
+            ],
+            "GNBDRK_GNB": [
+              "Camo",
+              {
+                "ability": "HoC",
+                "note": "HoC on CD"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in cast to cover Autos"
+              }
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "TBN Buddy",
+                "note": "If holding boss, Rampart + TBN Self"
+              }
+            ],
+            "GNBPLD_GNB": [
+              "Camo",
+              {
+                "ability": "HoC",
+                "note": "HoC on CD"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in cast to cover Autos"
+              }
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "RampartG",
+                "note": "If holding boss"
+              },
+              {
+                "ability": "BulwarkG",
+                "note": "If holding boss"
+              }
+            ],
+            "PLDDRK_PLD": [
+              "Bulwark",
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron on CD"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal late in cast to cover Autos"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "TBN Buddy",
+                "note": "If holding boss, Rampart + TBN Self"
+              }
+            ],
+            "T1": [
+              "Reprisal"
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Use at start of cast to ensure it is back up in time for its use in P4 in the case of a fast P3 KT"
+              }
+            ],
+            "SCH": [
+              "Succor",
+              {
+                "ability": "Soil",
+                "note": "Place soil when your final debuff reaches 15s (this would be about when Christmas tethers break during Patch 3)"
+              }
+            ],
+            "SGE": [
+              "Holos"
+            ],
+            "AST": [
+              "Star"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Critical Error",
+          "time": 116,
+          "mitigations": {
+            "WARGNB_WAR": [
+              {
+                "ability": "Equilibrium",
+                "note": "Equilibrium after cast"
+              },
+              {
+                "ability": "RampartG",
+                "note": "Can also Rampart if you want"
+              }
+            ],
+            "WARGNB_GNB": [
+              "HoC Buddy"
+            ],
+            "WARPLD_WAR": [
+              "Rampart",
+              {
+                "ability": "Equilibrium",
+                "note": "Equilibrium after cast"
+              }
+            ],
+            "WARDRK_WAR": [
+              "Rampart",
+              {
+                "ability": "Equilibrium",
+                "note": "Equilibrium after cast"
+              }
+            ],
+            "GNBDRK_GNB": [
+              "Rampart",
+              "Aurora"
+            ],
+            "GNBPLD_GNB": [
+              "Rampart",
+              "Aurora"
+            ],
+            "PLDDRK_PLD": [
+              "Rampart"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Soil",
+              "Succor"
+            ],
+            "SGE": [
+              "Kerachole",
+              "EukProg90"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "tanks",
+          "name": "Monitors",
+          "time": 137,
+          "mitigations": {
+            "WARGNB_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting if necessary"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting if necessary"
+              }
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting if necessary"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "HoC",
+                "note": "HoC if necessary"
+              }
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "HoC",
+                "note": "HoC if necessary"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron if necessary"
+              }
+            ]
+          }
+        }
+      ],
+      "note": {
+        "stakeholder": "tanks",
+        "text": "Personal mit is free for autos this phase"
+      }
+    }
+  ]
+}

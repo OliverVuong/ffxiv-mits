@@ -1,0 +1,1075 @@
+{
+  "phase": 6,
+  "length": 120,
+  "name": "P6 Alpha Omega",
+  "sections": [
+    {
+      "id": 0,
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Cosmo Memory",
+          "time": 13,
+          "mitigations": {
+            "WARDRK_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Free use of Bloodwhetting immediately after cast"
+              }
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "TBN",
+                "note": "Free use of TBN immediately after cast"
+              }
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Free use of Bloodwhetting immediately after cast"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "HoC",
+                "note": "Free use of HoC immediately after cast"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Bloodwhetting",
+                "note": "Free use of Bloodwhetting immediately after cast"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "TankNote",
+                "note": "Save Oath Guage to Self + Buddy mit CD1"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "HoC",
+                "note": "Free use of HoC immediately after cast"
+              }
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "TBN",
+                "note": "Free use of TBN immediately after cast"
+              }
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "HoC",
+                "note": "Free use of HoC immediately after cast"
+              }
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "TankNote",
+                "note": "Save Oath Guage to Self + Buddy mit CD1"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "TankNote",
+                "note": "Save Oath Guage to Self + Buddy mit CD1"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "TBN",
+                "note": "Free use of TBN immediately after cast"
+              }
+            ],
+            "T1": [
+              {
+                "ability": "Tank LB",
+                "note": "Tank LB 3rd GCD per prio: WAR > DRK > PLD"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Tank LB",
+                "note": "Tank LB 3rd GCD per prio: WAR > DRK > PLD"
+              },
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal 2nd GCD"
+              }
+            ],
+            "SCH": [
+              "Soil",
+              "Succor"
+            ],
+            "SGE": [
+              "Kerachole",
+              "EukProg90"
+            ],
+            "WHM": [
+              "Plenary Indulgence grey"
+            ],
+            "AST": [
+              "CU"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Cosmo Dive 1",
+          "time": 44,
+          "mitigations": {
+            "WARDRK_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Thrill",
+                "note": "Thrill 2 GCDs after Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Dark Mind",
+                "note": "Dark Mind when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "TBN",
+                "note": "TBN after final Exasquare dodge"
+              }
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Thrill",
+                "note": "Thrill when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Thrill",
+                "note": "Thrill when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Bulwark",
+                "note": "Bulwark when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 2 GCDs after Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Intervention",
+                "note": "Intervention 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Dark Mind",
+                "note": "Dark Mind when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "TBN",
+                "note": "TBN after final Exasquare dodge"
+              }
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Bulwark",
+                "note": "Bulwark when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 2 GCDs after Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Intervention",
+                "note": "Intervention 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Bulwark",
+                "note": "Bulwark when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 2 GCDs after Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Intervention",
+                "note": "Intervention 2 GCDs after Cosmo Dive cast begins"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 1st Cosmo Arrow cast finishes"
+              },
+              {
+                "ability": "Dark Mind",
+                "note": "Dark Mind when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "TBN",
+                "note": "TBN after final Exasquare dodge"
+              }
+            ],
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "Rep when Cosmo Dive cast begins"
+              },
+              {
+                "ability": "Party Mit",
+                "note": "If WAR or PLD Use after tank autos"
+              }
+            ],
+            "SCH": [
+              "Seraph",
+              "Expedient",
+              "Soil"
+            ],
+            "SGE": [
+              "Panhaima",
+              "Kerachole",
+              "EukProg90"
+            ],
+            "WHM": [
+              "Temperance",
+              "Plenary Indulgence grey"
+            ],
+            "AST": [
+              "CU",
+              "Neutral Sect"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Protean 1",
+          "time": 82,
+          "mitigations": {
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "15s mit should be used when the final baited puddle drops during exaflares. PLD OT MUST use Veil on the Wild Charge ONLY"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Soil",
+                "note": "15s mit should be used when the final baited puddle drops during exaflares"
+              },
+              "Succor"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis",
+              {
+                "ability": "Kerachole",
+                "note": "15s mit should be used when the final baited puddle drops during exaflares"
+              }
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "15s mit should be used when the final baited puddle drops during exaflares"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Wave Cannon 1",
+          "time": 89,
+          "mitigations": {
+            "WARDRK_WAR": [
+              {
+                "ability": "Vengeance",
+                "note": "Use Vengeance after 1st Protean"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 3/4 through Cast"
+              }
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "Living Dead",
+                "note": "Press Living Dead after the 1st Protean"
+              },
+              "TBN Buddy"
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Vengeance",
+                "note": "Use Vengeance after 1st Protean"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 3/4 through Cast"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Superbolide",
+                "note": "You can press Bolide right after 1st protean"
+              },
+              "HoC Buddy"
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Vengeance",
+                "note": "Use Vengeance after 1st Protean"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 3/4 through Cast"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Hallowed Ground",
+                "note": "You can press hallowed right after 1st protean"
+              },
+              "Intervention Buddy"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Nebula",
+                "note": "Use Nebula after 1st Protean"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 3/4 through Cast"
+              }
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Living Dead",
+                "note": "Press Living Dead after the 1st Protean"
+              },
+              "TBN Buddy"
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Nebula",
+                "note": "Use Nebula after 1st Protean"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 3/4 through Cast"
+              }
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "Hallowed Ground",
+                "note": "You can press hallowed right after 1st protean"
+              },
+              "Intervention Buddy"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Sentinel",
+                "note": "Use Sentinel after 1st Protean"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 3/4 through Cast"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Living Dead",
+                "note": "Press Living Dead after the 1st Protean"
+              },
+              "TBN Buddy"
+            ],
+            "T2": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "SCH": [
+              "Soil",
+              "Succor"
+            ],
+            "SGE": [
+              "Zoe EukProg90",
+              "Kerachole"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Protean 2",
+          "time": 115,
+          "mitigations": {
+            "T1": [
+              "No Reprisal"
+            ],
+            "T2": [
+              "No Reprisal"
+            ],
+            "SCH": [
+              "Spread-Lo",
+              {
+                "ability": "Fey Illumination",
+                "note": "Shield Healer 120s used here need to be pressed after the 1st wait"
+              },
+              {
+                "ability": "Soil",
+                "note": "Soil can be used when dodging to the cardinal"
+              }
+            ],
+            "SGE": [
+              "EukProg90",
+              {
+                "ability": "Holos",
+                "note": "Shield Healer 120s used here need to be pressed after the 1st wait"
+              },
+              {
+                "ability": "Kerachole",
+                "note": "Kera can be used when dodging to the cardinal"
+              }
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "Macrocosmos",
+              "CU"
+            ],
+            "M1": [
+              "No Feint"
+            ],
+            "M2": [
+              "No Feint"
+            ],
+            "Caster": [
+              "No Addle"
+            ],
+            "CASTER2": [
+              "No Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Wave Cannon 2",
+          "time": 122,
+          "mitigations": {
+            "WARDRK_WAR": [
+              {
+                "ability": "Holmgang",
+                "note": "You can press Holmgang after 1st protean"
+              },
+              "Nascent",
+              {
+                "ability": "Equilibrium",
+                "note": "Equilibrium ASAP after WC2 Stack"
+              }
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "Shadow Wall",
+                "note": "Shadow Wall after 1st protean"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation after 1st protean"
+              },
+              {
+                "ability": "TBN",
+                "note": "TBN 3/4 through cast"
+              }
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Holmgang",
+                "note": "You can press Holmgang after 1st protean"
+              },
+              "Nascent",
+              {
+                "ability": "Equilibrium",
+                "note": "Equilibrium ASAP after WC2 Stack"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Nebula",
+                "note": "Nebula after 1st protean"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 3/4 through cast"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Holmgang",
+                "note": "You can press Holmgang after 1st protean"
+              },
+              "Nascent",
+              {
+                "ability": "Equilibrium",
+                "note": "Equilibrium ASAP after WC2 Stack"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Sentinel",
+                "note": "Sentinel after 1st protean"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 3/4 through cast"
+              },
+              "Wings"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Superbolide",
+                "note": "You can press Superbolide after 1st protean"
+              },
+              "HoC Buddy"
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Shadow Wall",
+                "note": "Shadow Wall after 1st protean"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation after 1st protean"
+              },
+              {
+                "ability": "TBN",
+                "note": "TBN 3/4 through cast"
+              }
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Superbolide",
+                "note": "You can press Superbolide after 1st protean"
+              },
+              "HoC Buddy"
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "Sentinel",
+                "note": "Sentinel after 1st protean"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 3/4 through cast"
+              },
+              "Wings"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Hallowed Ground",
+                "note": "You can press Hallowed after 1st protean"
+              },
+              "Intervention",
+              "Wings"
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Shadow Wall",
+                "note": "Shadow Wall after 1st protean"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation after 1st protean"
+              },
+              {
+                "ability": "TBN",
+                "note": "TBN 3/4 through cast"
+              }
+            ],
+            "T1": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "SCH": [
+              "Succor",
+              "Fey Illumination",
+              "Soil"
+            ],
+            "SGE": [
+              "EukProg90",
+              "Holos",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "CASTER2": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Cosmo Dive 2",
+          "time": 157,
+          "mitigations": {
+            "WARDRK_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Thrill",
+                "note": "Thrill after 6th puddle puddle"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 2 GCDs after 6th puddle"
+              }
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Dark Mind",
+                "note": "Dark Mind after 6th puddle"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation after 6th puddle"
+              },
+              {
+                "ability": "TBN",
+                "note": "Save MP after WC2 to be able to use TBN"
+              }
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Thrill",
+                "note": "Thrill after 6th puddle puddle"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 2 GCDs after 6th puddle"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after 3rd baited puddle"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 2 GCDs after 6th puddle"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Thrill",
+                "note": "Thrill after 6th puddle puddle"
+              },
+              {
+                "ability": "Bloodwhetting",
+                "note": "Bloodwhetting 2 GCDs after 6th puddle"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Bulwark",
+                "note": "Bulwark after 6th puddle"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 2 GCDs after 6th puddle"
+              },
+              {
+                "ability": "Intervention",
+                "note": "Intervention 2 GCDs after 6th puddle"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after 3rd baited puddle"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 2 GCDs after 6th puddle"
+              }
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Dark Mind",
+                "note": "Dark Mind after 6th puddle"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation after 6th puddle"
+              },
+              {
+                "ability": "TBN",
+                "note": "Save MP after WC2 to be able to use TBN"
+              }
+            ],
+            "GNBPLD_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Camo",
+                "note": "Camo after 3rd baited puddle"
+              },
+              {
+                "ability": "HoC",
+                "note": "HoC 2 GCDs after 6th puddle"
+              }
+            ],
+            "GNBPLD_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Bulwark",
+                "note": "Bulwark after 6th puddle"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 2 GCDs after 6th puddle"
+              },
+              {
+                "ability": "Intervention",
+                "note": "Intervention 2 GCDs after 6th puddle"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Bulwark",
+                "note": "Bulwark after 6th puddle"
+              },
+              {
+                "ability": "Holy Sheltron",
+                "note": "Sheltron 2 GCDs after 6th puddle"
+              },
+              {
+                "ability": "Intervention",
+                "note": "Intervention 2 GCDs after 6th puddle"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart after 3rd baited puddle"
+              },
+              {
+                "ability": "Dark Mind",
+                "note": "Dark Mind after 6th puddle"
+              },
+              {
+                "ability": "Oblation",
+                "note": "Oblation after 6th puddle"
+              },
+              {
+                "ability": "TBN",
+                "note": "Save MP after WC2 to be able to use TBN"
+              }
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Soil",
+              "Succor"
+            ],
+            "SGE": [
+              "EukProg90",
+              "Kerachole"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Cosmo Meteor",
+          "time": 184,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal should be used once you are at your clockspot"
+              },
+              {
+                "ability": "TankNote",
+                "note": "Buddy Mit G1 Range, if there are 2 Casters mitigate the one using LB"
+              }
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Party Mit should be used when the baited puddles appear"
+              },
+              {
+                "ability": "TankNote",
+                "note": "Buddy Mit G2 Range, if there are 2 Casters mitigate the one using LB"
+              }
+            ],
+            "SCH": [
+              "Seraph",
+              "Expedient",
+              "Succor",
+              {
+                "ability": "Soil",
+                "note": "Soil after 1st Meteor Set Resolves"
+              }
+            ],
+            "SGE": [
+              "Zoe EukProg90",
+              "Panhaima",
+              "Pneuma",
+              {
+                "ability": "Kerachole",
+                "note": "Kera 2 GCDs after 1st Meteor Set Resolves"
+              }
+            ],
+            "WHM": [
+              "Temperance",
+              "Bell",
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "MCH": [
+              {
+                "ability": "Dismantle",
+                "note": "Dismantle should be used once you are at your clockspot"
+              }
+            ],
+            "RDM": [
+              "Barrier"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Flares",
+          "time": 202,
+          "mitigations": {
+            "SCH": [
+              "Spread-Lo",
+              "Soil"
+            ],
+            "SGE": [
+              "EukProg90",
+              "Kerachole"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Magic Number",
+          "time": 214,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Tank LB",
+                "note": "DRK should always get MN1 for mana refresh. Discuss with cotank during cutscene"
+              }
+            ],
+            "WHM": [
+              "Healer LB"
+            ],
+            "AST": [
+              "Healer LB"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Magic Number",
+          "time": 232,
+          "mitigations": {
+            "T2": [
+              "Tank LB"
+            ],
+            "SCH": [
+              "Healer LB"
+            ],
+            "SGE": [
+              "Healer LB"
+            ]
+          }
+        }
+      ],
+      "note": {
+        "all": "Remember to talk about which healer goes mid fo meteors"
+      }
+    }
+  ]
+}

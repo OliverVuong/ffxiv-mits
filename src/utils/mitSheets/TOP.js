@@ -1,18 +1,18 @@
-import top_mitty_p1 from '../../data/top/topmitty/p1.json';
-import top_mitty_p2 from '../../data/top/topmitty/p2.json';
-import top_mitty_p3 from '../../data/top/topmitty/p3.json';
-import top_mitty_p4 from '../../data/top/topmitty/p4.json';
-import top_mitty_p5 from '../../data/top/topmitty/p5.json';
-import top_mitty_p6 from '../../data/top/topmitty/p6.json';
+import dynamits_p1 from '../../data/top/rundynamit/p1.json';
+import dynamits_p2 from '../../data/top/rundynamit/p2.json';
+import dynamits_p3 from '../../data/top/rundynamit/p3.json';
+import dynamits_p4 from '../../data/top/rundynamit/p4.json';
+import dynamits_p5 from '../../data/top/rundynamit/p5.json';
+import dynamits_p6 from '../../data/top/rundynamit/p6.json';
 
 const TOP = {
   data: [
-    top_mitty_p1,
-    top_mitty_p2,
-    top_mitty_p3,
-    top_mitty_p4,
-    top_mitty_p5,
-    top_mitty_p6,
+    dynamits_p1,
+    dynamits_p2,
+    dynamits_p3,
+    dynamits_p4,
+    dynamits_p5,
+    dynamits_p6,
   ],
   tankCombos: [
     ['WARGNB_WAR', 'WARGNB_GNB'],
@@ -22,7 +22,7 @@ const TOP = {
     ['GNBPLD_GNB', 'GNBPLD_PLD'],
     ['PLDDRK_PLD', 'PLDDRK_DRK'],
   ],
-  extras: ['RDM', 'MCH'],
+  extras: ['BRD', 'RDM', 'MCH', 'MNK', 'CASTER2'],
   name: 'The Omega Protocol',
 };
 

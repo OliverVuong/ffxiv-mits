@@ -10,8 +10,9 @@ const aurora = {
   img: images[0].default,
 };
 const auroraB = {
-  name: 'Buddy Aurora',
+  name: 'Bud Aurora',
   img: images[0].default,
+  captionClass: 'overflow80',
 };
 const auroraG = {
   name: 'Aurora',
@@ -21,6 +22,11 @@ const auroraG = {
 const camouflage = {
   name: 'Camo',
   img: images[1].default,
+};
+const CamouflageG = {
+  name: 'Camo',
+  img: images[1].default,
+  iconClass: 'isGreyscale',
 };
 const camouflageCO = {
   name: '↪Camo',
@@ -96,6 +102,7 @@ const gnbMap = {
   auroraG,
   Camouflage: camouflage,
   Camo: camouflage,
+  CamouflageG,
   camouflageCO,
   'Camo co': camouflageCO,
   'Great Nebula': greatnebula,

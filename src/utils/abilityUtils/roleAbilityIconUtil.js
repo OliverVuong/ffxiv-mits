@@ -160,6 +160,12 @@ const rampart = {
   img: rampartIcon,
   captionClass: 'overflow90',
 };
+const RampartG = {
+  name: 'Rampart',
+  img: rampartIcon,
+  captionClass: 'overflow90',
+  iconClass: 'isGreyscale',
+};
 const rampartCO = {
   name: '↪Rampart',
   img: rampartIcon,
@@ -254,6 +260,14 @@ const HealerNote = {
   name: 'Note',
   img: healerIcon,
 };
+const CasterNote = {
+  name: 'Note',
+  img: casterIcon,
+};
+const RangeNote = {
+  name: 'Note',
+  img: rangeIcon,
+};
 const TankNote = {
   name: 'Note',
   img: tankIcon,
@@ -286,6 +300,7 @@ const rolesAbilityMap = {
   Provoke: provoke,
   provokeG,
   Rampart: rampart,
+  RampartG,
   rampartCO,
   'Rampart co': rampartCO,
   'Range Mit': rangemit,
@@ -325,6 +340,8 @@ const rolesAbilityMap = {
   prangeMit,
   HoLDM,
   HealerNote,
+  CasterNote,
+  RangeNote,
   TankNote,
   BuddyShort,
   'Buddy Short': BuddyShort,
