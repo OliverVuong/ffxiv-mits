@@ -148,6 +148,18 @@
               "Oblation",
               "Dark Mind",
               "Reprisal"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "CASTER2": [
+              "Addle"
             ]
           }
         },
@@ -213,18 +225,6 @@
               "Rampart",
               "TBN",
               "Oblation"
-            ],
-            "M1": [
-              "Feint"
-            ],
-            "M2": [
-              "Feint"
-            ],
-            "Caster": [
-              "Addle"
-            ],
-            "CASTER2": [
-              "Addle"
             ]
           }
         },
