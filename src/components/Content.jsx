@@ -20,23 +20,23 @@ function Content({
     const [sheet, setSheet] = useState('FRU_fmbg');
 
     useEffect(() => {
-        if (location.pathname === '/ffxiv-mits') {
+        if (location.pathname === '/') {
             setSheet('FRU_fmbg');
-        } else if (location.pathname === '/ffxiv-mits/fru'){
+        } else if (location.pathname === '/fru'){
             setSheet('FRU_fmbg');
-        } else if (location.pathname === '/ffxiv-mits/fru/fmbg'){
+        } else if (location.pathname === '/fru/fmbg'){
             setSheet('FRU_fmbg');
-        } else if (location.pathname === '/ffxiv-mits/fru/naur'){
+        } else if (location.pathname === '/fru/naur'){
             setSheet('FRU_naur');
-        } else if (location.pathname === '/ffxiv-mits/top'){
+        } else if (location.pathname === '/top'){
             setSheet('TOP');
-        } else if (location.pathname === '/ffxiv-mits/dsr'){
+        } else if (location.pathname === '/dsr'){
             setSheet('DSR');
-        } else if (location.pathname === '/ffxiv-mits/tea'){
+        } else if (location.pathname === '/tea'){
             setSheet('TEA');
-        } else if (location.pathname === '/ffxiv-mits/uwu'){
+        } else if (location.pathname === '/uwu'){
             setSheet('UWU');
-        } else if (location.pathname === '/ffxiv-mits/ucob'){
+        } else if (location.pathname === '/ucob'){
             setSheet('UCOB');
         } 
     }, [location.pathname]);
@@ -69,15 +69,15 @@ function Content({
 
     return (
         <Routes>
-            <Route path='/ffxiv-mits' element={container}/>
-            <Route path='/ffxiv-mits/fru' element={container}/>
-            <Route path='/ffxiv-mits/fru/fmbg' element={container}/>
-            <Route path='/ffxiv-mits/fru/naur' element={container}/>
-            <Route path='/ffxiv-mits/top' element={container}/>
-            <Route path='/ffxiv-mits/dsr' element={container}/>
-            <Route path='/ffxiv-mits/tea' element={container}/>
-            <Route path='/ffxiv-mits/uwu' element={container}/>
-            <Route path='/ffxiv-mits/ucob' element={container}/>
+            <Route path='/' element={container}/>
+            <Route path='/fru' element={container}/>
+            <Route path='/fru/fmbg' element={container}/>
+            <Route path='/fru/naur' element={container}/>
+            <Route path='/top' element={container}/>
+            <Route path='/dsr' element={container}/>
+            <Route path='/tea' element={container}/>
+            <Route path='/uwu' element={container}/>
+            <Route path='/ucob' element={container}/>
             <Route path='*' element={<NotFound />}/>
         </Routes>
     )
