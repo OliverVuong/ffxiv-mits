@@ -56,6 +56,12 @@ const eukprog90 = {
   name: 'EukProg',
   img: images[2].default,
 };
+const EukrasianPrognosisIGray = {
+  name: 'EukProg',
+  img: images[2].default,
+  iconClass: 'isGreyscale',
+  captionClass: 'overflow90-with-note',
+};
 const holos = {
   name: 'Holos',
   img: images[3].default,
@@ -133,6 +139,7 @@ const sgeMap = {
   eukprog90,
   EukProg90: eukprog90,
   'Eukrasian Prognosis': eukprog90,
+  EukrasianPrognosisIGray,
   EProg80: eukprog90,
   Holos: holos,
   holosCO,

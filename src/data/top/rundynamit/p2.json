@@ -263,7 +263,10 @@
                 "ability": "Soil",
                 "note": "Soil anytime after Flare markers appear"
               },
-              "Seraph"
+              {
+                "ability": "SeraphGrey",
+                "note": "Seraph can be summoned ASAP after Dissipation, this might cause her to not be available for Patch 2 with fast KTs. Suggested for progging"
+              }
             ],
             "SGE": [
               {
@@ -287,20 +290,12 @@
               {
                 "ability": "Temperance",
                 "note": "Temperance when baited line AOE appears"
-              },
-              {
-                "ability": "Plenary Indulgence",
-                "note": "Plenary immediately after Flare/Pile Pitch damage occurs"
               }
             ],
             "AST": [
               {
                 "ability": "Neutral",
                 "note": "Neutral + GCD when baited line AOE appears"
-              },
-              {
-                "ability": "CU",
-                "note": "Collective the Cosmo Memory damage AFTER the Flares/Pile Pitch"
               }
             ],
             "Caster": [
@@ -327,6 +322,32 @@
             ],
             "RDM": [
               "Barrier"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Cosmo Memory",
+          "time": 117,
+          "mitigations": {
+            "SCH": [
+              {
+                "ability": "SuccorGrey",
+                "note": "Optional but good for progging"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
             ]
           }
         }

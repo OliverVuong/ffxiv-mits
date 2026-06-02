@@ -124,6 +124,11 @@ const neutralsect = {
   name: 'Neutral',
   img: images[3].default,
 };
+const NeutralSectGray = {
+  name: 'Neutral',
+  img: images[3].default,
+  iconClass: 'isGreyscale',
+};
 const neutralsectCO = {
   name: '↪Neutral',
   img: images[3].default,
@@ -154,6 +159,7 @@ const astMap = {
   macrocosmosCO,
   'Neutral Sect': neutralsect,
   Neutral: neutralsect,
+  NeutralSectGray,
   neutralsectCO,
   'Neutral co': neutralsectCO,
   Star: star,

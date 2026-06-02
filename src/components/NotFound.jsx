@@ -8,7 +8,7 @@ function NotFound() {
             <p>Page Not Found</p>
             <p>The page you are looking for doesn&apos;t exist or has been moved.</p>
             <p className='return-home'>
-                <Link to={'/ffxiv-mits'} className='return-home-btn'>
+                <Link to={'/'} className='return-home-btn'>
                     Go to Homepage
                 </Link>
             </p>

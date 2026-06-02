@@ -292,6 +292,9 @@
             "SCH": [
               "Seraph"
             ],
+            "AST": [
+              "CU"
+            ],
             "M2": [
               "Feint"
             ],

@@ -61,11 +61,17 @@
             ],
             "SCH": [
               "Soil",
-              "Succor"
+              {
+                "ability": "SuccorGrey",
+                "note": "Optional but good for progging"
+              }
             ],
             "SGE": [
               "Kerachole",
-              "EukProg90"
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "AST": [
               "CU"
@@ -329,7 +335,10 @@
             ],
             "SGE": [
               "Kerachole",
-              "EukProg90"
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "WHM": [
               "Plenary Indulgence",
@@ -339,7 +348,10 @@
               }
             ],
             "AST": [
-              "Macrocosmos"
+              {
+                "ability": "Macrocosmos",
+                "note": "Macro at the start of the castbar and hug mid to make sure you catch everyone"
+              }
             ],
             "M2": [
               "Feint"
@@ -487,8 +499,8 @@
             "SCH": [
               "Succor",
               {
-                "ability": "Soil",
-                "note": "Place soil when your final debuff reaches 15s (this would be about when Christmas tethers break during Patch 3)"
+                "ability": "Soil grey",
+                "note": "Optional but good for progging. Place Soil when your final debuff reaches 15s (this would be about when Christmas tethers break during Patch 3)"
               }
             ],
             "SGE": [
@@ -548,11 +560,17 @@
             ],
             "SCH": [
               "Soil",
-              "Succor"
+              {
+                "ability": "SuccorGrey",
+                "note": "Optional but good for progging"
+              }
             ],
             "SGE": [
               "Kerachole",
-              "EukProg90"
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "AST": [
               "CU"

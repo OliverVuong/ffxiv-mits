@@ -81,6 +81,11 @@ const feyillum = {
   name: 'Illum',
   img: images[4].default,
 };
+const FeyillumGrey = {
+  name: 'Illum',
+  img: images[4].default,
+  iconClass: 'isGreyscale',
+};
 const feyillumCO = {
   name: '↪Illum',
   img: images[4].default,
@@ -107,6 +112,11 @@ const recitSuccorCO = {
 const seraph = {
   name: 'Seraph',
   img: images[7].default,
+};
+const SeraphGrey = {
+  name: 'Seraph',
+  img: images[7].default,
+  iconClass: 'isGreyscale',
 };
 const seraphCO = {
   name: '↪Seraph',
@@ -147,9 +157,19 @@ const succor = {
   name: 'Succor',
   img: images[11].default,
 };
+const SuccorGrey = {
+  name: 'Succor',
+  img: images[11].default,
+  iconClass: 'isGreyscale',
+};
 const whisperingdawn = {
   name: 'WD',
   img: images[12].default,
+};
+const whisperingdawnG = {
+  name: 'WD',
+  img: images[12].default,
+  iconClass: 'isGreyscale',
 };
 
 const schMap = {
@@ -167,12 +187,14 @@ const schMap = {
   'Fey Illum co': feyillumCO,
   'Fey Illumination co': feyillumCO,
   'Fey Illumination cont': feyillumCO,
+  FeyillumGrey,
   recitConcitation,
   'Recit Concitation': recitConcitation,
   recitConcitationCO,
   recitSuccor,
   recitSuccorCO,
   Seraph: seraph,
+  SeraphGrey,
   'Seraph co': seraphCO,
   Seraphism: seraphism,
   'Seraphism co': seraphismCO,
@@ -187,7 +209,9 @@ const schMap = {
   'Recit Spread-Lo': spreadlo,
   succor,
   Succor: succor,
+  SuccorGrey,
   'Whispering Dawn': whisperingdawn,
+  'Whispering Dawn grey': whisperingdawnG,
   Whisper: whisperingdawn,
   Excog: excogitation,
   dissipation,

@@ -102,17 +102,20 @@
             ],
             "SCH": [
               "Soil",
-              "Succor"
+              {
+                "ability": "SuccorGrey",
+                "note": "Optional but good for progging"
+              }
             ],
             "SGE": [
               "Kerachole",
-              "EukProg90"
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "WHM": [
               "Plenary Indulgence grey"
-            ],
-            "AST": [
-              "CU"
             ]
           }
         },
@@ -325,14 +328,23 @@
               }
             ],
             "SCH": [
-              "Seraph",
+              {
+                "ability": "Seraph",
+                "note": "Summoning Seraph at start Cosmo Dive Castbar lets you use your 2nd Consolation to help cover Proteans"
+              },
               "Expedient",
-              "Soil"
+              {
+                "ability": "Soil grey",
+                "note": "Optional but good for progging, place after the final 'In' during Exasquare dodges"
+              }
             ],
             "SGE": [
               "Panhaima",
               "Kerachole",
-              "EukProg90"
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "WHM": [
               "Temperance",
@@ -547,7 +559,10 @@
               "Plenary Indulgence"
             ],
             "AST": [
-              "Macrocosmos",
+              {
+                "ability": "Macrocosmos",
+                "note": "Macrocosmos when Cosmo Arrow castbar ends. Be as close to mid as the pattern allows to catch everyone. Be careful of people in the quadrant diagonally from you missing Macro if out pattern"
+              },
               "CU"
             ],
             "M1": [

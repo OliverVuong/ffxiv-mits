@@ -89,18 +89,29 @@
           "time": 45,
           "mitigations": {
             "SCH": [
-              "Fey",
-              "Whispering Dawn"
+              {
+                "ability": "FeyillumGrey",
+                "note": "You are likely in Dissipation here, these may not be useable."
+              },
+              {
+                "ability": "Whispering Dawn grey",
+                "note": "You are likely in Dissipation here, these may not be useable."
+              }
             ],
             "SGE": [
               "Kerachole"
             ],
             "WHM": [
-              "Bell"
+              {
+                "ability": "Bell",
+                "note": "Place Bell when tether debuff reaches 1s"
+              }
             ],
             "AST": [
-              "Macrocosmos",
-              "Star"
+              {
+                "ability": "Macrocosmos",
+                "note": "Macro when your tether debuff reaches 7s"
+              }
             ]
           }
         },
@@ -162,12 +173,18 @@
                 "ability": "Expedient",
                 "note": "You do not need both Soil and Expedient here. Ensure you have AT LEAST 1 10% on the raidwide though. You are welcome to do both in prog."
               },
-              "Succor"
+              {
+                "ability": "SuccorGrey",
+                "note": "Optional but good for progging"
+              }
             ],
             "SGE": [
               "Kerachole",
               "Panhaima",
-              "Eukrasian Prognosis"
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "WHM": [
               "Temperance",
@@ -175,7 +192,10 @@
             ],
             "AST": [
               "CU",
-              "Neutral Sect"
+              {
+                "ability": "NeutralSectGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "M1": [
               "Feint"
@@ -339,12 +359,18 @@
             "SCH": [
               "Spread-Lo",
               "Fey",
-              "Soil"
+              {
+                "ability": "Soil grey",
+                "note": "Optional but good for progging"
+              }
             ],
             "SGE": [
               "Holos",
               "Kerachole",
-              "Eukrasian Prognosis"
+              {
+                "ability": "EukrasianPrognosisIGray",
+                "note": "Optional but good for progging"
+              }
             ],
             "WHM": [
               "Plenary Indulgence"
@@ -448,9 +474,6 @@
             ],
             "SGE": [
               "Panhaima"
-            ],
-            "WHM": [
-              "Bell"
             ]
           }
         },
@@ -487,7 +510,7 @@
         },
         {
           "type": "Tankbuster",
-          "stakeholder": "tanks",
+          "stakeholder": "all",
           "name": "Final Solar Ray",
           "time": 263,
           "mitigations": {
