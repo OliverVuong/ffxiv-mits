@@ -1,0 +1,866 @@
+{
+  "phase": 3,
+  "length": 120,
+  "name": "P3 | Chaos & Exdeath",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Bowels of Agony",
+          "time": 450,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "If you are holding Exdeath instead of Chaos at the beginning, use Reprisal on both before The Decisive Battle finishes."
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Soil",
+                "note": "Use 30s mitigation after (when the textbox disappears) Kefka says, \"Oh! What other toys can I throw in here...\" to get tank autos and the raidwide + an additional usage for Stray Flames/Tsunami."
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Kerachole",
+                "note": "Use 30s mitigation after (when the textbox disappears) Kefka says, \"Oh! What other toys can I throw in here...\" to get tank autos and the raidwide + an additional usage for Stray Flames/Tsunami."
+              }
+            ],
+            "AST": [
+              "CU"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint Chaos"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Stray Flames/Tsunami",
+          "time": 470,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Prepare immediately after Bowels of Agony"
+              },
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II",
+              "Kerachole"
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Thunder III (1st Set)",
+          "time": 478,
+          "mitigations": {
+            "MT": [
+              "Rampart",
+              "90s",
+              "Short"
+            ],
+            "OT": [
+              "Rampart",
+              "90s",
+              "Short"
+            ],
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "WARGNB_GNB": [
+              "Superbolide"
+            ],
+            "WARPLD_WAR": [
+              "Holmgang"
+            ],
+            "PLDGNB_GNB": [
+              "Superbolide"
+            ],
+            "PLDDRK_DRK": [
+              "Living Dead"
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead"
+            ],
+            "T2": [
+              "ReprisalCo"
+            ],
+            "SCH": [
+              {
+                "ability": "Expedient",
+                "note": "There is a very small period where you can cover both hits of Thunder III and the next Stray Flames/Tsunami, if you miss the timing, you can use it next GCD."
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Holos",
+                "note": "There is a very small period where you can cover both hits of Thunder III and the next Stray Flames/Tsunami, if you miss the timing, you can use it next GCD."
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle Exdeath"
+              }
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Stray Flames/Tsunami",
+          "time": 497,
+          "mitigations": {
+            "T2": [
+              "Party Mit"
+            ],
+            "SCH": [
+              "Seraph",
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "HolosCo"
+            ],
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Ultima Blaster",
+          "time": 507,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "Sun Sign",
+              "NeutralSectCo"
+            ],
+            "SCH": [
+              "Soil",
+              "Fey Illumination",
+              "Seraphism"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Panhaima"
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "Feint Chaos"
+              }
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Vacuum Wave",
+          "time": 514,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "LB3",
+                "note": "Use LB3 at the W of Vacuum Wave. Either tank can press it, discuss beforehand."
+              },
+              "ReprisalCo"
+            ],
+            "T2": [
+              {
+                "ability": "LB3",
+                "note": "Use LB3 at the W of Vacuum Wave. Either tank can press it, discuss beforehand."
+              }
+            ],
+            "WHM": [
+              "Plenary Indulgence",
+              "TemperanceCo"
+            ],
+            "AST": [
+              "CU",
+              "NeutralSectCo",
+              "SunSignCo"
+            ],
+            "SCH": [
+              "SoilCo",
+              "Fey Illumination Co"
+            ],
+            "SGE": [
+              "KeracholeCo",
+              "PanhaimaCo"
+            ],
+            "M2": [
+              "FeintCo"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Cyclone",
+          "time": 518,
+          "mitigations": {
+            "T1": [
+              "ReprisalCo"
+            ],
+            "WHM": [
+              "Caress",
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "CUCo",
+              "SunSignCo"
+            ],
+            "SCH": [
+              "SoilCo",
+              "Fey Illumination Co"
+            ],
+            "SGE": [
+              "KeracholeCo",
+              "PanhaimaCo"
+            ],
+            "M2": [
+              "FeintCo"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Thunder III (Exdeath)",
+          "time": 536,
+          "mitigations": {
+            "MT": [
+              "Invuln"
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Dark Mind",
+              "TBN",
+              "Reprisal"
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Camouflage",
+              "HoC",
+              "Reprisal"
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Bulwark",
+              "Holy Sheltron",
+              "Reprisal"
+            ],
+            "PLDGNB_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Camouflage",
+              "HoC",
+              "Reprisal"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Dark Mind",
+              "TBN",
+              "Reprisal"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Camouflage",
+              "HoC"
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Use Rampart late so it carries over"
+              },
+              "Dark Mind",
+              "TBN",
+              "Reprisal"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "The Decisive Battle",
+          "time": 545,
+          "mitigations": {
+            "T2": [
+              {
+                "ability": "Reprisal",
+                "note": "Reprisal Exdeath"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Prepare Spreadlo on the tanks, prioritizing WAR > DRK > GNB/PLD"
+              }
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Thunder III (Exdeath)",
+          "time": 554,
+          "mitigations": {
+            "MT": [
+              "40%",
+              "Short"
+            ],
+            "OT": [
+              "40%",
+              "Short"
+            ],
+            "WARDRK_WAR": [
+              "Rampart co",
+              "Vengeance"
+            ],
+            "WARDRK_DRK": [
+              "Rampart co",
+              "Shadowed Vigil",
+              "TBN"
+            ],
+            "WARGNB_WAR": [
+              "Rampart co",
+              "Vengeance"
+            ],
+            "WARGNB_GNB": [
+              "Rampart co",
+              "Great Nebula"
+            ],
+            "WARPLD_WAR": [
+              "Rampart co",
+              "Vengeance"
+            ],
+            "WARPLD_PLD": [
+              "Rampart co",
+              "Guardian",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_PLD": [
+              "Rampart co",
+              "Guardian",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB": [
+              "Rampart co",
+              "Great Nebula"
+            ],
+            "PLDDRK_PLD": [
+              "Rampart co",
+              "Guardian",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              "Rampart co",
+              "Shadowed Vigil",
+              "TBN"
+            ],
+            "GNBDRK_GNB": [
+              "Rampart co",
+              "Great Nebula"
+            ],
+            "GNBDRK_DRK": [
+              "Rampart co",
+              "Shadowed Vigil",
+              "TBN"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Earthquake",
+          "time": 559,
+          "mitigations": {
+            "T1": [
+              "HoL/DM"
+            ],
+            "AST": [
+              "Macrocosmos"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Philosophia"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint Chaos"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Impact/Shockwave",
+          "time": 578,
+          "mitigations": {
+            "T1": [
+              "Reprisal",
+              "Shake/Veil"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "Tanks",
+          "name": "Thunder III (Exdeath)",
+          "time": 595,
+          "mitigations": {
+            "OT": [
+              "Invuln"
+            ],
+            "WARDRK_WAR": [
+              "Holmgang"
+            ],
+            "WARGNB_WAR": [
+              "Holmgang"
+            ],
+            "WARPLD_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDGNB_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDDRK_PLD": [
+              "Hallowed Ground"
+            ],
+            "GNBDRK_GNB": [
+              "Superbolide"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Impact/Shockwave",
+          "time": 609,
+          "mitigations": {
+            "T2": [
+              "HoL/DM"
+            ],
+            "WHM": [
+              "Bell"
+            ],
+            "SCH": [
+              "Expedient",
+              "Seraph",
+              "Soil"
+            ],
+            "SGE": [
+              "Holos",
+              "Kerachole"
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Black Holes II (3rd Set)",
+          "time": 616,
+          "mitigations": {
+            "T2": [
+              "Shake/Veil",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "Temperance",
+              "Caress"
+            ],
+            "AST": [
+              "Neutral Sect",
+              "Sun Sign"
+            ],
+            "SGE": [
+              "HolosCo",
+              "KeracholeCo"
+            ],
+            "SCH": [
+              "Seraph",
+              "ExpedientCo",
+              "SoilCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Black Holes II (4th Set)",
+          "time": 621,
+          "mitigations": {
+            "T2": [
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "NeutralSectCo",
+              "SunSignCo"
+            ],
+            "SGE": [
+              "HolosCo"
+            ],
+            "SCH": [
+              "ExpedientCo",
+              "SoilCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Black Holes II (5th Set)",
+          "time": 626,
+          "mitigations": {
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "NeutralSectCo",
+              "SunSignCo"
+            ],
+            "SGE": [
+              "HolosCo"
+            ],
+            "SCH": [
+              "Fey Illumination",
+              "ExpedientCo"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Thunder III (5th Set)",
+          "time": 637,
+          "mitigations": {
+            "MT": [
+              "Rampart",
+              "90s",
+              "Short"
+            ],
+            "OT": [
+              "Rampart",
+              "90s",
+              "Short"
+            ],
+            "WARDRK_WAR": [
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "TBN"
+            ],
+            "WARGNB_WAR": [
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              "Rampart",
+              "Camouflage",
+              "HoC"
+            ],
+            "WARPLD_WAR": [
+              "Rampart",
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              "Rampart",
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_PLD": [
+              "Rampart",
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB": [
+              "Rampart",
+              "Camouflage",
+              "HoC"
+            ],
+            "PLDDRK_PLD": [
+              "Rampart",
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "TBN"
+            ],
+            "GNBDRK_GNB": [
+              "Rampart",
+              "Camouflage",
+              "HoC"
+            ],
+            "GNBDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "TBN"
+            ],
+            "T1": [
+              "Reprisal"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "NeutralSectCo"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II",
+              {
+                "ability": "Panhaima",
+                "note": "If you are holding at the end of P3, you can send this for the 6th Tether set"
+              },
+              "Kerachole"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Soil",
+              "Fey Illumination Co"
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "Feint Chaos"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Addle Exdeath"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Black Holes III (6th Set)",
+          "time": 650,
+          "mitigations": {
+            "SGE": [
+              "PanhaimaCo"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Impact/Shockwave ",
+          "time": 677,
+          "mitigations": {
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Black Holes IV (10th Set)",
+          "time": 691,
+          "mitigations": {
+            "MT": [
+              "40%",
+              "Short"
+            ],
+            "OT": [
+              "40%",
+              "Short"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Stomp-a-Mole",
+          "time": 705,
+          "mitigations": {
+            "T1": [
+              {
+                "ability": "Reprisal",
+                "note": "Use if holding Chaos, otherwise use at the beginning of P4 for autos."
+              },
+              "Party Mit"
+            ],
+            "T2": [
+              {
+                "ability": "Reprisal",
+                "note": "Use if holding Chaos, otherwise use at the beginning of P4 for autos."
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Seraphism",
+                "note": "Seraphism can be shifted to P4 if you feel you have sufficient mitigation."
+              },
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Feint Chaos"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

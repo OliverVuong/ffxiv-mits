@@ -102,10 +102,14 @@ const panhaimaCO = {
   name: '↪Panhaima',
   img: images[5].default,
   iconClass: 'isGreyscale',
-  captionClass: 'overflow90',
+  captionClass: 'overflow80',
 };
 const philosophia = {
   name: 'Sophia',
+  img: images[6].default,
+};
+const PhilosophiaCo = {
+  name: '↪Sophia',
   img: images[6].default,
 };
 const physis2 = {
@@ -117,7 +121,7 @@ const zoeeukprog = {
   img: images[8].default,
 };
 const zoeeukprogCO = {
-  name: 'Zoe',
+  name: '↪Zoe',
   img: images[8].default,
   iconClass: 'isGreyscale',
 };
@@ -145,19 +149,23 @@ const sgeMap = {
   holosCO,
   'Holos grey': holosG,
   'Holos co': holosCO,
+  HolosCo: holosCO,
   Kerachole: kerachole,
   Kera: kerachole,
   'kerachole g': keracholeG,
   'Kerachole grey': keracholeG,
   keracholeCO,
   'Kerachole co': keracholeCO,
+  KeracholeCo: keracholeCO,
   'Kerachole cont': keracholeCO,
   Panhaima: panhaima,
   panhaimaCO,
   'Panhaima co': panhaimaCO,
+  PanhaimaCo: panhaimaCO,
   philosophia,
   Sophia: philosophia,
   Philosophia: philosophia,
+  PhilosophiaCo,
   Physis: physis2,
   zoeeukprog,
   Zoe: zoeeukprog,
@@ -171,6 +179,7 @@ const sgeMap = {
   zoeeukprog90co,
   zoeeukprogCO,
   'Zoe EukProg co': zoeeukprogCO,
+  'Zoe Eukrasian Prognosis II Co': zoeeukprogCO,
   ZoeEprog80: zoeeukprog90,
   druochole,
   Druochole: druochole,

@@ -14,7 +14,7 @@ const BulwarkG = {
   img: images[0].default,
   iconClass: 'isGreyscale',
 };
-const bulwarkCO = {
+const BulwarkCo = {
   name: '↪Bulwark',
   img: images[0].default,
   iconClass: 'isGreyscale',
@@ -50,7 +50,7 @@ const guardian = {
   name: 'Guardian',
   img: images[4].default,
 };
-const guardianCO = {
+const GuardianCo = {
   name: '↪Guardian',
   img: images[4].default,
   iconClass: 'isGreyscale',
@@ -120,7 +120,7 @@ const pldMap = {
   bulwark,
   Bulwark: bulwark,
   BulwarkG,
-  bulwarkCO,
+  BulwarkCo,
   clemency,
   clemencyG,
   cover,
@@ -130,8 +130,7 @@ const pldMap = {
   divineveilG,
   guardian,
   Guardian: guardian,
-  guardianCO,
-  'Guardian CO': guardianCO,
+  GuardianCo,
   hallowedground,
   'Hallowed Ground': hallowedground,
   hallowedgroundCO,

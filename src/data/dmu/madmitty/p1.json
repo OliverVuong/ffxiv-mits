@@ -1,0 +1,477 @@
+{
+  "phase": 1,
+  "length": 120,
+  "name": "P1: OG Kefka",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Revoltin Ruin III",
+          "time": 2,
+          "mitigations": {
+            "WARDRK_WAR": [
+              "Holmgang"
+            ],
+            "WARGNB_WAR": [
+              "Holmgang"
+            ],
+            "WARPLD_WAR": [
+              "Holmgang"
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead"
+            ],
+            "PLDDRK_DRK": [
+              "Living Dead"
+            ],
+            "GNBPLD_GNB": [
+              "Superbolide"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Graven Image 1",
+          "time": 6,
+          "mitigations": {
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Deploy end of cast"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Zoe Eukrasian Prognosis II",
+                "note": "Zoe Eukrasian Prognosis end of cast"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Party Mit end of cast"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mystery Magic",
+          "time": 38,
+          "mitigations": {
+            "T1": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "SpreadloCo",
+              "Seraph"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II Co",
+              "Holos"
+            ],
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Wave Cannon",
+          "time": 6,
+          "mitigations": {
+            "T1": [
+              "Party Mit co"
+            ],
+            "SCH": [
+              "SeraphCo"
+            ],
+            "SGE": [
+              "HolosCo"
+            ],
+            "WHM": [
+              "TempranceCo",
+              "Caress",
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "Neutral Sect Co",
+              "Sun Sign"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Double-trouble Trap",
+          "time": 6,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Seraph co",
+              "Soil"
+            ],
+            "SGE": [
+              "HolosCo",
+              "Kerachole"
+            ],
+            "WHM": [
+              "TempranceCo",
+              "Plenary Indulgence Co"
+            ],
+            "AST": [
+              "Neutral Sect Co",
+              "Sun Sign co"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Light of Judgement",
+          "time": 62,
+          "mitigations": {
+            "T2": [
+              "ReprisalCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Hyperdrive (No Cast)",
+          "time": 2,
+          "mitigations": {
+            "WARDRK_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_DRK": [
+              "Buddy Mit"
+            ],
+            "WARGNB_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_GNB": [
+              "Buddy Mit"
+            ],
+            "WARPLD_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_PLD": [
+              "Buddy Mit"
+            ],
+            "GNBDRK_GNB": [
+              "Buddy Mit"
+            ],
+            "GNBDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_PLD": [
+              "Buddy Mit"
+            ],
+            "PLDDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_PLD": [
+              "Buddy Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Graven Image 2",
+          "time": 6,
+          "mitigations": {}
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Gravitas 1",
+          "time": 88,
+          "mitigations": {
+            "SCH": [
+              "Seraphism"
+            ],
+            "SGE": [
+              "Philosophia"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Hyperdrive (No Cast)",
+          "time": 2,
+          "mitigations": {
+            "WARDRK_WAR": [
+              "Reprisal",
+              "Buddy Mit"
+            ],
+            "WARDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_WAR": [
+              "Reprisal",
+              "Buddy Mit"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Reprisal",
+              "Buddy Mit"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink",
+              "Reprisal"
+            ],
+            "GNBDRK_DRK": [
+              "Buddy Mit"
+            ],
+            "PLDDRK_PLD": [
+              "Kitchen Sink",
+              "Reprisal"
+            ],
+            "PLDDRK_DRK": [
+              "Buddy Mit"
+            ],
+            "GNBPLD_GNB": [
+              "Reprisal",
+              "Buddy Mit"
+            ],
+            "GNBPLD_PLD": [
+              "Kitchen Sink"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Gravitas 2",
+          "time": 6,
+          "mitigations": {
+            "SCH": [
+              "SeraphismCo"
+            ],
+            "SGE": [
+              "PhilosophiaCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Puddle Soaks",
+          "time": 6,
+          "mitigations": {
+            "T2": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "SCH": [
+              "Expedient",
+              "Soil",
+              "Fey Illumination"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II",
+              "Panhaima",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Light of Judgement",
+          "time": 122,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              "ReprisalCo"
+            ],
+            "SCH": [
+              "ExpedientCo",
+              "SoilCo",
+              "Fey Illumination Co"
+            ],
+            "SGE": [
+              "PanhaimaCo",
+              "KeracholeCo"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              "Range Mit Co"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Tele-trouncing",
+          "time": 6,
+          "mitigations": {}
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Hyperdrive (No Cast)",
+          "time": 2,
+          "mitigations": {
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "WARGNB_GNB": [
+              "Superbolide"
+            ],
+            "WARPLD_PLD": [
+              "Hallowed Ground"
+            ],
+            "GNBDRK_GNB": [
+              "Superbolide"
+            ],
+            "PLDDRK_PLD": [
+              "Hallowed Ground"
+            ],
+            "GNBPLD_PLD": [
+              "Hallowed Ground"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Graven Image 3",
+          "time": 6,
+          "mitigations": {}
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Double-trouble Trap",
+          "time": 6,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Spreadlo"
+            ],
+            "SGE": [
+              "Eukrasian Prognosis II"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Confused/Sleep",
+          "time": 174,
+          "mitigations": {
+            "SCH": [
+              "Seraph"
+            ],
+            "SGE": [
+              "Holos"
+            ],
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mystery Magic",
+          "time": 6,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "SeraphCo",
+              "Soil"
+            ],
+            "SGE": [
+              "HolosCo"
+            ],
+            "WHM": [
+              "TemperanceCo",
+              "Caress"
+            ],
+            "AST": [
+              "Neutral Sect Co",
+              "Sun Sign"
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

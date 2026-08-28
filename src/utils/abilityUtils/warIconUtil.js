@@ -14,6 +14,12 @@ const damnation = {
   img: images[1].default,
   captionClass: 'overflow80',
 };
+const DamnationCo = {
+  name: '↪Damnation',
+  img: images[1].default,
+  iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
+};
 const equilibrium = {
   name: 'Equilibrium',
   img: images[2].default,
@@ -52,6 +58,11 @@ const thrillofbattle = {
   name: 'Thrill',
   img: images[8].default,
 };
+const ThrillCo = {
+  name: '↪Thrill',
+  iconClass: 'isGreyscale',
+  img: images[8].default,
+};
 const vengeance = {
   name: 'Vengeance',
   img: images[9].default,
@@ -61,6 +72,7 @@ const vengeance = {
 const warMap = {
   Bloodwhetting: bloodwhetting,
   Damnation: damnation,
+  DamnationCo,
   Equilibrium: equilibrium,
   Holmgang: holmgang,
   'Nascent Buddy': nascentflash,
@@ -72,6 +84,7 @@ const warMap = {
   shakeveilG,
   shortmit,
   Thrill: thrillofbattle,
+  ThrillCo,
   vengeance,
   Vengeance: vengeance,
 };

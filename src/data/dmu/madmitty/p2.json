@@ -1,0 +1,341 @@
+{
+  "phase": 2,
+  "length": 120,
+  "name": "P2: God Kefka",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Ultimate Embrace",
+          "time": 220,
+          "mitigations": {
+            "WARDRK_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_PLD": [
+              "Kitchen Sink"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken",
+          "time": 236,
+          "mitigations": {
+            "T1": [
+              "Party Mit",
+              "Reprisal"
+            ],
+            "T2": [
+              "Party Mit"
+            ],
+            "SCH": [
+              "Recitation Concitation",
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II",
+              "Kerachole"
+            ],
+            "WHM": [
+              "Plenary"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 1",
+          "time": 249,
+          "mitigations": {
+            "SCH": [
+              "Expedient"
+            ],
+            "SGE": [
+              "Philosophia"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 2 & End",
+          "time": 260,
+          "mitigations": {
+            "SCH": [
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "PhilosophiaCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 3",
+          "time": 270,
+          "mitigations": {
+            "SCH": [
+              "Seraphism",
+              "Soil"
+            ],
+            "SGE": [
+              "Panhaima",
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 4 & End",
+          "time": 280,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "SeraphismCo",
+              "SoilCo"
+            ],
+            "SGE": [
+              "PanhaimaCo",
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 5",
+          "time": 291,
+          "mitigations": {
+            "T2": [
+              "ReprisalCo"
+            ],
+            "SCH": [
+              "Seraph"
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 6 & End",
+          "time": 301,
+          "mitigations": {
+            "SCH": [
+              "SeraphCo",
+              "Soil"
+            ],
+            "SGE": [
+              "CU"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 7",
+          "time": 312,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "Holos",
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 8 & End",
+          "time": 322,
+          "mitigations": {
+            "T1": [
+              "ReprisalCo"
+            ],
+            "SCH": [
+              "Neutral Sect"
+            ],
+            "SGE": [
+              "HolosCo",
+              "Zoe Eukrasian Prognosis II"
+            ],
+            "WHM": [
+              "Temperance"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Light of Judgement",
+          "time": 342,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "WHM": [
+              "Caress"
+            ],
+            "AST": [
+              "Sun SIgn"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Wings of Destruction",
+          "time": 370,
+          "mitigations": {
+            "WARDRK_WAR": [
+              "Holmgang"
+            ],
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "WARGNB_WAR": [
+              "Holmgang",
+              "Buddy Mit"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Holmgang",
+              "Buddy Mit"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead",
+              "Buddy Mit"
+            ],
+            "PLDDRK_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_DRK": [
+              "Living Dead",
+              "Buddy Mit"
+            ],
+            "GNBPLD_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBPLD_PLD": [
+              "Kitchen Sink"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Ultimate Embrace",
+          "time": 377,
+          "mitigations": {
+            "WARDRK_WAR": [
+              "HolmgangCo"
+            ],
+            "WARGNB_WAR": [
+              "HolmgangCo"
+            ],
+            "WARPLD_WAR": [
+              "HolmgangCo"
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead Co"
+            ],
+            "PLDDRK_DRK": [
+              "Living Dead Co"
+            ],
+            "GNBPLD_GNB": [
+              "Superbolide"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

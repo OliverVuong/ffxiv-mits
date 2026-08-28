@@ -30,6 +30,18 @@ function CreditsModal({ open, setOpen}){
                             );
                         })}
                     </div>
+                    <div className='dmu-credit'>
+                        <a 
+                            href='https://tinyurl.com/ikuyamittydmu' 
+                            target="_blank"
+                            className='title'>
+                                <u>Ikuya Mitty</u>
+                        </a>
+                        <br />
+                        <span>
+                            Ikuya Kirishima
+                        </span>
+                    </div>
                     <div className='fru-credit'>
                         <a 
                             href='http://mit.lesb.in/' 

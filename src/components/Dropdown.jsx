@@ -29,7 +29,7 @@ function Dropdown(){
             label: "Dancing Mad (coming soon)",
             value: "DMU",
             path: "/dmu",
-            disabled: true,
+            disabled: false,
         },
         {
             id: 2,

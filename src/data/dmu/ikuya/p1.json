@@ -1,0 +1,536 @@
+{
+  "phase": 1,
+  "length": 120,
+  "name": "P1 | Kefka",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Revolting Ruin III",
+          "time": 16,
+          "mitigations": {
+            "MT": [
+              "Kitchen Sink"
+            ],
+            "OT": [
+              "Buddy Mit",
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "WARDRK_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_DRK": [
+              "Buddy Mit",
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "WARGNB_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_GNB": [
+              "Buddy Mit",
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "WARPLD_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_PLD": [
+              "Buddy Mit",
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "PLDGNB_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDGNB_GNB": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "PLDDRK_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_DRK": [
+              "Buddy Mit",
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_DRK": [
+              "Buddy Mit",
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mystery Magic",
+          "time": 38,
+          "mitigations": {
+            "T1": [
+              "HoL/DM"
+            ],
+            "T2": [
+              "Reprisal",
+              {
+                "ability": "Party Mit",
+                "note": "Use your 90s party mitigation as Kefka re-centres to cast the first Graven Image (WAR/PLD can use after Revolting Ruin III finishes)"
+              }
+            ],
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect",
+              "Sun Sign"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Expedient"
+            ],
+            "SGE": [
+              {
+                "ability": "Kerachole",
+                "note": "Use Kerachole for the first Mystery Magic after the Graven Image castbar"
+              },
+              "Zoe Eukrasian Prognosis II"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Use your 90s party mitigation as Kefka re-centres to cast the first Graven Image"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Wave Cannon",
+          "time": 43,
+          "mitigations": {
+            "T1": [
+              "Shake/Veil",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "Caress",
+              "TemperanceCo"
+            ],
+            "AST": [
+              "NeutralSectCo",
+              "SunSignCo"
+            ],
+            "SCH": [
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "Holos",
+              "KeracholeCo"
+            ],
+            "M1": [
+              "FeintCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Double-Trouble Trap",
+          "time": 50,
+          "mitigations": {
+            "T1": [
+              "HoLDMCo"
+            ],
+            "AST": [
+              "NeutralSectCo",
+              "SunSignCo"
+            ],
+            "SCH": [
+              "Soil",
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "HolosCo"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "M1": [
+              "FeintCo"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Light of Judgement",
+          "time": 63,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "Caster": [
+              "AddleCo"
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Hyperdrive (3x)",
+          "time": 65,
+          "mitigations": {
+            "MT": [
+              "Buddy Mit"
+            ],
+            "OT": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_WAR": [
+              "Buddy Mit"
+            ],
+            "WARDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_WAR": [
+              "Buddy Mit"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Buddy Mit"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDGNB_PLD": [
+              "Buddy Mit"
+            ],
+            "PLDGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_PLD": [
+              "Buddy Mit"
+            ],
+            "PLDDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_GNB": [
+              "Buddy Mit"
+            ],
+            "GNBDRK_DRK": [
+              "Kitchen Sink"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Gravitas II (Part I)",
+          "time": 88,
+          "mitigations": {
+            "AST": [
+              "Macrocosmos"
+            ],
+            "SCH": [
+              "Soil",
+              {
+                "ability": "Seraphism",
+                "note": "If you plan to use Dissipation in your opener, use it before Aetherflow. If you use the first Spreadlo earlier, you will get it back for the Double-Trouble Trap in the second Graven Image and be able to use Seraphism earlier/later."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Revolting Ruin III",
+          "time": 98,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "OT": [
+              "Invuln"
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "WARGNB_GNB": [
+              "Superbolide"
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "WARPLD_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDGNB_PLD": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "PLDGNB_GNB": [
+              "Superbolide"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "Living Dead"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke During Castbar"
+              }
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Gravitas II (Part II)",
+          "time": 106,
+          "mitigations": {
+            "WHM": [
+              {
+                "ability": "Bell",
+                "note": "You can alternatively use Bell just before the first set of puddles which will provide an immediate heal when the second set of puddles occurs as the Bell will expire shortly after."
+              }
+            ],
+            "SCH": [
+              "Seraph",
+              "Fey Illumination"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Philosophia"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Double-Trouble Trap",
+          "time": 118,
+          "mitigations": {
+            "T2": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Soil",
+              "SeraphCo",
+              "FeyIlluminationCo"
+            ],
+            "SGE": [
+              "Panhaima",
+              "Zoe Eukrasian Prognosis II"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Light of Judgement",
+          "time": 132,
+          "mitigations": {
+            "T1": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "Kerachole",
+              "PanhaimaCo"
+            ],
+            "M1": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tanks",
+          "name": "Hyperdrive (3x)",
+          "time": 136,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Invuln",
+                "note": "WAR can alternatively kitchen sink this and Holmgang the first Ultimate Embrace, let your party know if you plan to do this"
+              }
+            ],
+            "WARDRK_WAR": [
+              "Holmgang"
+            ],
+            "WARGNB_WAR": [
+              "Holmgang"
+            ],
+            "WARPLD_WAR": [
+              "Holmgang"
+            ],
+            "PLDGNB_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDDRK_PLD": [
+              "Hallowed Ground"
+            ],
+            "GNBDRK_GNB": [
+              "Superbolide"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Double-Trouble Trap",
+          "time": 165,
+          "mitigations": {
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "SCH": [
+              "Expedient"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Indulgent Will",
+          "time": 173,
+          "mitigations": {
+            "WHM": [
+              "Caress",
+              "TemperanceCo"
+            ],
+            "AST": [
+              "Sun Sign"
+            ],
+            "SCH": [
+              "Soil",
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Mystery Magic",
+          "time": 187,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "SunSignCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

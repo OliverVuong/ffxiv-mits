@@ -101,6 +101,11 @@ const cu = {
   name: 'CU',
   img: images[0].default,
 };
+const CUCo = {
+  name: '↪CU',
+  img: images[0].default,
+  iconClass: 'isGreyscale',
+};
 const cuG = {
   name: 'CU',
   img: images[0].default,
@@ -152,6 +157,7 @@ const astMap = {
   CU: cu,
   'Collective Unconscious': cu,
   cuG,
+  CUCo,
   horoscope,
   Horoscope: horoscope,
   Macro: macrocosmos,
@@ -162,11 +168,13 @@ const astMap = {
   NeutralSectGray,
   neutralsectCO,
   'Neutral co': neutralsectCO,
+  NeutralSectCo: neutralsectCO,
   Star: star,
   Sun: sunsign,
   'Sun Sign': sunsign,
   sunsignCO,
   'Sun Sign co': sunsignCO,
+  SunSignCo: sunsignCO,
   AspectedBenefic,
   AspectedHelios,
   'Aspected Helios': AspectedHelios,

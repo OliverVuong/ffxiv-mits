@@ -55,6 +55,12 @@ const PlenaryIndulgence = {
   name: 'Plenary',
   img: PlenaryIndulgenceIcon,
 };
+const PlenaryIndulgenceCo = {
+  name: '↪Plenary',
+  img: PlenaryIndulgenceIcon,
+  iconClass: 'isGreyscale',
+  captionClass: 'overflow80',
+};
 const PlenaryIndulgenceGray = {
   name: 'Plenary',
   img: PlenaryIndulgenceIcon,
@@ -105,6 +111,7 @@ const whmMap = {
   Temperance: temperance,
   'Temperance co': temperanceCO,
   'Temperance CO': temperanceCO,
+  TemperanceCo: temperanceCO,
   Aquaveil,
   Assize,
   Asylum,
@@ -122,6 +129,7 @@ const whmMap = {
   'Medica 3': MedicaIII,
   'Plenary Indulgence': PlenaryIndulgence,
   'Plenary Indulgence grey': PlenaryIndulgenceGray,
+  PlenaryIndulgenceCo,
   Confession,
   Regen,
   Tetragrammaton,

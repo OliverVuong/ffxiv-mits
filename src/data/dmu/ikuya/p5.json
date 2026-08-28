@@ -1,0 +1,1068 @@
+{
+  "phase": 5,
+  "length": 120,
+  "name": "P5 | Kefka Reimagined",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Ultima Repeater",
+          "time": 911,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Use when Kefka brings his staff down to his right side. The subsequent usages should be pressed immediately off cooldown"
+              }
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II",
+              "Holos",
+              "Kerachole"
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Use when Kefka brings his staff down to his right side. The subsequent usages should be pressed immediately off cooldown"
+              }
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Fell Forces (3x)",
+          "time": 916,
+          "mitigations": {
+            "MT": [
+              "40%",
+              "Short"
+            ],
+            "OT": [
+              "40%",
+              "Short"
+            ],
+            "WARDRK_WAR": [
+              "Vengeance",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              "Shadowed Vigil",
+              "TBN"
+            ],
+            "WARGNB_WAR": [
+              "Vengeance",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              "Great Nebula",
+              "HoC"
+            ],
+            "WARPLD_WAR": [
+              "Vengeance",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              "Guardian",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_PLD": [
+              "Guardian",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB": [
+              "Great Nebula",
+              "HoC"
+            ],
+            "PLDDRK_PLD": [
+              "Guardian",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              "Shadowed Vigil",
+              "TBN"
+            ],
+            "GNBDRK_GNB": [
+              "Great Nebula",
+              "HoC"
+            ],
+            "GNBDRK_DRK": [
+              "Shadowed Vigil",
+              "TBN"
+            ],
+            "T1": [
+              "ReprisalCo"
+            ],
+            "WHM": [
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "CUCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "HolosCo",
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Chaotic Flood",
+          "time": 928,
+          "mitigations": {
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "SCH": [
+              "Expedient"
+            ],
+            "SGE": [
+              "Panhaima",
+              "HolosCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Maddening Orchestra",
+          "time": 940,
+          "mitigations": {
+            "MT": [
+              "Rampart",
+              "Short",
+              {
+                "ability": "Provoke",
+                "note": "The invulning tank should Provoke as soon Flare/Holy is applied so Kefka is not pulled and they get main threat for the autos"
+              }
+            ],
+            "OT": [
+              "40%",
+              "Short"
+            ],
+            "WARDRK_WAR": [
+              "Rampart",
+              "Bloodwhetting",
+              "Holmgang",
+              "Provoke"
+            ],
+            "WARDRK_DRK": [
+              "Rampart",
+              "TBN"
+            ],
+            "WARGNB_WAR": [
+              "Rampart",
+              "Bloodwhetting",
+              "Holmgang",
+              "Provoke"
+            ],
+            "WARGNB_GNB": [
+              "Rampart",
+              "HoC"
+            ],
+            "WARPLD_WAR": [
+              "Rampart",
+              "Bloodwhetting",
+              "Holmgang",
+              "Provoke"
+            ],
+            "WARPLD_PLD": [
+              "Rampart",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_PLD": [
+              "Rampart",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB": [
+              "Rampart",
+              "HoC",
+              "Superbolide",
+              "Provoke"
+            ],
+            "PLDDRK_PLD": [
+              "Rampart",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              "Rampart",
+              "TBN",
+              "Living Dead",
+              "Provoke"
+            ],
+            "GNBDRK_GNB": [
+              "Rampart",
+              "HoC",
+              "Superbolide",
+              "Provoke"
+            ],
+            "GNBDRK_DRK": [
+              "Rampart",
+              "TBN"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "WHM": [
+              "Caress",
+              "TemperanceCo"
+            ],
+            "AST": [
+              "Sun Sign"
+            ],
+            "SCH": [
+              "Soil",
+              "Fey Illumination",
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "tankbuster",
+          "stakeholder": "tanks",
+          "name": "Flare/Holy",
+          "time": 948,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Invuln",
+                "note": "Invulnerabilities should be used just before the Flare/Holy debuffs expire so that they can cover two autos."
+              }
+            ],
+            "OT": [
+              "RampartCo",
+              "ShortCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Fell Forces (2x)",
+          "time": 953,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "InvulnCo",
+                "note": "Solo"
+              }
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Holmgang",
+                "note": "Take Solo"
+              }
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Holmgang",
+                "note": "Take Solo"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Provoke",
+                "note": "Provoke After Both Autos"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Holmgang",
+                "note": "Take Solo"
+              }
+            ],
+            "PLDGNB_GNB": [
+              {
+                "ability": "Superbolide",
+                "note": "Take Solo"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Living Dead",
+                "note": "Take Solo"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Superbolide",
+                "note": "Take Solo"
+              }
+            ],
+            "T2": [
+              "ReprisalCo"
+            ],
+            "AST": [
+              "SunSignCo"
+            ],
+            "SCH": [
+              "SoilCo",
+              "Fey Illumination Co"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ],
+            "M2": [
+              "FeintCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Celestriad",
+          "time": 971,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "SCH": [
+              {
+                "ability": "Seraph",
+                "note": "Use during the Celestriad castbar"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Ultima Repeater",
+          "time": 993,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "T2": [
+              {
+                "ability": "Party Mit",
+                "note": "Should be pressed immediately off cooldown"
+              }
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "M1": [
+              {
+                "ability": "Feint",
+                "note": "Use after the third towers in Celestriad resolves"
+              }
+            ],
+            "PRange": [
+              {
+                "ability": "Range Mit",
+                "note": "Should be pressed immediately off cooldown"
+              }
+            ],
+            "Caster": [
+              {
+                "ability": "Addle",
+                "note": "Use after the third towers in Celestriad resolves"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Fell Forces (2x)",
+          "time": 998,
+          "mitigations": {
+            "MT": [
+              "90s",
+              "Short"
+            ],
+            "OT": [
+              "90s",
+              "Short"
+            ],
+            "WARDRK_WAR": [
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              "Dark Mind",
+              "TBN"
+            ],
+            "WARGNB_WAR": [
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              "Camouflage",
+              "HoC"
+            ],
+            "WARPLD_WAR": [
+              "Thrill",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_PLD": [
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDGNB_GNB": [
+              "Camouflage",
+              "HoC"
+            ],
+            "PLDDRK_PLD": [
+              "Bulwark",
+              "Holy Sheltron"
+            ],
+            "PLDDRK_DRK": [
+              "Dark Mind",
+              "TBN"
+            ],
+            "GNBDRK_GNB": [
+              "Camouflage",
+              "HoC"
+            ],
+            "GNBDRK_DRK": [
+              "Dark Mind",
+              "TBN"
+            ],
+            "T1": [
+              "ReprisalCo"
+            ],
+            "T2": [
+              "Party Mit Co"
+            ],
+            "WHM": [
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "CUCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ],
+            "M1": [
+              "FeintCo"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ],
+            "Caster": [
+              "AddleCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Star Entropy",
+          "time": 1024,
+          "mitigations": {
+            "T2": [
+              {
+                "ability": "Reprisal",
+                "note": "Use two GCDs after the Stray Apocalypse castbar is completed so it is back for Forsaken"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Maddening Orchestra",
+          "time": 1033,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart shoud be pressed just before the Maddening Orchestra cast is complete so it carries over to the 3rd auto"
+              },
+              "40%"
+            ],
+            "OT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart shoud be pressed just before the Maddening Orchestra cast is complete so it carries over to the 3rd auto"
+              },
+              "40%",
+              {
+                "ability": "Short",
+                "note": "PLD/DRK"
+              },
+              {
+                "ability": "Provoke",
+                "note": "The invulning tank should Provoke as soon Flare/Holy is applied so Kefka is not pulled and they get main threat for the autos"
+              }
+            ],
+            "WARDRK_WAR": [
+              "Rampart",
+              "Vengeance"
+            ],
+            "WARDRK_DRK": [
+              "Rampart",
+              "Shadowed Vigil",
+              "Living Dead",
+              "Provoke"
+            ],
+            "WARGNB_WAR": [
+              "Rampart",
+              "Vengeance"
+            ],
+            "WARGNB_GNB": [
+              "Rampart",
+              "Great Nebula",
+              "Superbolide",
+              "Provoke"
+            ],
+            "WARPLD_WAR": [
+              "Rampart",
+              "Vengeance"
+            ],
+            "WARPLD_PLD": [
+              "Rampart",
+              "Guardian",
+              "Hallowed Ground",
+              "Provoke"
+            ],
+            "PLDGNB_PLD": [
+              "Rampart",
+              "Guardian",
+              {
+                "ability": "Hallowed Ground",
+                "note": "Hallowed Ground Holy"
+              }
+            ],
+            "PLDGNB_GNB": [
+              "Rampart",
+              "Great Nebula"
+            ],
+            "PLDDRK_PLD": [
+              "Rampart",
+              "Guardian",
+              "Hallowed Ground",
+              "Provoke"
+            ],
+            "PLDDRK_DRK": [
+              "Rampart",
+              "Shadowed Vigil"
+            ],
+            "GNBDRK_GNB": [
+              "Rampart",
+              "Great Nebula"
+            ],
+            "GNBDRK_DRK": [
+              "Rampart",
+              "Shadowed Vigil",
+              "Living Dead",
+              "Provoke"
+            ],
+            "SCH": [
+              {
+                "ability": "Soil",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Kerachole",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ],
+            "WHM": [
+              {
+                "ability": "HealerNote",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "HealerNote",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ]
+          }
+        },
+        {
+          "type": "tankbuster",
+          "stakeholder": "tanks",
+          "name": "Flare/Holy",
+          "time": 1040,
+          "mitigations": {
+            "MT": [
+              "RampartCo",
+              "40%Co"
+            ],
+            "OT": [
+              {
+                "ability": "Invuln",
+                "note": "Invulnerabilities should be used just before the Flare/Holy debuffs expire so that they can cover two autos."
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Fell Forces (3x)",
+          "time": 1045,
+          "mitigations": {
+            "OT": [
+              {
+                "ability": "InvulnCo",
+                "note": "Solo"
+              }
+            ],
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "WARGNB_GNB": [
+              "Superbolide"
+            ],
+            "WARPLD_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDGNB_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDDRK_PLD": [
+              "Hallowed Ground"
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead"
+            ],
+            "WHM": [
+              {
+                "ability": "HealerNote",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "HealerNote",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "HealerNote",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "HealerNote",
+                "note": "Healers should monitor the tanks during Maddening Orchestra (especially the Flare tank) and Fell Forces. For WAR/DRK, you will need to have single target burst healing prepared after their invulnerability expires so they can survive the 3rd auto"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "tanks",
+          "name": "Fell Forces II",
+          "time": 1048,
+          "mitigations": {
+            "OT": [
+              {
+                "ability": "InvulnCo",
+                "note": "Solo"
+              }
+            ],
+            "WARDRK_DRK": [
+              "Living Dead"
+            ],
+            "WARGNB_GNB": [
+              "Superbolide"
+            ],
+            "WARPLD_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDGNB_PLD": [
+              "Hallowed Ground"
+            ],
+            "PLDDRK_PLD": [
+              "Hallowed Ground"
+            ],
+            "GNBDRK_DRK": [
+              "Living Dead"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "tanks",
+          "name": "Fell Forces III",
+          "time": 1051,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart shoud be pressed just before the Maddening Orchestra cast is complete so it carries over to the 3rd auto"
+              },
+              "Short"
+            ],
+            "OT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart shoud be pressed just before the Maddening Orchestra cast is complete so it carries over to the 3rd auto"
+              },
+              "Short"
+            ],
+            "WARDRK_WAR": [
+              "Rampart",
+              "Bloodwhetting"
+            ],
+            "WARDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_WAR": [
+              "Rampart",
+              "Bloodwhetting"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Rampart",
+              "Bloodwhetting"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDGNB_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDGNB_GNB": [
+              "Rampart",
+              "Camouflage",
+              "HoC"
+            ],
+            "PLDDRK_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "Oblation",
+              "TBN"
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_DRK": [
+              "Rampart",
+              "Dark Mind",
+              "Oblation",
+              "TBN"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken (1st Hit)",
+          "time": 1062,
+          "mitigations": {
+            "T1": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect",
+              "CU"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Fey Illumination",
+              "Soil"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II",
+              "Holos",
+              "Kerachole"
+            ],
+            "M2": [
+              "Feint"
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken Bonds (2nd Hit)",
+          "time": 1067,
+          "mitigations": {
+            "T1": [
+              "ReprisalCo",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "Bell",
+              "TemperanceCo"
+            ],
+            "AST": [
+              "NeutralSectCo",
+              "CUCo"
+            ],
+            "SCH": [
+              "Seraphism",
+              "Fey Illumination Co",
+              "SoilCo"
+            ],
+            "SGE": [
+              "Philosophia",
+              "HolosCo",
+              "KeracholeCo"
+            ],
+            "M2": [
+              "FeintCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken (3rd Hit)",
+          "time": 1070,
+          "mitigations": {
+            "T1": [
+              "ReprisalCo",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "Macrocosmos",
+              "NeutralSectCo",
+              "CUCo"
+            ],
+            "SCH": [
+              "Expedient",
+              "Fey Illumination Co",
+              "SoilCo"
+            ],
+            "SGE": [
+              "Panhaima",
+              "HolosCo",
+              "KeracholeCo"
+            ],
+            "M2": [
+              "FeintCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken Bonds (4th Hit)",
+          "time": 1076,
+          "mitigations": {
+            "T1": [
+              "ReprisalCo",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "NeutralSectCo"
+            ],
+            "SCH": [
+              "Fey Illumination Co",
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "HolosCo",
+              "PanhaimaCo"
+            ],
+            "M2": [
+              "FeintCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken Bonds (5th Hit)",
+          "time": 1079,
+          "mitigations": {
+            "T2": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "WHM": [
+              "Caress",
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "Sun Sign"
+            ],
+            "SCH": [
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "HolosCo",
+              "PanhaimaCo"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken Bonds (6th Hit)",
+          "time": 1084,
+          "mitigations": {
+            "T2": [
+              "ReprisalCo",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "SunSignCo"
+            ],
+            "SCH": [
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "PanhaimaCo"
+            ],
+            "M1": [
+              "FeintCo"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ],
+            "Caster": [
+              "AddleCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken Bonds (7th Hit)",
+          "time": 1087,
+          "mitigations": {
+            "T2": [
+              "ReprisalCo",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "SunSignCo"
+            ],
+            "SCH": [
+              "Seraph"
+            ],
+            "SGE": [
+              "PanhaimaCo"
+            ],
+            "M1": [
+              "FeintCo"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ],
+            "Caster": [
+              "AddleCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken Bonds (8th Hit)",
+          "time": 1092,
+          "mitigations": {
+            "T2": [
+              "ReprisalCo",
+              "HoLDMCo"
+            ],
+            "AST": [
+              "SunSignCo"
+            ],
+            "SCH": [
+              "Seraph",
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "M1": [
+              "FeintCo"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ],
+            "Caster": [
+              "AddleCo"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

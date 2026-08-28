@@ -1,0 +1,322 @@
+{
+  "phase": 4,
+  "length": 120,
+  "name": "P4 | Kefka Says",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "tank",
+          "name": "Autos",
+          "time": 733,
+          "mitigations": {
+            "MT": [
+              "Rampart",
+              "90s",
+              "Short"
+            ],
+            "OT": [
+              "Buddy Mit"
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "TankNote",
+                "note": "Roll all Mitigation"
+              }
+            ],
+            "WARDRK_DRK": [
+              "Buddy Mit"
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "TankNote",
+                "note": "Roll all Mitigation"
+              }
+            ],
+            "WARGNB_GNB": [
+              "Buddy Mit"
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "TankNote",
+                "note": "Roll all Mitigation"
+              }
+            ],
+            "WARPLD_PLD": [
+              "Buddy Mit"
+            ],
+            "PLDGNB_PLD": [
+              {
+                "ability": "TankNote",
+                "note": "Roll all Mitigation"
+              }
+            ],
+            "PLDGNB_GNB": [
+              "Buddy Mit"
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "TankNote",
+                "note": "Roll all Mitigation"
+              }
+            ],
+            "PLDDRK_DRK": [
+              "Buddy Mit"
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "TankNote",
+                "note": "Roll all Mitigation"
+              }
+            ],
+            "GNBDRK_DRK": [
+              "Buddy Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Grand Cross",
+          "time": 763,
+          "mitigations": {
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Philosophia",
+              "Holos"
+            ],
+            "M2": [
+              {
+                "ability": "Feint",
+                "note": "Use at the beginning of the phase for autos"
+              }
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Inferno/Tsunami",
+          "time": 769,
+          "mitigations": {
+            "WHM": [
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "CUCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo",
+              "HolosCo"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Grand Cross",
+          "time": 778,
+          "mitigations": {
+            "WHM": [
+              "Temperance"
+            ],
+            "AST": [
+              "Neutral Sect"
+            ],
+            "SCH": [
+              "Expedient",
+              "Fey Illumination",
+              "SoilCo"
+            ],
+            "SGE": [
+              "Panhaima",
+              "HolosCo"
+            ],
+            "PRange": [
+              "Range Mit co"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Inferno/Tsunami",
+          "time": 783,
+          "mitigations": {
+            "T2": [
+              "HoL/DM"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "AST": [
+              "Sun Sign",
+              "NeutralSectCo"
+            ],
+            "SCH": [
+              "Seraph",
+              "ExpedientCo",
+              "Fey Illumination Co"
+            ],
+            "SGE": [
+              "PanhaimaCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Grand Cross",
+          "time": 793,
+          "mitigations": {
+            "T2": [
+              "Shake/Veil",
+              "HoLDMCo"
+            ],
+            "WHM": [
+              "Caress",
+              "TemperanceCo"
+            ],
+            "AST": [
+              "NeutralSectCo",
+              "SunSignCo"
+            ],
+            "SCH": [
+              "Seraph",
+              "ExpedientCo",
+              "Fey Illumination Co"
+            ],
+            "SGE": [
+              "Zoe Eukrasian Prognosis II"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Flood of Naught",
+          "time": 805,
+          "mitigations": {
+            "WHM": [
+              "Bell"
+            ],
+            "AST": [
+              "Macrocosmos"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Death Bolt/Wave",
+          "time": 815,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Ultima Upsurge",
+          "time": 833,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Death Bolt/Wave",
+          "time": 840,
+          "mitigations": {
+            "WHM": [
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "CUCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Ultima Upsurge",
+          "time": 872,
+          "mitigations": {
+            "T2": [
+              "Reprisal"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

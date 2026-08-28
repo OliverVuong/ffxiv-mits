@@ -1,0 +1,594 @@
+{
+  "phase": 2,
+  "length": 120,
+  "name": "P2 | Forsaken Kefka",
+  "sections": [
+    {
+      "id": 0,
+      "name": "",
+      "table": [
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Ultimate Embrace",
+          "time": 221,
+          "mitigations": {
+            "MT": [
+              "Kitchen Sink"
+            ],
+            "OT": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_WAR": [
+              "Kitchen Sink"
+            ],
+            "WARPLD_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDGNB_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDGNB_GNB": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_PLD": [
+              "Kitchen Sink"
+            ],
+            "PLDDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_GNB": [
+              "Kitchen Sink"
+            ],
+            "GNBDRK_DRK": [
+              "Kitchen Sink"
+            ],
+            "WHM": [
+              {
+                "ability": "HealerNote",
+                "note": "Provide single target mitigation and GCD shield both tanks in the phase transition for Ultimate Embrace. Also assist tanks with the last Ultimate Embrace"
+              }
+            ],
+            "AST": [
+              {
+                "ability": "HealerNote",
+                "note": "Provide single target mitigation and GCD shield both tanks in the phase transition for Ultimate Embrace. Also assist tanks with the last Ultimate Embrace"
+              }
+            ],
+            "SCH": [
+              {
+                "ability": "Spreadlo",
+                "note": "Prepare Spreadlo either on the OT shortly beforehand or the MT during Ultimate Embrace to assist the tanks"
+              }
+            ],
+            "SGE": [
+              {
+                "ability": "Holos",
+                "note": "Use Holos during the first Ultimate Embrace so it is back for Light of Judgement and provides mitigation to the tanks. Alternatively, you can use Holos for the Wings of Destruction + Ultimate Embrace"
+              }
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Forsaken",
+          "time": 236,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "T2": [
+              "Party Mit"
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "Soil",
+              "SpreadloCo"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Zoe Eukrasian Prognosis II",
+              "HolosCo"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              "Range Mit"
+            ],
+            "EXTRA": [
+              "Check"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 1",
+          "time": 250,
+          "mitigations": {
+            "SCH": [
+              "Seraph",
+              "Fey Illumination",
+              "SoilCo"
+            ],
+            "SGE": [
+              "Panhaima",
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 2",
+          "time": 260,
+          "mitigations": {
+            "SCH": [
+              "Seraph",
+              "Fey Illumination Co"
+            ],
+            "SGE": [
+              "PanhaimaCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 3",
+          "time": 271,
+          "mitigations": {
+            "T1": [
+              "Party Mit"
+            ],
+            "T2": [
+              "Reprisal"
+            ],
+            "AST": [
+              "Macrocosmos"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 4",
+          "time": 281,
+          "mitigations": {
+            "T1": [
+              "HoLDMCo"
+            ],
+            "T2": [
+              "ReprisalCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 5",
+          "time": 292,
+          "mitigations": {
+            "WHM": [
+              "Bell"
+            ],
+            "SCH": [
+              "Expedient"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 6",
+          "time": 302,
+          "mitigations": {
+            "T1": [
+              "Reprisal"
+            ],
+            "WHM": [
+              "Plenary Indulgence",
+              "Temperance"
+            ],
+            "AST": [
+              "CU",
+              "Neutral Sect"
+            ],
+            "SCH": [
+              "Seraphism",
+              "ExpedientCo"
+            ],
+            "SGE": [
+              "Philosophia"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 7",
+          "time": 312,
+          "mitigations": {
+            "T1": [
+              "ReprisalCo"
+            ],
+            "WHM": [
+              "Caress",
+              "TemperanceCo"
+            ],
+            "AST": [
+              "Sun Sign"
+            ],
+            "SCH": [
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Towers 8",
+          "time": 323,
+          "mitigations": {
+            "AST": [
+              "SunSignCo"
+            ],
+            "WHM": [
+              "TemperanceCo"
+            ],
+            "SCH": [
+              "SoilCo"
+            ],
+            "SGE": [
+              "KeracholeCo"
+            ]
+          }
+        },
+        {
+          "type": "Raidwide",
+          "stakeholder": "all",
+          "name": "Light of Judgement",
+          "time": 343,
+          "mitigations": {
+            "T2": [
+              "Reprisal",
+              "Party Mit"
+            ],
+            "SCH": [
+              "Spreadlo",
+              "Soil"
+            ],
+            "SGE": [
+              "Kerachole",
+              {
+                "ability": "Holos",
+                "note": "Alternatively, you can use Holos for the Wings of Destruction + Ultimate Embrace"
+              },
+              "Zoe Eukrasian Prognosis II"
+            ],
+            "M1": [
+              "Feint"
+            ],
+            "Caster": [
+              "Addle"
+            ],
+            "PRange": [
+              "Range Mit"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Wings of Destruction",
+          "time": 371,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart end of first Wings of Destruction (halfroom) cast"
+              },
+              {
+                "ability": "40%",
+                "note": "Use 40% two GCDs after end of first Wings of Destruction (halfroom) cast"
+              },
+              {
+                "ability": "90s",
+                "note": "Use 10s mitigation at the end of second Wings of Destruction cast"
+              }
+            ],
+            "OT": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart end of first Wings of Destruction (halfroom) cast"
+              },
+              {
+                "ability": "40%",
+                "note": "Use 40% two GCDs after end of first Wings of Destruction (halfroom) cast"
+              },
+              {
+                "ability": "90s",
+                "note": "Use 10s mitigation at the end of second Wings of Destruction cast"
+              }
+            ],
+            "WARDRK_WAR": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart end of first Wings of Destruction (halfroom) cast"
+              },
+              {
+                "ability": "Damnation",
+                "note": "Use 40% two GCDs after end of first Wings of Destruction (halfroom) cast"
+              },
+              {
+                "ability": "Thrill",
+                "note": "Use 10s mitigation at the end of second Wings of Destruction cast"
+              }
+            ],
+            "WARDRK_DRK": [
+              {
+                "ability": "Rampart",
+                "note": "Rampart end of first Wings of Destruction (halfroom) cast"
+              },
+              {
+                "ability": "Shadowed Vigil",
+                "note": "Use 40% two GCDs after end of first Wings of Destruction (halfroom) cast"
+              },
+              "Dark Mind",
+              {
+                "ability": "Oblation",
+                "note": "Use 10s mitigation at the end of second Wings of Destruction cast"
+              }
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDGNB_PLD": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDGNB_GNB": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "T1": [
+              "Reprisal",
+              {
+                "ability": "Party Mit",
+                "note": "Use early to avoid shaking off mitigation if playing WAR"
+              }
+            ],
+            "WHM": [
+              "Plenary Indulgence"
+            ],
+            "AST": [
+              "CU"
+            ],
+            "SCH": [
+              "Soil",
+              "Fey Illumination",
+              "Seraph"
+            ],
+            "SGE": [
+              "Kerachole",
+              "Panhaima"
+            ],
+            "M2": [
+              "Feint"
+            ]
+          }
+        },
+        {
+          "type": "Tankbuster",
+          "stakeholder": "all",
+          "name": "Ultimate Embrace",
+          "time": 378,
+          "mitigations": {
+            "MT": [
+              {
+                "ability": "Short",
+                "note": "Short mitigation before Ultimate Embrace finishes casting"
+              },
+              "RampartCo",
+              "40%Co",
+              "90sCo"
+            ],
+            "OT": [
+              {
+                "ability": "Short",
+                "note": "Short mitigation before Ultimate Embrace finishes casting"
+              },
+              "RampartCo",
+              "40%Co",
+              "90sCo"
+            ],
+            "WARDRK_WAR": [
+              "Bloodwhetting",
+              "RampartCo",
+              "DamnationCo",
+              "ThrillCo"
+            ],
+            "WARDRK_DRK": [
+              "TBN",
+              "RampartCo",
+              "ShadowedVigilCo",
+              "DarkMindCo",
+              "OblationCo"
+            ],
+            "WARGNB_WAR": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "WARGNB_GNB": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "WARPLD_WAR": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "WARPLD_PLD": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDGNB_PLD": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDGNB_GNB": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDDRK_PLD": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "PLDDRK_DRK": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "GNBDRK_GNB": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "GNBDRK_DRK": [
+              {
+                "ability": "Kitchen Sink",
+                "note": "Short Mit for Ultimate Embrace"
+              }
+            ],
+            "T1": [
+              "ReprisalCo",
+              "Party Mit Co"
+            ],
+            "WHM": [
+              "PlenaryIndulgenceCo"
+            ],
+            "AST": [
+              "CUCo"
+            ],
+            "SCH": [
+              "SoilCo",
+              "Fey Illumination Co",
+              "SeraphCo"
+            ],
+            "SGE": [
+              "KeracholeCo",
+              "PanhaimaCo"
+            ],
+            "M2": [
+              "FeintCo"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

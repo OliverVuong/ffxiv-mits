@@ -16,27 +16,32 @@ const dismantleG = {
   iconClass: 'isGreyscale',
   captionClass: 'overflow90-with-note',
 };
+const Check = {
+  name: '✔',
+  img: images[1].default,
+};
 const magickbarrier = {
   name: 'Barrier',
-  img: images[1].default,
+  img: images[2].default,
 };
 const magickbarrierC = {
   name: '↪Barrier',
-  img: images[1].default,
+  img: images[2].default,
   iconClass: 'isGreyscale',
 };
 const mantra = {
-  img: images[2].default,
+  img: images[3].default,
   name: 'Mantra',
 };
 const naturesminne = {
   name: 'Minne',
-  img: images[3].default,
+  img: images[4].default,
 };
 
 const extrasMap = {
   Dismantle: dismantle,
   dismantleG,
+  Check,
   'Dismantle grey': dismantleG,
   'Magick Barrier': magickbarrier,
   'Magick Barrier co': magickbarrierC,

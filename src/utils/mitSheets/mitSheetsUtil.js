@@ -1,3 +1,4 @@
+import DMU_ikuya from './DMU_ikuya';
 import FRU_fmbg from './FRU_fmbg';
 import FRU_naur from './FRU_naur';
 /* import TOPmitty from './TOPmitty'; */
@@ -8,6 +9,7 @@ import UWU from './UWU';
 import UCOB from './UCOB';
 
 export const allSheets = {
+  DMU_ikuya,
   FRU_fmbg,
   FRU_naur,
   TOP,

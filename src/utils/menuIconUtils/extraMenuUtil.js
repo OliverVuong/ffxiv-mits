@@ -13,58 +13,68 @@ const dismantleG = {
   name: 'Dismantle',
   img: images[1].default,
 };
+const extracheck = {
+  name: 'Extras',
+  img: images[2].default,
+};
+const extracheckG = {
+  name: 'Extras',
+  img: images[3].default,
+};
 const magickbarrier = {
   name: 'Magick Barrier',
-  img: images[2].default,
+  img: images[4].default,
 };
 const magickbarrierG = {
   name: 'Magick Barrier',
-  img: images[3].default,
+  img: images[5].default,
 };
 const mantra = {
-  img: images[4].default,
+  img: images[6].default,
   name: 'Mantra',
 };
 const mantraG = {
-  img: images[5].default,
+  img: images[7].default,
   name: 'Mantra',
 };
 const naturesminne = {
   name: "Nature's Minne",
-  img: images[6].default,
+  img: images[8].default,
 };
 const naturesminneG = {
   name: "Nature's Minne",
-  img: images[7].default,
+  img: images[9].default,
 };
 const passage = {
   name: 'Passage of Arms',
-  img: images[8].default,
+  img: images[10].default,
 };
 const passageG = {
   name: 'Passage of Arms',
-  img: images[9].default,
+  img: images[11].default,
 };
 const caster2 = {
   name: 'Double Caster',
-  img: images[10].default,
+  img: images[12].default,
 };
 const caster2G = {
   name: 'Double Caster',
-  img: images[11].default,
+  img: images[13].default,
 };
 const range2 = {
   name: 'Double PRange',
-  img: images[12].default,
+  img: images[14].default,
 };
 const range2G = {
   name: 'Double PRange',
-  img: images[13].default,
+  img: images[15].default,
 };
 
 const extrasSelectorMap = {
   MCH: dismantle,
   MCHG: dismantleG,
+  EXTRA: extracheck,
+  EXTRAG: extracheckG,
   RDM: magickbarrier,
   RDMG: magickbarrierG,
   MNK: mantra,

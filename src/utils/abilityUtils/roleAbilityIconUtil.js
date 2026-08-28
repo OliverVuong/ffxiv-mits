@@ -4,6 +4,8 @@ import extraTankmitIcon from '../../assets/icons/abilities/tanks/generics/extra.
 import invulnIcon from '../../assets/icons/abilities/tanks/generics/invuln.png';
 import shortIcon from '../../assets/icons/abilities/tanks/generics/short.png';
 import heartoflightdarkmissionaryIcon from '../../assets/icons/abilities/tanks/generics/heartoflightdarkmissionary.png';
+import buddyIcon from '../../assets/icons/abilities/tanks/generics/buddy.png';
+import fourtyPIcon from '../../assets/icons/abilities/tanks/generics/40p.png';
 
 import addleIcon from '../../assets/icons/abilities/roles/addle.png';
 import bloodbathIcon from '../../assets/icons/abilities/roles/bloodbath.png';
@@ -44,9 +46,23 @@ const ninety = {
   name: '90s',
   img: ninetyIcon,
 };
+const ninetyCo = {
+  name: '↪90s',
+  img: ninetyIcon,
+  iconClass: 'isGreyscale',
+};
 const onetwenty = {
   name: '120s',
   img: onetwentyIcon,
+};
+const fourtyPercent = {
+  name: '40%',
+  img: fourtyPIcon,
+};
+const fourtyPercentCo = {
+  name: '↪40%',
+  img: fourtyPIcon,
+  iconClass: 'isGreyscale',
 };
 const extraTankmit = {
   name: 'Extra',
@@ -56,18 +72,40 @@ const Invuln = {
   name: 'Invuln',
   img: invulnIcon,
 };
+const InvulnCo = {
+  name: '↪Invuln',
+  img: invulnIcon,
+  iconClass: 'isGreyscale',
+};
 const Short = {
   name: 'Short',
   img: shortIcon,
+};
+const ShortCo = {
+  name: '↪Short',
+  img: shortIcon,
+  iconClass: 'isGreyscale',
 };
 const BuddyShort = {
   name: 'Bud Short',
   img: shortIcon,
   captionClass: 'overflow80',
 };
+const BuddyMit = {
+  name: 'Buddy Mit',
+  img: buddyIcon,
+  captionClass: 'overflow80',
+};
 const HoLDM = {
   name: 'HoL/DM',
   img: heartoflightdarkmissionaryIcon,
+  captionClass: 'overflow90',
+};
+const HoLDMCo = {
+  name: '↪HoL/DM',
+  img: heartoflightdarkmissionaryIcon,
+  captionClass: 'overflow80',
+  iconClass: 'isGreyscale',
 };
 
 const addle = {
@@ -166,9 +204,10 @@ const RampartG = {
   captionClass: 'overflow90',
   iconClass: 'isGreyscale',
 };
-const rampartCO = {
+const RampartCo = {
   name: '↪Rampart',
   img: rampartIcon,
+  captionClass: 'overflow80',
   iconClass: 'isGreyscale',
 };
 const rangemit = {
@@ -278,10 +317,12 @@ const rolesAbilityMap = {
   'Addle grey': addleG,
   addleCO,
   'Addle co': addleCO,
+  AddleCo: addleCO,
   bloodbath,
   Feint: feint,
   feintCO,
   'Feint co': feintCO,
+  FeintCo: feintCO,
   'Feint cont': feintCO,
   'Feint grey': feintG,
   'Kitchen Sink': kitchensink,
@@ -297,12 +338,13 @@ const rolesAbilityMap = {
   partymitG,
   partymitCO,
   'Party Mit co': partymitCO,
+  'Party Mit Co': partymitCO,
   Provoke: provoke,
   provokeG,
   Rampart: rampart,
   RampartG,
-  rampartCO,
-  'Rampart co': rampartCO,
+  RampartCo,
+  'Rampart co': RampartCo,
   'Range Mit': rangemit,
   rangemitCO,
   'Range Mit co': rangemitCO,
@@ -313,18 +355,26 @@ const rolesAbilityMap = {
   'Reprisal grey': reprisalG,
   reprisalCO,
   'Reprisal co': reprisalCO,
+  'Reprisal Co': reprisalCO,
+  ReprisalCo: reprisalCO,
   secondwind,
   'Second Wind': secondwind,
   secondwindbloodbath,
   'Melee personals': secondwindbloodbath,
   ninety,
   '90s': ninety,
+  '90sCo': ninetyCo,
   onetwenty,
   '120s': onetwenty,
+  fourtyPercent,
+  '40%': fourtyPercent,
+  '40%Co': fourtyPercentCo,
   extraTankmit,
   Extra: extraTankmit,
   Invuln,
+  InvulnCo,
   Short,
+  ShortCo,
   noAddle,
   'No Addle': noAddle,
   noFeint,
@@ -339,12 +389,16 @@ const rolesAbilityMap = {
   casterMit,
   prangeMit,
   HoLDM,
+  'HoL/DM': HoLDM,
+  HoLDMCo,
   HealerNote,
   CasterNote,
   RangeNote,
   TankNote,
   BuddyShort,
   'Buddy Short': BuddyShort,
+  BuddyMit,
+  'Buddy Mit': BuddyMit,
 };
 
 export default rolesAbilityMap;

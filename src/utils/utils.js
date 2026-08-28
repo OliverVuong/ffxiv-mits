@@ -67,6 +67,7 @@ export const displayNameMap = {
   MNK: 'MNK',
   CASTER2: 'Double Caster',
   PRange2: 'Double PRange',
+  EXTRA: 'Extras',
   MT: 'MT TB',
   OT: 'OT TB',
 };
@@ -126,6 +127,7 @@ export const extras = [
   'MNK',
   'CASTER2',
   'PRange2',
+  'EXTRA',
 ];
 
 export const extrasDefault = {};

@@ -22,6 +22,8 @@ function Content({
     useEffect(() => {
         if (location.pathname === '/') {
             setSheet('FRU_fmbg');
+        } else if (location.pathname === '/dmu'){
+            setSheet('DMU_ikuya');
         } else if (location.pathname === '/fru'){
             setSheet('FRU_fmbg');
         } else if (location.pathname === '/fru/fmbg'){
@@ -70,6 +72,7 @@ function Content({
     return (
         <Routes>
             <Route path='/' element={container}/>
+            <Route path='/dmu' element={container}/>
             <Route path='/fru' element={container}/>
             <Route path='/fru/fmbg' element={container}/>
             <Route path='/fru/naur' element={container}/>
