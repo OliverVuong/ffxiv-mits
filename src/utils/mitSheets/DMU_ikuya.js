@@ -16,7 +16,7 @@ const DMU_ikuya = {
     ['GNBDRK_GNB', 'GNBDRK_DRK'],
   ], */
   extras: ['EXTRA'],
-  name: 'Ikuya Mitty',
+  name: 'Dancing Mad (Ikuya)',
 };
 
 export default DMU_ikuya;

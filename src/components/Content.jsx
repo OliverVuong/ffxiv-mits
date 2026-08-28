@@ -21,7 +21,7 @@ function Content({
 
     useEffect(() => {
         if (location.pathname === '/') {
-            setSheet('FRU_fmbg');
+            setSheet('DMU_ikuya');
         } else if (location.pathname === '/dmu'){
             setSheet('DMU_ikuya');
         } else if (location.pathname === '/fru'){
