@@ -26,7 +26,7 @@ function Dropdown(){
     const dropdownOptions = [
         {
             id: 1,
-            label: "Dancing Mad (coming soon)",
+            label: "Dancing Mad",
             value: "DMU",
             path: "/dmu",
             disabled: false,
